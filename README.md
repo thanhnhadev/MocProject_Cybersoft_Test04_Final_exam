@@ -14,7 +14,8 @@ Tiếp theo thì các bạn giải nén ra để nó vào ổ C (ổ chứa hệ
 
 Tạo biến môi trường giống với setup biến môi trường Java JDK á
 ALLURE_HOME C:\Program Files\allure-2.34.1
-Edit biến path %ALLURE_HOME%\bin 
+Edit biến 
+path %ALLURE_HOME%\bin 
 
 
 mở ide code 
