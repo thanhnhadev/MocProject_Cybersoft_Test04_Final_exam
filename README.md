@@ -5,7 +5,7 @@ Mình đặt tên biến môi trường là ALLURE_HOME
 
 Tải gói Allure-2.27.0 cho Window tại https://github.com/allure-framework/allure2/releases (cứ tải bản mới nhất nhé)
 
-Vì An chỉ dạy trên môi trường máy window nên có gì các bạn kiếm bản cho MacOS hoặc Linux như hình hướng dẫn bên dưới:
+ trên môi trường máy window 
 
 Link download theo phiên bản: https://github.com/allure-framework/allure2/releases
 
