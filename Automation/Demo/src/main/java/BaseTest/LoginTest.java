@@ -1,4 +1,6 @@
 package BaseTest;
 
-public class LoginTest {
+import Base.BaseSetup;
+
+public class LoginTest extends BaseSetup {
 }

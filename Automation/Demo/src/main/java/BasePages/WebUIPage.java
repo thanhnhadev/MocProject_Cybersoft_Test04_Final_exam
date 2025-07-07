@@ -2,9 +2,9 @@ package BasePages;
 
 import org.openqa.selenium.WebDriver;
 
-public class DashboardPage {
+public class WebUIPage {
     private WebDriver driver;
-    public DashboardPage(WebDriver driver){
+    public WebUIPage(WebDriver driver){
         this.driver=driver;
     }
 
