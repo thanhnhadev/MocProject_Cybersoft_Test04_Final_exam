@@ -1,12 +1,11 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Page Object test example">
     <parameter name="browserType" value="chrome" />
-    <parameter name="appURL"
-               value="https://demo5.cybersoft.edu.vn/" />
+    <parameter name="appURL" value="https://demo5.cybersoft.edu.vn/" />
 
-    <test name="">
+    <test name="WebApp">
         <classes>
-            <class name="">
+            <class name="BaseTest.LoginTest">
                 <methods>
                     <include name="" />
                 </methods>

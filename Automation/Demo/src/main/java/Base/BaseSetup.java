@@ -1,74 +1,83 @@
 package Base;
 
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
+import io.github.bonigarcia.wdm.WebDriverManager;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.safari.SafariDriver;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeClass;
+import org.openqa.selenium.support.ui.ExpectedCondition;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
+import org.testng.annotations.*;
 
 import java.time.Duration;
+import java.util.concurrent.TimeUnit;
 
 public class BaseSetup {
-    private WebDriver driver;
-    static String driverPath = "resources\\drivers\\";
-    static Logger logger = LogManager.getLogger(BaseSetup.class);
-    public WebDriver getDriver(){
-        return driver;
+    public WebDriver driver;
+
+    //@BeforeMethod //Chạy trước mỗi @Test
+    public void createBrowser() {
+        driver = new ChromeDriver();
+        driver.manage().window().maximize();
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
+        driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(20));
     }
-    //Hàm này để tùy chọn Browser. Cho chạy trước khi gọi class này (BeforeClass)
-    private void setDriver(String browserType, String appURL) {
-        switch (browserType) {
-            case "chrome":
-                driver = initChromeDriver(appURL);
-                break;
-            case "firefox":
-                driver = initFirefoxDriver(appURL);
-                break;
-            default:
-                System.out.println("Browser: " + browserType + " is invalid, Launching Chrome as browser of choice...");
-                driver = initChromeDriver(appURL);
+
+    @BeforeMethod
+    @Parameters({"browser"})
+    public void createBrowser(@Optional("chrome") String browserName) {
+        if (browserName.equals("chrome")) {
+            driver = new ChromeDriver();
         }
-    }
-    //Khởi tạo cấu hình của các Browser để đưa vào Switch Case
+        if (browserName.equals("edge")) {
+            driver = new EdgeDriver();
+        }
+        if (browserName.equals("firefox")) {
+            driver = new FirefoxDriver();
+        }
 
-    private static WebDriver initChromeDriver(String appURL) {
-        System.out.println("Launching Chrome browser...");
-        System.setProperty("webdriver.chrome.driver", driverPath + "chromedriver.exe");
-        WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
-        driver.navigate().to(appURL);
-        driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(30));
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
-        return driver;
+        driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(20));
     }
 
-    private static WebDriver initFirefoxDriver(String appURL) {
-        System.out.println("Launching Firefox browser...");
-        System.setProperty("webdriver.gecko.driver", driverPath + "geckodriver.exe");
-        WebDriver driver = new FirefoxDriver();
-        driver.manage().window().maximize();
-        driver.navigate().to(appURL);
-        driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(30));
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
-        return driver;
-    }
-
-    // Chạy hàm initializeTestBaseSetup trước hết khi class này được gọi
-
-    @BeforeClass
-    public void initualizeTestBaseSetup(String browserType,  String appURL){
+    @AfterMethod
+    public void closeBrowser() {
         try {
-            setDriver(browserType,appURL);
-        }catch (Exception e){
-            System.out.println("Error...."+ e.getStackTrace());
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
         }
-    }
-    @AfterClass
-    public void tearDown() throws Exception {
-        Thread.sleep(2000);
         driver.quit();
+    }
+    //Chờ đợi trang load xong mới thao tác
+    public void waitForPageLoaded() {
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30), Duration.ofMillis(500));
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+
+        //Wait for Javascript to load
+        ExpectedCondition<Boolean> jsLoad = new ExpectedCondition<Boolean>() {
+            @Override
+            public Boolean apply(WebDriver driver) {
+                return js.executeScript("return document.readyState").toString().equals("complete");
+            }
+        };
+
+        //Check JS is Ready
+        boolean jsReady = js.executeScript("return document.readyState").toString().equals("complete");
+
+        //Wait Javascript until it is Ready!
+        if (!jsReady) {
+            System.out.println("Javascript is NOT Ready.");
+            //Wait for Javascript to load
+            try {
+                wait.until(jsLoad);
+            } catch (Throwable error) {
+                error.printStackTrace();
+                Assert.fail("FAILED. Timeout waiting for page load.");
+            }
+        }
     }
 }

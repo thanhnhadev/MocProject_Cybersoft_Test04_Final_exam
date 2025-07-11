@@ -1,6 +1,6 @@
 package utils.listeners;
 
-import Base.BaseSetup;
+
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -17,26 +17,6 @@ public class SimpleListener implements ITestNGListener {
     public void onTestSuccess(org.testng.ITestResult result) { /* compiled code
      */ }
     public void onTestFailure(org.testng.ITestResult result) {
-        System.out.println("Screenshot captured for test case: " + result.getName());
-
-        Object currentClass = result.getInstance();
-        WebDriver driver = ((BaseSetup) currentClass).getDriver();
-
-        File srcFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-        try {
-            Date date = new Date();
-            String filePath = "." + File.separator + "screenshots" + File.separator + result.getName() +"_"+date.getTime()+ ".png";
-
-            // tao thu muc neu thu muc chua ton tai
-            File destFile = new File(filePath);
-            destFile.getParentFile().mkdirs();
-            //mkdirs() tạo thu muc cha screenshots/ neu chua co
-
-            FileHandler.copy(srcFile, destFile);
-            System.out.println("Screenshot saved: " + filePath);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
 
     }
     public void onTestSkipped(org.testng.ITestResult result) { /* compiled code */
