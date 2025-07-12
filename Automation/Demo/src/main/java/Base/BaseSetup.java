@@ -18,16 +18,10 @@ public class BaseSetup {
     public WebDriver driver;
 
     //@BeforeMethod //Chạy trước mỗi @Test
-    public void createBrowser() {
-        driver = new ChromeDriver();
-        driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
-        driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(20));
-    }
-
     @BeforeMethod
     @Parameters({"browser"})
     public void createBrowser(@Optional("chrome") String browserName) {
+
         if (browserName.equals("chrome")) {
             driver = new ChromeDriver();
         }
@@ -37,7 +31,6 @@ public class BaseSetup {
         if (browserName.equals("firefox")) {
             driver = new FirefoxDriver();
         }
-
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
         driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(20));

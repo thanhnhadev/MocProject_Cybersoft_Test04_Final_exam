@@ -19,7 +19,6 @@ public class LoginPage {
     public LoginPage(WebDriver driver){
         this.driver=driver;
         wait= new WebDriverWait(driver, Duration.ofSeconds(5));
-
     }
     private void setinputUserID(String email){
         wait.until(ExpectedConditions.visibilityOfElementLocated(inputUserID));
@@ -41,8 +40,6 @@ public class LoginPage {
         setinputUserID(email);
         setPassword(password);
         clickLoginButton();
-
         return new WebView(driver);
-
     }
 }
