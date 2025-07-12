@@ -16,7 +16,12 @@ import java.util.concurrent.TimeUnit;
 
 public class BaseSetup {
     public WebDriver driver;
-
+    public void createBrowser(){
+        driver= new ChromeDriver();
+        driver.manage().window().maximize();
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
+        driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(20));
+    }
     //@BeforeMethod //Chạy trước mỗi @Test
     @BeforeMethod
     @Parameters({"browser"})
@@ -35,7 +40,13 @@ public class BaseSetup {
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
         driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(20));
     }
-
+    public static void sleep(double second){
+        try {
+            Thread.sleep((long) (100*second));
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+    }
     @AfterMethod
     public void closeBrowser() {
         try {
@@ -73,4 +84,5 @@ public class BaseSetup {
             }
         }
     }
+
 }

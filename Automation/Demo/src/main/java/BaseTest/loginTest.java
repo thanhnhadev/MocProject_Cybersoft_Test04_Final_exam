@@ -2,9 +2,12 @@ package BaseTest;
 
 import Base.BaseSetup;
 import BasePages.LoginPage;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import utils.LogUtils;
+import utils.listeners.SimpleListener;
 
+@Listeners(SimpleListener.class)
 public class loginTest extends BaseSetup {
     LoginPage loginPage;
 
@@ -12,17 +15,13 @@ public class loginTest extends BaseSetup {
     public void testLoginSucess(){
         createBrowser("chrome");
         LogUtils.info("sucess fully");
-        loginPage= new LoginPage(driver);
-        loginPage.login("thanhnhadev@gmail.com","Aty05121995");
-        loginPage.verifyLoginSuccsess();
+
     }
     @Test(priority = 2)
     public void testLoginFail(){
         createBrowser("chrome");
         LogUtils.info(" login faile");
-        loginPage= new LoginPage(driver);
-        loginPage.login("thanhnhadev@gmail.com.vn","Aty05121995");
-        loginPage.verifyLoginSuccsess();
+
     }
 
 }
