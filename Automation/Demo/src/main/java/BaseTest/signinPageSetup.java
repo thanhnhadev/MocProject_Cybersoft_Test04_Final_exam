@@ -1,9 +1,9 @@
 package BaseTest;
 
 
-import Base.BaseTest;
+import Base.BaseSetup;
 
-public class signinPageTest extends BaseTest {
+public class signinPageSetup extends BaseSetup {
 
     public static void main(String[] args) {
         createBrowser();

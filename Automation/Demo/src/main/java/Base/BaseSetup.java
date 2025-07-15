@@ -15,7 +15,7 @@ import org.testng.annotations.Parameters;
 
 import java.time.Duration;
 
-public class BaseTest {
+public class BaseSetup {
     public static WebDriver driver;
     public static void createBrowser(){
 //        System.setProperty("webdriver.http.factory", "jdk-http-client");
