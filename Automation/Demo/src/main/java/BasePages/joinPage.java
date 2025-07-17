@@ -4,7 +4,6 @@ import Constants.ConfigData;
 import Locator.Locator_CMS;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
@@ -13,6 +12,9 @@ import java.time.Duration;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.Locale;
+import java.util.regex.Pattern;
+
+import static Constants.ConfigData.regex;
 
 public class joinPage {
     private WebDriver driver;
@@ -51,6 +53,18 @@ public class joinPage {
     public void fiedRePassword(String re_password){
         wait.until(ExpectedConditions.visibilityOfElementLocated(rePassword));
         driver.findElement(rePassword).sendKeys(re_password);
+    }
+    public boolean checkPassword(String password, String re_password){
+        if (!Pattern.matches(regex, password)) {
+            System.out.println("Mật khẩu phải có độ dài từ 6 đến 32 ký tự.");
+            return false;
+        }
+        // Check if password and re-password match
+        if (!password.equals(re_password)) {
+            System.out.println("Mật khẩu và mật khẩu nhập lại không khớp.");
+            return false;
+        }
+        return true;
     }
     public void phoneNumber(String phone){
         wait.until(ExpectedConditions.visibilityOfElementLocated(numberPhone));
@@ -98,6 +112,7 @@ public class joinPage {
         fieldUserID(email);
         fiedPassword(password);
         fiedRePassword(re_password);
+        checkPassword(password, re_password);
         phoneNumber(phone);
         datePicker(datetimes);
         optionChecked(gender);
