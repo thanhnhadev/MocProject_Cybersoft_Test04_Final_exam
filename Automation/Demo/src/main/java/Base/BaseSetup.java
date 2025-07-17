@@ -19,7 +19,7 @@ import java.time.Duration;
 public class BaseSetup {
     public static WebDriver driver;
     public static void createBrowser(){
-        System.setProperty("webdriver.http.factory", "jdk-http-client");
+//        System.setProperty("webdriver.http.factory", "jdk-http-client");
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));

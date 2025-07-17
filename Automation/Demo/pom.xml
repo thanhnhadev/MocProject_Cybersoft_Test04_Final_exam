@@ -107,6 +107,12 @@
             <artifactId>lombok</artifactId>
             <version>1.18.38</version>
         </dependency>
+<!--        &lt;!&ndash; https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-http-jdk-client &ndash;&gt;-->
+<!--        <dependency>-->
+<!--            <groupId>org.seleniumhq.selenium</groupId>-->
+<!--            <artifactId>selenium-http-jdk-client</artifactId>-->
+<!--            <version>4.13.0</version>-->
+<!--        </dependency>-->
 <!--        &lt;!&ndash; https://mvnrepository.com/artifact/io.cucumber/cucumber-java &ndash;&gt;-->
 <!--        <dependency>-->
 <!--            <groupId>io.cucumber</groupId>-->
