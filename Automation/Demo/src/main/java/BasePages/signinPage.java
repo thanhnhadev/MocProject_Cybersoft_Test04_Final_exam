@@ -12,12 +12,18 @@ import java.time.Duration;
 public class signinPage {
     private WebDriver driver;
     private WebDriverWait wait;
+    private By Title= By.xpath(Locator_CMS.lbsigninTitle);
     private By UserID = By.xpath(Locator_CMS.email);
     private By Passsword = By.xpath(Locator_CMS.password);
+    private By aResgister = By.xpath(Locator_CMS.aResgister);
     private  By btnLogin = By.xpath(Locator_CMS.btnLogin);
     public signinPage(WebDriver _driver){
         this.driver=_driver;
         wait= new WebDriverWait(driver, Duration.ofSeconds(5));
+    }
+    public void titlePage(){
+        wait.until(ExpectedConditions.visibilityOfElementLocated(Title));
+        driver.findElement(Title).getText();
     }
     public void fieldUserID(String email){
         wait.until(ExpectedConditions.visibilityOfElementLocated(UserID));
@@ -26,6 +32,10 @@ public class signinPage {
     public void fiedPassword(String password){
         wait.until(ExpectedConditions.visibilityOfElementLocated(Passsword));
         driver.findElement(Passsword).sendKeys(password);
+    }
+    private  void a_Resgister(){
+        wait.until(ExpectedConditions.visibilityOfElementLocated(aResgister));
+        driver.findElement(aResgister).click();
     }
     private void loginButton(){
         wait.until(ExpectedConditions.visibilityOfElementLocated(btnLogin));
@@ -36,6 +46,7 @@ public class signinPage {
     }
     public webUIPage login(String email, String password){
         driver.get("https://demo5.cybersoft.edu.vn/login");
+        titlePage();
         fieldUserID(email);
         fiedPassword(password);
         loginButton();

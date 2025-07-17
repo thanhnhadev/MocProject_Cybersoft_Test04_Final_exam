@@ -5,6 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.safari.SafariDriver;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
@@ -37,6 +38,10 @@ public class BaseSetup {
         if (browserName.equals("firefox")) {
             driver = new FirefoxDriver();
         }
+        if (browserName.equals("safari")){
+            driver= new SafariDriver();
+        }
+//        if (browserName.equals("opera")) driver = new OperaDriver();
 
         driver.manage().window().maximize();
         //driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20)); //Dành cho Junior
