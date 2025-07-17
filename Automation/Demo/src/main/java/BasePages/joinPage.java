@@ -1,13 +1,18 @@
 package BasePages;
 
+import Constants.ConfigData;
 import Locator.Locator_CMS;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
 import java.time.Duration;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+import java.util.Locale;
 
 public class joinPage {
     private WebDriver driver;
@@ -18,7 +23,9 @@ public class joinPage {
     private By Passsword= By.xpath(Locator_CMS.ipPw);
     private By rePassword= By.xpath(Locator_CMS.ipRpw);
     private By numberPhone = By.xpath(Locator_CMS.ipPhone);
-
+    private By datetime= By.xpath(Locator_CMS.ipBrithday);
+    private String option1 =String.format(Locator_CMS.opion);
+    private By cbIagree= By.xpath(Locator_CMS.cbox_agreeitem);
     private By submit = By.xpath(Locator_CMS.btnSubmit);
     private  By alreadyMember= By.xpath(Locator_CMS.aLogin);
     public joinPage(WebDriver _driver){
@@ -49,8 +56,28 @@ public class joinPage {
         wait.until(ExpectedConditions.visibilityOfElementLocated(numberPhone));
         driver.findElement(numberPhone).sendKeys(phone);
     }
+    public void datePicker(String datetimes){
+        wait.until(ExpectedConditions.visibilityOfElementLocated(datetime));
+//        driver.findElement(datetime).sendKeys(date);
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("MM/dd/uuuu HH:mm", Locale.ENGLISH);
+        String formatted = LocalDateTime.parse(datetimes).format(formatter);
+        System.out.println(formatted);
+    }
+    private boolean optionChecked(String gender){
+        String productXpath = String.format(option1, gender);
+//        this.driver.findElement(By.xpath(productXpath)).click();
 
-
+        if (this.driver.findElement(By.xpath(productXpath)).isSelected()==true){
+            System.out.println("gender is: Male");
+        } else {
+            System.out.println("gender is: Female");
+        }
+        return false;
+    }
+    private void cbAgree(){
+        wait.until(ExpectedConditions.visibilityOfElementLocated(cbIagree));
+        driver.findElement(cbIagree).click();
+    }
     private void submitButton(){
         wait.until(ExpectedConditions.visibilityOfElementLocated(submit));
         driver.findElement(submit).click();
@@ -63,14 +90,18 @@ public class joinPage {
         driver.findElement(alreadyMember).click();
 
     }
-    public webUIPage register(String name,String email, String password, String re_password, String phone ){
-        driver.get("https://demo5.cybersoft.edu.vn/register");
+    public webUIPage register(String name,String email, String password, String re_password, String phone,String datetimes, String gender )
+    {
+        driver.get(ConfigData.registerUrl);
         TitlePage();
         fieldUserName(name);
         fieldUserID(email);
         fiedPassword(password);
         fiedRePassword(re_password);
         phoneNumber(phone);
+        datePicker(datetimes);
+        optionChecked(gender);
+        cbAgree();
         submitButton();
         return new webUIPage(driver);
     }

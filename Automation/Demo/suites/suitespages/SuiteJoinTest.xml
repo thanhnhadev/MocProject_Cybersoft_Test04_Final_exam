@@ -8,7 +8,7 @@
         <classes>
             <class name="BaseTest.joinPageTest">
                 <methods>
-                    <include name="verifyLoginSucess"/>
+                    <include name="verifyRegisterSucess"/>
                 </methods>
             </class>
         </classes>

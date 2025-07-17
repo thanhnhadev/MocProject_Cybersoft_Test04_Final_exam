@@ -1,5 +1,6 @@
 package BasePages;
 
+import Constants.ConfigData;
 import Locator.Locator_CMS;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -45,7 +46,7 @@ public class signinPage {
         Assert.assertFalse(driver.getCurrentUrl().contains("authentication"),"fail van login");
     }
     public webUIPage login(String email, String password){
-        driver.get("https://demo5.cybersoft.edu.vn/login");
+        driver.get(ConfigData.signinUrl);
         titlePage();
         fieldUserID(email);
         fiedPassword(password);

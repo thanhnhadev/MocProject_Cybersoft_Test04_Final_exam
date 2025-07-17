@@ -2,7 +2,6 @@ package BaseTest;
 
 import Base.BaseSetup;
 import BasePages.joinPage;
-import BasePages.signinPage;
 import org.testng.annotations.Test;
 import utils.LogUtils;
 
@@ -12,7 +11,7 @@ public class joinPageTest extends BaseSetup {
     public void verifyRegisterSucess(){
         LogUtils.info("RegisterPass");
         joinPageTest = new joinPage(driver);
-        joinPageTest.register("","","","","");
+        joinPageTest.register("thanhnha","nhanguyen051295@gmail.com","1234567890","1234567890","123456789","11/02/2021","Male");
         joinPageTest.verifyRegisterSuccsess();
     }
 }
