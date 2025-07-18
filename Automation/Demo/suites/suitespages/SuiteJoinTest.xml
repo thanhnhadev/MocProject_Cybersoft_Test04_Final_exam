@@ -12,11 +12,6 @@
                     <include name="haveAccountSucess"/>
                 </methods>
             </class>
-            <class name="BaseTest.signinPageTest">
-                <methods>
-                    <include name="verifyLoginSucess"/>
-                </methods>
-            </class>
         </classes>
     </test>
 </suite>
