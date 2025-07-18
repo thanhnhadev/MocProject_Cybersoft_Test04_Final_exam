@@ -122,4 +122,10 @@ public class joinPage {
         submitButton();
         return new webUIPage(driver);
     }
+    public webUIPage registerLogin(){
+        driver.get(ConfigData.registerUrl);
+        TitlePage();
+        login();
+        return new webUIPage(driver);
+    }
 }

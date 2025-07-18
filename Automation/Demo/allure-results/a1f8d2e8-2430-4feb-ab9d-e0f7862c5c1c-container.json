@@ -1,0 +1,1 @@
+{"uuid":"a1f8d2e8-2430-4feb-ab9d-e0f7862c5c1c","name":"BaseTest.signinPageTest","children":["a40cbee3-e246-4d14-80c8-1ff67d0d48c8"],"befores":[],"afters":[{"name":"closeBrowser","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1752803094972,"stop":1752803097175}],"start":1752803083953,"stop":1752803097181}
