@@ -92,7 +92,18 @@ public class joinPage {
     }
     private void cbAgree(){
         wait.until(ExpectedConditions.visibilityOfElementLocated(cbIagree));
-        driver.findElement(cbIagree).click();
+        WebElement checkboxRemember = driver.findElement(cbIagree);
+        if (checkboxRemember.isSelected()==false){
+            System.out.println("True");
+        }else {
+            System.out.println("False");
+        }
+        driver.findElement(By.xpath(Locator_CMS.cbox_agreeitem)).click();
+        if (checkboxRemember.isSelected()==false){
+            System.out.println("True");
+        }else {
+            System.out.println("False");
+        }
     }
     private void submitButton(){
         wait.until(ExpectedConditions.visibilityOfElementLocated(submit));

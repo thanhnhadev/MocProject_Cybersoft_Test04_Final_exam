@@ -1,5 +1,6 @@
 package Base;
 
+import BasePages.Components.Header;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -18,6 +19,11 @@ import java.time.Duration;
 
 public class BaseSetup {
     public static WebDriver driver;
+    private Header header;
+
+    public Header header(){
+        return this.header;
+    }
     public static void createBrowser(){
 //        System.setProperty("webdriver.http.factory", "jdk-http-client");
         driver = new ChromeDriver();
