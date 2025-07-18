@@ -4,6 +4,7 @@ import Constants.ConfigData;
 import Locator.Locator_CMS;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
@@ -26,7 +27,8 @@ public class joinPage {
     private By rePassword= By.xpath(Locator_CMS.ipRpw);
     private By numberPhone = By.xpath(Locator_CMS.ipPhone);
     private By datetime= By.xpath(Locator_CMS.ipBrithday);
-    private String option1 =String.format(Locator_CMS.opion);
+    private String option1 =String.format(Locator_CMS.opionMale);
+    private String option2 =String.format(Locator_CMS.opionFemale);
     private By cbIagree= By.xpath(Locator_CMS.cbox_agreeitem);
     private By submit = By.xpath(Locator_CMS.btnSubmit);
     private  By alreadyMember= By.xpath(Locator_CMS.aLogin);
@@ -72,21 +74,21 @@ public class joinPage {
     }
     public void datePicker(String datetimes){
         wait.until(ExpectedConditions.visibilityOfElementLocated(datetime));
-//        driver.findElement(datetime).sendKeys(date);
-        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("MM/dd/uuuu HH:mm", Locale.ENGLISH);
-        String formatted = LocalDateTime.parse(datetimes).format(formatter);
-        System.out.println(formatted);
+          driver.findElement(datetime).sendKeys(datetimes);
+//        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("MM/dd/uuuu HH:mm", Locale.ENGLISH);
+//        String formatted = LocalDateTime.parse(datetimes).format(formatter);
+//        System.out.println(formatted);
     }
-    private boolean optionChecked(String gender){
-        String productXpath = String.format(option1, gender);
-//        this.driver.findElement(By.xpath(productXpath)).click();
-
-        if (this.driver.findElement(By.xpath(productXpath)).isSelected()==true){
+    private void optionChecked(String gender){
+        WebElement maleRadioButton = driver.findElement(By.xpath(option1));
+        WebElement femaleRadioButton = driver.findElement(By.xpath(option2));
+        if (maleRadioButton.isSelected()){
             System.out.println("gender is: Male");
-        } else {
+        } else if(femaleRadioButton.isSelected()){
             System.out.println("gender is: Female");
+        }else {
+            System.out.println("please chossen: Male or Female");
         }
-        return false;
     }
     private void cbAgree(){
         wait.until(ExpectedConditions.visibilityOfElementLocated(cbIagree));

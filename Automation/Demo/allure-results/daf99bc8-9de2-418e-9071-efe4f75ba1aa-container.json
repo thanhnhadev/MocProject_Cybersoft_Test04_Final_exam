@@ -1,0 +1,1 @@
+{"uuid":"daf99bc8-9de2-418e-9071-efe4f75ba1aa","name":"BaseTest.joinPageTest","children":["9304483e-e13e-41b3-b18d-978eece0a1f3"],"befores":[],"afters":[{"name":"closeBrowser","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1752801812260,"stop":1752801814455}],"start":1752801807178,"stop":1752801814460}

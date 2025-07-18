@@ -1,7 +1,7 @@
 package Locator;
 
 public class Locator_CMS {
-    public static final String base_url="https://demo5.cybersoft.edu.vn/";
+
     public static final String btnSignin="(//*[contains(text(),'Sign in')])[2]";
     public static final String btnJoin="//*[contains(text(),'Join')]";
     //page Login
@@ -20,7 +20,8 @@ public class Locator_CMS {
     public static final String ic_sh_rpw="(//*[contains(@class,'show')])[2]";
     public static final String ipPhone="//*[contains(@id,'phone')]";
     public static final String ipBrithday="//*[contains(@id,'birthday')]";
-    public static final String opion="//*[contains(@class,'radio gender_inp')]/child::lable[text()='%s']";
+    public static final String opionMale ="//*[contains(text(),'Male')]";
+    public static final String opionFemale ="//*[contains(text(),'Female')]";
     public static final String cbox_agreeitem="//*[contains(@id,'agree-term')]";
     public static final String aLogin="//*[contains(text(),'I am already member')]";
     public static final String btnSubmit="//*[contains(@type,'submit')]";
