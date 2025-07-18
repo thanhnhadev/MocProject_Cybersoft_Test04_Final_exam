@@ -95,6 +95,8 @@ public class BaseSetup {
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
-        driver.quit();
+        if(driver!=null){
+            driver.quit();
+        }
     }
 }
