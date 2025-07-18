@@ -25,4 +25,10 @@ public class signinPageTest extends BaseSetup {
         signinPageTest.login("","");
         signinPageTest.verifyLoginSuccsess();
     }
+    @Test(priority = 2)
+    public void goToPageRester(){
+        LogUtils.info("Go to Page Resgiter Pass");
+        signinPageTest= new signinPage(driver);
+        signinPageTest.loginRegister();
+    }
 }

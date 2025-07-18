@@ -53,4 +53,9 @@ public class signinPage {
         loginButton();
         return new webUIPage(driver);
     }
+    public webUIPage loginRegister(){
+        driver.get(ConfigData.signinUrl);
+        a_Resgister();
+        return new webUIPage(driver);
+    }
 }
