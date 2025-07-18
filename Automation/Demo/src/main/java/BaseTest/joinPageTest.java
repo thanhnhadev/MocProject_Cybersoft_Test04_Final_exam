@@ -17,9 +17,8 @@ public class joinPageTest extends BaseSetup {
     }
     @Test(priority = 2)
     public void haveAccountSucess(){
-        LogUtils.info("have account");
+        LogUtils.info("Goto the page Login Pass");
         joinPageTest = new joinPage(driver);
         joinPageTest.registerLogin();
-
     }
 }
