@@ -1,4 +1,4 @@
-package Helper;
+package utils.Helper;
 
 public class PropertiesHelper {
 }
