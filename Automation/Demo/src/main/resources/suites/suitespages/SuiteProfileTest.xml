@@ -9,7 +9,7 @@
             <class name="BaseTest.profilePageTest">
                 <methods>
                     <include name="verifyUser"/>
-<!--                    <include name="haveAccountSucess"/>-->
+                    <include name="dataUser"/>
                 </methods>
             </class>
         </classes>

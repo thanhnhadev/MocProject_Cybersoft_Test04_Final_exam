@@ -23,6 +23,14 @@ public class profilePageTest extends BaseSetup {
         signinPageTest.login("thanhnhadev@gmail.com","Aty05121995");
         sleep(2);
         profilePage profilePageTest= new profilePage(driver);
-        profilePageTest.cardItem("I will write simple and interesting content for your website");
+        profilePageTest.RemovecardItem("I will do modern line art text or badge logo design");
+    }
+    @Test(priority =3)
+    public void detaildataUser(){
+        signinPage signinPageTest= new signinPage(driver);
+        signinPageTest.login("thanhnhadev@gmail.com","Aty05121995");
+        sleep(2);
+        profilePage profilePageTest= new profilePage(driver);
+        profilePageTest.DetailcardItem("I will write bulk SEO articles and blog post");
     }
 }

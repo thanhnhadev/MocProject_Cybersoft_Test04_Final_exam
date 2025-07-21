@@ -21,6 +21,9 @@ public class profilePage {
     private By editName= By.xpath(Locator_CMS.editName);
     private By editBirthday = By.xpath(Locator_CMS.editBirthday);
     private By lstCartItem =By.className(Locator_CMS.lstCartItemclass);
+//    private By detailItemView = By.className(Locator_CMS.btnViewdetail);
+
+
     public profilePage(WebDriver _driver){
         this.driver=_driver;
         wait= new WebDriverWait(driver, Duration.ofSeconds(5));
@@ -94,8 +97,13 @@ public class profilePage {
         List<WebElement> lstCartItems = this.driver.findElements(lstCartItem);
         return lstCartItems.size();
     }
+
     public void RemoveCartItem(String productName){
         String productXpath = String.format(Locator_CMS.btnRemoveCartItemclass1,productName);
+        this.driver.findElement(By.xpath(productXpath)).click();
+    }
+    public void DetailItem(String productName){
+        String productXpath = String.format(Locator_CMS.btnViewdetail,productName);
         this.driver.findElement(By.xpath(productXpath)).click();
     }
     public boolean isCartItemEmpty(){
@@ -119,8 +127,13 @@ public class profilePage {
         fieldSkill(skill);
         btnSave();
     }
-    public void cardItem(String productName){
+    public void RemovecardItem(String productName){
         isCartItemEmpty();
         RemoveCartItem(productName);
     }
+    public void DetailcardItem(String productName){
+        isCartItemEmpty();
+        DetailItem(productName);
+    }
+
 }

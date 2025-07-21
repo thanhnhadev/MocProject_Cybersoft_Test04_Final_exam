@@ -22,4 +22,5 @@ public class joinPageTest extends BaseSetup {
         joinPageTest = new joinPage(driver);
         joinPageTest.registerLogin();
     }
+
 }
