@@ -1,4 +1,4 @@
-package ActionKeyWord;
+package utils.ActionKeyWord;
 
 import org.openqa.selenium.WebDriver;
 

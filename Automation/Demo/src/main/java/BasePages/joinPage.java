@@ -1,6 +1,5 @@
 package BasePages;
 
-import Constants.ConfigData;
 import Locator.Locator_CMS;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -8,14 +7,11 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
+import utils.Constants.ConfigData;
 
 import java.time.Duration;
-import java.time.LocalDateTime;
-import java.time.format.DateTimeFormatter;
-import java.util.Locale;
 import java.util.regex.Pattern;
-
-import static Constants.ConfigData.regex;
+import static utils.Constants.ConfigData.regexNumber;
 
 public class joinPage {
     private WebDriver driver;
@@ -44,7 +40,7 @@ public class joinPage {
         wait.until(ExpectedConditions.visibilityOfElementLocated(ip_YourName));
         driver.findElement(ip_YourName).sendKeys(name);
     }
-    public void fieldUserID(String email){
+    public void fieldEmailID(String email){
         wait.until(ExpectedConditions.visibilityOfElementLocated(UserID));
         driver.findElement(UserID).sendKeys(email);
     }
@@ -57,11 +53,10 @@ public class joinPage {
         driver.findElement(rePassword).sendKeys(re_password);
     }
     public boolean checkPassword(String password, String re_password){
-        if (!Pattern.matches(regex, password)) {
+        if (!Pattern.matches(regexNumber, password)) {
             System.out.println("Mật khẩu phải có độ dài từ 6 đến 32 ký tự.");
             return false;
         }
-        // Check if password and re-password match
         if (!password.equals(re_password)) {
             System.out.println("Mật khẩu và mật khẩu nhập lại không khớp.");
             return false;
@@ -117,12 +112,12 @@ public class joinPage {
         driver.findElement(alreadyMember).click();
 
     }
-    public webUIPage register(String name,String email, String password, String re_password, String phone,String datetimes, String gender )
+    public HomePage register(String name, String email, String password, String re_password, String phone, String datetimes, String gender )
     {
         driver.get(ConfigData.registerUrl);
         TitlePage();
         fieldUserName(name);
-        fieldUserID(email);
+        fieldEmailID(email);
         fiedPassword(password);
         fiedRePassword(re_password);
         checkPassword(password, re_password);
@@ -131,12 +126,12 @@ public class joinPage {
         optionChecked(gender);
         cbAgree();
         submitButton();
-        return new webUIPage(driver);
+        return new HomePage(driver);
     }
-    public webUIPage registerLogin(){
+    public HomePage registerLogin(){
         driver.get(ConfigData.registerUrl);
         TitlePage();
         login();
-        return new webUIPage(driver);
+        return new HomePage(driver);
     }
 }

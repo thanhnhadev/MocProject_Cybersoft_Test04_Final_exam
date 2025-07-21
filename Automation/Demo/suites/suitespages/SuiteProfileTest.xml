@@ -4,11 +4,12 @@
     <parameter name="browser" value="chrome"></parameter>
     <parameter name="email" value="admin@example.com"></parameter>
     <parameter name="password" value="123456"></parameter>
-    <test name="LoginTest">
+    <test name="ProfileTest">
         <classes>
-            <class name="BaseTest.HomePageTest">
+            <class name="BaseTest.profilePageTest">
                 <methods>
-                    <include name="verifyLoginSucess"/>
+                    <include name="verifyRegisterSucess"/>
+                    <include name="haveAccountSucess"/>
                 </methods>
             </class>
         </classes>

@@ -2,9 +2,9 @@ package BaseTest;
 
 import Base.BaseSetup;
 import BasePages.joinPage;
-import org.openqa.selenium.WebDriver;
 import org.testng.annotations.Test;
 import utils.LogUtils;
+
 
 public class joinPageTest extends BaseSetup {
     joinPage joinPageTest;

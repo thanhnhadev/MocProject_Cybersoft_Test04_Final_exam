@@ -25,5 +25,14 @@ public class Locator_CMS {
     public static final String cbox_agreeitem="//*[contains(@id,'agree-term')]";
     public static final String aLogin="//*[contains(text(),'I am already member')]";
     public static final String btnSubmit="//*[contains(@type,'submit')]";
+    //page profile
+    public static final String editProfile="//*[contains(@class,'btn_update')]/button[contains(@class,'edit')]";
 
+    //page podup edit profile
+    public static final String editPhoneNumber="//*[contains(@name,'phone')]";
+    public static final String editName="//*[contains(@name,'name')]";
+    public static final String editEmail="//*[contains(@type,'email')]";
+    public static final String editBirthday="//*[contains(@name,'birthday')]";
+    public static final String opionMales="//*[contains(text(),'Male')]";
+    public static final String opionFemales="//*[contains(text(),'Male')]";
 }

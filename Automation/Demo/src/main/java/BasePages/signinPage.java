@@ -1,6 +1,6 @@
 package BasePages;
 
-import Constants.ConfigData;
+import utils.Constants.ConfigData;
 import Locator.Locator_CMS;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -45,17 +45,17 @@ public class signinPage {
     public void verifyLoginSuccsess(){
         Assert.assertFalse(driver.getCurrentUrl().contains("authentication"),"fail van login");
     }
-    public webUIPage login(String email, String password){
+    public HomePage login(String email, String password){
         driver.get(ConfigData.signinUrl);
         titlePage();
         fieldUserID(email);
         fiedPassword(password);
         loginButton();
-        return new webUIPage(driver);
+        return new HomePage(driver);
     }
-    public webUIPage loginRegister(){
+    public HomePage loginRegister(){
         driver.get(ConfigData.signinUrl);
         a_Resgister();
-        return new webUIPage(driver);
+        return new HomePage(driver);
     }
 }
