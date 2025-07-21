@@ -10,6 +10,7 @@
                 <methods>
                     <include name="verifyUser"/>
                     <include name="dataUser"/>
+                    <include name="detaildataUser"/>
                 </methods>
             </class>
         </classes>
