@@ -26,13 +26,21 @@ public class Locator_CMS {
     public static final String aLogin="//*[contains(text(),'I am already member')]";
     public static final String btnSubmit="//*[contains(@type,'submit')]";
     //page profile
-    public static final String editProfile="//*[contains(@class,'btn_update')]/button[contains(@class,'edit')]";
-
+    public static final String editProfile="(//button[@class='edit'])[1]";
+    public static final String lstCartItemclass= "(//div[@class='gigs_card'])[2]";
+    public static final String btnRemoveCartItemclass1="//div[@class='btn_edit']//div[@class='right']";
+    public static final String btnViewdetail="//div[@class='btn_edit']//a[contains(text(),'View detail')]";
     //page podup edit profile
+    public static final String titlePodup="//h2[contains(normalize-space(),'Update User')]";
     public static final String editPhoneNumber="//*[contains(@name,'phone')]";
     public static final String editName="//*[contains(@name,'name')]";
     public static final String editEmail="//*[contains(@type,'email')]";
     public static final String editBirthday="//*[contains(@name,'birthday')]";
-    public static final String opionMales="//*[contains(text(),'Male')]";
-    public static final String opionFemales="//*[contains(text(),'Male')]";
+    public static final String opionMales="//input[@value='male']";
+    public static final String opionFemales="//input[@value='female']";
+    public static final String editCetificate="//input[@id='certification']";
+    public static final String editSkill="//input[@id='skill']";
+    public static final String btnCancel="//button[contains(normalize-space(),'Cancel')]";
+    public static final String btnSave="//button[contains(normalize-space(),'Save')]";
+
 }

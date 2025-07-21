@@ -8,8 +8,8 @@
         <classes>
             <class name="BaseTest.profilePageTest">
                 <methods>
-                    <include name="verifyRegisterSucess"/>
-                    <include name="haveAccountSucess"/>
+                    <include name="verifyUser"/>
+<!--                    <include name="haveAccountSucess"/>-->
                 </methods>
             </class>
         </classes>
