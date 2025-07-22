@@ -27,9 +27,9 @@ public class Locator_CMS {
     public static final String btnSubmit="//*[contains(@type,'submit')]";
     //page profile
     public static final String editProfile="(//button[@class='edit'])[1]";
-    public static final String lstCartItemclass= "(//div[@class='gigs_card'])[2]";
+    public static final String lstCartItemclass= "//div[@class='gigs_card']//h1";
     public static final String btnRemoveCartItemclass1="//button[contains(normalize-space(),'DEL')]";
-    public static final String btnViewdetail="//a[normalize-space()='View detail']";
+    public static final String btnViewdetail="(//*[contains(text(),'View detail')])";
 //    page podup edit profile
     public static final String titlePodup="//h2[contains(normalize-space(),'Update User')]";
     public static final String editPhoneNumber="//*[contains(@name,'phone')]";

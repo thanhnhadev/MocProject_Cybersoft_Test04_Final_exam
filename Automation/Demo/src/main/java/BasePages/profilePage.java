@@ -100,11 +100,21 @@ public class profilePage {
 
     public void RemoveCartItem(String productName){
         String productXpath = String.format(Locator_CMS.btnRemoveCartItemclass1,productName);
-        this.driver.findElement(By.xpath(productXpath)).click();
+//        for (int i = 1; i < productXpath.length();i++) {
+//            WebElement element = driver.findElement(By.xpath(productXpath + '['+i+']' ));
+//            this.driver.findElement(By.xpath(String.valueOf(element))).click();
+//        }
+        List<WebElement> elements = driver.findElements(By.xpath(productXpath));
+        for (WebElement element : elements) {
+            element.click();
+        }
     }
     public void DetailItem(String productName){
         String productXpath = String.format(Locator_CMS.btnViewdetail,productName);
-        this.driver.findElement(By.xpath(productXpath)).click();
+        List<WebElement> elements = driver.findElements(By.xpath(productXpath));
+        for (WebElement element : elements) {
+            element.click();
+        }
     }
     public boolean isCartItemEmpty(){
         List<WebElement> lstCartItems = this.driver.findElements(lstCartItem);
@@ -114,6 +124,7 @@ public class profilePage {
         }
         return isTrue;
     }
+
     public void openPodup(String numberPhone, String email, String datetimes, String gender, String certificate,String skill){
         editAccount();
         LogUtils.info("open podup");

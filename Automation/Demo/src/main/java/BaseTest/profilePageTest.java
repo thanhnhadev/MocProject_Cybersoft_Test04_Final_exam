@@ -23,7 +23,7 @@ public class profilePageTest extends BaseSetup {
         signinPageTest.login("thanhnhadev@gmail.com","Aty05121995");
         sleep(2);
         profilePage profilePageTest= new profilePage(driver);
-        profilePageTest.RemovecardItem("I will do modern line art text or badge logo design");
+        profilePageTest.RemovecardItem("I will design unique minimalist modern and creative logo design");
     }
     @Test(priority =3)
     public void detaildataUser(){
@@ -31,6 +31,6 @@ public class profilePageTest extends BaseSetup {
         signinPageTest.login("thanhnhadev@gmail.com","Aty05121995");
         sleep(2);
         profilePage profilePageTest= new profilePage(driver);
-        profilePageTest.DetailcardItem("I will write bulk SEO articles and blog post");
+        profilePageTest.DetailcardItem("I will audit and optimize google ads adwords ppc campaign search");
     }
 }

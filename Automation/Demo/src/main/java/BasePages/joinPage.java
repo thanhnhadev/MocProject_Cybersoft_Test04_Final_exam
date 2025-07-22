@@ -70,9 +70,6 @@ public class joinPage {
     public void datePicker(String datetimes){
         wait.until(ExpectedConditions.visibilityOfElementLocated(datetime));
           driver.findElement(datetime).sendKeys(datetimes);
-//        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("MM/dd/uuuu HH:mm", Locale.ENGLISH);
-//        String formatted = LocalDateTime.parse(datetimes).format(formatter);
-//        System.out.println(formatted);
     }
     private void optionChecked(String gender){
         WebElement maleRadioButton = driver.findElement(By.xpath(option1));
