@@ -1,17 +1,18 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
-<suite name="Suite" verbose="1">
-    <parameter name="browser" value="chrome"></parameter>
-    <parameter name="email" value="admin@example.com"></parameter>
-    <parameter name="password" value="123456"></parameter>
-    <test name="LoginTest">
+<suite name="SuiteLoginTest" verbose="1" parallel="methods" >
+    <parameter name="browser" value="chrome"/>
+    <parameter name="email" value="thanhnhadev@gmail.com"/>
+    <parameter name="password" value="Aty05121995"/>
+    <test name="LoginTest" parallel="tests">
         <classes>
             <class name="BaseTest.signinPageTest">
-                <methods>
-                    <include name="verifyLoginSucess"/>
-                    <include name="goToPageRester"/>
-                </methods>
+<!--                <methods>-->
+<!--                    <include name="verifyLoginSucess"/>-->
+<!--                    <include name="goToPageRester"/>-->
+<!--                </methods>-->
             </class>
         </classes>
     </test>
+
 </suite>
