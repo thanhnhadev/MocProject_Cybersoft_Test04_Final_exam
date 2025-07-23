@@ -14,6 +14,7 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
+import utils.Helper.PropertiesHelper;
 
 import java.time.Duration;
 
@@ -35,19 +36,25 @@ public class BaseSetup {
     @BeforeMethod
     @Parameters({"browser"})
     public void createBrowser(@Optional("chrome") String browserName) {
-        if (browserName.equals("chrome")) {
-            driver = new ChromeDriver();
+
+
+        switch (browserName.trim().toLowerCase()) {
+            case "chrome":
+                System.out.println("Launching Chrome browser...");
+                driver = new ChromeDriver();
+                break;
+            case "firefox":
+                System.out.println("Launching Firefox browser...");
+                driver = new FirefoxDriver();
+                break;
+            case "edge":
+                System.out.println("Launching Edge browser...");
+                driver = new EdgeDriver();
+                break;
+            default:
+                System.out.println("Browser: " + browserName + " is invalid, Launching Chrome as browser of choice...");
+                driver = new ChromeDriver();
         }
-        if (browserName.equals("edge")) {
-            driver = new EdgeDriver();
-        }
-        if (browserName.equals("firefox")) {
-            driver = new FirefoxDriver();
-        }
-        if (browserName.equals("safari")){
-            driver= new SafariDriver();
-        }
-//        if (browserName.equals("opera")) driver = new OperaDriver();
 
         driver.manage().window().maximize();
         //driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20)); //Dành cho Junior

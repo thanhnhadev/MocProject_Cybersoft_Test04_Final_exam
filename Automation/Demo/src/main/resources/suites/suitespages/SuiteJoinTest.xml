@@ -2,20 +2,17 @@
 
 <suite name="SuiteRegister" verbose="1" parallel="methods" >
     <parameter name="browser" value="chrome"/>
-    <parameter name="name" value="TyNguyen"/>
-    <parameter name="email" value="admin@example.com"/>
-    <parameter name="password" value="123456"/>
-    <parameter name="re_password" value="123456"/>
-    <parameter name="phone" value="01206337625"/>
-    <parameter name="brithday" value="22/12/2021"/>
-    <parameter name="gender" value="female"/>
+<!--    <parameter name="name" value="TyNguyen"/>-->
+<!--    <parameter name="email" value="admin@example.com"/>-->
+<!--    <parameter name="password" value="123456"/>-->
+<!--    <parameter name="re_password" value="123456"/>-->
+<!--    <parameter name="phone" value="01206337625"/>-->
+<!--    <parameter name="brithday" value="22/12/2021"/>-->
+<!--    <parameter name="gender" value="female"/>-->
     <test name="RegisterTest" parallel="tests">
         <classes>
             <class name="BaseTest.joinPageTest">
-<!--                <methods>-->
-<!--                    <include name="verifyRegisterSucess"/>-->
-<!--                    <include name="haveAccountSucess"/>-->
-<!--                </methods>-->
+                <methods/>
             </class>
         </classes>
     </test>

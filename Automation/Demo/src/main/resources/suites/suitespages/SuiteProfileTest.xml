@@ -2,24 +2,20 @@
 
 <suite name="SuiteProfile" verbose="1" parallel="methods">
     <parameter name="browser" value="chrome"/>
-    <parameter name="email" value="thanhnhadev@gmail.com"/>
-    <parameter name="password" value="Aty05121995"/>
-    <parameter name="phoneNumber" value="0939018814"/>
-    <parameter name="editEmail" value="nhanguyen051295@gmail.com"/>
-    <parameter name="birthday" value="12/05/2021"/>
-    <parameter name="gender" value="male"/>
-    <parameter name="certificate" value="56-des87-g7t"/>
-    <parameter name="skill" value="C#"/>
-    <parameter name="context1" value="I will audit and optimize google ads adwords ppc campaign search"/>
-    <parameter name="context2" value="I will audit and optimize google ads adwords ppc campaign search"/>
+<!--    <parameter name="email" value="thanhnhadev@gmail.com"/>-->
+<!--    <parameter name="password" value="Aty05121995"/>-->
+<!--    <parameter name="phoneNumber" value="0939018814"/>-->
+<!--    <parameter name="editEmail" value="nhanguyen051295@gmail.com"/>-->
+<!--    <parameter name="birthday" value="12/05/2021"/>-->
+<!--    <parameter name="gender" value="male"/>-->
+<!--    <parameter name="certificate" value="56-des87-g7t"/>-->
+<!--    <parameter name="skill" value="C#"/>-->
+<!--    <parameter name="context1" value="I will audit and optimize google ads adwords ppc campaign search"/>-->
+<!--    <parameter name="context2" value="I will audit and optimize google ads adwords ppc campaign search"/>-->
     <test name="ProfileTest" parallel="tests">
         <classes>
             <class name="BaseTest.profilePageTest">
-<!--                <methods>-->
-<!--                    <include name="verifyUser"/>-->
-<!--                    <include name="dataUser"/>-->
-<!--                    <include name="detaildataUser"/>-->
-<!--                </methods>-->
+                <methods/>
             </class>
         </classes>
     </test>

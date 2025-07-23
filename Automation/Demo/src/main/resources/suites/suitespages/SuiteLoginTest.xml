@@ -2,15 +2,10 @@
 
 <suite name="SuiteLoginTest" verbose="1" parallel="methods" >
     <parameter name="browser" value="chrome"/>
-    <parameter name="email" value="thanhnhadev@gmail.com"/>
-    <parameter name="password" value="Aty05121995"/>
     <test name="LoginTest" parallel="tests">
         <classes>
             <class name="BaseTest.signinPageTest">
-<!--                <methods>-->
-<!--                    <include name="verifyLoginSucess"/>-->
-<!--                    <include name="goToPageRester"/>-->
-<!--                </methods>-->
+                <methods/>
             </class>
         </classes>
     </test>

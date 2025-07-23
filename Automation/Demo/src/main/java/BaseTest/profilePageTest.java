@@ -5,39 +5,57 @@ import BasePages.profilePage;
 import BasePages.signinPage;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
+import utils.Helper.PropertiesHelper;
 import utils.LogUtils;
 
 public class profilePageTest extends BaseSetup {
     profilePage profilePageTest;
 
-    @Parameters({"email","password","phoneNumber","editEmail","birthday","gender","certificate","skill"})
+//    @Parameters({"email","password","phoneNumber","editEmail","birthday","gender","certificate","skill"})
     @Test(priority = 1)
-    public void verifyUser(String email, String password,String phoneNumber,
-                           String editEmail,String birthday, String gender,
-                           String certificate, String skill  ){
+    public void verifyUser()
+    {
+        PropertiesHelper.loadAllFiles();
         signinPage signinPageTest= new signinPage(driver);
-        signinPageTest.login(email,password);
+        signinPageTest.login(
+                PropertiesHelper.getValue("email"),
+                PropertiesHelper.getValue("password"));
         sleep(2);
         profilePage profilePageTest= new profilePage(driver);
         LogUtils.info("login sucessfully");
-        profilePageTest.openPodup(phoneNumber,editEmail,birthday,gender,certificate,skill);
+        profilePageTest.openPodup(
+                PropertiesHelper.getValue("phone"),
+                PropertiesHelper.getValue("email"),
+                PropertiesHelper.getValue("brithday"),
+                PropertiesHelper.getValue("gender"),
+                PropertiesHelper.getValue("certificate"),
+                PropertiesHelper.getValue("skill")
+        );
     }
-    @Parameters({"email","password","context1"})
+//    @Parameters({"email","password","context1"})
     @Test(priority =2)
-    public void dataUser(String email, String password,String context1){
+    public void dataUser(){
+        PropertiesHelper.loadAllFiles();
         signinPage signinPageTest= new signinPage(driver);
-        signinPageTest.login(email,password);
+        signinPageTest.login(
+                PropertiesHelper.getValue("email"),
+                PropertiesHelper.getValue("password")
+        );
         sleep(2);
         profilePage profilePageTest= new profilePage(driver);
-        profilePageTest.RemovecardItem(context1);
+        profilePageTest.RemovecardItem(PropertiesHelper.getValue("context1"));
     }
-    @Parameters({"email","password","context2"})
+//    @Parameters({"email","password","context2"})
     @Test(priority =3)
-    public void detaildataUser(String email, String password,String context2){
+    public void detaildataUser(){
+        PropertiesHelper.loadAllFiles();
         signinPage signinPageTest= new signinPage(driver);
-        signinPageTest.login(email,password);
+        signinPageTest.login(
+                PropertiesHelper.getValue("email"),
+                PropertiesHelper.getValue("password")
+        );
         sleep(2);
         profilePage profilePageTest= new profilePage(driver);
-        profilePageTest.DetailcardItem(context2);
+        profilePageTest.DetailcardItem(PropertiesHelper.getValue("context2"));
     }
 }

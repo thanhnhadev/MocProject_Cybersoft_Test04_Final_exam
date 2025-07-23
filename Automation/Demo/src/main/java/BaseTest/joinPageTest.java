@@ -4,18 +4,22 @@ import Base.BaseSetup;
 import BasePages.joinPage;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
+import utils.Helper.PropertiesHelper;
 import utils.LogUtils;
 
 
 public class joinPageTest extends BaseSetup {
     joinPage joinPageTest;
-    @Parameters({"name","email","password","re_password","phone","brithday","gender"})
     @Test(priority = 1)
-    public void verifyRegisterSucess(String name, String email, String password, String re_password,
-                                     String phone, String brithday, String gender){
+    public void verifyRegisterSucess(){
+        PropertiesHelper.setFile("src/main/java/utils/Config/file1.properties");
         LogUtils.info("RegisterPass");
         joinPageTest = new joinPage(driver);
-        joinPageTest.register(name,email,password,re_password,phone,brithday,gender);
+        joinPageTest.register(
+                PropertiesHelper.getValue("name"),PropertiesHelper.getValue("email"),
+                PropertiesHelper.getValue("password"),PropertiesHelper.getValue("re_password"),
+                PropertiesHelper.getValue("phone"),PropertiesHelper.getValue("brithday"),
+                PropertiesHelper.getValue("gender"));
         joinPageTest.verifyRegisterSuccsess();
     }
     @Test(priority = 2)
