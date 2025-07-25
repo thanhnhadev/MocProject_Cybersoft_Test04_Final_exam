@@ -16,7 +16,6 @@ public class profilePageTest extends BaseSetup {
     @Test(priority = 1)
     public void verifyUser()
     {
-        PropertiesHelper.loadAllFiles();
         signinPageTest= new signinPage(driver);
         signinPageTest.login();
         sleep(2);
@@ -27,7 +26,6 @@ public class profilePageTest extends BaseSetup {
 
     @Test(priority =2)
     public void dataUser(){
-        PropertiesHelper.loadAllFiles();
         signinPageTest= new signinPage(driver);
         signinPageTest.login();
         sleep(2);
@@ -37,7 +35,6 @@ public class profilePageTest extends BaseSetup {
 
     @Test(priority =3)
     public void detaildataUser(){
-        PropertiesHelper.loadAllFiles();
         signinPageTest= new signinPage(driver);
         signinPageTest.login();
         sleep(2);

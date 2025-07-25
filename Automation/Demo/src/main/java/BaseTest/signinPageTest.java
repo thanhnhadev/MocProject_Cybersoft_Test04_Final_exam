@@ -12,7 +12,6 @@ public class signinPageTest extends BaseSetup {
     signinPage signinPageTest;
     @Test(priority = 1)
     public void verifyLoginSucess(){
-        PropertiesHelper.loadAllFiles();
         LogUtils.info("loginPass");
         signinPageTest = new signinPage(driver);
         signinPageTest.login();
