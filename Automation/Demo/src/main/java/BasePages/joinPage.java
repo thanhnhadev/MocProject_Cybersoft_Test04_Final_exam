@@ -11,6 +11,8 @@ import utils.Constants.ConfigData;
 
 import java.time.Duration;
 import java.util.regex.Pattern;
+
+import static Base.BaseSetup.sleep;
 import static utils.Constants.ConfigData.regexNumber;
 
 public class joinPage {
@@ -112,23 +114,24 @@ public class joinPage {
     public HomePage register()
     {
         driver.get(ConfigData.registerUrl);
-        TitlePage();
-        fieldUserName(ConfigData.nameId);
-        fieldEmailID(ConfigData.userEmailId);
-        fiedPassword(ConfigData.pw);
-        fiedRePassword(ConfigData.re_pw);
-        checkPassword();
-        phoneNumber(ConfigData.phone);
-        datePicker(ConfigData.date);
-        optionChecked();
-        cbAgree();
-        submitButton();
+        this.TitlePage();
+        this.fieldUserName(ConfigData.nameId);
+        this.fieldEmailID(ConfigData.userEmailId);
+        this.fiedPassword(ConfigData.pw);
+        this.fiedRePassword(ConfigData.re_pw);
+        this.checkPassword();
+        this.phoneNumber(ConfigData.phone);
+        this.datePicker(ConfigData.date);
+        this.optionChecked();
+        this.cbAgree();
+        this.submitButton();
         return new HomePage(driver);
     }
     public HomePage registerLogin(){
         driver.get(ConfigData.registerUrl);
-        TitlePage();
-        login();
+        this.TitlePage();
+        sleep(2);
+        this.login();
         return new HomePage(driver);
     }
 }

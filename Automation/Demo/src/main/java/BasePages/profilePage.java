@@ -13,6 +13,7 @@ import utils.LogUtils;
 import java.time.Duration;
 import java.util.List;
 
+import static Base.BaseSetup.sleep;
 import static Locator.Locator_CMS.*;
 
 public class profilePage {
@@ -125,19 +126,18 @@ public class profilePage {
         }
         return isTrue;
     }
-
     public void openPodup(){
-        editAccount();
+        this.editAccount();
         LogUtils.info("open podup");
-        titlePodup();
-        fieldEmail();
-        fieldPhoneNumber(ConfigData.phone);
-        fieldName(ConfigData.userEmailId);
-        datePicker(ConfigData.date);
-        fieldGender();
-        fieldCentificate(ConfigData.certificate);
-        fieldSkill(ConfigData.skill);
-        btnSave();
+        this.titlePodup();
+        this.fieldEmail();
+        this.fieldPhoneNumber(ConfigData.phone);
+        this.fieldName(ConfigData.userEmailId);
+        this.datePicker(ConfigData.date);
+        this.fieldGender();
+        this.fieldCentificate(ConfigData.certificate);
+        this.fieldSkill(ConfigData.skill);
+        this.btnSave();
     }
 
 

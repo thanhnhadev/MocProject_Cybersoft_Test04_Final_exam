@@ -1,7 +1,9 @@
 package Locator;
 
 public class Locator_CMS {
-
+    //header
+    public static final String headerUser="//p[@class='text my-0']";
+    //
     public static final String btnSignin="(//*[contains(text(),'Sign in')])[2]";
     public static final String btnJoin="//*[contains(text(),'Join')]";
     //page Login

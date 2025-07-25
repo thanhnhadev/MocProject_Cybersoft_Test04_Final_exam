@@ -50,16 +50,16 @@ public class signinPage {
     public HomePage login(){
         driver.get(ConfigData.signinUrl);
         sleep(2);
-        titlePage();
-        fieldUserID(ConfigData.userEmailId);
-        fiedPassword(ConfigData.pw);
+        this.titlePage();
+        this.fieldUserID(ConfigData.userEmailId);
+        this.fiedPassword(ConfigData.pw);
         sleep(2);
-        loginButton();
+        this.loginButton();
         return new HomePage(driver);
     }
     public HomePage loginRegister(){
         driver.get(ConfigData.signinUrl);
-        a_Resgister();
+        this.a_Resgister();
         return new HomePage(driver);
     }
 }

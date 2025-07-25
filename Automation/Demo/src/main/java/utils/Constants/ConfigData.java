@@ -3,7 +3,7 @@ package utils.Constants;
 import utils.Helper.PropertiesHelper;
 
 public class ConfigData {
-    public static final String base_url="https://demo5.cybersoft.edu.vn/";
+    public static final String base_url="url_browse";
     public static String signinUrl = PropertiesHelper.getValue("url");
     public static String userEmailId=PropertiesHelper.getValue("email");
     public static String nameId=PropertiesHelper.getValue("name");
@@ -16,7 +16,7 @@ public class ConfigData {
     public static String certificate= PropertiesHelper.getValue("certificate");
     public static String contentItem=PropertiesHelper.getValue("context1");
     public static String contentItem01=PropertiesHelper.getValue("context2");
-    public static String profileUrl="https://demo5.cybersoft.edu.vn/profile";
+    public static String profileUrl=PropertiesHelper.getValue("url_profile");
     public static String headerProfileUrl="(//*[contains(@class,'header_navbar')]/ul/li)[6]";
     public static  String regexNumber = PropertiesHelper.getValue("regexNumber");
 }

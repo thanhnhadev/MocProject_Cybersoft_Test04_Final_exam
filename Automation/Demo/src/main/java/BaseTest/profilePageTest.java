@@ -41,4 +41,5 @@ public class profilePageTest extends BaseSetup {
         profilePageTest= new profilePage(driver);
         profilePageTest.DetailItem(PropertiesHelper.getValue(ConfigData.contentItem01));
     }
+
 }
