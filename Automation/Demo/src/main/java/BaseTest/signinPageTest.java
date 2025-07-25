@@ -10,13 +10,13 @@ import utils.LogUtils;
 
 public class signinPageTest extends BaseSetup {
     signinPage signinPageTest;
-//    @Parameters({"email","password"})
+    //    @Parameters({"email","password"})
     @Test(priority = 1)
     public void verifyLoginSucess(){
         PropertiesHelper.loadAllFiles();
         LogUtils.info("loginPass");
         signinPageTest = new signinPage(driver);
-        signinPageTest.login(PropertiesHelper.getValue("email"),PropertiesHelper.getValue("password"));
+        signinPageTest.login();
         signinPageTest.verifyLoginSuccsess();
     }
     @Test(priority = 2)

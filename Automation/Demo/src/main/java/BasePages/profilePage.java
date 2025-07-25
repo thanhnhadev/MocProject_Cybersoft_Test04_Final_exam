@@ -7,6 +7,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import utils.Constants.ConfigData;
 import utils.LogUtils;
 
 import java.time.Duration;
@@ -64,7 +65,7 @@ public class profilePage {
         inputElement.sendKeys(Keys.DELETE);
         inputElement.sendKeys(datetimes);
     }
-    public void fieldGender(String gender){
+    public void fieldGender(){
         WebElement maleRadioButton = driver.findElement(By.xpath(opionMales));
         WebElement femaleRadioButton = driver.findElement(By.xpath(opionFemales));
         if (maleRadioButton.isSelected()){
@@ -125,26 +126,20 @@ public class profilePage {
         return isTrue;
     }
 
-    public void openPodup(String numberPhone, String email, String datetimes, String gender, String certificate,String skill){
+    public void openPodup(){
         editAccount();
         LogUtils.info("open podup");
         titlePodup();
         fieldEmail();
-        fieldPhoneNumber(numberPhone);
-        fieldName(email);
-        datePicker(datetimes);
-        fieldGender(gender);
-        fieldCentificate(certificate);
-        fieldSkill(skill);
+        fieldPhoneNumber(ConfigData.phone);
+        fieldName(ConfigData.userEmailId);
+        datePicker(ConfigData.date);
+        fieldGender();
+        fieldCentificate(ConfigData.certificate);
+        fieldSkill(ConfigData.skill);
         btnSave();
     }
-    public void RemovecardItem(String productName){
-        isCartItemEmpty();
-        RemoveCartItem(productName);
-    }
-    public void DetailcardItem(String productName){
-        isCartItemEmpty();
-        DetailItem(productName);
-    }
+
+
 
 }

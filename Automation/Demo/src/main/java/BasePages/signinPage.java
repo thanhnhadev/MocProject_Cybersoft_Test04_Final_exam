@@ -10,6 +10,8 @@ import org.testng.Assert;
 
 import java.time.Duration;
 
+import static Base.BaseSetup.sleep;
+
 public class signinPage {
     private WebDriver driver;
     private WebDriverWait wait;
@@ -45,11 +47,13 @@ public class signinPage {
     public void verifyLoginSuccsess(){
         Assert.assertFalse(driver.getCurrentUrl().contains("authentication"),"fail van login");
     }
-    public HomePage login(String email, String password){
+    public HomePage login(){
         driver.get(ConfigData.signinUrl);
+        sleep(2);
         titlePage();
-        fieldUserID(email);
-        fiedPassword(password);
+        fieldUserID(ConfigData.userEmailId);
+        fiedPassword(ConfigData.pw);
+        sleep(2);
         loginButton();
         return new HomePage(driver);
     }

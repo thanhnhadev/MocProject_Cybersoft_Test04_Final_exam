@@ -52,12 +52,12 @@ public class joinPage {
         wait.until(ExpectedConditions.visibilityOfElementLocated(rePassword));
         driver.findElement(rePassword).sendKeys(re_password);
     }
-    public boolean checkPassword(String password, String re_password){
-        if (!Pattern.matches(regexNumber, password)) {
+    public boolean checkPassword(){
+        if (!Pattern.matches(regexNumber, ConfigData.pw)) {
             System.out.println("Mật khẩu phải có độ dài từ 6 đến 32 ký tự.");
             return false;
         }
-        if (!password.equals(re_password)) {
+        if (!ConfigData.pw.equals(ConfigData.re_pw)) {
             System.out.println("Mật khẩu và mật khẩu nhập lại không khớp.");
             return false;
         }
@@ -69,9 +69,9 @@ public class joinPage {
     }
     public void datePicker(String datetimes){
         wait.until(ExpectedConditions.visibilityOfElementLocated(datetime));
-          driver.findElement(datetime).sendKeys(datetimes);
+        driver.findElement(datetime).sendKeys(datetimes);
     }
-    private void optionChecked(String gender){
+    private void optionChecked(){
         WebElement maleRadioButton = driver.findElement(By.xpath(option1));
         WebElement femaleRadioButton = driver.findElement(By.xpath(option2));
         if (maleRadioButton.isSelected()){
@@ -109,18 +109,18 @@ public class joinPage {
         driver.findElement(alreadyMember).click();
 
     }
-    public HomePage register(String name, String email, String password, String re_password, String phone, String datetimes, String gender )
+    public HomePage register()
     {
         driver.get(ConfigData.registerUrl);
         TitlePage();
-        fieldUserName(name);
-        fieldEmailID(email);
-        fiedPassword(password);
-        fiedRePassword(re_password);
-        checkPassword(password, re_password);
-        phoneNumber(phone);
-        datePicker(datetimes);
-        optionChecked(gender);
+        fieldUserName(ConfigData.nameId);
+        fieldEmailID(ConfigData.userEmailId);
+        fiedPassword(ConfigData.pw);
+        fiedRePassword(ConfigData.re_pw);
+        checkPassword();
+        phoneNumber(ConfigData.phone);
+        datePicker(ConfigData.date);
+        optionChecked();
         cbAgree();
         submitButton();
         return new HomePage(driver);
