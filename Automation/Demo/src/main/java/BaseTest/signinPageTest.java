@@ -10,7 +10,6 @@ import utils.LogUtils;
 
 public class signinPageTest extends BaseSetup {
     signinPage signinPageTest;
-    //    @Parameters({"email","password"})
     @Test(priority = 1)
     public void verifyLoginSucess(){
         PropertiesHelper.loadAllFiles();

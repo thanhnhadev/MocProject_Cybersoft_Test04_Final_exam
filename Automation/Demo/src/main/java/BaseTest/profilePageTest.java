@@ -12,7 +12,7 @@ import utils.LogUtils;
 public class profilePageTest extends BaseSetup {
     profilePage profilePageTest;
     signinPage signinPageTest;
-//    @Parameters({"email","password","phoneNumber","editEmail","birthday","gender","certificate","skill"})
+
     @Test(priority = 1)
     public void verifyUser()
     {
@@ -24,7 +24,7 @@ public class profilePageTest extends BaseSetup {
         LogUtils.info("login sucessfully");
         profilePageTest.openPodup();
     }
-    @Parameters({"context1"})
+
     @Test(priority =2)
     public void dataUser(){
         PropertiesHelper.loadAllFiles();
@@ -34,7 +34,7 @@ public class profilePageTest extends BaseSetup {
         profilePageTest= new profilePage(driver);
         profilePageTest.RemoveCartItem(PropertiesHelper.getValue(ConfigData.contentItem));
     }
-    @Parameters({"context2"})
+
     @Test(priority =3)
     public void detaildataUser(){
         PropertiesHelper.loadAllFiles();
