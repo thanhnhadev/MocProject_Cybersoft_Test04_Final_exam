@@ -7,6 +7,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
+import utils.Helper.ExcelHelper;
 
 import java.time.Duration;
 
@@ -48,6 +49,8 @@ public class signinPage {
         Assert.assertFalse(driver.getCurrentUrl().contains("authentication"),"fail van login");
     }
     public HomePage login(){
+        ExcelHelper excelHelper = new ExcelHelper();
+        excelHelper.setExcelFile("src/main/java/utils/TestData/UserData.xlsx","Sheet1");
         driver.get(ConfigData.signinUrl);
         sleep(2);
         this.titlePage();
