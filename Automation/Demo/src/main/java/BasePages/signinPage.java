@@ -51,7 +51,7 @@ public class signinPage {
     public HomePage login(){
         try{
             ExcelHelper excelHelper = new ExcelHelper();
-            excelHelper.setExcelFile("src/main/java/utils/TestData/UserData.xlsx","Sheet1");
+            excelHelper.setExcelFile(ConfigData.Excel,"Sheet1");
             driver.get(ConfigData.signinUrl);
             sleep(2);
             this.titlePage();
