@@ -18,7 +18,7 @@ public class profilePageTest extends BaseSetup {
     public void verifyUser()
     {
         ExcelHelper excelHelper = new ExcelHelper();
-        excelHelper.setExcelFile(ConfigData.Excel,"Sheet1");
+        excelHelper.setExcelFile(ConfigData.Excel,"Login");
         signinPageTest= new signinPage(driver);
         signinPageTest.login(
                 excelHelper.getCellData("username",1),
@@ -33,7 +33,7 @@ public class profilePageTest extends BaseSetup {
     @Test(priority =2)
     public void dataUser(){
         ExcelHelper excelHelper = new ExcelHelper();
-        excelHelper.setExcelFile(ConfigData.Excel,"Sheet1");
+        excelHelper.setExcelFile(ConfigData.Excel,"Login");
         signinPageTest= new signinPage(driver);
         signinPageTest.login(
                 excelHelper.getCellData("username",1),
@@ -47,9 +47,10 @@ public class profilePageTest extends BaseSetup {
     @Test(priority =3)
     public void detaildataUser(){
         ExcelHelper excelHelper = new ExcelHelper();
-        excelHelper.setExcelFile(ConfigData.Excel,"Sheet1");
+        excelHelper.setExcelFile(ConfigData.Excel,"Login");
         signinPageTest= new signinPage(driver);
-        signinPageTest.login(excelHelper.getCellData("username",1),
+        signinPageTest.login(
+                excelHelper.getCellData("username",1),
                 excelHelper.getCellData("password",1));
         sleep(2);
         profilePageTest= new profilePage(driver);

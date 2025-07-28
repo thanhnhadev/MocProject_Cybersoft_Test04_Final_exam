@@ -16,7 +16,7 @@ public class signinPageTest extends BaseSetup {
     public void verifyLoginSucess(){
         LogUtils.info("loginPass");
         ExcelHelper excelHelper = new ExcelHelper();
-        excelHelper.setExcelFile(ConfigData.Excel,"Sheet1");
+        excelHelper.setExcelFile(ConfigData.Excel,"Login");
         signinPageTest = new signinPage(driver);
         signinPageTest.login(
                 excelHelper.getCellData("username",1),
@@ -24,7 +24,19 @@ public class signinPageTest extends BaseSetup {
         );
         signinPageTest.verifyLoginSuccsess();
     }
-    @Test(priority = 2)
+    @Test (priority = 2)
+    public void verifyLoginFail(){
+        LogUtils.info("loginPass");
+        ExcelHelper excelHelper = new ExcelHelper();
+        excelHelper.setExcelFile(ConfigData.Excel,"Login");
+        signinPageTest = new signinPage(driver);
+        signinPageTest.login(
+                excelHelper.getCellData("username",2),
+                excelHelper.getCellData("password",2)
+        );
+        signinPageTest.verifyLoginSuccsess();
+    }
+    @Test(priority = 3)
     public void goToPageRester(){
         LogUtils.info("Go to Page Resgiter Pass");
         signinPageTest= new signinPage(driver);
