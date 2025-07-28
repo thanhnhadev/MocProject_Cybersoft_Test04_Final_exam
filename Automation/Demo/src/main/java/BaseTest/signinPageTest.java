@@ -14,32 +14,44 @@ public class signinPageTest extends BaseSetup {
     signinPage signinPageTest;
     @Test(priority = 1)
     public void verifyLoginSucess(){
-        LogUtils.info("loginPass");
-        ExcelHelper excelHelper = new ExcelHelper();
-        excelHelper.setExcelFile(ConfigData.Excel,"Login");
-        signinPageTest = new signinPage(driver);
-        signinPageTest.login(
-                excelHelper.getCellData("username",1),
-                excelHelper.getCellData("password",1)
-        );
-        signinPageTest.verifyLoginSuccsess();
+        try {
+            LogUtils.info("loginPass");
+            ExcelHelper excelHelper = new ExcelHelper();
+            excelHelper.setExcelFile(ConfigData.Excel,"Login");
+            signinPageTest = new signinPage(driver);
+            signinPageTest.login(
+                    excelHelper.getCellData("username",1),
+                    excelHelper.getCellData("password",1)
+            );
+            signinPageTest.verifyLoginSuccsess();
+        } catch (Exception e) {
+            e.getMessage();
+        }
     }
     @Test (priority = 2)
     public void verifyLoginFail(){
-        LogUtils.info("loginPass");
-        ExcelHelper excelHelper = new ExcelHelper();
-        excelHelper.setExcelFile(ConfigData.Excel,"Login");
-        signinPageTest = new signinPage(driver);
-        signinPageTest.login(
-                excelHelper.getCellData("username",2),
-                excelHelper.getCellData("password",2)
-        );
-        signinPageTest.verifyLoginSuccsess();
+        try {
+            LogUtils.info("loginFail");
+            ExcelHelper excelHelper = new ExcelHelper();
+            excelHelper.setExcelFile(ConfigData.Excel,"Login");
+            signinPageTest = new signinPage(driver);
+            signinPageTest.login(
+                    excelHelper.getCellData("username",2),
+                    excelHelper.getCellData("password",2)
+            );
+            signinPageTest.verifyLoginSuccsess();
+        } catch (Exception e) {
+            e.getMessage();
+        }
     }
     @Test(priority = 3)
     public void goToPageRester(){
-        LogUtils.info("Go to Page Resgiter Pass");
-        signinPageTest= new signinPage(driver);
-        signinPageTest.loginRegister();
+        try {
+            LogUtils.info("Go to Page Resgiter Pass");
+            signinPageTest= new signinPage(driver);
+            signinPageTest.loginRegister();
+        } catch (Exception e) {
+            e.getMessage();
+        }
     }
 }

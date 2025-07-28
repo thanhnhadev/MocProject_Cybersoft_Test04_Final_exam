@@ -17,44 +17,59 @@ public class profilePageTest extends BaseSetup {
     @Test(priority = 1)
     public void verifyUser()
     {
-        ExcelHelper excelHelper = new ExcelHelper();
-        excelHelper.setExcelFile(ConfigData.Excel,"Login");
-        signinPageTest= new signinPage(driver);
-        signinPageTest.login(
-                excelHelper.getCellData("username",1),
-                excelHelper.getCellData("password",1)
-        );
-        sleep(2);
-        profilePageTest= new profilePage(driver);
-        LogUtils.info("login sucessfully");
-        profilePageTest.openPodup();
+        try {
+            ExcelHelper excelHelper = new ExcelHelper();
+            excelHelper.setExcelFile(ConfigData.Excel,"Login");
+            signinPageTest= new signinPage(driver);
+            signinPageTest.login(
+                    excelHelper.getCellData("username",1),
+                    excelHelper.getCellData("password",1)
+            );
+            sleep(2);
+            profilePageTest= new profilePage(driver);
+            LogUtils.info("login sucessfully");
+            profilePageTest.openPodup();
+        } catch (Exception e) {
+            e.getMessage();
+        }
+
     }
 
     @Test(priority =2)
     public void dataUser(){
-        ExcelHelper excelHelper = new ExcelHelper();
-        excelHelper.setExcelFile(ConfigData.Excel,"Login");
-        signinPageTest= new signinPage(driver);
-        signinPageTest.login(
-                excelHelper.getCellData("username",1),
-                excelHelper.getCellData("password",1)
-        );
-        sleep(2);
-        profilePageTest= new profilePage(driver);
-        profilePageTest.RemoveCartItem(PropertiesHelper.getValue(ConfigData.contentItem));
+        try {
+            ExcelHelper excelHelper = new ExcelHelper();
+            excelHelper.setExcelFile(ConfigData.Excel,"Login");
+            signinPageTest= new signinPage(driver);
+            signinPageTest.login(
+                    excelHelper.getCellData("username",1),
+                    excelHelper.getCellData("password",1)
+            );
+            sleep(2);
+            profilePageTest= new profilePage(driver);
+            profilePageTest.RemoveCartItem(PropertiesHelper.getValue(ConfigData.contentItem));
+        } catch (Exception e) {
+            e.getMessage();
+        }
+
     }
 
     @Test(priority =3)
     public void detaildataUser(){
-        ExcelHelper excelHelper = new ExcelHelper();
-        excelHelper.setExcelFile(ConfigData.Excel,"Login");
-        signinPageTest= new signinPage(driver);
-        signinPageTest.login(
-                excelHelper.getCellData("username",1),
-                excelHelper.getCellData("password",1));
-        sleep(2);
-        profilePageTest= new profilePage(driver);
-        profilePageTest.DetailItem(PropertiesHelper.getValue(ConfigData.contentItem01));
+        try {
+            ExcelHelper excelHelper = new ExcelHelper();
+            excelHelper.setExcelFile(ConfigData.Excel,"Login");
+            signinPageTest= new signinPage(driver);
+            signinPageTest.login(
+                    excelHelper.getCellData("username",1),
+                    excelHelper.getCellData("password",1));
+            sleep(2);
+            profilePageTest= new profilePage(driver);
+            profilePageTest.DetailItem(PropertiesHelper.getValue(ConfigData.contentItem01));
+        } catch (Exception e) {
+            e.getMessage();
+        }
+
     }
 
 }

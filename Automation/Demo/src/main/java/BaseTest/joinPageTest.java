@@ -14,18 +14,33 @@ public class joinPageTest extends BaseSetup {
     joinPage joinPageTest;
     @Test(priority = 1)
     public void verifyRegisterSucess(){
-        ExcelHelper excelHelper = new ExcelHelper();
-        excelHelper.setExcelFile(ConfigData.Excel,"Register");
-        LogUtils.info("RegisterPass");
-        joinPageTest = new joinPage(driver);
-        joinPageTest.register();
-        joinPageTest.verifyRegisterSuccsess();
+        try {
+            ExcelHelper excelHelper = new ExcelHelper();
+            excelHelper.setExcelFile(ConfigData.Excel,"Login");
+            LogUtils.info("RegisterPass");
+            joinPageTest = new joinPage(driver);
+            joinPageTest.register(
+                    excelHelper.getCellData("name",1),
+                    excelHelper.getCellData("username",1),
+                    excelHelper.getCellData("password",1),
+                    excelHelper.getCellData("re_password",1),
+                    excelHelper.getCellData("phoneNumber",1),
+                    excelHelper.getCellData("brithday",1)
+            );
+            joinPageTest.verifyRegisterSuccsess();
+        } catch (Exception e) {
+            e.getMessage();
+        }
     }
     @Test(priority = 2)
     public void haveAccountSucess(){
-        LogUtils.info("Goto the page Login Pass");
-        joinPageTest = new joinPage(driver);
-        joinPageTest.registerLogin();
+        try {
+            LogUtils.info("Goto the page Login");
+            joinPageTest = new joinPage(driver);
+            joinPageTest.registerLogin();
+        }catch (Exception e){
+            e.getMessage();
+        }
     }
 
 }

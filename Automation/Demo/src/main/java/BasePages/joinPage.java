@@ -111,17 +111,17 @@ public class joinPage {
         driver.findElement(alreadyMember).click();
 
     }
-    public HomePage register()
+    public HomePage register(String name,String email, String password,String re_password,String phone,String datetimes)
     {
         driver.get(ConfigData.registerUrl);
         this.TitlePage();
-        this.fieldUserName(ConfigData.nameId);
-        this.fieldEmailID(ConfigData.userEmailId);
-        this.fiedPassword(ConfigData.pw);
-        this.fiedRePassword(ConfigData.re_pw);
+        this.fieldUserName(name);
+        this.fieldEmailID(email);
+        this.fiedPassword(password);
+        this.fiedRePassword(re_password);
         this.checkPassword();
-        this.phoneNumber(ConfigData.phone);
-        this.datePicker(ConfigData.date);
+        this.phoneNumber(phone);
+        this.datePicker(datetimes);
         this.optionChecked();
         this.cbAgree();
         this.submitButton();
