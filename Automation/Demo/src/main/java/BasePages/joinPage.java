@@ -109,7 +109,6 @@ public class joinPage {
     public void login(){
         wait.until(ExpectedConditions.visibilityOfElementLocated(alreadyMember));
         driver.findElement(alreadyMember).click();
-
     }
     public HomePage register(String name,String email, String password,String re_password,String phone,String datetimes)
     {
@@ -124,9 +123,12 @@ public class joinPage {
         this.datePicker(datetimes);
         this.optionChecked();
         this.cbAgree();
+        sleep(2);
         this.submitButton();
+        this.verifyRegisterSuccsess();
         return new HomePage(driver);
     }
+
     public HomePage registerLogin(){
         driver.get(ConfigData.registerUrl);
         this.TitlePage();

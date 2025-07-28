@@ -20,21 +20,26 @@ public  class joinPageTest extends BaseSetup {
             excelHelper.setExcelFile(ConfigData.Excel,"Login");
             LogUtils.info("RegisterPass");
             joinPageTest = new joinPage(driver);
-            //write data
-            excelHelper.setCellData("thanhnhadev@gmail.com", 1, 1);
+            excelHelper.setCellData("thanhnhav@gmail.com", 0, 1);
+            sleep(2);
             excelHelper.setCellData("Aty05121995", 1, 1);
-            excelHelper.setCellData("Aty05121995", 2, 1);
+            sleep(2);
+            excelHelper.setCellData("Aty05121995", 3, 1);
+            sleep(2);
             excelHelper.setCellData("tynguyen95", 2, 1);
-            excelHelper.setCellData("0912345678", 2, 1);
-            excelHelper.setCellData("22/11/2014", 2, 1);
+            sleep(2);
+            excelHelper.setCellData("0912345678", 4, 1);
+            sleep(2);
+            excelHelper.setCellData("22/11/2014", 5, 1);
+            sleep(2);
             joinPageTest.register(
-                    //read data
                     excelHelper.getCellData("name",1),
                     excelHelper.getCellData("username",1),
                     excelHelper.getCellData("password",1),
                     excelHelper.getCellData("re_password",1),
                     excelHelper.getCellData("phoneNumber",1),
-                    excelHelper.getCellData("brithday",1));
+                    excelHelper.getCellData("brithday",1)
+            );
             joinPageTest.verifyRegisterSuccsess();
         } catch (Exception e) {
             e.getMessage();

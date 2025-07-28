@@ -26,7 +26,7 @@ public class Locator_CMS {
     public static final String opionFemale ="//*[contains(text(),'Female')]";
     public static final String cbox_agreeitem="//*[contains(@id,'agree-term')]";
     public static final String aLogin="//*[contains(text(),'I am already member')]";
-    public static final String btnSubmit="//*[contains(@type,'submit')]";
+    public static final String btnSubmit="//button[normalize-space()='Submit']";
     //page profile
     public static final String editProfile="(//button[@class='edit'])[1]";
     public static final String lstCartItemclass= "//div[@class='gigs_card']//h1";
