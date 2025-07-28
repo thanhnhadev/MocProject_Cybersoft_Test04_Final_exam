@@ -49,15 +49,19 @@ public class signinPage {
         Assert.assertFalse(driver.getCurrentUrl().contains("authentication"),"fail van login");
     }
     public HomePage login(){
-        ExcelHelper excelHelper = new ExcelHelper();
-        excelHelper.setExcelFile("src/main/java/utils/TestData/UserData.xlsx","Sheet1");
-        driver.get(ConfigData.signinUrl);
-        sleep(2);
-        this.titlePage();
-        this.fieldUserID(ConfigData.userEmailId);
-        this.fiedPassword(ConfigData.pw);
-        sleep(2);
-        this.loginButton();
+        try{
+            ExcelHelper excelHelper = new ExcelHelper();
+            excelHelper.setExcelFile("src/main/java/utils/TestData/UserData.xlsx","Sheet1");
+            driver.get(ConfigData.signinUrl);
+            sleep(2);
+            this.titlePage();
+            this.fieldUserID(excelHelper.getCellData("username",1));
+            this.fiedPassword(excelHelper.getCellData("password",1));
+            sleep(2);
+            this.loginButton();
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
         return new HomePage(driver);
     }
     public HomePage loginRegister(){
