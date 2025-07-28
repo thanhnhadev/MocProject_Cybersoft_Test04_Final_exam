@@ -48,15 +48,13 @@ public class signinPage {
     public void verifyLoginSuccsess(){
         Assert.assertFalse(driver.getCurrentUrl().contains("authentication"),"fail van login");
     }
-    public HomePage login(){
+    public HomePage login(String email, String password){
         try{
-            ExcelHelper excelHelper = new ExcelHelper();
-            excelHelper.setExcelFile(ConfigData.Excel,"Sheet1");
             driver.get(ConfigData.signinUrl);
             sleep(2);
             this.titlePage();
-            this.fieldUserID(excelHelper.getCellData("username",1));
-            this.fiedPassword(excelHelper.getCellData("password",1));
+            this.fieldUserID(email);
+            this.fiedPassword(password);
             sleep(2);
             this.loginButton();
         } catch (Exception e) {
