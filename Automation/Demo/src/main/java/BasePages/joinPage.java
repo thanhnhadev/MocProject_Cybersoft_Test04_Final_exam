@@ -39,8 +39,16 @@ public class joinPage {
         System.out.println(title);
     }
     public void fieldUserName(String name){
-        wait.until(ExpectedConditions.visibilityOfElementLocated(ip_YourName));
-        driver.findElement(ip_YourName).sendKeys(name);
+        if (name.matches(nameRegex)) {
+            wait.until(ExpectedConditions.visibilityOfElementLocated(ip_YourName));
+            WebElement inputName = driver.findElement(ip_YourName);
+            inputName.clear(); // Xóa trước khi nhập
+            inputName.sendKeys(name);
+            System.out.println("Tên hợp lệ: " + name);
+        } else {
+            System.out.println("Tên không hợp lệ (không được chứa số hoặc ký tự đặc biệt): " + name);
+            // throw new IllegalArgumentException("Tên không hợp lệ: " + name);
+        }
     }
     public void fieldEmailID(String email){
         if (email.matches(emailRegex)) {

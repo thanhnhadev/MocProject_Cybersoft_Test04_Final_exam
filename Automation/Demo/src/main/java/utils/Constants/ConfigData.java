@@ -23,4 +23,5 @@ public class ConfigData {
     public static String emailRegex = PropertiesHelper.getValue("emailRegex");
     public static String phoneRegex = PropertiesHelper.getValue("phoneRegex");
     public static String expectedFormat = PropertiesHelper.getValue("expectedFormat");
+    public static  String nameRegex = PropertiesHelper.getValue("nameRegex");
 }

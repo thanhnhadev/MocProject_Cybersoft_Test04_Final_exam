@@ -13,7 +13,7 @@ public class DataFactory {
         System.out.println("Login Data from Excel: " + data);
         return data;
     }
-    @DataProvider(name = "data_Register_Excel",parallel = true)
+    @DataProvider(name = "data_Register_Excel")
     public Object[][] dataJoin() {
         ExcelHelper excelHelper = new ExcelHelper();
         Object[][] data = excelHelper.getDataHashTable( ConfigData.Excel, "Login", 1, 2);
