@@ -4,14 +4,11 @@
     <parameter name="browser" value="chrome"></parameter>
     <parameter name="email" value="admin@example.com"></parameter>
     <parameter name="password" value="123456"></parameter>
-    <test name="LoginTest" parallel="tests">
+    <test name="HomePage" parallel="tests">
         <classes>
             <class name="BaseTest.HomePageTest">
-<!--                <methods>-->
-<!--                    <include name="verifyLoginSucess"/>-->
-<!--                </methods>-->
+                <methods/>
             </class>
         </classes>
-        
     </test>
 </suite>
