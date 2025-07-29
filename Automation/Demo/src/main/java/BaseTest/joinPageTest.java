@@ -6,19 +6,22 @@ import BasePages.joinPage;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 import utils.Constants.ConfigData;
+import utils.Constants.DataFactory;
 import utils.Helper.ExcelHelper;
 import utils.Helper.PropertiesHelper;
 import utils.LogUtils;
 
+import java.util.Hashtable;
+
 
 public  class joinPageTest extends BaseSetup {
     joinPage joinPageTest;
-    @Test(priority = 1)
-    public void verifyRegisterSucess(){
+    @Test(priority = 1,dataProvider = "data_Register_Excel", dataProviderClass = DataFactory.class)
+    public void verifyRegisterSucess(Hashtable< String, String> data){
         try {
             ExcelHelper excelHelper = new ExcelHelper();
             excelHelper.setExcelFile(ConfigData.Excel,"Login");
-            LogUtils.info("RegisterPass");
+//            LogUtils.info("RegisterPass");
             joinPageTest = new joinPage(driver);
             excelHelper.setCellData("thanhnhav@gmail.com", 0, 1);
             excelHelper.setCellData("Aty05121995", 1, 1);
@@ -27,13 +30,12 @@ public  class joinPageTest extends BaseSetup {
             excelHelper.setCellData("0912345678", 4, 1);
             excelHelper.setCellData("22/11/2014", 5, 1);
             joinPageTest.register(
-                    excelHelper.getCellData("name",1),
-                    excelHelper.getCellData("username",1),
-                    excelHelper.getCellData("password",1),
-                    excelHelper.getCellData("re_password",1),
-                    excelHelper.getCellData("phoneNumber",1),
-                    excelHelper.getCellData("brithday",1)
-            );
+                    data.get("name"),
+                    data.get("username"),
+                    data.get("password"),
+                    data.get("re_password"),
+                    data.get("phoneNumber"),
+                    data.get("brithday"));
             joinPageTest.verifyRegisterSuccsess();
         } catch (Exception e) {
             e.getMessage();

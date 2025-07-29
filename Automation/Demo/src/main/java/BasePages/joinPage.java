@@ -77,9 +77,11 @@ public class joinPage {
     private void optionChecked(){
         WebElement maleRadioButton = driver.findElement(By.xpath(option1));
         WebElement femaleRadioButton = driver.findElement(By.xpath(option2));
-        if (maleRadioButton.isSelected()){
+        if(!maleRadioButton.isSelected()){
+            maleRadioButton.click();
             System.out.println("gender is: Male");
-        } else if(femaleRadioButton.isSelected()){
+        }else if(!femaleRadioButton.isSelected()){
+            femaleRadioButton.click();
             System.out.println("gender is: Female");
         }else {
             System.out.println("please chossen: Male or Female");
@@ -88,16 +90,8 @@ public class joinPage {
     private void cbAgree(){
         wait.until(ExpectedConditions.visibilityOfElementLocated(cbIagree));
         WebElement checkboxRemember = driver.findElement(cbIagree);
-        if (checkboxRemember.isSelected()==false){
-            System.out.println("True");
-        }else {
-            System.out.println("False");
-        }
-        driver.findElement(By.xpath(Locator_CMS.cbox_agreeitem)).click();
-        if (checkboxRemember.isSelected()==false){
-            System.out.println("True");
-        }else {
-            System.out.println("False");
+        if (!checkboxRemember.isSelected()) {
+            checkboxRemember.click();
         }
     }
     private void submitButton(){
@@ -105,7 +99,6 @@ public class joinPage {
         driver.findElement(submit).click();
     }
     public void verifyRegisterSuccsess(){
-        this.submitButton();
         Assert.assertFalse(driver.getCurrentUrl().contains("authentication"),"fail van login");
     }
     public void login(){
@@ -125,7 +118,7 @@ public class joinPage {
         this.datePicker(datetimes);
         this.optionChecked();
         this.cbAgree();
-
+        this.submitButton();
         this.verifyRegisterSuccsess();
         return new HomePage(driver);
     }
