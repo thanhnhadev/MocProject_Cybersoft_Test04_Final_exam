@@ -69,9 +69,11 @@ public class profilePage {
     public void fieldGender(){
         WebElement maleRadioButton = driver.findElement(By.xpath(opionMales));
         WebElement femaleRadioButton = driver.findElement(By.xpath(opionFemales));
-        if (maleRadioButton.isSelected()){
+        if(!maleRadioButton.isSelected()){
+            maleRadioButton.click();
             System.out.println("gender is: Male");
-        } else if(femaleRadioButton.isSelected()){
+        }else if(!femaleRadioButton.isSelected()){
+            femaleRadioButton.click();
             System.out.println("gender is: Female");
         }else {
             System.out.println("please chossen: Male or Female");

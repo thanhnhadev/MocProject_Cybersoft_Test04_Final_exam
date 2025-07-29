@@ -3,6 +3,7 @@ package BaseTest;
 import Base.BaseSetup;
 import BasePages.profilePage;
 import BasePages.signinPage;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 import utils.Constants.ConfigData;
@@ -16,7 +17,6 @@ import java.util.Hashtable;
 public class profilePageTest extends BaseSetup {
     profilePage profilePageTest;
     signinPage signinPageTest;
-
     @Test(priority = 1,dataProvider = "data_Login_Excel", dataProviderClass = DataFactory.class)
     public void verifyUser(Hashtable< String, String > data)
     {
