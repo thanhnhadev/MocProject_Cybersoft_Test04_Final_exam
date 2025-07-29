@@ -10,11 +10,10 @@ import org.openqa.selenium.safari.SafariDriver;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.Optional;
-import org.testng.annotations.Parameters;
+import org.testng.ITestResult;
+import org.testng.annotations.*;
 import utils.Helper.PropertiesHelper;
+import utils.reports.CaptureReport;
 
 import java.time.Duration;
 
@@ -95,15 +94,17 @@ public class BaseSetup {
             throw new RuntimeException(e);
         }
     }
-    @AfterClass
-    public static void closeBrowser()  {
+    @AfterMethod
+    public static void closeBrowser(ITestResult iTestResult)  {
+        //chụp màng hình khi testcase fail, ngược lại không chụp
+        if (ITestResult.FAILURE== iTestResult.getStatus()){
+            CaptureReport.captureScreenshot(driver, iTestResult.getName());
+        }
         try {
             Thread.sleep(2000);
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
-        if(driver!=null){
-            driver.quit();
-        }
+        driver.quit();
     }
 }

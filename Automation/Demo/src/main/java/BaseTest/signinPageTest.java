@@ -3,26 +3,27 @@ package BaseTest;
 
 import Base.BaseSetup;
 import BasePages.signinPage;
-import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
-import utils.Constants.ConfigData;
 import utils.Constants.DataFactory;
-import utils.Helper.ExcelHelper;
-import utils.Helper.PropertiesHelper;
 import utils.LogUtils;
+import utils.reports.CaptureReport;
 
 import java.util.Hashtable;
 
 public class signinPageTest extends BaseSetup {
     signinPage signinPageTest;
 
-    @Test(priority = 1, dataProvider = "data_Login_Excel", dataProviderClass = DataFactory.class)
+    @Test(priority = 1,testName = "tc_01", dataProvider = "data_Login_Excel", dataProviderClass = DataFactory.class)
     public void verifyLoginSucess(Hashtable< String, String > data){
         try {
+            CaptureReport.startRecord("Login_success");
             signinPageTest = new signinPage(driver);
             signinPageTest.login(
                     data.get("username"),
                     data.get("password"));
+            CaptureReport.captureScreenshot(driver, "Login_success");
+            sleep(5);
+            CaptureReport.stopRecord();
             signinPageTest.verifyLoginSuccsess();
         } catch (Exception e) {
             e.getMessage();
