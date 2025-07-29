@@ -36,8 +36,8 @@ public class signinPageTest extends BaseSetup {
             excelHelper.setExcelFile(ConfigData.Excel,"Login");
             signinPageTest = new signinPage(driver);
             signinPageTest.login(
-                    excelHelper.getCellData("username",2),
-                    excelHelper.getCellData("password",2)
+                    excelHelper.getCellData("username",1),
+                    excelHelper.getCellData("password",1)
             );
             signinPageTest.verifyLoginSuccsess();
         } catch (Exception e) {

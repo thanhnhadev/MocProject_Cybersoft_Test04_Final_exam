@@ -36,7 +36,8 @@ public class joinPage {
     }
     public void TitlePage(){
         wait.until(ExpectedConditions.visibilityOfElementLocated(Title));
-        driver.findElement(Title).getText();
+       String title= driver.findElement(Title).getText();
+        System.out.println(title);
     }
     public void fieldUserName(String name){
         wait.until(ExpectedConditions.visibilityOfElementLocated(ip_YourName));
@@ -104,6 +105,7 @@ public class joinPage {
         driver.findElement(submit).click();
     }
     public void verifyRegisterSuccsess(){
+        this.submitButton();
         Assert.assertFalse(driver.getCurrentUrl().contains("authentication"),"fail van login");
     }
     public void login(){
@@ -123,8 +125,7 @@ public class joinPage {
         this.datePicker(datetimes);
         this.optionChecked();
         this.cbAgree();
-        sleep(2);
-        this.submitButton();
+
         this.verifyRegisterSuccsess();
         return new HomePage(driver);
     }
@@ -132,7 +133,6 @@ public class joinPage {
     public HomePage registerLogin(){
         driver.get(ConfigData.registerUrl);
         this.TitlePage();
-        sleep(2);
         this.login();
         return new HomePage(driver);
     }
