@@ -28,7 +28,7 @@ public  class joinPageTest extends BaseSetup {
             excelHelper.setCellData("Aty05121995", 3, 1);
             excelHelper.setCellData("tynguyen", 2, 1);
             excelHelper.setCellData("0912345678", 4, 1);
-            excelHelper.setCellData("22/11/2014", 5, 1);
+            excelHelper.setCellData("22112014", 5, 1);
             joinPageTest.register(
                     data.get("name"),
                     data.get("username"),

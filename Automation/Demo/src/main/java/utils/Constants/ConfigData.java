@@ -20,4 +20,7 @@ public class ConfigData {
     public static String profileUrl=PropertiesHelper.getValue("url_profile");
     public static String headerProfileUrl="(//*[contains(@class,'header_navbar')]/ul/li)[6]";
     public static  String regexNumber = PropertiesHelper.getValue("regexNumber");
+    public static String emailRegex = PropertiesHelper.getValue("emailRegex");
+    public static String phoneRegex = PropertiesHelper.getValue("phoneRegex");
+    public static String expectedFormat = PropertiesHelper.getValue("expectedFormat");
 }

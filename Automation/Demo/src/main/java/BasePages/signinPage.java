@@ -12,6 +12,7 @@ import utils.Helper.ExcelHelper;
 import java.time.Duration;
 
 import static Base.BaseSetup.sleep;
+import static utils.Constants.ConfigData.emailRegex;
 
 public class signinPage {
     private WebDriver driver;
@@ -30,8 +31,16 @@ public class signinPage {
         driver.findElement(Title).getText();
     }
     public void fieldUserID(String email){
-        wait.until(ExpectedConditions.visibilityOfElementLocated(UserID));
-        driver.findElement(UserID).sendKeys(email);
+        if (email.matches(emailRegex)) {
+            wait.until(ExpectedConditions.visibilityOfElementLocated(UserID));
+            driver.findElement(UserID).clear(); // Xóa trước khi nhập
+            driver.findElement(UserID).sendKeys(email);
+            System.out.println("Email hợp lệ: " + email);
+        } else {
+            System.out.println("Email không hợp lệ: " + email);
+            // Có thể ném exception nếu muốn dừng quá trình
+            // throw new IllegalArgumentException("Định dạng email không hợp lệ: " + email);
+        }
     }
     public void fiedPassword(String password){
         wait.until(ExpectedConditions.visibilityOfElementLocated(Passsword));

@@ -12,8 +12,7 @@ import utils.Constants.ConfigData;
 import java.time.Duration;
 import java.util.regex.Pattern;
 
-import static Base.BaseSetup.sleep;
-import static utils.Constants.ConfigData.regexNumber;
+import static utils.Constants.ConfigData.*;
 
 public class joinPage {
     private WebDriver driver;
@@ -44,8 +43,16 @@ public class joinPage {
         driver.findElement(ip_YourName).sendKeys(name);
     }
     public void fieldEmailID(String email){
-        wait.until(ExpectedConditions.visibilityOfElementLocated(UserID));
-        driver.findElement(UserID).sendKeys(email);
+        if (email.matches(emailRegex)) {
+            wait.until(ExpectedConditions.visibilityOfElementLocated(UserID));
+            driver.findElement(UserID).clear(); // Xóa trước khi nhập
+            driver.findElement(UserID).sendKeys(email);
+            System.out.println("Email hợp lệ: " + email);
+        } else {
+            System.out.println("Email không hợp lệ: " + email);
+            // Có thể ném exception nếu muốn dừng quá trình
+            // throw new IllegalArgumentException("Định dạng email không hợp lệ: " + email);
+        }
     }
     public void fiedPassword(String password){
         wait.until(ExpectedConditions.visibilityOfElementLocated(Passsword));
@@ -67,8 +74,16 @@ public class joinPage {
         return true;
     }
     public void phoneNumber(String phone){
-        wait.until(ExpectedConditions.visibilityOfElementLocated(numberPhone));
-        driver.findElement(numberPhone).sendKeys(phone);
+        if (phone.matches(phoneRegex)) {
+            wait.until(ExpectedConditions.visibilityOfElementLocated(numberPhone));
+            driver.findElement(numberPhone).clear(); // Xóa trước khi nhập
+            driver.findElement(numberPhone).sendKeys(phone);
+            System.out.println("Số điện thoại hợp lệ: " + phone);
+        } else {
+            System.out.println("Số điện thoại không hợp lệ: " + phone);
+            // Có thể throw lỗi nếu cần
+            // throw new IllegalArgumentException("Số điện thoại không hợp lệ: " + phone);
+        }
     }
     public void datePicker(String datetimes){
         wait.until(ExpectedConditions.visibilityOfElementLocated(datetime));
@@ -122,7 +137,6 @@ public class joinPage {
         this.verifyRegisterSuccsess();
         return new HomePage(driver);
     }
-
     public HomePage registerLogin(){
         driver.get(ConfigData.registerUrl);
         this.TitlePage();
