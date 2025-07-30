@@ -126,6 +126,7 @@ public class joinPage {
     private void submitButton(){
         wait.until(ExpectedConditions.visibilityOfElementLocated(submit));
         driver.findElement(submit).click();
+        LogUtils.info("Register Successfully");
     }
     public void verifyRegisterSuccsess(){
         Assert.assertFalse(driver.getCurrentUrl().contains("authentication"),"fail van login");

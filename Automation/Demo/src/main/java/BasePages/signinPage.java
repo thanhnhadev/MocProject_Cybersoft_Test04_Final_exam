@@ -58,10 +58,10 @@ public class signinPage {
        driver.findElement(btnLogin).click();
        LogUtils.info("Login Successfully");
     }
-    public void verifyLoginSuccsess(){
+    public boolean verifyLoginSuccsess(){
         Assert.assertFalse(driver.getCurrentUrl().contains("authentication"),"fail van login");
         LogUtils.error("Login Fail");
-
+        return false;
     }
     public HomePage login(String email, String password){
         try{
