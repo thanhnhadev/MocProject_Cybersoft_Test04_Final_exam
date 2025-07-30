@@ -104,24 +104,5 @@ public class CaptureReport extends ScreenRecorder{
             System.out.println("Exception while taking screenshot: " + e.getMessage());
         }
     }
-//    public static void takeScreenshot(WebDriver driver, String screenshotName) {
-//        // Tạo tham chiếu của TakesScreenshot
-//        TakesScreenshot ts = (TakesScreenshot) driver;
-//        // Gọi hàm để chụp ảnh màn hình - getScreenshotAs
-//        File source = ts.getScreenshotAs(OutputType.FILE);
-//        // Kiểm tra folder tồn tại. Nếu không thì tạo mới folder theo đường dẫn
-////        File theDir = new File("screenshots");
-//        File theDir = new File(SystemHelper.getCurrentDir()+ PropertiesHelper.getValue("SCREENSHOT_PATH"));
-//        if (!theDir.exists()) {
-//            theDir.mkdirs();
-//        }
-//        //Lưu file ảnh với tên cụ thể vào đường dẫn
-//        try {
-////            FileHandler.copy(source, new File("screenshots/" + screenshotName + ".png"));
-//            FileHandler.copy(source, new File(SystemHelper.getCurrentDir()+ PropertiesHelper.getValue("SCREENSHOT_PATH") + screenshotName + ".png"));
-//            System.out.println("Take screenshot" + screenshotName + " successfully");
-//        } catch (IOException e) {
-//            System.out.println("error. can not take screenshot" + screenshotName + ".");
-//        }
-//    }
+//
 }
