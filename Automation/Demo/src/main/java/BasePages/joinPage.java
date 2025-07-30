@@ -8,6 +8,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import utils.Constants.ConfigData;
+import utils.Logs.LogUtils;
 
 import java.time.Duration;
 import java.util.regex.Pattern;
@@ -36,7 +37,7 @@ public class joinPage {
     public void TitlePage(){
         wait.until(ExpectedConditions.visibilityOfElementLocated(Title));
        String title= driver.findElement(Title).getText();
-        System.out.println(title);
+        LogUtils.info("Title Page Register:"+title);
     }
     public void fieldUserName(String name){
         if (name.matches(nameRegex)) {
@@ -44,9 +45,9 @@ public class joinPage {
             WebElement inputName = driver.findElement(ip_YourName);
             inputName.clear(); // Xóa trước khi nhập
             inputName.sendKeys(name);
-            System.out.println("Tên hợp lệ: " + name);
+            LogUtils.info("name:"+name);
         } else {
-            System.out.println("Tên không hợp lệ (không được chứa số hoặc ký tự đặc biệt): " + name);
+            LogUtils.info("Tên không hợp lệ (không được chứa số hoặc ký tự đặc biệt): " + name);
             // throw new IllegalArgumentException("Tên không hợp lệ: " + name);
         }
     }
@@ -55,9 +56,10 @@ public class joinPage {
             wait.until(ExpectedConditions.visibilityOfElementLocated(UserID));
             driver.findElement(UserID).clear(); // Xóa trước khi nhập
             driver.findElement(UserID).sendKeys(email);
-            System.out.println("Email hợp lệ: " + email);
+            LogUtils.info("Email hợp lệ: " + email);
+
         } else {
-            System.out.println("Email không hợp lệ: " + email);
+            LogUtils.info("Email không hợp lệ: " + email);
             // Có thể ném exception nếu muốn dừng quá trình
             // throw new IllegalArgumentException("Định dạng email không hợp lệ: " + email);
         }
@@ -65,18 +67,20 @@ public class joinPage {
     public void fiedPassword(String password){
         wait.until(ExpectedConditions.visibilityOfElementLocated(Passsword));
         driver.findElement(Passsword).sendKeys(password);
+        LogUtils.info("password: " + password);
     }
     public void fiedRePassword(String re_password){
         wait.until(ExpectedConditions.visibilityOfElementLocated(rePassword));
         driver.findElement(rePassword).sendKeys(re_password);
+        LogUtils.info("Re_password: " + re_password);
     }
     public boolean checkPassword(){
         if (!Pattern.matches(regexNumber, ConfigData.pw)) {
-            System.out.println("Mật khẩu phải có độ dài từ 6 đến 32 ký tự.");
+            LogUtils.info("password has lens 6 to 32 charater.");
             return false;
         }
         if (!ConfigData.pw.equals(ConfigData.re_pw)) {
-            System.out.println("Mật khẩu và mật khẩu nhập lại không khớp.");
+            LogUtils.info("password and re_password fail.");
             return false;
         }
         return true;
@@ -86,9 +90,9 @@ public class joinPage {
             wait.until(ExpectedConditions.visibilityOfElementLocated(numberPhone));
             driver.findElement(numberPhone).clear(); // Xóa trước khi nhập
             driver.findElement(numberPhone).sendKeys(phone);
-            System.out.println("Số điện thoại hợp lệ: " + phone);
+            LogUtils.info("Số điện thoại hợp lệ: " + phone);
         } else {
-            System.out.println("Số điện thoại không hợp lệ: " + phone);
+            LogUtils.info("Số điện thoại không hợp lệ: " + phone);
             // Có thể throw lỗi nếu cần
             // throw new IllegalArgumentException("Số điện thoại không hợp lệ: " + phone);
         }
@@ -96,18 +100,19 @@ public class joinPage {
     public void datePicker(String datetimes){
         wait.until(ExpectedConditions.visibilityOfElementLocated(datetime));
         driver.findElement(datetime).sendKeys(datetimes);
+        LogUtils.info("birthday: " + datetimes);
     }
     private void optionChecked(){
         WebElement maleRadioButton = driver.findElement(By.xpath(option1));
         WebElement femaleRadioButton = driver.findElement(By.xpath(option2));
         if(!maleRadioButton.isSelected()){
             maleRadioButton.click();
-            System.out.println("gender is: Male");
+            LogUtils.info("gender is: Male");
         }else if(!femaleRadioButton.isSelected()){
             femaleRadioButton.click();
-            System.out.println("gender is: Female");
+            LogUtils.info("gender is: Female");
         }else {
-            System.out.println("please chossen: Male or Female");
+            LogUtils.info("please chossen: Male or Female");
         }
     }
     private void cbAgree(){
@@ -116,6 +121,7 @@ public class joinPage {
         if (!checkboxRemember.isSelected()) {
             checkboxRemember.click();
         }
+        LogUtils.info("click Agree "+checkboxRemember);
     }
     private void submitButton(){
         wait.until(ExpectedConditions.visibilityOfElementLocated(submit));
@@ -123,14 +129,17 @@ public class joinPage {
     }
     public void verifyRegisterSuccsess(){
         Assert.assertFalse(driver.getCurrentUrl().contains("authentication"),"fail van login");
+        LogUtils.info("Register Fail");
     }
     public void login(){
         wait.until(ExpectedConditions.visibilityOfElementLocated(alreadyMember));
         driver.findElement(alreadyMember).click();
+        LogUtils.info("Go To Page Login"+alreadyMember);
     }
     public HomePage register(String name,String email, String password,String re_password,String phone,String datetimes)
     {
         driver.get(ConfigData.registerUrl);
+        LogUtils.info("This is Page Register");
         this.TitlePage();
         this.fieldUserName(name);
         this.fieldEmailID(email);
@@ -147,6 +156,7 @@ public class joinPage {
     }
     public HomePage registerLogin(){
         driver.get(ConfigData.registerUrl);
+        LogUtils.info("This is Page Register");
         this.TitlePage();
         this.login();
         return new HomePage(driver);

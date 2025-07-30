@@ -29,35 +29,39 @@ public class signinPage {
     public void titlePage(){
         wait.until(ExpectedConditions.visibilityOfElementLocated(Title));
         driver.findElement(Title).getText();
+        LogUtils.info("Title Page Login:"+Title);
     }
     public void fieldUserID(String email){
         if (email.matches(emailRegex)) {
             wait.until(ExpectedConditions.visibilityOfElementLocated(UserID));
             driver.findElement(UserID).clear(); // Xóa trước khi nhập
             driver.findElement(UserID).sendKeys(email);
-            System.out.println("Email hợp lệ: " + email);
             LogUtils.info("Email hợp lệ: " + email);
         } else {
-            System.out.println("Email không hợp lệ: " + email);
             LogUtils.info("Email không hợp lệ: " + email);
             // Có thể ném exception nếu muốn dừng quá trình
-            // throw new IllegalArgumentException("Định dạng email không hợp lệ: " + email);
+//             throw new IllegalArgumentException("Định dạng email không hợp lệ: " + email);
         }
     }
     public void fiedPassword(String password){
         wait.until(ExpectedConditions.visibilityOfElementLocated(Passsword));
         driver.findElement(Passsword).sendKeys(password);
+        LogUtils.info("Password:"+password);
     }
     private  void a_Resgister(){
         wait.until(ExpectedConditions.visibilityOfElementLocated(aResgister));
         driver.findElement(aResgister).click();
+        LogUtils.info("Go to Page Register");
     }
     private void loginButton(){
         wait.until(ExpectedConditions.visibilityOfElementLocated(btnLogin));
-        driver.findElement(btnLogin).click();
+       driver.findElement(btnLogin).click();
+       LogUtils.info("Login Successfully");
     }
     public void verifyLoginSuccsess(){
         Assert.assertFalse(driver.getCurrentUrl().contains("authentication"),"fail van login");
+        LogUtils.error("Login Fail");
+
     }
     public HomePage login(String email, String password){
         try{

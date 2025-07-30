@@ -1,11 +1,22 @@
-[INFO] 30-07-2025 11:06:31 [main] LogUtils - #########
-[INFO] 30-07-2025 11:06:31 [main] LogUtils - *****Demo***
-[INFO] 30-07-2025 11:06:34 [TestNG-PoolService-1] LogUtils - Running test case verifyLoginSucess
-[INFO] 30-07-2025 11:06:38 [TestNG-PoolService-1] LogUtils - Email hợp lệ: thanhnhav@gmail.com
-[INFO] 30-07-2025 11:06:39 [TestNG-PoolService-1] LogUtils - Test case verifyLoginSucess is passed.
-[INFO] 30-07-2025 11:06:43 [TestNG-PoolService-1] LogUtils - Running test case verifyLoginFail
-[INFO] 30-07-2025 11:07:03 [TestNG-PoolService-1] LogUtils - Test case verifyLoginFail is passed.
-[INFO] 30-07-2025 11:07:07 [main] LogUtils - Running test case goToPageRester
-[INFO] 30-07-2025 11:07:07 [main] LogUtils - Go to Page Resgiter Pass
-[INFO] 30-07-2025 11:07:10 [main] LogUtils - Test case goToPageRester is passed.
-[INFO] 30-07-2025 11:07:12 [main] LogUtils - End testing Demo
+[INFO] 30-07-2025 14:01:40 [main] LogUtils - #########
+[INFO] 30-07-2025 14:01:40 [main] LogUtils - *****Demo***
+[INFO] 30-07-2025 14:01:41 [main] LogUtils - Login Data from Excel: [[Ljava.lang.Object;@cc239ba
+[INFO] 30-07-2025 14:01:43 [TestNG-PoolService-1] LogUtils - Running test case verifyLoginSucess
+[INFO] 30-07-2025 14:01:45 [TestNG-PoolService-1] LogUtils - Title Page Login:By.xpath: //h2[normalize-space()='Sign In to Fiverr']
+[INFO] 30-07-2025 14:01:45 [TestNG-PoolService-1] LogUtils - Email hợp lệ: thanhnhav@gmail.com
+[INFO] 30-07-2025 14:01:45 [TestNG-PoolService-1] LogUtils - Password:Aty05121995
+[INFO] 30-07-2025 14:01:46 [TestNG-PoolService-1] LogUtils - Login Successfully
+[ERROR] 30-07-2025 14:01:46 [TestNG-PoolService-1] LogUtils - Login Fail
+[INFO] 30-07-2025 14:01:46 [TestNG-PoolService-1] LogUtils - Test case verifyLoginSucess is passed.
+[INFO] 30-07-2025 14:01:48 [main] LogUtils - Login Data from Excel: [[Ljava.lang.Object;@5246a3b3
+[INFO] 30-07-2025 14:01:50 [TestNG-PoolService-1] LogUtils - Running test case verifyLoginFail
+[INFO] 30-07-2025 14:01:51 [TestNG-PoolService-1] LogUtils - Title Page Login:By.xpath: //h2[normalize-space()='Sign In to Fiverr']
+[INFO] 30-07-2025 14:01:52 [TestNG-PoolService-1] LogUtils - Email hợp lệ: htk@gmail.com
+[INFO] 30-07-2025 14:01:52 [TestNG-PoolService-1] LogUtils - Password:12345
+[INFO] 30-07-2025 14:01:52 [TestNG-PoolService-1] LogUtils - Login Successfully
+[ERROR] 30-07-2025 14:01:52 [TestNG-PoolService-1] LogUtils - Login Fail
+[INFO] 30-07-2025 14:01:52 [TestNG-PoolService-1] LogUtils - Test case verifyLoginFail is passed.
+[INFO] 30-07-2025 14:01:56 [main] LogUtils - Running test case goToPageRester
+[INFO] 30-07-2025 14:01:58 [main] LogUtils - Go to Page Register
+[INFO] 30-07-2025 14:01:58 [main] LogUtils - Test case goToPageRester is passed.
+[INFO] 30-07-2025 14:02:00 [main] LogUtils - End testing Demo
