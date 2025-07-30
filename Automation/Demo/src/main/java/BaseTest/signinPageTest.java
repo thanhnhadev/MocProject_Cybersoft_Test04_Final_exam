@@ -5,7 +5,7 @@ import Base.BaseSetup;
 import BasePages.signinPage;
 import org.testng.annotations.Test;
 import utils.Constants.DataFactory;
-import utils.LogUtils;
+import utils.Logs.LogUtils;
 import utils.reports.CaptureReport;
 
 import java.util.Hashtable;

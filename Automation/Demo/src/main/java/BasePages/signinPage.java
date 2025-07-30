@@ -7,6 +7,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
+import utils.Logs.LogUtils;
 
 import java.time.Duration;
 
@@ -35,8 +36,10 @@ public class signinPage {
             driver.findElement(UserID).clear(); // Xóa trước khi nhập
             driver.findElement(UserID).sendKeys(email);
             System.out.println("Email hợp lệ: " + email);
+            LogUtils.info("Email hợp lệ: " + email);
         } else {
             System.out.println("Email không hợp lệ: " + email);
+            LogUtils.info("Email không hợp lệ: " + email);
             // Có thể ném exception nếu muốn dừng quá trình
             // throw new IllegalArgumentException("Định dạng email không hợp lệ: " + email);
         }

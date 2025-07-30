@@ -8,12 +8,11 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import utils.Constants.ConfigData;
-import utils.LogUtils;
+import utils.Logs.LogUtils;
 
 import java.time.Duration;
 import java.util.List;
 
-import static Base.BaseSetup.sleep;
 import static Locator.Locator_CMS.*;
 
 public class profilePage {

@@ -1,15 +1,12 @@
 package BaseTest;
 
 import Base.BaseSetup;
-import BasePages.HomePage;
 import BasePages.joinPage;
-import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 import utils.Constants.ConfigData;
 import utils.Constants.DataFactory;
 import utils.Helper.ExcelHelper;
-import utils.Helper.PropertiesHelper;
-import utils.LogUtils;
+import utils.Logs.LogUtils;
 
 import java.util.Hashtable;
 
