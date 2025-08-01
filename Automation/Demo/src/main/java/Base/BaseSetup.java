@@ -25,7 +25,6 @@ public class BaseSetup {
         return this.header;
     }
     public static void createBrowser(){
-//        System.setProperty("webdriver.http.factory", "jdk-http-client");
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
@@ -60,33 +59,33 @@ public class BaseSetup {
         driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(20));
     }
     //Chờ đợi trang load xong mới thao tác
-    public void waitForPageLoaded() {
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30), Duration.ofMillis(500));
-        JavascriptExecutor js = (JavascriptExecutor) driver;
-
-        //Wait for Javascript to load
-        ExpectedCondition<Boolean> jsLoad = new ExpectedCondition<Boolean>() {
-            @Override
-            public Boolean apply(WebDriver driver) {
-                return js.executeScript("return document.readyState").toString().equals("complete");
-            }
-        };
-
-        //Check JS is Ready
-        boolean jsReady = js.executeScript("return document.readyState").toString().equals("complete");
-
-        //Wait Javascript until it is Ready!
-        if (!jsReady) {
-            System.out.println("Javascript is NOT Ready.");
-            //Wait for Javascript to load
-            try {
-                wait.until(jsLoad);
-            } catch (Throwable error) {
-                error.printStackTrace();
-                Assert.fail("FAILED. Timeout waiting for page load.");
-            }
-        }
-    }
+//    public void waitForPageLoaded() {
+//        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30), Duration.ofMillis(500));
+//        JavascriptExecutor js = (JavascriptExecutor) driver;
+//
+//        //Wait for Javascript to load
+//        ExpectedCondition<Boolean> jsLoad = new ExpectedCondition<Boolean>() {
+//            @Override
+//            public Boolean apply(WebDriver driver) {
+//                return js.executeScript("return document.readyState").toString().equals("complete");
+//            }
+//        };
+//
+//        //Check JS is Ready
+//        boolean jsReady = js.executeScript("return document.readyState").toString().equals("complete");
+//
+//        //Wait Javascript until it is Ready!
+//        if (!jsReady) {
+//            System.out.println("Javascript is NOT Ready.");
+//            //Wait for Javascript to load
+//            try {
+//                wait.until(jsLoad);
+//            } catch (Throwable error) {
+//                error.printStackTrace();
+//                Assert.fail("FAILED. Timeout waiting for page load.");
+//            }
+//        }
+//    }
     public static void sleep(double second){
         try {
             Thread.sleep((long) (100*second));
@@ -101,7 +100,7 @@ public class BaseSetup {
             CaptureReport.captureScreenshot(driver, iTestResult.getName());
         }
         try {
-            Thread.sleep(2000);
+            Thread.sleep(200);
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }

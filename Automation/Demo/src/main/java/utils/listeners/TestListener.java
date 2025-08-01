@@ -53,9 +53,7 @@ public class TestListener implements ITestListener {
         CaptureReport.stopRecord();
         //Extent Report
         ExtentTestManager.logMessage(Status.PASS, result.getName() + " is passed.");
-        //Allure Report
-        AllureManager.saveTextLog(result.getName() + " is pass.");
-        AllureManager.saveScreenshotPNG();
+
     }
 
     @Override
@@ -64,15 +62,12 @@ public class TestListener implements ITestListener {
         //Screenshot khi fail
         CaptureReport.captureScreenshot(driver,result.getName());
         LogUtils.error(result.getThrowable().toString());
-
         //Extent Report
-        ExtentTestManager.addScreenshot(result.getName());
+        ExtentTestManager.addScreenshot(driver,result.getName());
         ExtentTestManager.logMessage(Status.FAIL, result.getThrowable().toString());
         ExtentTestManager.logMessage(Status.FAIL, result.getName() + " is failed.");
 
-        //Allure Report
-        AllureManager.saveTextLog(result.getName() + " is failed.");
-        AllureManager.saveScreenshotPNG();
+
     }
 
     @Override

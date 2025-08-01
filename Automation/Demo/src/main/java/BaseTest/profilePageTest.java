@@ -26,7 +26,6 @@ public class profilePageTest extends BaseSetup {
                     data.get("username"),
                     data.get("password")
             );
-            sleep(2);
             profilePageTest= new profilePage(driver);
             LogUtils.info("login sucessfully");
             //update profile
@@ -46,7 +45,6 @@ public class profilePageTest extends BaseSetup {
                     data.get("username"),
                     data.get("password")
             );
-            sleep(2);
             profilePageTest= new profilePage(driver);
             profilePageTest.RemoveCartItem(PropertiesHelper.getValue(ConfigData.contentItem));
         } catch (Exception e) {
