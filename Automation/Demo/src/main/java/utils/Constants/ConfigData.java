@@ -4,6 +4,7 @@ import utils.Helper.PropertiesHelper;
 
 public class ConfigData {
     public static final String Excel="src/main/java/utils/TestData/UserData.xlsx";
+    public static final String Data="src/main/java/utils/Config/configs.properties";
     public static final String base_url="url_browse";
     public static  String signinUrl = PropertiesHelper.getValue("url");
     public static String userEmailId=PropertiesHelper.getValue("email");

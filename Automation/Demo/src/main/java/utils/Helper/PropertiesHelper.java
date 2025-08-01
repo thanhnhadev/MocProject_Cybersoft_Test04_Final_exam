@@ -1,5 +1,7 @@
 package utils.Helper;
 
+import utils.Constants.ConfigData;
+
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -11,12 +13,12 @@ public class PropertiesHelper {
     private static String linkFile;
     private static FileInputStream file;
     private static FileOutputStream out;
-    private static String relPropertiesFilePathDefault = "src/main/java/utils/Config/configs.properties";
+    private static String relPropertiesFilePathDefault = ConfigData.Data;
 
     public static Properties loadAllFiles() {
         LinkedList<String> files = new LinkedList<>();
         // Add tất cả file Properties vào đây theo mẫu
-        files.add("src/main/java/utils/Config/configs.properties");
+        files.add(ConfigData.Data);
 //        files.add("src/test/resources/configs/local.properties");
 //        files.add("src/test/resources/configs/production.properties");
 
