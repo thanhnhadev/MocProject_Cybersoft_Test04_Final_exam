@@ -7,6 +7,7 @@ import org.testng.ITestListener;
 import org.testng.ITestResult;
 import utils.Helper.PropertiesHelper;
 import utils.Logs.LogUtils;
+import utils.reports.AllureManager;
 import utils.reports.CaptureReport;
 import utils.reports.ExtentReportManager;
 import utils.reports.ExtentTestManager;
@@ -52,6 +53,9 @@ public class TestListener implements ITestListener {
         CaptureReport.stopRecord();
         //Extent Report
         ExtentTestManager.logMessage(Status.PASS, result.getName() + " is passed.");
+        //Allure Report
+        AllureManager.saveTextLog(result.getName() + " is pass.");
+        AllureManager.saveScreenshotPNG();
     }
 
     @Override
@@ -65,6 +69,10 @@ public class TestListener implements ITestListener {
         ExtentTestManager.addScreenshot(result.getName());
         ExtentTestManager.logMessage(Status.FAIL, result.getThrowable().toString());
         ExtentTestManager.logMessage(Status.FAIL, result.getName() + " is failed.");
+
+        //Allure Report
+        AllureManager.saveTextLog(result.getName() + " is failed.");
+        AllureManager.saveScreenshotPNG();
     }
 
     @Override
