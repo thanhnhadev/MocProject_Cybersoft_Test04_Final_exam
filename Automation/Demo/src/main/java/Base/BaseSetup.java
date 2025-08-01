@@ -27,7 +27,7 @@ public class BaseSetup {
     public static void createBrowser(){
 //        System.setProperty("webdriver.http.factory", "jdk-http-client");
         driver = new ChromeDriver();
-//        driver.manage().window().maximize();
+        driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(10));
 
@@ -56,7 +56,7 @@ public class BaseSetup {
         }
 
         driver.manage().window().maximize();
-        //driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20)); //Dành cho Junior
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
         driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(20));
     }
     //Chờ đợi trang load xong mới thao tác

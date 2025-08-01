@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="SuiteProductPage" verbose="1" parallel="methods" >
+    <parameter name="browser" value="chrome"/>
+    <test name="ProductPage" parallel="tests">
+        <classes>
+            <class name="BaseTest.productPageTest">
+                <methods/>
+            </class>
+        </classes>
+    </test>
+
+</suite>

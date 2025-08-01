@@ -18,7 +18,7 @@ public class profilePageTest extends BaseSetup {
     profilePage profilePageTest;
     signinPage signinPageTest;
     @Test(priority = 1,dataProvider = "data_Login_Excel", dataProviderClass = DataFactory.class)
-    public void verifyUser(Hashtable< String, String > data)
+    public void verifyUpdateUser(Hashtable< String, String > data)
     {
         try {
             signinPageTest= new signinPage(driver);
@@ -29,6 +29,7 @@ public class profilePageTest extends BaseSetup {
             sleep(2);
             profilePageTest= new profilePage(driver);
             LogUtils.info("login sucessfully");
+            //update profile
             profilePageTest.openPodup();
         } catch (Exception e) {
             e.getMessage();
@@ -36,7 +37,7 @@ public class profilePageTest extends BaseSetup {
     }
 
     @Test(priority =2,dataProvider = "data_Login_Excel", dataProviderClass = DataFactory.class)
-    public void dataUser(Hashtable< String, String > data){
+    public void removeDataUser(Hashtable< String, String > data){
         try {
             ExcelHelper excelHelper = new ExcelHelper();
             excelHelper.setExcelFile(ConfigData.Excel,"Login");

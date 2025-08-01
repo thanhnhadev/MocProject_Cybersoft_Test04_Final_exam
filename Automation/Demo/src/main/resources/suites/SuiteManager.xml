@@ -1,14 +1,14 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
-<suite name="Suite" verbose="1" parallel="methods">
-    <parameter name="browser" value="chrome"></parameter>
-    <parameter name="email" value="admin@example.com"></parameter>
-    <parameter name="password" value="123456"></parameter>
-    <test name="HomePage" parallel="tests">
-        <classes>
-            <class name="BaseTest.HomePageTest">
-                <methods/>
-            </class>
-        </classes>
+<suite name="SuiteManager" verbose="1">
+    <test name="FirstTest">
+        <packages>
+            <package name="BaseTest.HomePageTest"/>
+            <package name="BaseTest.profilePageTest"/>
+            <package name="BaseTest.detailProductPageTest"/>
+            <package name="BaseTest.signinPageTest"/>
+            <package name="BaseTest.profilePageTest"/>
+            <package name="BaseTest.joinPageTest"/>
+        </packages>
     </test>
 </suite>
