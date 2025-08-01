@@ -1,14 +1,46 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
-<suite name="SuiteManager" verbose="1">
-    <test name="FirstTest">
-        <packages>
-            <package name="BaseTest.HomePageTest"/>
-            <package name="BaseTest.profilePageTest"/>
-            <package name="BaseTest.detailProductPageTest"/>
-            <package name="BaseTest.signinPageTest"/>
-            <package name="BaseTest.profilePageTest"/>
-            <package name="BaseTest.joinPageTest"/>
-        </packages>
+<suite name="SuiteManager" verbose="1" parallel="methods">
+    <test name="HomePage" parallel="tests">
+        <classes>
+            <class name="BaseTest.HomePageTest">
+                <methods/>
+            </class>
+        </classes>
+    </test>
+    <test name="ProductPage" parallel="tests">
+        <classes>
+            <class name="BaseTest.productPageTest">
+                <methods/>
+            </class>
+        </classes>
+    </test>
+    <test name="detailProductPage" parallel="tests">
+        <classes>
+            <class name="BaseTest.detailProductPageTest">
+                <methods/>
+            </class>
+        </classes>
+    </test>
+    <test name="LoginTest" parallel="tests">
+        <classes>
+            <class name="BaseTest.signinPageTest">
+                <methods/>
+            </class>
+        </classes>
+    </test>
+    <test name="ProfileTest" parallel="tests">
+        <classes>
+            <class name="BaseTest.profilePageTest">
+                <methods/>
+            </class>
+        </classes>
+    </test>
+    <test name="RegisterTest" parallel="tests">
+        <classes>
+            <class name="BaseTest.joinPageTest">
+                <methods/>
+            </class>
+        </classes>
     </test>
 </suite>

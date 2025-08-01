@@ -1,0 +1,109 @@
+[INFO] 01-08-2025 08:37:28 [main] LogUtils - #########
+[INFO] 01-08-2025 08:37:28 [main] LogUtils - *****HomePage***
+[INFO] 01-08-2025 08:37:28 [main] LogUtils - End testing HomePage
+[INFO] 01-08-2025 08:37:28 [main] LogUtils - #########
+[INFO] 01-08-2025 08:37:28 [main] LogUtils - *****ProductPage***
+[INFO] 01-08-2025 08:37:28 [main] LogUtils - End testing ProductPage
+[INFO] 01-08-2025 08:37:28 [main] LogUtils - #########
+[INFO] 01-08-2025 08:37:28 [main] LogUtils - *****detailProductPage***
+[INFO] 01-08-2025 08:37:28 [main] LogUtils - End testing detailProductPage
+[INFO] 01-08-2025 08:37:29 [main] LogUtils - #########
+[INFO] 01-08-2025 08:37:29 [main] LogUtils - *****LoginTest***
+[INFO] 01-08-2025 08:37:29 [main] LogUtils - Login Data from Excel: [[Ljava.lang.Object;@526a9908
+[INFO] 01-08-2025 08:37:31 [TestNG-PoolService-1] LogUtils - Running test case verifyLoginSucess
+[INFO] 01-08-2025 08:37:34 [TestNG-PoolService-1] LogUtils - Title Page Login:By.xpath: //h2[normalize-space()='Sign In to Fiverr']
+[INFO] 01-08-2025 08:37:35 [TestNG-PoolService-1] LogUtils - Email hợp lệ: thanhnhav@gmail.com
+[INFO] 01-08-2025 08:37:35 [TestNG-PoolService-1] LogUtils - Password:Aty05121995
+[INFO] 01-08-2025 08:37:35 [TestNG-PoolService-1] LogUtils - Login Successfully
+[ERROR] 01-08-2025 08:37:36 [TestNG-PoolService-1] LogUtils - Login Fail
+[INFO] 01-08-2025 08:37:36 [TestNG-PoolService-1] LogUtils - Test case verifyLoginSucess is passed.
+[INFO] 01-08-2025 08:37:39 [main] LogUtils - Login Data from Excel: [[Ljava.lang.Object;@4e642ee1
+[INFO] 01-08-2025 08:37:40 [TestNG-PoolService-1] LogUtils - Running test case verifyLoginFail
+[INFO] 01-08-2025 08:37:44 [TestNG-PoolService-1] LogUtils - Title Page Login:By.xpath: //h2[normalize-space()='Sign In to Fiverr']
+[INFO] 01-08-2025 08:37:44 [TestNG-PoolService-1] LogUtils - Email hợp lệ: htk@gmail.com
+[INFO] 01-08-2025 08:37:44 [TestNG-PoolService-1] LogUtils - Password:12345
+[INFO] 01-08-2025 08:37:45 [TestNG-PoolService-1] LogUtils - Login Successfully
+[ERROR] 01-08-2025 08:37:45 [TestNG-PoolService-1] LogUtils - Login Fail
+[INFO] 01-08-2025 08:37:45 [TestNG-PoolService-1] LogUtils - Test case verifyLoginFail is passed.
+[INFO] 01-08-2025 08:37:49 [main] LogUtils - Running test case goToPageRester
+[INFO] 01-08-2025 08:37:53 [main] LogUtils - Go to Page Register
+[INFO] 01-08-2025 08:37:53 [main] LogUtils - Test case goToPageRester is passed.
+[INFO] 01-08-2025 08:37:55 [main] LogUtils - End testing LoginTest
+[INFO] 01-08-2025 08:37:55 [main] LogUtils - #########
+[INFO] 01-08-2025 08:37:55 [main] LogUtils - *****ProfileTest***
+[INFO] 01-08-2025 08:37:55 [main] LogUtils - Login Data from Excel: [[Ljava.lang.Object;@54e43bfe
+[INFO] 01-08-2025 08:37:57 [TestNG-PoolService-1] LogUtils - Running test case verifyUpdateUser
+[INFO] 01-08-2025 08:37:58 [TestNG-PoolService-1] LogUtils - Title Page Login:By.xpath: //h2[normalize-space()='Sign In to Fiverr']
+[INFO] 01-08-2025 08:37:58 [TestNG-PoolService-1] LogUtils - Email hợp lệ: thanhnhav@gmail.com
+[INFO] 01-08-2025 08:37:58 [TestNG-PoolService-1] LogUtils - Password:Aty05121995
+[INFO] 01-08-2025 08:37:59 [TestNG-PoolService-1] LogUtils - Login Successfully
+[INFO] 01-08-2025 08:37:59 [TestNG-PoolService-1] LogUtils - login sucessfully
+[INFO] 01-08-2025 08:37:59 [TestNG-PoolService-1] LogUtils - click edit account
+[INFO] 01-08-2025 08:37:59 [TestNG-PoolService-1] LogUtils - open podup
+[INFO] 01-08-2025 08:37:59 [TestNG-PoolService-1] LogUtils - Title Podup//h2[contains(normalize-space(),'Update User')]
+[INFO] 01-08-2025 08:37:59 [TestNG-PoolService-1] LogUtils - field_Email: //*[contains(@id,'email')]
+[INFO] 01-08-2025 08:37:59 [TestNG-PoolService-1] LogUtils - field_Phone: 0939018814
+[INFO] 01-08-2025 08:38:00 [TestNG-PoolService-1] LogUtils - field_Name: thanhnhadev@gmail.com
+[INFO] 01-08-2025 08:38:00 [TestNG-PoolService-1] LogUtils - field_brithday: 22/02/2015
+[INFO] 01-08-2025 08:38:00 [TestNG-PoolService-1] LogUtils - gender is: Female click
+[INFO] 01-08-2025 08:38:01 [TestNG-PoolService-1] LogUtils - field_certificate: 56-des87-g7t
+[INFO] 01-08-2025 08:38:01 [TestNG-PoolService-1] LogUtils - field_skill: Js
+[INFO] 01-08-2025 08:38:01 [TestNG-PoolService-1] LogUtils - press button Save
+[INFO] 01-08-2025 08:38:01 [TestNG-PoolService-1] LogUtils - Test case verifyUpdateUser is passed.
+[INFO] 01-08-2025 08:38:03 [main] LogUtils - Login Data from Excel: [[Ljava.lang.Object;@3290b1a6
+[INFO] 01-08-2025 08:38:04 [TestNG-PoolService-1] LogUtils - Running test case removeDataUser
+[INFO] 01-08-2025 08:38:08 [TestNG-PoolService-1] LogUtils - Title Page Login:By.xpath: //h2[normalize-space()='Sign In to Fiverr']
+[INFO] 01-08-2025 08:38:09 [TestNG-PoolService-1] LogUtils - Email hợp lệ: thanhnhav@gmail.com
+[INFO] 01-08-2025 08:38:09 [TestNG-PoolService-1] LogUtils - Password:Aty05121995
+[INFO] 01-08-2025 08:38:09 [TestNG-PoolService-1] LogUtils - Login Successfully
+[INFO] 01-08-2025 08:38:30 [TestNG-PoolService-1] LogUtils - Test case removeDataUser is passed.
+[INFO] 01-08-2025 08:38:32 [main] LogUtils - Login Data from Excel: [[Ljava.lang.Object;@e09f1b6
+[INFO] 01-08-2025 08:38:33 [TestNG-PoolService-1] LogUtils - Running test case detaildataUser
+[INFO] 01-08-2025 08:38:35 [TestNG-PoolService-1] LogUtils - Title Page Login:By.xpath: //h2[normalize-space()='Sign In to Fiverr']
+[INFO] 01-08-2025 08:38:35 [TestNG-PoolService-1] LogUtils - Email hợp lệ: thanhnhav@gmail.com
+[INFO] 01-08-2025 08:38:35 [TestNG-PoolService-1] LogUtils - Password:Aty05121995
+[INFO] 01-08-2025 08:38:35 [TestNG-PoolService-1] LogUtils - Login Successfully
+[INFO] 01-08-2025 08:38:55 [TestNG-PoolService-1] LogUtils - Test case detaildataUser is passed.
+[INFO] 01-08-2025 08:38:57 [main] LogUtils - End testing ProfileTest
+[INFO] 01-08-2025 08:38:58 [main] LogUtils - #########
+[INFO] 01-08-2025 08:38:58 [main] LogUtils - *****RegisterTest***
+[INFO] 01-08-2025 08:38:58 [main] LogUtils - Login Data from Excel: [[Ljava.lang.Object;@673e76b3
+[INFO] 01-08-2025 08:38:59 [main] LogUtils - Running test case verifyRegisterSucess
+[INFO] 01-08-2025 08:39:00 [main] LogUtils - Write Data Successfully
+[INFO] 01-08-2025 08:39:00 [main] LogUtils - This is Page Register
+[INFO] 01-08-2025 08:39:01 [main] LogUtils - Title Page Register:REGISTER
+[INFO] 01-08-2025 08:39:01 [main] LogUtils - name:tynguyen
+[INFO] 01-08-2025 08:39:01 [main] LogUtils - Email hợp lệ: thanhnhav@gmail.com
+[INFO] 01-08-2025 08:39:01 [main] LogUtils - password: Aty05121995
+[INFO] 01-08-2025 08:39:01 [main] LogUtils - Re_password: Aty05121995
+[INFO] 01-08-2025 08:39:02 [main] LogUtils - Số điện thoại hợp lệ: 0912345678
+[INFO] 01-08-2025 08:39:02 [main] LogUtils - birthday: 22112014
+[INFO] 01-08-2025 08:39:02 [main] LogUtils - gender is: Male
+[INFO] 01-08-2025 08:39:02 [main] LogUtils - click Agree [[ChromeDriver: chrome on windows (c72e318833b2e5eb24721c8651ef4ce0)] -> xpath: //*[contains(@id,'agree-term')]]
+[INFO] 01-08-2025 08:39:02 [main] LogUtils - Register Successfully
+[INFO] 01-08-2025 08:39:02 [main] LogUtils - Register Fail
+[INFO] 01-08-2025 08:39:02 [main] LogUtils - Register Fail
+[INFO] 01-08-2025 08:39:02 [main] LogUtils - Test case verifyRegisterSucess is passed.
+[INFO] 01-08-2025 08:39:05 [main] LogUtils - Running test case verifyRegisterSucess
+[INFO] 01-08-2025 08:39:06 [main] LogUtils - Write Data Successfully
+[INFO] 01-08-2025 08:39:09 [main] LogUtils - This is Page Register
+[INFO] 01-08-2025 08:39:09 [main] LogUtils - Title Page Register:REGISTER
+[INFO] 01-08-2025 08:39:09 [main] LogUtils - name:kht
+[INFO] 01-08-2025 08:39:10 [main] LogUtils - Email hợp lệ: htk@gmail.com
+[INFO] 01-08-2025 08:39:10 [main] LogUtils - password: 12345
+[INFO] 01-08-2025 08:39:10 [main] LogUtils - Re_password: 123456
+[INFO] 01-08-2025 08:39:10 [main] LogUtils - Số điện thoại không hợp lệ: 123456
+[INFO] 01-08-2025 08:39:10 [main] LogUtils - birthday: 11022011
+[INFO] 01-08-2025 08:39:10 [main] LogUtils - gender is: Male
+[INFO] 01-08-2025 08:39:10 [main] LogUtils - click Agree [[ChromeDriver: chrome on windows (0e8a3f4bf6467788c2ae14e6a72a8482)] -> xpath: //*[contains(@id,'agree-term')]]
+[INFO] 01-08-2025 08:39:11 [main] LogUtils - Register Successfully
+[INFO] 01-08-2025 08:39:11 [main] LogUtils - Register Fail
+[INFO] 01-08-2025 08:39:11 [main] LogUtils - Register Fail
+[INFO] 01-08-2025 08:39:11 [main] LogUtils - Test case verifyRegisterSucess is passed.
+[INFO] 01-08-2025 08:39:14 [main] LogUtils - Running test case haveAccountSucess
+[INFO] 01-08-2025 08:39:14 [main] LogUtils - Goto the page Login
+[INFO] 01-08-2025 08:39:14 [main] LogUtils - This is Page Register
+[INFO] 01-08-2025 08:39:18 [main] LogUtils - Title Page Register:REGISTER
+[INFO] 01-08-2025 08:39:18 [main] LogUtils - Go To Page LoginBy.xpath: //*[contains(text(),'I am already member')]
+[INFO] 01-08-2025 08:39:18 [main] LogUtils - Test case haveAccountSucess is passed.
+[INFO] 01-08-2025 08:39:20 [main] LogUtils - End testing RegisterTest
