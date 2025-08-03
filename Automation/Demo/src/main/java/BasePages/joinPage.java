@@ -132,18 +132,32 @@ public class joinPage {
         driver.findElement(submit).click();
         LogUtils.info("Click button Register");
     }
-    public void verifyRegisterSuccsess(){
-        Assert.assertTrue(driver.getCurrentUrl().contains("login"),"Fail");
+    public boolean verifyRegisterSuccsess(){
+        Assert.assertTrue(driver.getCurrentUrl().contains("login"),"fail van login");
+        LogUtils.error("verify Register Fail");
+        return false;
     }
     public void login(){
         wait.until(ExpectedConditions.visibilityOfElementLocated(alreadyMember));
         driver.findElement(alreadyMember).click();
         LogUtils.info("Go To Page Login"+alreadyMember);
     }
+    public void WriteData(){
+        ExcelHelper excelHelper = new ExcelHelper();
+        excelHelper.setExcelFile(ConfigData.Excel,"Login");
+        excelHelper.setCellData("vietnam@gmail.com", 0, 3);
+        excelHelper.setCellData("Aty05121995@", 1, 3);
+        excelHelper.setCellData("Aty05121995@", 3, 3);
+        excelHelper.setCellData("tynguyen", 2, 3);
+        excelHelper.setCellData("0376082747", 4, 3);
+        excelHelper.setCellData("22112014", 5, 3);
+        LogUtils.info("Write Data Successfully");
+    }
     public HomePage register(String name,String email, String password,String re_password,String phone,String datetimes)
     {
         driver.get(ConfigData.registerUrl);
         LogUtils.info("This is Page Register");
+        this.WriteData();
         this.TitlePage();
         this.fieldUserName(name);
         this.fieldEmailID(email);

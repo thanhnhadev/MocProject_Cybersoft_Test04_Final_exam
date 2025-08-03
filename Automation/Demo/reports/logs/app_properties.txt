@@ -1,320 +1,242 @@
-[INFO] 03-08-2025 13:57:44 [main] LogUtils - #########
-[INFO] 03-08-2025 13:57:44 [main] LogUtils - *****Demo***
-[INFO] 03-08-2025 13:57:45 [main] LogUtils - Login Data from Excel: [[Ljava.lang.Object;@66e8997c
-[INFO] 03-08-2025 13:57:47 [main] LogUtils - Running test case verifyRegisterSucess
-[INFO] 03-08-2025 13:57:48 [main] LogUtils - Write Data Successfully
-[INFO] 03-08-2025 13:57:49 [main] LogUtils - This is Page Register
-[INFO] 03-08-2025 13:57:49 [main] LogUtils - Title Page Register:REGISTER
-[INFO] 03-08-2025 13:57:50 [main] LogUtils - name:tynguyen
-[INFO] 03-08-2025 13:57:50 [main] LogUtils - Email hợp lệ: thanhnhazx@gmail.com
-[INFO] 03-08-2025 13:57:50 [main] LogUtils - password: Aty05121995
-[INFO] 03-08-2025 13:57:50 [main] LogUtils - Re_password: Aty05121995
-[INFO] 03-08-2025 13:57:50 [main] LogUtils - Số điện thoại không hợp lệ: 091306116
-[INFO] 03-08-2025 13:57:50 [main] LogUtils - birthday: 22112014
-[INFO] 03-08-2025 13:57:50 [main] LogUtils - gender is: Male
-[INFO] 03-08-2025 13:57:50 [main] LogUtils - click Agree [[ChromeDriver: chrome on windows (dc0981bad53844e1077808e8dcebd1a4)] -> xpath: //*[contains(@id,'agree-term')]]
-[INFO] 03-08-2025 13:57:50 [main] LogUtils - Register Successfully
-[ERROR] 03-08-2025 13:57:51 [main] LogUtils - Test case verifyRegisterSucess is failed.
-[ERROR] 03-08-2025 13:57:51 [main] LogUtils - java.lang.AssertionError: Fail expected [true] but found [false]
-[INFO] 03-08-2025 13:57:54 [main] LogUtils - Running test case verifyRegisterSucess
-[INFO] 03-08-2025 13:57:54 [main] LogUtils - Write Data Successfully
-[INFO] 03-08-2025 13:57:56 [main] LogUtils - This is Page Register
-[INFO] 03-08-2025 13:57:56 [main] LogUtils - Title Page Register:REGISTER
-[INFO] 03-08-2025 13:57:56 [main] LogUtils - name:nguyen truong thanh nha
-[INFO] 03-08-2025 13:57:57 [main] LogUtils - Email hợp lệ: sdasada@gmail.com
-[INFO] 03-08-2025 13:57:57 [main] LogUtils - password: 12345679
-[INFO] 03-08-2025 13:57:57 [main] LogUtils - Re_password: 12345679
-[INFO] 03-08-2025 13:57:57 [main] LogUtils - Số điện thoại không hợp lệ: 320633766
-[INFO] 03-08-2025 13:57:57 [main] LogUtils - birthday: 12052005
-[INFO] 03-08-2025 13:57:57 [main] LogUtils - gender is: Male
-[INFO] 03-08-2025 13:57:57 [main] LogUtils - click Agree [[ChromeDriver: chrome on windows (d324ed07a92cb05515558a8722a73703)] -> xpath: //*[contains(@id,'agree-term')]]
-[INFO] 03-08-2025 13:57:57 [main] LogUtils - Register Successfully
-[ERROR] 03-08-2025 13:57:58 [main] LogUtils - Test case verifyRegisterSucess is failed.
-[ERROR] 03-08-2025 13:57:58 [main] LogUtils - java.lang.AssertionError: Fail expected [true] but found [false]
-[INFO] 03-08-2025 13:58:01 [main] LogUtils - Running test case haveAccountSucess
-[INFO] 03-08-2025 13:58:01 [main] LogUtils - Goto the page Login
-[INFO] 03-08-2025 13:58:02 [main] LogUtils - Goto the page Login
-[INFO] 03-08-2025 13:58:03 [main] LogUtils - Title Page Register:REGISTER
-[INFO] 03-08-2025 13:58:03 [main] LogUtils - Go To Page LoginBy.xpath: //*[contains(text(),'I am already member')]
-[INFO] 03-08-2025 13:58:03 [main] LogUtils - Test case haveAccountSucess is passed.
-[INFO] 03-08-2025 13:58:03 [main] LogUtils - End testing Demo
-[INFO] 03-08-2025 13:59:13 [main] LogUtils - #########
-[INFO] 03-08-2025 13:59:13 [main] LogUtils - *****Demo***
-[INFO] 03-08-2025 13:59:14 [main] LogUtils - Login Data from Excel: [[Ljava.lang.Object;@3a2b2322
-[INFO] 03-08-2025 13:59:16 [main] LogUtils - Running test case verifyRegisterSucess
-[INFO] 03-08-2025 13:59:16 [main] LogUtils - Write Data Successfully
-[INFO] 03-08-2025 13:59:17 [main] LogUtils - This is Page Register
-[INFO] 03-08-2025 13:59:18 [main] LogUtils - Title Page Register:REGISTER
-[INFO] 03-08-2025 13:59:18 [main] LogUtils - name:tynguyen
-[INFO] 03-08-2025 13:59:18 [main] LogUtils - Email hợp lệ: thanhnhazx@gmail.com
-[INFO] 03-08-2025 13:59:18 [main] LogUtils - password: Aty05121995
-[INFO] 03-08-2025 13:59:19 [main] LogUtils - Re_password: Aty05121995
-[INFO] 03-08-2025 13:59:19 [main] LogUtils - Số điện thoại không hợp lệ: 913106116
-[INFO] 03-08-2025 13:59:19 [main] LogUtils - birthday: 22112014
-[INFO] 03-08-2025 13:59:19 [main] LogUtils - gender is: Male
-[INFO] 03-08-2025 13:59:19 [main] LogUtils - click Agree [[ChromeDriver: chrome on windows (76c02940cc6eda0f3865f9b8ec8475aa)] -> xpath: //*[contains(@id,'agree-term')]]
-[INFO] 03-08-2025 13:59:19 [main] LogUtils - Register Successfully
-[ERROR] 03-08-2025 13:59:19 [main] LogUtils - Test case verifyRegisterSucess is failed.
-[ERROR] 03-08-2025 13:59:19 [main] LogUtils - java.lang.AssertionError: Fail expected [true] but found [false]
-[INFO] 03-08-2025 13:59:22 [main] LogUtils - Running test case verifyRegisterSucess
-[INFO] 03-08-2025 13:59:22 [main] LogUtils - Write Data Successfully
-[INFO] 03-08-2025 13:59:23 [main] LogUtils - This is Page Register
-[INFO] 03-08-2025 13:59:24 [main] LogUtils - Title Page Register:REGISTER
-[INFO] 03-08-2025 13:59:24 [main] LogUtils - name:nguyen truong thanh nha
-[INFO] 03-08-2025 13:59:24 [main] LogUtils - Email hợp lệ: sdasada@gmail.com
-[INFO] 03-08-2025 13:59:25 [main] LogUtils - password: 12345679
-[INFO] 03-08-2025 13:59:25 [main] LogUtils - Re_password: 12345679
-[INFO] 03-08-2025 13:59:25 [main] LogUtils - Số điện thoại không hợp lệ: 320633766
-[INFO] 03-08-2025 13:59:25 [main] LogUtils - birthday: 12052005
-[INFO] 03-08-2025 13:59:25 [main] LogUtils - gender is: Male
-[INFO] 03-08-2025 13:59:25 [main] LogUtils - click Agree [[ChromeDriver: chrome on windows (c22d539feeec8242c2277f54df70a087)] -> xpath: //*[contains(@id,'agree-term')]]
-[INFO] 03-08-2025 13:59:25 [main] LogUtils - Register Successfully
-[ERROR] 03-08-2025 13:59:25 [main] LogUtils - Test case verifyRegisterSucess is failed.
-[ERROR] 03-08-2025 13:59:26 [main] LogUtils - java.lang.AssertionError: Fail expected [true] but found [false]
-[INFO] 03-08-2025 13:59:28 [main] LogUtils - Running test case haveAccountSucess
-[INFO] 03-08-2025 13:59:29 [main] LogUtils - Goto the page Login
-[INFO] 03-08-2025 13:59:30 [main] LogUtils - Goto the page Login
-[INFO] 03-08-2025 13:59:30 [main] LogUtils - Title Page Register:REGISTER
-[INFO] 03-08-2025 13:59:30 [main] LogUtils - Go To Page LoginBy.xpath: //*[contains(text(),'I am already member')]
-[INFO] 03-08-2025 13:59:30 [main] LogUtils - Test case haveAccountSucess is passed.
-[INFO] 03-08-2025 13:59:31 [main] LogUtils - End testing Demo
-[INFO] 03-08-2025 14:01:05 [main] LogUtils - #########
-[INFO] 03-08-2025 14:01:05 [main] LogUtils - *****Demo***
-[INFO] 03-08-2025 14:01:05 [main] LogUtils - Login Data from Excel: [[Ljava.lang.Object;@1b29d52b
-[INFO] 03-08-2025 14:01:07 [main] LogUtils - Running test case verifyRegisterSucess
-[INFO] 03-08-2025 14:01:08 [main] LogUtils - Write Data Successfully
-[INFO] 03-08-2025 14:01:09 [main] LogUtils - This is Page Register
-[INFO] 03-08-2025 14:01:09 [main] LogUtils - Title Page Register:REGISTER
-[INFO] 03-08-2025 14:01:10 [main] LogUtils - name:tynguyen
-[INFO] 03-08-2025 14:01:10 [main] LogUtils - Email hợp lệ: thanhnhazx@gmail.com
-[INFO] 03-08-2025 14:01:10 [main] LogUtils - password: Aty05121995
-[INFO] 03-08-2025 14:01:10 [main] LogUtils - Re_password: Aty05121995
-[INFO] 03-08-2025 14:01:10 [main] LogUtils - Số điện thoại không hợp lệ: 091306116
-[INFO] 03-08-2025 14:01:10 [main] LogUtils - birthday: 22112014
-[INFO] 03-08-2025 14:01:10 [main] LogUtils - gender is: Male
-[INFO] 03-08-2025 14:01:10 [main] LogUtils - click Agree [[ChromeDriver: chrome on windows (d12b30673c4aeb35cd96b19ab8d99090)] -> xpath: //*[contains(@id,'agree-term')]]
-[INFO] 03-08-2025 14:01:11 [main] LogUtils - Click button Register
-[ERROR] 03-08-2025 14:01:11 [main] LogUtils - Test case verifyRegisterSucess is failed.
-[ERROR] 03-08-2025 14:01:11 [main] LogUtils - java.lang.AssertionError: Fail expected [true] but found [false]
-[INFO] 03-08-2025 14:01:13 [main] LogUtils - Running test case verifyRegisterSucess
-[INFO] 03-08-2025 14:01:14 [main] LogUtils - Write Data Successfully
-[INFO] 03-08-2025 14:01:15 [main] LogUtils - This is Page Register
-[INFO] 03-08-2025 14:01:16 [main] LogUtils - Title Page Register:REGISTER
-[INFO] 03-08-2025 14:01:16 [main] LogUtils - name:nguyen truong thanh nha
-[INFO] 03-08-2025 14:01:16 [main] LogUtils - Email hợp lệ: sdasada@gmail.com
-[INFO] 03-08-2025 14:01:16 [main] LogUtils - password: 12345679
-[INFO] 03-08-2025 14:01:16 [main] LogUtils - Re_password: 12345679
-[INFO] 03-08-2025 14:01:16 [main] LogUtils - Số điện thoại không hợp lệ: 320633766
-[INFO] 03-08-2025 14:01:17 [main] LogUtils - birthday: 12052005
-[INFO] 03-08-2025 14:01:17 [main] LogUtils - gender is: Male
-[INFO] 03-08-2025 14:01:17 [main] LogUtils - click Agree [[ChromeDriver: chrome on windows (88f6227ba6fab30a7e761e2ab44ff07a)] -> xpath: //*[contains(@id,'agree-term')]]
-[INFO] 03-08-2025 14:01:17 [main] LogUtils - Click button Register
-[ERROR] 03-08-2025 14:01:17 [main] LogUtils - Test case verifyRegisterSucess is failed.
-[ERROR] 03-08-2025 14:01:17 [main] LogUtils - java.lang.AssertionError: Fail expected [true] but found [false]
-[INFO] 03-08-2025 14:01:21 [main] LogUtils - Running test case haveAccountSucess
-[INFO] 03-08-2025 14:01:21 [main] LogUtils - Goto the page Login
-[INFO] 03-08-2025 14:01:22 [main] LogUtils - Goto the page Login
-[INFO] 03-08-2025 14:01:22 [main] LogUtils - Title Page Register:REGISTER
-[INFO] 03-08-2025 14:01:22 [main] LogUtils - Go To Page LoginBy.xpath: //*[contains(text(),'I am already member')]
-[INFO] 03-08-2025 14:01:22 [main] LogUtils - Test case haveAccountSucess is passed.
-[INFO] 03-08-2025 14:01:23 [main] LogUtils - End testing Demo
-[INFO] 03-08-2025 14:01:59 [main] LogUtils - #########
-[INFO] 03-08-2025 14:01:59 [main] LogUtils - *****Demo***
-[INFO] 03-08-2025 14:02:00 [main] LogUtils - Login Data from Excel: [[Ljava.lang.Object;@77cb9cd1
-[INFO] 03-08-2025 14:02:02 [main] LogUtils - Running test case verifyRegisterSucess
-[INFO] 03-08-2025 14:02:02 [main] LogUtils - Write Data Successfully
-[INFO] 03-08-2025 14:02:02 [main] LogUtils - This is Page Register
-[INFO] 03-08-2025 14:02:04 [main] LogUtils - Title Page Register:REGISTER
-[INFO] 03-08-2025 14:02:04 [main] LogUtils - name:tynguyen
-[INFO] 03-08-2025 14:02:04 [main] LogUtils - Email hợp lệ: thanhnhazx@gmail.com
-[INFO] 03-08-2025 14:02:04 [main] LogUtils - password: Aty05121995
-[INFO] 03-08-2025 14:02:04 [main] LogUtils - Re_password: Aty05121995
-[INFO] 03-08-2025 14:02:05 [main] LogUtils - Số điện thoại hợp lệ: 0913106116
-[INFO] 03-08-2025 14:02:05 [main] LogUtils - birthday: 22112014
-[INFO] 03-08-2025 14:02:05 [main] LogUtils - gender is: Male
-[INFO] 03-08-2025 14:02:05 [main] LogUtils - click Agree [[ChromeDriver: chrome on windows (ba4a029426fd21a2bd102bbd21c001fb)] -> xpath: //*[contains(@id,'agree-term')]]
-[INFO] 03-08-2025 14:02:05 [main] LogUtils - Click button Register
-[ERROR] 03-08-2025 14:02:05 [main] LogUtils - Test case verifyRegisterSucess is failed.
-[ERROR] 03-08-2025 14:02:05 [main] LogUtils - java.lang.AssertionError: Fail expected [true] but found [false]
-[INFO] 03-08-2025 14:02:08 [main] LogUtils - Running test case verifyRegisterSucess
-[INFO] 03-08-2025 14:02:09 [main] LogUtils - Write Data Successfully
-[INFO] 03-08-2025 14:02:10 [main] LogUtils - This is Page Register
-[INFO] 03-08-2025 14:02:10 [main] LogUtils - Title Page Register:REGISTER
-[INFO] 03-08-2025 14:02:10 [main] LogUtils - name:nguyen truong thanh nha
-[INFO] 03-08-2025 14:02:11 [main] LogUtils - Email hợp lệ: sdasada@gmail.com
-[INFO] 03-08-2025 14:02:11 [main] LogUtils - password: 12345679
-[INFO] 03-08-2025 14:02:11 [main] LogUtils - Re_password: 12345679
-[INFO] 03-08-2025 14:02:11 [main] LogUtils - Số điện thoại không hợp lệ: 320633766
-[INFO] 03-08-2025 14:02:11 [main] LogUtils - birthday: 12052005
-[INFO] 03-08-2025 14:02:11 [main] LogUtils - gender is: Male
-[INFO] 03-08-2025 14:02:11 [main] LogUtils - click Agree [[ChromeDriver: chrome on windows (2ee94818de02b634b49c7f35f5e5052c)] -> xpath: //*[contains(@id,'agree-term')]]
-[INFO] 03-08-2025 14:02:11 [main] LogUtils - Click button Register
-[ERROR] 03-08-2025 14:02:11 [main] LogUtils - Test case verifyRegisterSucess is failed.
-[ERROR] 03-08-2025 14:02:12 [main] LogUtils - java.lang.AssertionError: Fail expected [true] but found [false]
-[INFO] 03-08-2025 14:02:15 [main] LogUtils - Running test case haveAccountSucess
-[INFO] 03-08-2025 14:02:15 [main] LogUtils - Goto the page Login
-[INFO] 03-08-2025 14:02:16 [main] LogUtils - Goto the page Login
-[INFO] 03-08-2025 14:02:16 [main] LogUtils - Title Page Register:REGISTER
-[INFO] 03-08-2025 14:02:17 [main] LogUtils - Go To Page LoginBy.xpath: //*[contains(text(),'I am already member')]
-[INFO] 03-08-2025 14:02:17 [main] LogUtils - Test case haveAccountSucess is passed.
-[INFO] 03-08-2025 14:02:17 [main] LogUtils - End testing Demo
-[INFO] 03-08-2025 14:04:06 [main] LogUtils - #########
-[INFO] 03-08-2025 14:04:06 [main] LogUtils - *****Demo***
-[INFO] 03-08-2025 14:04:07 [main] LogUtils - Login Data from Excel: [[Ljava.lang.Object;@12958360
-[INFO] 03-08-2025 14:04:08 [main] LogUtils - Running test case verifyRegisterSucess
-[INFO] 03-08-2025 14:04:09 [main] LogUtils - Write Data Successfully
-[INFO] 03-08-2025 14:04:10 [main] LogUtils - This is Page Register
-[INFO] 03-08-2025 14:04:10 [main] LogUtils - Title Page Register:REGISTER
-[INFO] 03-08-2025 14:04:11 [main] LogUtils - name:tynguyen
-[INFO] 03-08-2025 14:04:11 [main] LogUtils - Email hợp lệ: thanhnhazx@gmail.com
-[INFO] 03-08-2025 14:04:11 [main] LogUtils - password: Aty05121995
-[INFO] 03-08-2025 14:04:11 [main] LogUtils - Re_password: Aty05121995
-[INFO] 03-08-2025 14:04:11 [main] LogUtils - Số điện thoại hợp lệ: 0376082747
-[INFO] 03-08-2025 14:04:12 [main] LogUtils - birthday: 22112014
-[INFO] 03-08-2025 14:04:12 [main] LogUtils - gender is: Male
-[INFO] 03-08-2025 14:04:12 [main] LogUtils - click Agree [[ChromeDriver: chrome on windows (b90600c97e14dcb7c5741d94cd724996)] -> xpath: //*[contains(@id,'agree-term')]]
-[INFO] 03-08-2025 14:04:12 [main] LogUtils - Click button Register
-[ERROR] 03-08-2025 14:04:12 [main] LogUtils - Test case verifyRegisterSucess is failed.
-[ERROR] 03-08-2025 14:04:12 [main] LogUtils - java.lang.AssertionError: Fail expected [true] but found [false]
-[INFO] 03-08-2025 14:04:15 [main] LogUtils - Running test case verifyRegisterSucess
-[INFO] 03-08-2025 14:04:15 [main] LogUtils - Write Data Successfully
-[INFO] 03-08-2025 14:04:17 [main] LogUtils - This is Page Register
-[INFO] 03-08-2025 14:04:17 [main] LogUtils - Title Page Register:REGISTER
-[INFO] 03-08-2025 14:04:17 [main] LogUtils - name:nguyen truong thanh nha
-[INFO] 03-08-2025 14:04:18 [main] LogUtils - Email hợp lệ: sdasada@gmail.com
-[INFO] 03-08-2025 14:04:18 [main] LogUtils - password: 12345679
-[INFO] 03-08-2025 14:04:18 [main] LogUtils - Re_password: 12345679
-[INFO] 03-08-2025 14:04:18 [main] LogUtils - Số điện thoại không hợp lệ: 320633766
-[INFO] 03-08-2025 14:04:18 [main] LogUtils - birthday: 12052005
-[INFO] 03-08-2025 14:04:18 [main] LogUtils - gender is: Male
-[INFO] 03-08-2025 14:04:19 [main] LogUtils - click Agree [[ChromeDriver: chrome on windows (8db253b3e9fa723155975ee7a4fb3a5f)] -> xpath: //*[contains(@id,'agree-term')]]
-[INFO] 03-08-2025 14:04:19 [main] LogUtils - Click button Register
-[ERROR] 03-08-2025 14:04:19 [main] LogUtils - Test case verifyRegisterSucess is failed.
-[ERROR] 03-08-2025 14:04:19 [main] LogUtils - java.lang.AssertionError: Fail expected [true] but found [false]
-[INFO] 03-08-2025 14:04:22 [main] LogUtils - Running test case haveAccountSucess
-[INFO] 03-08-2025 14:04:22 [main] LogUtils - Goto the page Login
-[INFO] 03-08-2025 14:04:24 [main] LogUtils - Goto the page Login
-[INFO] 03-08-2025 14:04:24 [main] LogUtils - Title Page Register:REGISTER
-[INFO] 03-08-2025 14:04:24 [main] LogUtils - Go To Page LoginBy.xpath: //*[contains(text(),'I am already member')]
-[INFO] 03-08-2025 14:04:24 [main] LogUtils - Test case haveAccountSucess is passed.
-[INFO] 03-08-2025 14:04:25 [main] LogUtils - End testing Demo
-[INFO] 03-08-2025 14:06:00 [main] LogUtils - #########
-[INFO] 03-08-2025 14:06:00 [main] LogUtils - *****Demo***
-[INFO] 03-08-2025 14:06:01 [main] LogUtils - Login Data from Excel: [[Ljava.lang.Object;@36dfbdaf
-[INFO] 03-08-2025 14:06:03 [main] LogUtils - Running test case verifyRegisterSucess
-[INFO] 03-08-2025 14:06:03 [main] LogUtils - RegisterPass
-[INFO] 03-08-2025 14:06:04 [main] LogUtils - Write Data Successfully
-[INFO] 03-08-2025 14:06:05 [main] LogUtils - This is Page Register
-[INFO] 03-08-2025 14:06:05 [main] LogUtils - Title Page Register:REGISTER
-[INFO] 03-08-2025 14:06:06 [main] LogUtils - name:tynguyen
-[INFO] 03-08-2025 14:06:06 [main] LogUtils - Email hợp lệ: thanhnhadkx@gmail.com
-[INFO] 03-08-2025 14:06:06 [main] LogUtils - password: Aty05121995
-[INFO] 03-08-2025 14:06:06 [main] LogUtils - Re_password: Aty05121995
-[INFO] 03-08-2025 14:06:06 [main] LogUtils - Số điện thoại hợp lệ: 0376082747
-[INFO] 03-08-2025 14:06:06 [main] LogUtils - birthday: 22112014
-[INFO] 03-08-2025 14:06:06 [main] LogUtils - gender is: Male
-[INFO] 03-08-2025 14:06:07 [main] LogUtils - click Agree [[ChromeDriver: chrome on windows (aea154696440287ccb223d662de04d8a)] -> xpath: //*[contains(@id,'agree-term')]]
-[INFO] 03-08-2025 14:06:07 [main] LogUtils - Click button Register
-[ERROR] 03-08-2025 14:06:07 [main] LogUtils - Test case verifyRegisterSucess is failed.
-[ERROR] 03-08-2025 14:06:07 [main] LogUtils - java.lang.AssertionError: Fail expected [true] but found [false]
-[INFO] 03-08-2025 14:06:09 [main] LogUtils - Running test case verifyRegisterSucess
-[INFO] 03-08-2025 14:06:10 [main] LogUtils - RegisterPass
-[INFO] 03-08-2025 14:06:10 [main] LogUtils - Write Data Successfully
-[INFO] 03-08-2025 14:06:11 [main] LogUtils - This is Page Register
-[INFO] 03-08-2025 14:06:11 [main] LogUtils - Title Page Register:REGISTER
-[INFO] 03-08-2025 14:06:12 [main] LogUtils - name:nguyen truong thanh nha
-[INFO] 03-08-2025 14:06:12 [main] LogUtils - Email hợp lệ: sdasada@gmail.com
-[INFO] 03-08-2025 14:06:12 [main] LogUtils - password: 12345679
-[INFO] 03-08-2025 14:06:12 [main] LogUtils - Re_password: 12345679
-[INFO] 03-08-2025 14:06:12 [main] LogUtils - Số điện thoại không hợp lệ: 320633766
-[INFO] 03-08-2025 14:06:12 [main] LogUtils - birthday: 12052005
-[INFO] 03-08-2025 14:06:12 [main] LogUtils - gender is: Male
-[INFO] 03-08-2025 14:06:13 [main] LogUtils - click Agree [[ChromeDriver: chrome on windows (ed2b1adfa292db12a2abe2f370ccaaa0)] -> xpath: //*[contains(@id,'agree-term')]]
-[INFO] 03-08-2025 14:06:13 [main] LogUtils - Click button Register
-[ERROR] 03-08-2025 14:06:13 [main] LogUtils - Test case verifyRegisterSucess is failed.
-[ERROR] 03-08-2025 14:06:13 [main] LogUtils - java.lang.AssertionError: Fail expected [true] but found [false]
-[INFO] 03-08-2025 14:06:17 [main] LogUtils - Running test case haveAccountSucess
-[INFO] 03-08-2025 14:06:17 [main] LogUtils - Goto the page Login
-[INFO] 03-08-2025 14:06:19 [main] LogUtils - Goto the page Login
-[INFO] 03-08-2025 14:06:19 [main] LogUtils - Title Page Register:REGISTER
-[INFO] 03-08-2025 14:06:19 [main] LogUtils - Go To Page LoginBy.xpath: //*[contains(text(),'I am already member')]
-[INFO] 03-08-2025 14:06:19 [main] LogUtils - Test case haveAccountSucess is passed.
-[INFO] 03-08-2025 14:06:20 [main] LogUtils - End testing Demo
-[INFO] 03-08-2025 14:07:39 [main] LogUtils - #########
-[INFO] 03-08-2025 14:07:39 [main] LogUtils - *****Demo***
-[INFO] 03-08-2025 14:07:40 [main] LogUtils - Login Data from Excel: [[Ljava.lang.Object;@68dcfd52
-[INFO] 03-08-2025 14:07:42 [main] LogUtils - Running test case verifyRegisterSucess
-[INFO] 03-08-2025 14:07:43 [main] LogUtils - RegisterPass
-[INFO] 03-08-2025 14:07:43 [main] LogUtils - Write Data Successfully
-[INFO] 03-08-2025 14:07:43 [main] LogUtils - This is Page Register
-[INFO] 03-08-2025 14:07:45 [main] LogUtils - Title Page Register:REGISTER
-[INFO] 03-08-2025 14:07:45 [main] LogUtils - name:tynguyen
-[INFO] 03-08-2025 14:07:46 [main] LogUtils - Email hợp lệ: thanhnhaznvietnam@gmail.com
-[INFO] 03-08-2025 14:07:46 [main] LogUtils - password: Aty05121995
-[INFO] 03-08-2025 14:07:46 [main] LogUtils - Re_password: Aty05121995
-[INFO] 03-08-2025 14:07:46 [main] LogUtils - Số điện thoại hợp lệ: 0912345678
-[INFO] 03-08-2025 14:07:46 [main] LogUtils - birthday: 22112014
-[INFO] 03-08-2025 14:07:46 [main] LogUtils - gender is: Male
-[INFO] 03-08-2025 14:07:47 [main] LogUtils - click Agree [[ChromeDriver: chrome on windows (1245130698a662010b90317e9f49b6a6)] -> xpath: //*[contains(@id,'agree-term')]]
-[INFO] 03-08-2025 14:07:47 [main] LogUtils - Click button Register
-[ERROR] 03-08-2025 14:07:47 [main] LogUtils - Test case verifyRegisterSucess is failed.
-[ERROR] 03-08-2025 14:07:47 [main] LogUtils - java.lang.AssertionError: Fail expected [true] but found [false]
-[INFO] 03-08-2025 14:07:50 [main] LogUtils - Running test case verifyRegisterSucess
-[INFO] 03-08-2025 14:07:50 [main] LogUtils - RegisterPass
-[INFO] 03-08-2025 14:07:50 [main] LogUtils - Write Data Successfully
-[INFO] 03-08-2025 14:07:51 [main] LogUtils - This is Page Register
-[INFO] 03-08-2025 14:07:51 [main] LogUtils - Title Page Register:REGISTER
-[INFO] 03-08-2025 14:07:52 [main] LogUtils - name:nguyen truong thanh nha
-[INFO] 03-08-2025 14:07:52 [main] LogUtils - Email hợp lệ: sdasada@gmail.com
-[INFO] 03-08-2025 14:07:52 [main] LogUtils - password: 12345679
-[INFO] 03-08-2025 14:07:52 [main] LogUtils - Re_password: 12345679
-[INFO] 03-08-2025 14:07:52 [main] LogUtils - Số điện thoại không hợp lệ: 320633766
-[INFO] 03-08-2025 14:07:53 [main] LogUtils - birthday: 12052005
-[INFO] 03-08-2025 14:07:53 [main] LogUtils - gender is: Male
-[INFO] 03-08-2025 14:07:53 [main] LogUtils - click Agree [[ChromeDriver: chrome on windows (57f08692baa04c1aa6b68cc167fa689c)] -> xpath: //*[contains(@id,'agree-term')]]
-[INFO] 03-08-2025 14:07:53 [main] LogUtils - Click button Register
-[ERROR] 03-08-2025 14:07:53 [main] LogUtils - Test case verifyRegisterSucess is failed.
-[ERROR] 03-08-2025 14:07:54 [main] LogUtils - java.lang.AssertionError: Fail expected [true] but found [false]
-[INFO] 03-08-2025 14:07:57 [main] LogUtils - Running test case haveAccountSucess
-[INFO] 03-08-2025 14:07:57 [main] LogUtils - Goto the page Login
-[INFO] 03-08-2025 14:07:58 [main] LogUtils - Goto the page Login
-[INFO] 03-08-2025 14:07:59 [main] LogUtils - Title Page Register:REGISTER
-[INFO] 03-08-2025 14:07:59 [main] LogUtils - Go To Page LoginBy.xpath: //*[contains(text(),'I am already member')]
-[INFO] 03-08-2025 14:07:59 [main] LogUtils - Test case haveAccountSucess is passed.
-[INFO] 03-08-2025 14:08:00 [main] LogUtils - End testing Demo
-[INFO] 03-08-2025 14:09:33 [main] LogUtils - #########
-[INFO] 03-08-2025 14:09:33 [main] LogUtils - *****Demo***
-[INFO] 03-08-2025 14:09:34 [main] LogUtils - Login Data from Excel: [[Ljava.lang.Object;@234a8f27
-[INFO] 03-08-2025 14:09:35 [main] LogUtils - Running test case verifyRegister
-[INFO] 03-08-2025 14:09:36 [main] LogUtils - RegisterPass
-[INFO] 03-08-2025 14:09:36 [main] LogUtils - Write Data Successfully
-[INFO] 03-08-2025 14:09:37 [main] LogUtils - This is Page Register
-[INFO] 03-08-2025 14:09:37 [main] LogUtils - Title Page Register:REGISTER
-[INFO] 03-08-2025 14:09:38 [main] LogUtils - name:tynguyen
-[INFO] 03-08-2025 14:09:38 [main] LogUtils - Email hợp lệ: thanhnhaznvietnam@gmail.com
-[INFO] 03-08-2025 14:09:38 [main] LogUtils - password: Aty05121995
-[INFO] 03-08-2025 14:09:38 [main] LogUtils - Re_password: Aty05121995
-[INFO] 03-08-2025 14:09:38 [main] LogUtils - Số điện thoại hợp lệ: 0912345678
-[INFO] 03-08-2025 14:09:38 [main] LogUtils - birthday: 22112014
-[INFO] 03-08-2025 14:09:38 [main] LogUtils - gender is: Male
-[INFO] 03-08-2025 14:09:39 [main] LogUtils - click Agree [[ChromeDriver: chrome on windows (51e955d6052dd05de071b0711e35ac7d)] -> xpath: //*[contains(@id,'agree-term')]]
-[INFO] 03-08-2025 14:09:39 [main] LogUtils - Click button Register
-[ERROR] 03-08-2025 14:09:39 [main] LogUtils - Test case verifyRegister is failed.
-[ERROR] 03-08-2025 14:09:39 [main] LogUtils - java.lang.AssertionError: Fail expected [true] but found [false]
-[INFO] 03-08-2025 14:09:42 [main] LogUtils - Running test case verifyRegister
-[INFO] 03-08-2025 14:09:42 [main] LogUtils - RegisterPass
-[INFO] 03-08-2025 14:09:42 [main] LogUtils - Write Data Successfully
-[INFO] 03-08-2025 14:09:43 [main] LogUtils - This is Page Register
-[INFO] 03-08-2025 14:09:43 [main] LogUtils - Title Page Register:REGISTER
-[INFO] 03-08-2025 14:09:44 [main] LogUtils - name:nguyen truong thanh nha
-[INFO] 03-08-2025 14:09:44 [main] LogUtils - Email hợp lệ: sdasada@gmail.com
-[INFO] 03-08-2025 14:09:44 [main] LogUtils - password: 12345679
-[INFO] 03-08-2025 14:09:44 [main] LogUtils - Re_password: 12345679
-[INFO] 03-08-2025 14:09:44 [main] LogUtils - Số điện thoại không hợp lệ: 320633766
-[INFO] 03-08-2025 14:09:44 [main] LogUtils - birthday: 12052005
-[INFO] 03-08-2025 14:09:44 [main] LogUtils - gender is: Male
-[INFO] 03-08-2025 14:09:45 [main] LogUtils - click Agree [[ChromeDriver: chrome on windows (8a0c2fa38e1dd03382b701e73705a003)] -> xpath: //*[contains(@id,'agree-term')]]
-[INFO] 03-08-2025 14:09:45 [main] LogUtils - Click button Register
-[ERROR] 03-08-2025 14:09:45 [main] LogUtils - Test case verifyRegister is failed.
-[ERROR] 03-08-2025 14:09:45 [main] LogUtils - java.lang.AssertionError: Fail expected [true] but found [false]
-[INFO] 03-08-2025 14:09:46 [main] LogUtils - End testing Demo
+[INFO] 03-08-2025 19:52:28 [main] LogUtils - #########
+[INFO] 03-08-2025 19:52:28 [main] LogUtils - *****Demo***
+[INFO] 03-08-2025 19:52:29 [main] LogUtils - Login Data from Excel: [[Ljava.lang.Object;@37b72ea
+[INFO] 03-08-2025 19:52:33 [main] LogUtils - Running test case verifyRegister
+[INFO] 03-08-2025 19:52:34 [main] LogUtils - RegisterPass
+[INFO] 03-08-2025 19:52:35 [main] LogUtils - This is Page Register
+[INFO] 03-08-2025 19:52:36 [main] LogUtils - Write Data Successfully
+[INFO] 03-08-2025 19:52:36 [main] LogUtils - Title Page Register:REGISTER
+[INFO] 03-08-2025 19:52:36 [main] LogUtils - name:tynguyen
+[INFO] 03-08-2025 19:52:37 [main] LogUtils - Email hợp lệ: thanhnhaznvietnam@gmail.com
+[INFO] 03-08-2025 19:52:37 [main] LogUtils - password: Aty05121995
+[INFO] 03-08-2025 19:52:37 [main] LogUtils - Re_password: Aty05121995
+[INFO] 03-08-2025 19:52:37 [main] LogUtils - Số điện thoại hợp lệ: 0912345678
+[INFO] 03-08-2025 19:52:37 [main] LogUtils - birthday: 22112014
+[INFO] 03-08-2025 19:52:37 [main] LogUtils - gender is: Male
+[INFO] 03-08-2025 19:52:38 [main] LogUtils - click Agree 
+[INFO] 03-08-2025 19:52:38 [main] LogUtils - Click button Register
+[ERROR] 03-08-2025 19:52:38 [main] LogUtils - Test case verifyRegister is failed.
+[ERROR] 03-08-2025 19:52:38 [main] LogUtils - java.lang.AssertionError: Fail expected [true] but found [false]
+[INFO] 03-08-2025 19:52:41 [main] LogUtils - Running test case verifyRegister
+[INFO] 03-08-2025 19:52:41 [main] LogUtils - RegisterPass
+[INFO] 03-08-2025 19:52:43 [main] LogUtils - This is Page Register
+[INFO] 03-08-2025 19:52:43 [main] LogUtils - Write Data Successfully
+[INFO] 03-08-2025 19:52:43 [main] LogUtils - Title Page Register:REGISTER
+[INFO] 03-08-2025 19:52:44 [main] LogUtils - name:nguyen truong thanh nha
+[INFO] 03-08-2025 19:52:44 [main] LogUtils - Email hợp lệ: sdasada@gmail.com
+[INFO] 03-08-2025 19:52:44 [main] LogUtils - password: 12345679
+[INFO] 03-08-2025 19:52:44 [main] LogUtils - Re_password: 12345679
+[INFO] 03-08-2025 19:52:44 [main] LogUtils - Số điện thoại không hợp lệ: 320633766
+[INFO] 03-08-2025 19:52:44 [main] LogUtils - birthday: 12052005
+[INFO] 03-08-2025 19:52:44 [main] LogUtils - gender is: Male
+[INFO] 03-08-2025 19:52:44 [main] LogUtils - click Agree 
+[INFO] 03-08-2025 19:52:45 [main] LogUtils - Click button Register
+[ERROR] 03-08-2025 19:52:45 [main] LogUtils - Test case verifyRegister is failed.
+[ERROR] 03-08-2025 19:52:45 [main] LogUtils - java.lang.AssertionError: Fail expected [true] but found [false]
+[INFO] 03-08-2025 19:52:49 [main] LogUtils - Running test case haveAccountSucess
+[INFO] 03-08-2025 19:52:49 [main] LogUtils - Goto the page Login
+[INFO] 03-08-2025 19:52:51 [main] LogUtils - Goto the page Login
+[INFO] 03-08-2025 19:52:51 [main] LogUtils - Title Page Register:REGISTER
+[INFO] 03-08-2025 19:52:51 [main] LogUtils - Go To Page LoginBy.xpath: //*[contains(text(),'I am already member')]
+[INFO] 03-08-2025 19:52:51 [main] LogUtils - Test case haveAccountSucess is passed.
+[INFO] 03-08-2025 19:52:52 [main] LogUtils - End testing Demo
+[INFO] 03-08-2025 19:55:28 [main] LogUtils - #########
+[INFO] 03-08-2025 19:55:28 [main] LogUtils - *****Demo***
+[INFO] 03-08-2025 19:55:29 [main] LogUtils - Login Data from Excel: [[Ljava.lang.Object;@c6e0f32
+[INFO] 03-08-2025 19:55:31 [main] LogUtils - Running test case verifyRegister
+[INFO] 03-08-2025 19:55:31 [main] LogUtils - RegisterPass
+[INFO] 03-08-2025 19:55:32 [main] LogUtils - This is Page Register
+[INFO] 03-08-2025 19:55:33 [main] LogUtils - Write Data Successfully
+[INFO] 03-08-2025 19:55:33 [main] LogUtils - Title Page Register:REGISTER
+[INFO] 03-08-2025 19:55:33 [main] LogUtils - name:tynguyen
+[INFO] 03-08-2025 19:55:33 [main] LogUtils - Email hợp lệ: thanhnhaznvietnam@gmail.com
+[INFO] 03-08-2025 19:55:33 [main] LogUtils - password: Aty05121995
+[INFO] 03-08-2025 19:55:33 [main] LogUtils - Re_password: Aty05121995
+[INFO] 03-08-2025 19:55:34 [main] LogUtils - Số điện thoại hợp lệ: 0912345678
+[INFO] 03-08-2025 19:55:34 [main] LogUtils - birthday: 22112014
+[INFO] 03-08-2025 19:55:34 [main] LogUtils - gender is: Male
+[INFO] 03-08-2025 19:55:34 [main] LogUtils - click Agree 
+[INFO] 03-08-2025 19:55:34 [main] LogUtils - Click button Register
+[ERROR] 03-08-2025 19:55:34 [main] LogUtils - Test case verifyRegister is failed.
+[ERROR] 03-08-2025 19:55:34 [main] LogUtils - java.lang.AssertionError: Fail expected [true] but found [false]
+[INFO] 03-08-2025 19:55:38 [main] LogUtils - Running test case verifyRegister
+[INFO] 03-08-2025 19:55:38 [main] LogUtils - RegisterPass
+[INFO] 03-08-2025 19:55:38 [main] LogUtils - This is Page Register
+[INFO] 03-08-2025 19:55:39 [main] LogUtils - Write Data Successfully
+[INFO] 03-08-2025 19:55:40 [main] LogUtils - Title Page Register:REGISTER
+[INFO] 03-08-2025 19:55:40 [main] LogUtils - name:nguyen truong thanh nha
+[INFO] 03-08-2025 19:55:40 [main] LogUtils - Email hợp lệ: sdasada@gmail.com
+[INFO] 03-08-2025 19:55:41 [main] LogUtils - password: 12345679
+[INFO] 03-08-2025 19:55:41 [main] LogUtils - Re_password: 12345679
+[INFO] 03-08-2025 19:55:41 [main] LogUtils - Số điện thoại không hợp lệ: 320633766
+[INFO] 03-08-2025 19:55:41 [main] LogUtils - birthday: 12052005
+[INFO] 03-08-2025 19:55:41 [main] LogUtils - gender is: Male
+[INFO] 03-08-2025 19:55:41 [main] LogUtils - click Agree 
+[INFO] 03-08-2025 19:55:41 [main] LogUtils - Click button Register
+[ERROR] 03-08-2025 19:55:41 [main] LogUtils - Test case verifyRegister is failed.
+[ERROR] 03-08-2025 19:55:42 [main] LogUtils - java.lang.AssertionError: Fail expected [true] but found [false]
+[INFO] 03-08-2025 19:55:46 [main] LogUtils - Running test case haveAccountSucess
+[INFO] 03-08-2025 19:55:46 [main] LogUtils - Goto the page Login
+[INFO] 03-08-2025 19:55:47 [main] LogUtils - Goto the page Login
+[INFO] 03-08-2025 19:55:47 [main] LogUtils - Title Page Register:REGISTER
+[INFO] 03-08-2025 19:55:48 [main] LogUtils - Go To Page LoginBy.xpath: //*[contains(text(),'I am already member')]
+[INFO] 03-08-2025 19:55:48 [main] LogUtils - Test case haveAccountSucess is passed.
+[INFO] 03-08-2025 19:55:48 [main] LogUtils - End testing Demo
+[INFO] 03-08-2025 19:56:04 [main] LogUtils - #########
+[INFO] 03-08-2025 19:56:04 [main] LogUtils - *****Demo***
+[INFO] 03-08-2025 19:56:05 [main] LogUtils - Login Data from Excel: [[Ljava.lang.Object;@2063c53e
+[INFO] 03-08-2025 19:56:06 [main] LogUtils - Running test case verifyRegister
+[INFO] 03-08-2025 19:56:07 [main] LogUtils - RegisterPass
+[INFO] 03-08-2025 19:56:07 [main] LogUtils - This is Page Register
+[INFO] 03-08-2025 19:56:08 [main] LogUtils - Write Data Successfully
+[INFO] 03-08-2025 19:56:08 [main] LogUtils - Title Page Register:REGISTER
+[INFO] 03-08-2025 19:56:09 [main] LogUtils - name:tynguyen
+[INFO] 03-08-2025 19:56:09 [main] LogUtils - Email hợp lệ: thanhnhaznvietnam@gmail.com
+[INFO] 03-08-2025 19:56:09 [main] LogUtils - password: Aty05121995
+[INFO] 03-08-2025 19:56:09 [main] LogUtils - Re_password: Aty05121995
+[INFO] 03-08-2025 19:56:09 [main] LogUtils - Số điện thoại hợp lệ: 0912345678
+[INFO] 03-08-2025 19:56:10 [main] LogUtils - birthday: 22112014
+[INFO] 03-08-2025 19:56:10 [main] LogUtils - gender is: Male
+[INFO] 03-08-2025 19:56:10 [main] LogUtils - click Agree 
+[INFO] 03-08-2025 19:56:10 [main] LogUtils - Click button Register
+[ERROR] 03-08-2025 19:56:10 [main] LogUtils - Test case verifyRegister is failed.
+[ERROR] 03-08-2025 19:56:10 [main] LogUtils - java.lang.AssertionError: Fail expected [true] but found [false]
+[INFO] 03-08-2025 19:56:13 [main] LogUtils - Running test case verifyRegister
+[INFO] 03-08-2025 19:56:13 [main] LogUtils - RegisterPass
+[INFO] 03-08-2025 19:56:15 [main] LogUtils - This is Page Register
+[INFO] 03-08-2025 19:56:15 [main] LogUtils - Write Data Successfully
+[INFO] 03-08-2025 19:56:15 [main] LogUtils - Title Page Register:REGISTER
+[INFO] 03-08-2025 19:56:15 [main] LogUtils - name:nguyen truong thanh nha
+[INFO] 03-08-2025 19:56:16 [main] LogUtils - Email hợp lệ: sdasada@gmail.com
+[INFO] 03-08-2025 19:56:16 [main] LogUtils - password: 12345679
+[INFO] 03-08-2025 19:56:16 [main] LogUtils - Re_password: 12345679
+[INFO] 03-08-2025 19:56:16 [main] LogUtils - Số điện thoại không hợp lệ: 320633766
+[INFO] 03-08-2025 19:56:16 [main] LogUtils - birthday: 12052005
+[INFO] 03-08-2025 19:56:16 [main] LogUtils - gender is: Male
+[INFO] 03-08-2025 19:56:16 [main] LogUtils - click Agree 
+[INFO] 03-08-2025 19:56:16 [main] LogUtils - Click button Register
+[ERROR] 03-08-2025 19:56:16 [main] LogUtils - Test case verifyRegister is failed.
+[ERROR] 03-08-2025 19:56:17 [main] LogUtils - java.lang.AssertionError: Fail expected [true] but found [false]
+[INFO] 03-08-2025 19:56:20 [main] LogUtils - Running test case haveAccountSucess
+[INFO] 03-08-2025 19:56:20 [main] LogUtils - Goto the page Login
+[INFO] 03-08-2025 19:56:21 [main] LogUtils - Goto the page Login
+[INFO] 03-08-2025 19:56:21 [main] LogUtils - Title Page Register:REGISTER
+[INFO] 03-08-2025 19:56:22 [main] LogUtils - Go To Page LoginBy.xpath: //*[contains(text(),'I am already member')]
+[INFO] 03-08-2025 19:56:22 [main] LogUtils - Test case haveAccountSucess is passed.
+[INFO] 03-08-2025 19:56:22 [main] LogUtils - End testing Demo
+[INFO] 03-08-2025 19:57:22 [main] LogUtils - #########
+[INFO] 03-08-2025 19:57:22 [main] LogUtils - *****Demo***
+[INFO] 03-08-2025 19:57:23 [main] LogUtils - Login Data from Excel: [[Ljava.lang.Object;@66e8997c
+[INFO] 03-08-2025 19:57:25 [main] LogUtils - Running test case verifyRegister
+[INFO] 03-08-2025 19:57:25 [main] LogUtils - RegisterPass
+[INFO] 03-08-2025 19:57:26 [main] LogUtils - This is Page Register
+[INFO] 03-08-2025 19:57:27 [main] LogUtils - Write Data Successfully
+[INFO] 03-08-2025 19:57:27 [main] LogUtils - Title Page Register:REGISTER
+[INFO] 03-08-2025 19:57:27 [main] LogUtils - name:tynguyen
+[INFO] 03-08-2025 19:57:28 [main] LogUtils - Email hợp lệ: thanhnhaznvietnam@gmail.com
+[INFO] 03-08-2025 19:57:28 [main] LogUtils - password: Aty05121995
+[INFO] 03-08-2025 19:57:28 [main] LogUtils - Re_password: Aty05121995
+[INFO] 03-08-2025 19:57:28 [main] LogUtils - Số điện thoại hợp lệ: 0912345678
+[INFO] 03-08-2025 19:57:28 [main] LogUtils - birthday: 22112014
+[INFO] 03-08-2025 19:57:28 [main] LogUtils - gender is: Male
+[INFO] 03-08-2025 19:57:28 [main] LogUtils - click Agree 
+[INFO] 03-08-2025 19:57:28 [main] LogUtils - Click button Register
+[ERROR] 03-08-2025 19:57:29 [main] LogUtils - Test case verifyRegister is failed.
+[ERROR] 03-08-2025 19:57:29 [main] LogUtils - java.lang.AssertionError: Fail expected [true] but found [false]
+[INFO] 03-08-2025 19:57:32 [main] LogUtils - Running test case verifyRegister
+[INFO] 03-08-2025 19:57:32 [main] LogUtils - RegisterPass
+[INFO] 03-08-2025 19:57:32 [main] LogUtils - This is Page Register
+[INFO] 03-08-2025 19:57:33 [main] LogUtils - Write Data Successfully
+[INFO] 03-08-2025 19:57:34 [main] LogUtils - Title Page Register:REGISTER
+[INFO] 03-08-2025 19:57:34 [main] LogUtils - name:nguyen truong thanh nha
+[INFO] 03-08-2025 19:57:34 [main] LogUtils - Email hợp lệ: sdasada@gmail.com
+[INFO] 03-08-2025 19:57:34 [main] LogUtils - password: 12345679
+[INFO] 03-08-2025 19:57:35 [main] LogUtils - Re_password: 12345679
+[INFO] 03-08-2025 19:57:35 [main] LogUtils - Số điện thoại không hợp lệ: 320633766
+[INFO] 03-08-2025 19:57:35 [main] LogUtils - birthday: 12052005
+[INFO] 03-08-2025 19:57:35 [main] LogUtils - gender is: Male
+[INFO] 03-08-2025 19:57:35 [main] LogUtils - click Agree 
+[INFO] 03-08-2025 19:57:35 [main] LogUtils - Click button Register
+[ERROR] 03-08-2025 19:57:35 [main] LogUtils - Test case verifyRegister is failed.
+[ERROR] 03-08-2025 19:57:36 [main] LogUtils - java.lang.AssertionError: Fail expected [true] but found [false]
+[INFO] 03-08-2025 19:57:39 [main] LogUtils - Running test case verifyRegister
+[INFO] 03-08-2025 19:57:39 [main] LogUtils - RegisterPass
+[INFO] 03-08-2025 19:57:40 [main] LogUtils - This is Page Register
+[INFO] 03-08-2025 19:57:41 [main] LogUtils - Write Data Successfully
+[INFO] 03-08-2025 19:57:41 [main] LogUtils - Title Page Register:REGISTER
+[INFO] 03-08-2025 19:57:41 [main] LogUtils - name:tynguyen
+[INFO] 03-08-2025 19:57:41 [main] LogUtils - Email hợp lệ: vietnam@gmail.com
+[INFO] 03-08-2025 19:57:41 [main] LogUtils - password: Aty05121995@
+[INFO] 03-08-2025 19:57:42 [main] LogUtils - Re_password: Aty05121995@
+[INFO] 03-08-2025 19:57:42 [main] LogUtils - Số điện thoại hợp lệ: 0376082747
+[INFO] 03-08-2025 19:57:42 [main] LogUtils - birthday: 22112014
+[INFO] 03-08-2025 19:57:42 [main] LogUtils - gender is: Male
+[INFO] 03-08-2025 19:57:42 [main] LogUtils - click Agree 
+[INFO] 03-08-2025 19:57:42 [main] LogUtils - Click button Register
+[ERROR] 03-08-2025 19:57:42 [main] LogUtils - Test case verifyRegister is failed.
+[ERROR] 03-08-2025 19:57:43 [main] LogUtils - java.lang.AssertionError: Fail expected [true] but found [false]
+[INFO] 03-08-2025 19:57:47 [main] LogUtils - Running test case haveAccountSucess
+[INFO] 03-08-2025 19:57:47 [main] LogUtils - Goto the page Login
+[INFO] 03-08-2025 19:57:49 [main] LogUtils - Goto the page Login
+[INFO] 03-08-2025 19:57:49 [main] LogUtils - Title Page Register:REGISTER
+[INFO] 03-08-2025 19:57:49 [main] LogUtils - Go To Page LoginBy.xpath: //*[contains(text(),'I am already member')]
+[INFO] 03-08-2025 19:57:49 [main] LogUtils - Test case haveAccountSucess is passed.
+[INFO] 03-08-2025 19:57:51 [main] LogUtils - End testing Demo
+[INFO] 03-08-2025 20:01:51 [main] LogUtils - #########
+[INFO] 03-08-2025 20:01:51 [main] LogUtils - *****Demo***
+[INFO] 03-08-2025 20:01:52 [main] LogUtils - Login Data from Excel: [[Ljava.lang.Object;@2c708440
+[INFO] 03-08-2025 20:01:54 [main] LogUtils - Running test case verifyRegister
+[INFO] 03-08-2025 20:01:55 [main] LogUtils - RegisterPass
+[INFO] 03-08-2025 20:01:55 [main] LogUtils - This is Page Register
+[INFO] 03-08-2025 20:01:56 [main] LogUtils - Write Data Successfully
+[INFO] 03-08-2025 20:01:56 [main] LogUtils - Title Page Register:REGISTER
+[INFO] 03-08-2025 20:01:56 [main] LogUtils - name:tynguyen
+[INFO] 03-08-2025 20:01:57 [main] LogUtils - Email hợp lệ: thanhnhaznvietnam@gmail.com
+[INFO] 03-08-2025 20:01:57 [main] LogUtils - password: Aty05121995
+[INFO] 03-08-2025 20:01:57 [main] LogUtils - Re_password: Aty05121995
+[INFO] 03-08-2025 20:01:57 [main] LogUtils - Số điện thoại hợp lệ: 0912345678
+[INFO] 03-08-2025 20:01:57 [main] LogUtils - birthday: 22112014
+[INFO] 03-08-2025 20:01:57 [main] LogUtils - gender is: Male
+[INFO] 03-08-2025 20:01:57 [main] LogUtils - click Agree 
+[INFO] 03-08-2025 20:01:58 [main] LogUtils - Click button Register
+[ERROR] 03-08-2025 20:01:58 [main] LogUtils - Test case verifyRegister is failed.
+[ERROR] 03-08-2025 20:01:58 [main] LogUtils - java.lang.AssertionError: fail van login expected [true] but found [false]
+[INFO] 03-08-2025 20:02:01 [main] LogUtils - Running test case verifyRegister
+[INFO] 03-08-2025 20:02:01 [main] LogUtils - RegisterPass
+[INFO] 03-08-2025 20:02:02 [main] LogUtils - This is Page Register
+[INFO] 03-08-2025 20:02:03 [main] LogUtils - Write Data Successfully
+[INFO] 03-08-2025 20:02:03 [main] LogUtils - Title Page Register:REGISTER
+[INFO] 03-08-2025 20:02:03 [main] LogUtils - name:nguyen truong thanh nha
+[INFO] 03-08-2025 20:02:03 [main] LogUtils - Email hợp lệ: sdasada@gmail.com
+[INFO] 03-08-2025 20:02:03 [main] LogUtils - password: 12345679
+[INFO] 03-08-2025 20:02:03 [main] LogUtils - Re_password: 12345679
+[INFO] 03-08-2025 20:02:03 [main] LogUtils - Số điện thoại không hợp lệ: 320633766
+[INFO] 03-08-2025 20:02:03 [main] LogUtils - birthday: 12052005
+[INFO] 03-08-2025 20:02:04 [main] LogUtils - gender is: Male
+[INFO] 03-08-2025 20:02:04 [main] LogUtils - click Agree 
+[INFO] 03-08-2025 20:02:04 [main] LogUtils - Click button Register
+[ERROR] 03-08-2025 20:02:04 [main] LogUtils - Test case verifyRegister is failed.
+[ERROR] 03-08-2025 20:02:04 [main] LogUtils - java.lang.AssertionError: fail van login expected [true] but found [false]
+[INFO] 03-08-2025 20:02:09 [main] LogUtils - Running test case verifyRegister
+[INFO] 03-08-2025 20:02:09 [main] LogUtils - RegisterPass
+[INFO] 03-08-2025 20:02:10 [main] LogUtils - This is Page Register
+[INFO] 03-08-2025 20:02:10 [main] LogUtils - Write Data Successfully
+[INFO] 03-08-2025 20:02:10 [main] LogUtils - Title Page Register:REGISTER
+[INFO] 03-08-2025 20:02:11 [main] LogUtils - name:tynguyen
+[INFO] 03-08-2025 20:02:11 [main] LogUtils - Email hợp lệ: vietnam@gmail.com
+[INFO] 03-08-2025 20:02:11 [main] LogUtils - password: Aty05121995@
+[INFO] 03-08-2025 20:02:11 [main] LogUtils - Re_password: Aty05121995@
+[INFO] 03-08-2025 20:02:12 [main] LogUtils - Số điện thoại hợp lệ: 0376082747
+[INFO] 03-08-2025 20:02:12 [main] LogUtils - birthday: 22112014
+[INFO] 03-08-2025 20:02:12 [main] LogUtils - gender is: Male
+[INFO] 03-08-2025 20:02:12 [main] LogUtils - click Agree 
+[INFO] 03-08-2025 20:02:12 [main] LogUtils - Click button Register
+[ERROR] 03-08-2025 20:02:12 [main] LogUtils - Test case verifyRegister is failed.
+[ERROR] 03-08-2025 20:02:12 [main] LogUtils - java.lang.AssertionError: fail van login expected [true] but found [false]
+[INFO] 03-08-2025 20:02:16 [main] LogUtils - Running test case haveAccountSucess
+[INFO] 03-08-2025 20:02:16 [main] LogUtils - Goto the page Login
+[INFO] 03-08-2025 20:02:18 [main] LogUtils - Goto the page Login
+[INFO] 03-08-2025 20:02:18 [main] LogUtils - Title Page Register:REGISTER
+[INFO] 03-08-2025 20:02:19 [main] LogUtils - Go To Page LoginBy.xpath: //*[contains(text(),'I am already member')]
+[INFO] 03-08-2025 20:02:19 [main] LogUtils - Test case haveAccountSucess is passed.
+[INFO] 03-08-2025 20:02:19 [main] LogUtils - End testing Demo
