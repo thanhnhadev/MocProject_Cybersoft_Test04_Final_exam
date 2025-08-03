@@ -37,7 +37,7 @@ public  class joinPageTest extends BaseSetup {
                 data.get("brithday")
         );
         LogUtils.info("RegisterPass");
-//        joinPageTest.verifyRegisterSuccsess();
+        joinPageTest.verifyRegisterSuccsess();
     }
     @Test(priority = 3,testName = "Have Account")
     public void haveAccountSucess(){

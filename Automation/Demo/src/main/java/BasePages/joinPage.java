@@ -132,11 +132,11 @@ public class joinPage {
         driver.findElement(submit).click();
         LogUtils.info("Click button Register");
     }
-//    public boolean verifyRegisterSuccsess(){
-//        Assert.assertEquals(driver.getCurrentUrl().contains("login"),"fail van login");
-//        LogUtils.error("verify Register Fail");
-//        return false;
-//    }
+    public boolean verifyRegisterSuccsess(){
+        Assert.assertTrue(driver.getCurrentUrl().contains("login"),"fail van login");
+        LogUtils.error("verify Register");
+        return false;
+    }
     public void login(){
         wait.until(ExpectedConditions.visibilityOfElementLocated(alreadyMember));
         driver.findElement(alreadyMember).click();
