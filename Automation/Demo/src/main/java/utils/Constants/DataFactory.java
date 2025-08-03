@@ -24,7 +24,7 @@ public class DataFactory {
     @DataProvider(name = "data_Register_Excel")
     public Object[][] dataJoin() {
         ExcelHelper excelHelper = new ExcelHelper();
-        Object[][] data = excelHelper.getDataHashTable( ConfigData.Excel, "Login", 1, 3);
+        Object[][] data = excelHelper.getDataHashTable( ConfigData.Excel, "Login", 1,1 );
         LogUtils.info("Login Data from Excel: " + data);
         return data;
     }

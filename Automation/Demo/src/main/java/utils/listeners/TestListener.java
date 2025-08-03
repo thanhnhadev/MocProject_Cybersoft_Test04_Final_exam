@@ -69,15 +69,12 @@ public class TestListener implements ITestListener {
         ExtentTestManager.addScreenshot(getDriver(),result.getName());
         ExtentTestManager.logMessage(Status.FAIL, result.getThrowable().toString());
         ExtentTestManager.logMessage(Status.FAIL, result.getName() + " is failed.");
-
-
     }
 
     @Override
     public void onTestSkipped(ITestResult result) {
         LogUtils.error("Test case " + result.getName() + " is skipped.");
         LogUtils.error(result.getThrowable().toString());
-
         //Extent Report
         ExtentTestManager.logMessage(Status.SKIP, result.getThrowable().toString());
     }

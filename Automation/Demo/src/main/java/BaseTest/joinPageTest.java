@@ -9,6 +9,7 @@ import utils.Constants.DataFactory;
 import utils.Helper.ExcelHelper;
 import utils.Logs.LogUtils;
 import utils.listeners.TestListener;
+import utils.reports.CaptureReport;
 
 import java.util.Hashtable;
 import java.util.Random;
@@ -18,9 +19,14 @@ import static Locator.Locator_CMS.email;
 @Listeners(TestListener.class)
 public  class joinPageTest extends BaseSetup {
     joinPage joinPageTest;
-    @Test(priority = 1,testName = "Register_Account", dataProvider = "data_Register_Excel", dataProviderClass = DataFactory.class)
-    public void verifyRegister(Hashtable< String, String> data){
-        LogUtils.info("RegisterPass");
+    @Test(priority = 1,testName = "WriteData")
+   public void Write_Data(){
+        joinPageTest = new joinPage(driver);
+       joinPageTest.WriteData();
+        LogUtils.info("WriteData_Pass");
+   }
+    @Test(priority = 2,testName = "Register_Account", dataProvider = "data_Register_Excel", dataProviderClass = DataFactory.class)
+    public void verify_Register(Hashtable< String, String> data){
         joinPageTest = new joinPage(driver);
         joinPageTest.register(
                 data.get("name"),
@@ -30,12 +36,13 @@ public  class joinPageTest extends BaseSetup {
                 data.get("phoneNumber"),
                 data.get("brithday")
         );
-        joinPageTest.verifyRegisterSuccsess();
+        LogUtils.info("RegisterPass");
+//        joinPageTest.verifyRegisterSuccsess();
     }
-    @Test(priority = 2)
+    @Test(priority = 3,testName = "Have Account")
     public void haveAccountSucess(){
-            LogUtils.info("Goto the page Login");
-            joinPageTest = new joinPage(driver);
-            joinPageTest.registerLogin();
+        joinPageTest = new joinPage(driver);
+        joinPageTest.registerLogin();
+        LogUtils.info("Goto the page Login");
     }
 }

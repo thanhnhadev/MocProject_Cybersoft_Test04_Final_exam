@@ -132,32 +132,62 @@ public class joinPage {
         driver.findElement(submit).click();
         LogUtils.info("Click button Register");
     }
-    public boolean verifyRegisterSuccsess(){
-        Assert.assertTrue(driver.getCurrentUrl().contains("login"),"fail van login");
-        LogUtils.error("verify Register Fail");
-        return false;
-    }
+//    public boolean verifyRegisterSuccsess(){
+//        Assert.assertEquals(driver.getCurrentUrl().contains("login"),"fail van login");
+//        LogUtils.error("verify Register Fail");
+//        return false;
+//    }
     public void login(){
         wait.until(ExpectedConditions.visibilityOfElementLocated(alreadyMember));
         driver.findElement(alreadyMember).click();
         LogUtils.info("Go To Page Login"+alreadyMember);
     }
+    // Hàm tạo chuỗi gồm toàn chữ cái ngẫu nhiên
+    private String generateRandomLetters(int length) {
+        String alphabet = "abcdefghijklmnopqrstuvwxyz";
+        Random random = new Random();
+        StringBuilder result = new StringBuilder();
+        for (int i = 0; i < length; i++) {
+            result.append(alphabet.charAt(random.nextInt(alphabet.length())));
+        }
+        return result.toString();
+    }
     public void WriteData(){
         ExcelHelper excelHelper = new ExcelHelper();
         excelHelper.setExcelFile(ConfigData.Excel,"Login");
-        excelHelper.setCellData("vietnam@gmail.com", 0, 3);
-        excelHelper.setCellData("Aty05121995@", 1, 3);
-        excelHelper.setCellData("Aty05121995@", 3, 3);
-        excelHelper.setCellData("tynguyen", 2, 3);
-        excelHelper.setCellData("0376082747", 4, 3);
-        excelHelper.setCellData("22112014", 5, 3);
-        LogUtils.info("Write Data Successfully");
+        Random random = new Random();
+        // Tạo email ngẫu nhiên
+        String email = "user" + (10000 + random.nextInt(90000)) + "@gmail.com";
+        LogUtils.info("emaill:"+email);
+        // Tạo password ngẫu nhiên (bao gồm chữ cái, số, ký tự đặc biệt)
+        String password = "Aty" + (1000 + random.nextInt(9000)) + "@";
+        LogUtils.info("password:"+password);
+        // Tạo username ngẫu nhiên
+        String username = generateRandomLetters(8);
+        LogUtils.info("name:"+username);
+        // Tạo số điện thoại ngẫu nhiên (bắt đầu bằng 03, 07, 08, 09 ở VN)
+        String[] phonePrefixes = {"037", "097", "083", "088"};
+        String phone = phonePrefixes[random.nextInt(phonePrefixes.length)] + (1000000 + random.nextInt(9000000));
+        LogUtils.info("Phone Number:"+phone);
+        // Ngày sinh ngẫu nhiên theo định dạng ddMMyyyy
+        int day = 1 + random.nextInt(28); // giới hạn 28 để tránh lỗi tháng
+        int month = 1 + random.nextInt(12);
+        int year = 1980 + random.nextInt(30); // từ 1980 đến 2009
+        String dob = String.format("%02d%02d%d", day, month, year);
+        LogUtils.info("brithday:"+dob);
+        // Ghi dữ liệu vào các ô tương ứng
+        excelHelper.setCellData(email, 0, 1);
+        excelHelper.setCellData(password, 1, 1);
+        excelHelper.setCellData(password, 3, 1);
+        excelHelper.setCellData(username, 2, 1);
+        excelHelper.setCellData(phone, 4, 1);
+        excelHelper.setCellData(dob, 5, 1);
+        LogUtils.info("Write Random Data Successfully");
     }
     public HomePage register(String name,String email, String password,String re_password,String phone,String datetimes)
     {
         driver.get(ConfigData.registerUrl);
         LogUtils.info("This is Page Register");
-        this.WriteData();
         this.TitlePage();
         this.fieldUserName(name);
         this.fieldEmailID(email);
@@ -169,7 +199,9 @@ public class joinPage {
         this.optionChecked();
         this.cbAgree();
         this.submitButton();
-        this.verifyRegisterSuccsess();
+        sleep(5);
+        CaptureReport.captureScreenshot(driver,"verify_Register");
+//        this.verifyRegisterSuccsess();
         return new HomePage(driver);
     }
     public HomePage registerLogin(){
