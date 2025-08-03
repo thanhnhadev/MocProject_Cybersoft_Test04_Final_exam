@@ -29,7 +29,7 @@ public class BaseSetup {
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(10));
-
+        driver.manage().deleteAllCookies();
     }
     @BeforeMethod
     @Parameters({"browser"})
@@ -59,33 +59,33 @@ public class BaseSetup {
         driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(20));
     }
     //Chờ đợi trang load xong mới thao tác
-//    public void waitForPageLoaded() {
-//        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30), Duration.ofMillis(500));
-//        JavascriptExecutor js = (JavascriptExecutor) driver;
-//
-//        //Wait for Javascript to load
-//        ExpectedCondition<Boolean> jsLoad = new ExpectedCondition<Boolean>() {
-//            @Override
-//            public Boolean apply(WebDriver driver) {
-//                return js.executeScript("return document.readyState").toString().equals("complete");
-//            }
-//        };
-//
-//        //Check JS is Ready
-//        boolean jsReady = js.executeScript("return document.readyState").toString().equals("complete");
-//
-//        //Wait Javascript until it is Ready!
-//        if (!jsReady) {
-//            System.out.println("Javascript is NOT Ready.");
-//            //Wait for Javascript to load
-//            try {
-//                wait.until(jsLoad);
-//            } catch (Throwable error) {
-//                error.printStackTrace();
-//                Assert.fail("FAILED. Timeout waiting for page load.");
-//            }
-//        }
-//    }
+    public void waitForPageLoaded() {
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30), Duration.ofMillis(500));
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+
+        //Wait for Javascript to load
+        ExpectedCondition<Boolean> jsLoad = new ExpectedCondition<Boolean>() {
+            @Override
+            public Boolean apply(WebDriver driver) {
+                return js.executeScript("return document.readyState").toString().equals("complete");
+            }
+        };
+
+        //Check JS is Ready
+        boolean jsReady = js.executeScript("return document.readyState").toString().equals("complete");
+
+        //Wait Javascript until it is Ready!
+        if (!jsReady) {
+            System.out.println("Javascript is NOT Ready.");
+            //Wait for Javascript to load
+            try {
+                wait.until(jsLoad);
+            } catch (Throwable error) {
+                error.printStackTrace();
+                Assert.fail("FAILED. Timeout waiting for page load.");
+            }
+        }
+    }
     public static void sleep(double second){
         try {
             Thread.sleep((long) (100*second));

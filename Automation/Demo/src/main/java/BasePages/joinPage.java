@@ -8,11 +8,15 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import utils.Constants.ConfigData;
+import utils.Helper.ExcelHelper;
 import utils.Logs.LogUtils;
+import utils.reports.CaptureReport;
 
 import java.time.Duration;
+import java.util.Random;
 import java.util.regex.Pattern;
 
+import static Base.BaseSetup.sleep;
 import static utils.Constants.ConfigData.*;
 
 public class joinPage {
@@ -121,16 +125,15 @@ public class joinPage {
         if (!checkboxRemember.isSelected()) {
             checkboxRemember.click();
         }
-        LogUtils.info("click Agree "+checkboxRemember);
+        LogUtils.info("click Agree ");
     }
     private void submitButton(){
         wait.until(ExpectedConditions.visibilityOfElementLocated(submit));
         driver.findElement(submit).click();
-        LogUtils.info("Register Successfully");
+        LogUtils.info("Click button Register");
     }
     public void verifyRegisterSuccsess(){
-        Assert.assertFalse(driver.getCurrentUrl().contains("authentication"),"fail van login");
-        LogUtils.info("Register Fail");
+        Assert.assertTrue(driver.getCurrentUrl().contains("login"),"Fail");
     }
     public void login(){
         wait.until(ExpectedConditions.visibilityOfElementLocated(alreadyMember));
@@ -157,7 +160,7 @@ public class joinPage {
     }
     public HomePage registerLogin(){
         driver.get(ConfigData.registerUrl);
-        LogUtils.info("This is Page Register");
+        LogUtils.info("Goto the page Login");
         this.TitlePage();
         this.login();
         return new HomePage(driver);

@@ -15,24 +15,20 @@ import java.util.Hashtable;
 public class signinPageTest extends BaseSetup {
     signinPage signinPageTest;
 
-    @Test(priority = 1,testName = "tc_01", dataProvider = "data_Login_Excel", dataProviderClass = DataFactory.class)
+    @Test(priority = 1,testName = "tc_01_Login_Pass", dataProvider = "data_Login_Excel", dataProviderClass = DataFactory.class)
     public void verifyLoginSucess(Hashtable< String, String > data){
-        try {
-            CaptureReport.startRecord("Login_success");
-            signinPageTest = new signinPage(driver);
-            signinPageTest.login(
-                    data.get("username"),
-                    data.get("password"));
-            CaptureReport.captureScreenshot(driver, "Login_success");
-            CaptureReport.stopRecord();
-            signinPageTest.verifyLoginSuccsess();
-        } catch (Exception e) {
-            e.getMessage();
-        }
+        CaptureReport.startRecord("Login_success");
+        signinPageTest = new signinPage(driver);
+        signinPageTest.login(
+                data.get("username"),
+                data.get("password"));
+        CaptureReport.captureScreenshot(driver, "Login_success");
+        CaptureReport.stopRecord();
+        signinPageTest.verifyLoginSuccsess();
     }
-    @Test (priority = 2, testName = "tc_02", dataProvider = "data_LoginFail_Excel", dataProviderClass = DataFactory.class)
+    @Test (priority = 2, testName = "tc_02_Login_Fail", dataProvider = "data_LoginFail_Excel", dataProviderClass = DataFactory.class)
     public void verifyLoginFail(Hashtable< String, String > data){
-        try {
+
             CaptureReport.startRecord("Login_Fail");
             signinPageTest = new signinPage(driver);
             signinPageTest.login(
@@ -41,20 +37,14 @@ public class signinPageTest extends BaseSetup {
             CaptureReport.captureScreenshot(driver, "Login_Fail");
             CaptureReport.stopRecord();
             signinPageTest.verifyLoginSuccsess();
-        } catch (Exception e) {
-            e.getMessage();
-        }
+
     }
-    @Test(priority = 3,testName = "tc_03")
+    @Test(priority = 3,testName = "tc_03_Click_Register")
     public void goToPageRester(){
-        try {
             CaptureReport.startRecord("Page Resgiter Pass");
             signinPageTest= new signinPage(driver);
             signinPageTest.loginRegister();
             CaptureReport.captureScreenshot(driver, "Page Resgiter Pass");
             CaptureReport.stopRecord();
-        } catch (Exception e) {
-            e.getMessage();
-        }
     }
 }

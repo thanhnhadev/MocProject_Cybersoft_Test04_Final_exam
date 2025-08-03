@@ -1,5 +1,6 @@
 package utils.listeners;
 
+import Base.BaseSetup;
 import com.aventstack.extentreports.Status;
 import org.openqa.selenium.WebDriver;
 import org.testng.ITestContext;
@@ -13,7 +14,9 @@ import utils.reports.ExtentReportManager;
 import utils.reports.ExtentTestManager;
 
 public class TestListener implements ITestListener {
-    public WebDriver driver;
+    public WebDriver getDriver() {
+        return BaseSetup.driver;
+    }
     public String getTestName(ITestResult result) {
         return result.getTestName() != null ? result.getTestName() : result.getMethod().getConstructorOrMethod().getName();
     }
@@ -27,7 +30,7 @@ public class TestListener implements ITestListener {
         PropertiesHelper.loadAllFiles();
         LogUtils.info("#########");
         LogUtils.info("*****"+result.getName()+"***");
-        CaptureReport.captureScreenshot(driver,result.getName());
+        CaptureReport.captureScreenshot(getDriver(),result.getName());
         //Khởi tạo report (Extent và Allure)
     }
 
@@ -42,7 +45,7 @@ public class TestListener implements ITestListener {
     @Override
     public void onTestStart(ITestResult result) {
         LogUtils.info("Running test case " + result.getName());
-
+        CaptureReport.startRecord(result.getName());
         //Bắt đầu ghi 1 TCs mới vào Extent Report
         ExtentTestManager.saveToReport(getTestName(result), getTestDescription(result));
     }
@@ -60,10 +63,10 @@ public class TestListener implements ITestListener {
     public void onTestFailure(ITestResult result) {
         LogUtils.error("Test case " + result.getName() + " is failed.");
         //Screenshot khi fail
-        CaptureReport.captureScreenshot(driver,result.getName());
+        CaptureReport.captureScreenshot(getDriver(),result.getName());
         LogUtils.error(result.getThrowable().toString());
         //Extent Report
-        ExtentTestManager.addScreenshot(driver,result.getName());
+        ExtentTestManager.addScreenshot(getDriver(),result.getName());
         ExtentTestManager.logMessage(Status.FAIL, result.getThrowable().toString());
         ExtentTestManager.logMessage(Status.FAIL, result.getName() + " is failed.");
 

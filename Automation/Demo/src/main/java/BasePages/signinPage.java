@@ -59,7 +59,7 @@ public class signinPage {
        LogUtils.info("Login Successfully");
     }
     public boolean verifyLoginSuccsess(){
-        Assert.assertFalse(driver.getCurrentUrl().contains("authentication"),"fail van login");
+        Assert.assertTrue(driver.getCurrentUrl().contains("profile"),"fail van login");
         LogUtils.error("Login Fail");
         return false;
     }
