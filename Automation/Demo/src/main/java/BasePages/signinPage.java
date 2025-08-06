@@ -79,7 +79,12 @@ public class signinPage {
     }
     public HomePage loginRegister(){
         driver.get(ConfigData.signinUrl);
+        sleep(2);
+
         this.a_Resgister();
         return new HomePage(driver);
     }
+
+
+
 }

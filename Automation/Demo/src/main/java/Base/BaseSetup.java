@@ -31,6 +31,7 @@ public class BaseSetup {
         driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(10));
         driver.manage().deleteAllCookies();
     }
+
     @BeforeMethod
     @Parameters({"browser"})
     public void createBrowser(@Optional("chrome") String browserName) {
