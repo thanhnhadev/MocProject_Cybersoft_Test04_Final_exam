@@ -70,7 +70,7 @@ public class TestListener implements ITestListener {
         ExtentTestManager.logMessage(Status.FAIL, result.getName() + " is failed.");
         //Allure Report
         AllureManager.saveTextLog(result.getName() + " is failed.");
-        AllureManager.saveScreenshotPNG();
+        AllureManager.saveScreenshotPNG(getDriver());
     }
 
     @Override
