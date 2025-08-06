@@ -17,7 +17,7 @@ public class ConfigData {
     public static String skill= PropertiesHelper.getValue("skill");
     public static String certificate= PropertiesHelper.getValue("certificate");
     public static String contentItem=PropertiesHelper.getValue("context1");
-    public static String contentItem01=PropertiesHelper.getValue("context2");
+    public static String contentItem2=PropertiesHelper.getValue("context2");
     public static String profileUrl=PropertiesHelper.getValue("url_profile");
     public static String headerProfileUrl="(//*[contains(@class,'header_navbar')]/ul/li)[6]";
     public static  String regexNumber = PropertiesHelper.getValue("regexNumber");

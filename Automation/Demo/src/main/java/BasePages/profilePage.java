@@ -5,6 +5,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import utils.Constants.ConfigData;
@@ -21,7 +22,7 @@ public class profilePage {
     private By phoneName= By.xpath(Locator_CMS.editPhoneNumber);
     private By editName= By.xpath(Locator_CMS.editName);
     private By editBirthday = By.xpath(Locator_CMS.editBirthday);
-    private By lstCartItem =By.className(Locator_CMS.lstCartItemclass);
+//    private By lstCartItem =By.className(Locator_CMS.lstCartItemclass);
 //    private By detailItemView = By.className(Locator_CMS.btnViewdetail);
 
 
@@ -48,6 +49,7 @@ public class profilePage {
         wait.until(ExpectedConditions.visibilityOfElementLocated(phoneName));
         WebElement inputElement = driver.findElement(phoneName);
         inputElement.click();
+//        action.keyDown(Keys.CONTROL).sendKeys("a").sendKeys(Keys.DELETE).build().perform();
         inputElement.sendKeys(Keys.chord(Keys.CONTROL,"a"));
         inputElement.sendKeys(Keys.DELETE);
         inputElement.sendKeys(numberPhone);
@@ -106,35 +108,40 @@ public class profilePage {
         LogUtils.info("press button Save");
     }
 
-    public int getCartItem(){
-        List<WebElement> lstCartItems = this.driver.findElements(lstCartItem);
-        return lstCartItems.size();
-    }
 
     public void RemoveCartItem(String productName){
         String productXpath = String.format(Locator_CMS.btnRemoveCartItemclass1,productName);
         List<WebElement> elements = driver.findElements(By.xpath(productXpath));
+        if (elements.isEmpty()) {
+            LogUtils.warn("No cart item found to remove for product: ");
+            return;
+        }
         for (WebElement element : elements) {
-            element.click();
-            LogUtils.info("Remove Item Successfully"+element);
+            try {
+                element.click();
+                LogUtils.info("Removed item successfully: " + productXpath);
+            } catch (Exception e) {
+                LogUtils.error(e+"Failed to remove item: " + productXpath);
+            }
         }
     }
     public void DetailItem(String productName){
         String productXpath = String.format(Locator_CMS.btnViewdetail,productName);
         List<WebElement> elements = driver.findElements(By.xpath(productXpath));
+        if (elements.isEmpty()) {
+            LogUtils.warn("No detail button found for product: " );
+            return;
+        }
         for (WebElement element : elements) {
-            element.click();
-            LogUtils.info("Detail Item Successfully"+element);
+            try {
+                element.click();
+                LogUtils.info("Viewed details for product: " + productXpath);
+            } catch (Exception e) {
+                LogUtils.error(e+"Failed to view details for product: " + productXpath);
+            }
         }
     }
-    public boolean isCartItemEmpty(){
-        List<WebElement> lstCartItems = this.driver.findElements(lstCartItem);
-        boolean isTrue= true;
-        if(lstCartItems.size()>0){
-            isTrue= false;
-        }
-        return isTrue;
-    }
+
     public void openPodup(){
         this.editAccount();
         LogUtils.info("open podup");

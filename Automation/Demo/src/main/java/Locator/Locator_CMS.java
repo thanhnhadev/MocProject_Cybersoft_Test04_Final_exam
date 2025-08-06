@@ -25,7 +25,7 @@ public class Locator_CMS {
     public static final String aLogin="//*[contains(text(),'I am already member')]";
     public static final String btnSubmit="//button[normalize-space()='Submit']";
     //page profile
-    public static final String editProfile="(//button[@class='edit'])[1]";
+    public static final String editProfile="(//*[@class='edit'])[1]";
     public static final String lstCartItemclass= "//div[@class='gigs_card']//h1";
     public static final String btnRemoveCartItemclass1="//button[contains(normalize-space(),'DEL')]";
     public static final String btnViewdetail="(//*[contains(text(),'View detail')])";

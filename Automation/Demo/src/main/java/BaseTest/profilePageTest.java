@@ -17,10 +17,9 @@ import java.util.Hashtable;
 public class profilePageTest extends BaseSetup {
     profilePage profilePageTest;
     signinPage signinPageTest;
-    @Test(priority = 1,dataProvider = "data_Login_Excel", dataProviderClass = DataFactory.class)
-    public void verifyUpdateUser(Hashtable< String, String > data)
+    @Test(priority = 1,testName = "Update_Profile",dataProvider = "data_Login_Excel", dataProviderClass = DataFactory.class)
+    public void verify_UpdateUser(Hashtable< String, String > data)
     {
-        try {
             signinPageTest= new signinPage(driver);
             signinPageTest.login(
                     data.get("username"),
@@ -30,14 +29,20 @@ public class profilePageTest extends BaseSetup {
             LogUtils.info("login sucessfully");
             //update profile
             profilePageTest.openPodup();
-        } catch (Exception e) {
-            e.getMessage();
-        }
     }
-
-    @Test(priority =2,dataProvider = "data_Login_Excel", dataProviderClass = DataFactory.class)
-    public void removeDataUser(Hashtable< String, String > data){
-        try {
+    @Test(priority =2,testName = "Detail_Items", dataProvider = "data_Login_Excel", dataProviderClass = DataFactory.class)
+    public void detail_dataUser(Hashtable< String, String > data){
+        ExcelHelper excelHelper = new ExcelHelper();
+        excelHelper.setExcelFile(ConfigData.Excel,"Login");
+        signinPageTest= new signinPage(driver);
+        signinPageTest.login(
+                data.get("username"),
+                data.get("password"));
+        profilePageTest= new profilePage(driver);
+        profilePageTest.DetailItem(PropertiesHelper.getValue(ConfigData.contentItem));
+    }
+    @Test(priority =3,testName = "Delete_Items", dataProvider = "data_Login_Excel", dataProviderClass = DataFactory.class)
+    public void remove_DataUser(Hashtable< String, String > data){
             ExcelHelper excelHelper = new ExcelHelper();
             excelHelper.setExcelFile(ConfigData.Excel,"Login");
             signinPageTest= new signinPage(driver);
@@ -46,26 +51,6 @@ public class profilePageTest extends BaseSetup {
                     data.get("password")
             );
             profilePageTest= new profilePage(driver);
-            profilePageTest.RemoveCartItem(PropertiesHelper.getValue(ConfigData.contentItem));
-        } catch (Exception e) {
-            e.getMessage();
-        }
+            profilePageTest.RemoveCartItem(PropertiesHelper.getValue(ConfigData.contentItem2));
     }
-
-    @Test(priority =3,dataProvider = "data_Login_Excel", dataProviderClass = DataFactory.class)
-    public void detaildataUser(Hashtable< String, String > data){
-        try {
-            ExcelHelper excelHelper = new ExcelHelper();
-            excelHelper.setExcelFile(ConfigData.Excel,"Login");
-            signinPageTest= new signinPage(driver);
-            signinPageTest.login(
-                    data.get("username"),
-                    data.get("password"));
-            profilePageTest= new profilePage(driver);
-            profilePageTest.DetailItem(PropertiesHelper.getValue(ConfigData.contentItem01));
-        } catch (Exception e) {
-            e.getMessage();
-        }
-    }
-
 }
