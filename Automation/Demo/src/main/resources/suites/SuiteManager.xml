@@ -1,46 +1,56 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
-<suite name="SuiteManager" verbose="1" parallel="methods">
-    <test name="HomePage" parallel="tests">
-        <classes>
-            <class name="BaseTest.HomePageTest">
-                <methods/>
-            </class>
-        </classes>
-    </test>
-    <test name="ProductPage" parallel="tests">
-        <classes>
-            <class name="BaseTest.productPageTest">
-                <methods/>
-            </class>
-        </classes>
-    </test>
-    <test name="detailProductPage" parallel="tests">
-        <classes>
-            <class name="BaseTest.detailProductPageTest">
-                <methods/>
-            </class>
-        </classes>
-    </test>
-    <test name="LoginTest" parallel="tests">
-        <classes>
-            <class name="BaseTest.signinPageTest">
-                <methods/>
-            </class>
-        </classes>
-    </test>
-    <test name="ProfileTest" parallel="tests">
-        <classes>
-            <class name="BaseTest.profilePageTest">
-                <methods/>
-            </class>
-        </classes>
-    </test>
-    <test name="RegisterTest" parallel="tests">
-        <classes>
-            <class name="BaseTest.joinPageTest">
-                <methods/>
-            </class>
-        </classes>
-    </test>
+<!--<suite name="SuiteManager" verbose="1" parallel="methods">-->
+<!--    <test name="HomePage" parallel="tests">-->
+<!--        <classes>-->
+<!--            <class name="BaseTest.HomePageTest">-->
+<!--                <methods/>-->
+<!--            </class>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test name="ProductPage" parallel="tests">-->
+<!--        <classes>-->
+<!--            <class name="BaseTest.productPageTest">-->
+<!--                <methods/>-->
+<!--            </class>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test name="detailProductPage" parallel="tests">-->
+<!--        <classes>-->
+<!--            <class name="BaseTest.detailProductPageTest">-->
+<!--                <methods/>-->
+<!--            </class>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test name="LoginTest" parallel="tests">-->
+<!--        <classes>-->
+<!--            <class name="BaseTest.signinPageTest">-->
+<!--                <methods/>-->
+<!--            </class>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test name="ProfileTest" parallel="tests">-->
+<!--        <classes>-->
+<!--            <class name="BaseTest.profilePageTest">-->
+<!--                <methods/>-->
+<!--            </class>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test name="RegisterTest" parallel="tests">-->
+<!--        <classes>-->
+<!--            <class name="BaseTest.joinPageTest">-->
+<!--                <methods/>-->
+<!--            </class>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--</suite>-->
+<suite name="allSuites"  verbose="1" parallel="methods">
+    <suite-files>
+        <suite-file path="suitespages/SuiteHomePage.xml" />
+        <suite-file path="suitespages/SuiteProductPage.xml" />
+        <suite-file path="suitespages/SuiteProductDetailPage.xml" />
+        <suite-file path="suitespages/SuiteLoginTest.xml" />
+        <suite-file path="suitespages/SuiteProfileTest.xml" />
+        <suite-file path="suitespages/SuiteJoinTest.xml" />
+    </suite-files>
 </suite>

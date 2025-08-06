@@ -31,13 +31,11 @@ public class TestListener implements ITestListener {
         LogUtils.info("#########");
         LogUtils.info("*****"+result.getName()+"***");
         CaptureReport.captureScreenshot(getDriver(),result.getName());
-        //Khởi tạo report (Extent và Allure)
     }
 
     @Override
     public void onFinish(ITestContext result) {
         LogUtils.info("End testing " + result.getName());
-
         //Kết thúc và thực thi Extents Report
         ExtentReportManager.getExtentReports().flush();
     }
@@ -56,7 +54,8 @@ public class TestListener implements ITestListener {
         CaptureReport.stopRecord();
         //Extent Report
         ExtentTestManager.logMessage(Status.PASS, result.getName() + " is passed.");
-
+        //Allure Report
+        AllureManager.saveTextLog(result.getName() +result.getName()+ " is passed.");
     }
 
     @Override
