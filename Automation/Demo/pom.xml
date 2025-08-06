@@ -116,15 +116,13 @@
                     <artifactId>maven-surefire-plugin</artifactId>
                     <version>3.2.5</version>
                     <configuration>
-
                         <suiteXmlFiles>
                             <!-- Call Suite name -->
                             <suiteXmlFile>suites/SuiteManager.xml</suiteXmlFile>
                         </suiteXmlFiles>
-
                         <!--TRUE nghĩa là Chấp nhận có TCs fail thì build Maven vẫn Passed-->
                         <testFailureIgnore>true</testFailureIgnore>
-
+                        <skipAfterFailureCount>0</skipAfterFailureCount>
                         <!--Add attachments to Allure Report-->
                         <argLine>
                             -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/1.9.24/aspectjweaver-1.9.24.jar"

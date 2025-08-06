@@ -56,7 +56,7 @@ public class signinPage {
     private void loginButton(){
         wait.until(ExpectedConditions.visibilityOfElementLocated(btnLogin));
        driver.findElement(btnLogin).click();
-       LogUtils.info("Login Successfully");
+       LogUtils.info("click button Login");
     }
     public boolean verifyLoginSuccsess(){
         Assert.assertTrue(driver.getCurrentUrl().contains("profile"),"fail van login");
