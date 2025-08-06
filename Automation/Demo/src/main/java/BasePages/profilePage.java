@@ -8,6 +8,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import utils.ActionKeyword.ActionKeyword;
 import utils.Constants.ConfigData;
 import utils.Logs.LogUtils;
 
@@ -49,9 +50,7 @@ public class profilePage {
         wait.until(ExpectedConditions.visibilityOfElementLocated(phoneName));
         WebElement inputElement = driver.findElement(phoneName);
         inputElement.click();
-//        action.keyDown(Keys.CONTROL).sendKeys("a").sendKeys(Keys.DELETE).build().perform();
-        inputElement.sendKeys(Keys.chord(Keys.CONTROL,"a"));
-        inputElement.sendKeys(Keys.DELETE);
+        inputElement.sendKeys(ActionKeyword.keyPress_Delete());
         inputElement.sendKeys(numberPhone);
         LogUtils.info("field_Phone: " + numberPhone);
     }
@@ -59,8 +58,7 @@ public class profilePage {
         wait.until(ExpectedConditions.visibilityOfElementLocated(editName));
         WebElement inputElement = driver.findElement(editName);
         inputElement.click();
-        inputElement.sendKeys(Keys.chord(Keys.CONTROL,"a"));
-        inputElement.sendKeys(Keys.DELETE);
+        inputElement.sendKeys(ActionKeyword.keyPress_Delete());
         inputElement.sendKeys(name);
         LogUtils.info("field_Name: " + name);
     }
@@ -68,8 +66,7 @@ public class profilePage {
         wait.until(ExpectedConditions.visibilityOfElementLocated(editBirthday));
         WebElement inputElement = driver.findElement(editBirthday);
         inputElement.click();
-        inputElement.sendKeys(Keys.chord(Keys.CONTROL,"a"));
-        inputElement.sendKeys(Keys.DELETE);
+        inputElement.sendKeys(ActionKeyword.keyPress_Delete());
         inputElement.sendKeys(datetimes);
         LogUtils.info("field_brithday: " + datetimes);
     }

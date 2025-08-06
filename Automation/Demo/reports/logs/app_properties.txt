@@ -1,0 +1,38 @@
+[INFO] 06-08-2025 11:35:19 [main] LogUtils - #########
+[INFO] 06-08-2025 11:35:19 [main] LogUtils - *****Demo***
+[INFO] 06-08-2025 11:35:19 [main] LogUtils - Login Data from Excel: [[Ljava.lang.Object;@5c748168
+[INFO] 06-08-2025 11:35:23 [TestNG-PoolService-1] LogUtils - Running test case verify_UpdateUser
+[INFO] 06-08-2025 11:35:25 [TestNG-PoolService-1] LogUtils - Title Page Login:By.xpath: //h2[normalize-space()='Sign In to Fiverr']
+[INFO] 06-08-2025 11:35:25 [TestNG-PoolService-1] LogUtils - Email hợp lệ: user91070@gmail.com
+[INFO] 06-08-2025 11:35:26 [TestNG-PoolService-1] LogUtils - Password:Aty7702@
+[INFO] 06-08-2025 11:35:26 [TestNG-PoolService-1] LogUtils - Login Successfully
+[INFO] 06-08-2025 11:35:26 [TestNG-PoolService-1] LogUtils - login sucessfully
+[INFO] 06-08-2025 11:35:27 [TestNG-PoolService-1] LogUtils - click edit account
+[INFO] 06-08-2025 11:35:27 [TestNG-PoolService-1] LogUtils - open podup
+[INFO] 06-08-2025 11:35:27 [TestNG-PoolService-1] LogUtils - Title Podup//h2[contains(normalize-space(),'Update User')]
+[INFO] 06-08-2025 11:35:27 [TestNG-PoolService-1] LogUtils - field_Email: //*[contains(@id,'email')]
+[ERROR] 06-08-2025 11:35:27 [TestNG-PoolService-1] LogUtils - Test case verify_UpdateUser is failed.
+[ERROR] 06-08-2025 11:35:27 [TestNG-PoolService-1] LogUtils - java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+[INFO] 06-08-2025 11:35:30 [main] LogUtils - End testing Demo
+[INFO] 06-08-2025 11:39:06 [main] LogUtils - #########
+[INFO] 06-08-2025 11:39:06 [main] LogUtils - *****Demo***
+[INFO] 06-08-2025 11:39:07 [main] LogUtils - Login Data from Excel: [[Ljava.lang.Object;@15dd5ac2
+[INFO] 06-08-2025 11:39:09 [TestNG-PoolService-1] LogUtils - Running test case verify_UpdateUser
+[INFO] 06-08-2025 11:39:11 [TestNG-PoolService-1] LogUtils - Title Page Login:By.xpath: //h2[normalize-space()='Sign In to Fiverr']
+[INFO] 06-08-2025 11:39:12 [TestNG-PoolService-1] LogUtils - Email hợp lệ: user91070@gmail.com
+[INFO] 06-08-2025 11:39:12 [TestNG-PoolService-1] LogUtils - Password:Aty7702@
+[INFO] 06-08-2025 11:39:12 [TestNG-PoolService-1] LogUtils - Login Successfully
+[INFO] 06-08-2025 11:39:12 [TestNG-PoolService-1] LogUtils - login sucessfully
+[INFO] 06-08-2025 11:39:13 [TestNG-PoolService-1] LogUtils - click edit account
+[INFO] 06-08-2025 11:39:13 [TestNG-PoolService-1] LogUtils - open podup
+[INFO] 06-08-2025 11:39:13 [TestNG-PoolService-1] LogUtils - Title Podup//h2[contains(normalize-space(),'Update User')]
+[INFO] 06-08-2025 11:39:13 [TestNG-PoolService-1] LogUtils - field_Email: //*[contains(@id,'email')]
+[INFO] 06-08-2025 11:39:13 [TestNG-PoolService-1] LogUtils - field_Phone: 0939018814
+[INFO] 06-08-2025 11:39:14 [TestNG-PoolService-1] LogUtils - field_Name: thanhnhadev@gmail.com
+[INFO] 06-08-2025 11:39:14 [TestNG-PoolService-1] LogUtils - field_brithday: 22/02/2015
+[INFO] 06-08-2025 11:39:14 [TestNG-PoolService-1] LogUtils - gender is: Female click
+[INFO] 06-08-2025 11:39:15 [TestNG-PoolService-1] LogUtils - field_certificate: 56-des87-g7t
+[INFO] 06-08-2025 11:39:15 [TestNG-PoolService-1] LogUtils - field_skill: Js
+[INFO] 06-08-2025 11:39:15 [TestNG-PoolService-1] LogUtils - press button Save
+[INFO] 06-08-2025 11:39:15 [TestNG-PoolService-1] LogUtils - Test case verify_UpdateUser is passed.
+[INFO] 06-08-2025 11:39:17 [main] LogUtils - End testing Demo
