@@ -1,6 +1,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
 <suite name="allSuites" verbose="1" parallel="methods" thread-count="5" skipfailedinvocationcounts="false" configfailurepolicy="continue" >
+    <parameter name="browser" value="chrome"/>
     <suite-files >
         <suite-file path="suitespages/SuiteHomePage.xml" />
         <suite-file path="suitespages/SuiteProductPage.xml" />

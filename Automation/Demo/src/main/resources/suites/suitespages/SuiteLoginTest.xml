@@ -1,7 +1,6 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
 <suite name="SuiteLoginTest" verbose="1" parallel="methods" >
-    <parameter name="browser" value="chrome"/>
     <test name="LoginTest" parallel="tests">
         <classes>
             <class name="BaseTest.signinPageTest">

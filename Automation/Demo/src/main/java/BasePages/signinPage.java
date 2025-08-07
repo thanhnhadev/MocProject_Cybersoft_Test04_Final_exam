@@ -1,5 +1,6 @@
 package BasePages;
 
+import io.qameta.allure.Step;
 import utils.Constants.ConfigData;
 import Locator.Locator_CMS;
 import org.openqa.selenium.By;

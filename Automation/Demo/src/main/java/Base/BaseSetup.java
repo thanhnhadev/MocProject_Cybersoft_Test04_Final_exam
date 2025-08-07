@@ -1,6 +1,7 @@
 package Base;
 
 import BasePages.Components.Header;
+import io.qameta.allure.Allure;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -13,9 +14,13 @@ import org.testng.Assert;
 import org.testng.ITestResult;
 import org.testng.annotations.*;
 import utils.Helper.PropertiesHelper;
+import utils.reports.AllureManager;
 import utils.reports.CaptureReport;
 
+import java.io.FileInputStream;
+import java.io.InputStream;
 import java.time.Duration;
+
 
 public class BaseSetup {
     public static WebDriver driver;
@@ -99,12 +104,15 @@ public class BaseSetup {
         //chụp màng hình khi testcase fail, ngược lại không chụp
         if (ITestResult.FAILURE== iTestResult.getStatus()){
             CaptureReport.captureScreenshot(driver, iTestResult.getName());
+            AllureManager.saveScreenshotPNG(driver);
         }
         try {
             Thread.sleep(2000);
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
-        driver.quit();
+        if (driver != null) {
+            driver.quit();
+        }
     }
 }
