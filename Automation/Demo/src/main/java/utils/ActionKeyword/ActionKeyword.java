@@ -1,10 +1,12 @@
 package utils.ActionKeyword;
 
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import utils.Logs.LogUtils;
+
+import java.time.Duration;
 
 import static Base.BaseSetup.driver;
 
@@ -117,6 +119,20 @@ public class ActionKeyword {
                 .keyUp(modifierKey)
                 .perform();
     }
+    //mở iframe
+    public void switchToIframeByIdOrName(String iframeIdOrName) {
+        try {
+            WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+
+            // Chờ iframe có sẵn và chuyển vào
+            wait.until(ExpectedConditions.frameToBeAvailableAndSwitchToIt(iframeIdOrName));
+            System.out.println("Đã chuyển vào iframe: " + iframeIdOrName);
+        } catch (TimeoutException e) {
+            System.err.println("Không tìm thấy iframe: " + iframeIdOrName);
+        } catch (Exception e) {
+            System.err.println("Lỗi khi chuyển vào iframe: " + e.getMessage());
+        }
+    }
     //trong hàm main ví dụ bên dưới
     // Gửi phím Enter
 //    ActionKeyword keyboard = new ActionKeyword(driver);
@@ -130,4 +146,17 @@ public class ActionKeyword {
 //
 //    // In hoa chữ
 //    keyboard.typeWithShift(input, "abc"); // Kết quả: ABC
+    //điều hướng về lịch sử trang trước
+//        driver.navigate().back();
+//        //làm mới trang hiện tại
+//        driver.navigate().refresh();
+//        //điều hướng đến trang tiếp theo
+//        driver.navigate().forward();
+//    driver.switchTo().newWindow(WindowType.TAB);
+    //driver.switchTo().newWindow(WindowType.WINDOW);
+    //driver.switchTo().newWindow(WindowType.iframe);
+    //driver.switchTo().defaultContent(); // Rời khỏi iframe
+//        driver.get("https://crm.anhtester.com/admin/authentication");
+//    sleep(1);
+//        driver.switchTo().window(handler);// chuyen ve cua so mac dinh ban dau
 }

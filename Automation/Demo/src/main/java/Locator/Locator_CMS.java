@@ -3,9 +3,25 @@ package Locator;
 public class Locator_CMS {
     //header
     public static final String headerUser="//p[@class='text my-0']";
-    //
+    public static final String Logo="//*[@class='logo active']";
+    public static final String Search_Bar="(//input[@type='search'])[1]";
+    public static final String btnSearching="(//button[normalize-space()='Search'])[1]";
+    public static final String Search_Body="(//input[@type='search'])[2]";
+    public static final String getBtnSearching_Body="(//button[normalize-space()='Search'])[2]";
+    public static final String Fiverr_Business= "(//*[contains(text(),'Fiverr Business')])[1]";
+    public static final String Explore="//*[contains(text(),'Explore')]";
+    public static final String English="//*[contains(text(),'English')]";
+    public static final String UsD="//*[contains(text(),'US$ USD')]";
+    public static final String  Become_a_Seller="(//*[contains(text(),'Become a Seller')])[1]";
     public static final String btnSignin="(//*[contains(text(),'Sign in')])[2]";
     public static final String btnJoin="//*[contains(text(),'Join')]";
+    //nav-header
+    public static final String GraphicsDesign="(//*[contains(text(),'Graphics & Design')])[1]";
+    public static final String DigitalMarketing="(//*[contains(text(),'Digital Marketing')])[1]";
+    public static final String WritingTranslation="(//*[contains(text(),'Writing & Translation')])[1]";
+    public static final String Video_Animation="(//*[contains(text(),'Video & Animation')])[1]";
+    public static final String  Music_Audio="(//*[contains(text(),'Music & Audio')])[1]";
+    public static final String  Testing="(//*[contains(text(),'Testing')])[1]";
     //page Login
     public static final String lbsigninTitle="//h2[normalize-space()='Sign In to Fiverr']";
     public static final String email="//*[contains(@id,'email')]";
@@ -29,7 +45,7 @@ public class Locator_CMS {
     public static final String lstCartItemclass= "//div[@class='gigs_card']//h1";
     public static final String btnRemoveCartItemclass1="//button[contains(normalize-space(),'DEL')]";
     public static final String btnViewdetail="(//*[contains(text(),'View detail')])";
-//    page podup edit profile
+    //    page podup edit profile
     public static final String titlePodup="//h2[contains(normalize-space(),'Update User')]";
     public static final String editPhoneNumber="//*[contains(@name,'phone')]";
     public static final String editName="//*[contains(@name,'name')]";
