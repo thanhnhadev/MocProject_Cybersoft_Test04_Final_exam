@@ -1,8 +1,12 @@
 # Final\_Example
+
 file:
 # https://github.com/allure-framework/allure2/releases
-ALLURE_HOME:file
-path:%ALLURE_HOME%\bin
+
+# ALLURE_HOME:file
+
+# path:%ALLURE_HOME%\bin
+
 for window:
 # https://allurereport.org/docs/install-for-windows/
 For mac os
