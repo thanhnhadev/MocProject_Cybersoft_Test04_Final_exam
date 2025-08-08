@@ -1,7 +1,10 @@
 # Final\_Example
-
+file:
+# https://github.com/allure-framework/allure2/releases
+ALLURE_HOME:file
+path:%ALLURE_HOME%\bin
 for window:
-https://allurereport.org/docs/install-for-windows/
+# https://allurereport.org/docs/install-for-windows/
 For mac os
 https://allurereport.org/docs/install-for-macos/
 video tutorial with window
@@ -9,7 +12,6 @@ https://anhtester.com/lesson/selenium-java-bai-34-cai-dat-va-su-dung-allure-repo
 reading document and flowing
 when setup finish
 we open termnial in source with 
-
 
 
 \# allure serve target/allure-results and run
