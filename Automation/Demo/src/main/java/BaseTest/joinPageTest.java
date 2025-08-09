@@ -39,7 +39,7 @@ public  class joinPageTest extends BaseSetup {
         LogUtils.info("RegisterPass");
         joinPageTest.verifyRegisterSuccsess();
     }
-    @Test(priority = 3,testName = "Have Account")
+    @Test(priority = 3,testName = "Click button I am already member")
     public void haveAccountSucess(){
         joinPageTest = new joinPage(driver);
         joinPageTest.registerLogin();

@@ -1,0 +1,202 @@
+[INFO] 07-08-2025 21:24:07 [main] LogUtils - #########
+[INFO] 07-08-2025 21:24:07 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 07-08-2025 21:24:12 [main] LogUtils - Running test case Write_Data
+[INFO] 07-08-2025 21:24:13 [main] LogUtils - emaill:user65636@gmail.com
+[INFO] 07-08-2025 21:24:13 [main] LogUtils - password:Aty9432@
+[INFO] 07-08-2025 21:24:13 [main] LogUtils - name:ezqzbaji
+[INFO] 07-08-2025 21:24:13 [main] LogUtils - Phone Number:0977412913
+[INFO] 07-08-2025 21:24:13 [main] LogUtils - brithday:02061994
+[INFO] 07-08-2025 21:24:13 [main] LogUtils - Write Random Data Successfully
+[INFO] 07-08-2025 21:24:13 [main] LogUtils - WriteData_Pass
+[INFO] 07-08-2025 21:24:13 [main] LogUtils - Test case Write_Data is passed.
+[INFO] 07-08-2025 21:24:15 [main] LogUtils - Login Data from Excel: [[Ljava.lang.Object;@6e5a77ef
+[INFO] 07-08-2025 21:24:16 [main] LogUtils - Running test case verify_Register
+[INFO] 07-08-2025 21:24:17 [main] LogUtils - This is Page Register
+[INFO] 07-08-2025 21:24:17 [main] LogUtils - Title Page Register:REGISTER
+[INFO] 07-08-2025 21:24:18 [main] LogUtils - name:ezqzbaji
+[INFO] 07-08-2025 21:24:18 [main] LogUtils - Email hợp lệ: user65636@gmail.com
+[INFO] 07-08-2025 21:24:18 [main] LogUtils - password: Aty9432@
+[INFO] 07-08-2025 21:24:18 [main] LogUtils - Re_password: Aty9432@
+[INFO] 07-08-2025 21:24:18 [main] LogUtils - Số điện thoại hợp lệ: 0977412913
+[INFO] 07-08-2025 21:24:18 [main] LogUtils - birthday: 02061994
+[INFO] 07-08-2025 21:24:18 [main] LogUtils - gender is: Male
+[INFO] 07-08-2025 21:24:18 [main] LogUtils - click Agree 
+[INFO] 07-08-2025 21:24:18 [main] LogUtils - Click button Register
+[INFO] 07-08-2025 21:24:19 [main] LogUtils - RegisterPass
+[ERROR] 07-08-2025 21:24:19 [main] LogUtils - verify Register
+[INFO] 07-08-2025 21:24:19 [main] LogUtils - Test case verify_Register is passed.
+[INFO] 07-08-2025 21:24:22 [main] LogUtils - Running test case haveAccountSucess
+[INFO] 07-08-2025 21:24:23 [main] LogUtils - Goto the page Login
+[INFO] 07-08-2025 21:24:23 [main] LogUtils - Title Page Register:REGISTER
+[INFO] 07-08-2025 21:24:23 [main] LogUtils - Go To Page LoginBy.xpath: //*[contains(text(),'I am already member')]
+[INFO] 07-08-2025 21:24:23 [main] LogUtils - Goto the page Login
+[INFO] 07-08-2025 21:24:23 [main] LogUtils - Test case haveAccountSucess is passed.
+[INFO] 07-08-2025 21:24:25 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 09-08-2025 11:24:02 [main] LogUtils - #########
+[INFO] 09-08-2025 11:24:02 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 09-08-2025 11:24:02 [main] LogUtils - Login Data from Excel: [[Ljava.lang.Object;@36238b12
+[INFO] 09-08-2025 11:24:06 [main] LogUtils - Running test case verify_Register
+[INFO] 09-08-2025 11:24:08 [main] LogUtils - This is Page Register
+[INFO] 09-08-2025 11:24:08 [main] LogUtils - Title Page Register:REGISTER
+[INFO] 09-08-2025 11:24:08 [main] LogUtils - name:ezqzbaji
+[INFO] 09-08-2025 11:24:08 [main] LogUtils - Email hợp lệ: user65636@gmail.com
+[INFO] 09-08-2025 11:24:08 [main] LogUtils - password: Aty9432@
+[INFO] 09-08-2025 11:24:08 [main] LogUtils - Re_password: Aty9432@
+[INFO] 09-08-2025 11:24:08 [main] LogUtils - Số điện thoại hợp lệ: 0977412913
+[INFO] 09-08-2025 11:24:08 [main] LogUtils - birthday: 02061994
+[INFO] 09-08-2025 11:24:08 [main] LogUtils - gender is: Male
+[INFO] 09-08-2025 11:24:08 [main] LogUtils - click Agree 
+[INFO] 09-08-2025 11:24:08 [main] LogUtils - Click button Register
+[INFO] 09-08-2025 11:24:09 [main] LogUtils - RegisterPass
+[ERROR] 09-08-2025 11:24:09 [main] LogUtils - Test case verify_Register is failed.
+[ERROR] 09-08-2025 11:24:09 [main] LogUtils - java.lang.AssertionError: fail van login expected [true] but found [false]
+[INFO] 09-08-2025 11:24:12 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 09-08-2025 11:26:18 [main] LogUtils - #########
+[INFO] 09-08-2025 11:26:18 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 09-08-2025 11:26:20 [main] LogUtils - Running test case Write_Data
+[INFO] 09-08-2025 11:26:21 [main] LogUtils - emaill:user12847@gmail.com
+[INFO] 09-08-2025 11:26:21 [main] LogUtils - password:Aty1456@
+[INFO] 09-08-2025 11:26:21 [main] LogUtils - name:hzvyjreh
+[INFO] 09-08-2025 11:26:21 [main] LogUtils - Phone Number:0376904524
+[INFO] 09-08-2025 11:26:21 [main] LogUtils - brithday:10081983
+[INFO] 09-08-2025 11:26:21 [main] LogUtils - Write Random Data Successfully
+[INFO] 09-08-2025 11:26:21 [main] LogUtils - WriteData_Pass
+[INFO] 09-08-2025 11:26:21 [main] LogUtils - Test case Write_Data is passed.
+[INFO] 09-08-2025 11:26:23 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 09-08-2025 11:28:30 [main] LogUtils - #########
+[INFO] 09-08-2025 11:28:30 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 09-08-2025 11:28:31 [main] LogUtils - Login Data from Excel: [[Ljava.lang.Object;@6f6c8d45
+[INFO] 09-08-2025 11:28:32 [TestNG-PoolService-1] LogUtils - Running test case verify_UpdateUser
+[INFO] 09-08-2025 11:28:34 [TestNG-PoolService-1] LogUtils - Title Page Login:By.xpath: //h2[normalize-space()='Sign In to Fiverr']
+[INFO] 09-08-2025 11:28:35 [TestNG-PoolService-1] LogUtils - Email hợp lệ: user12847@gmail.com
+[INFO] 09-08-2025 11:28:35 [TestNG-PoolService-1] LogUtils - Password:Aty1456@
+[INFO] 09-08-2025 11:28:35 [TestNG-PoolService-1] LogUtils - click button Login
+[INFO] 09-08-2025 11:28:35 [TestNG-PoolService-1] LogUtils - login sucessfully
+[ERROR] 09-08-2025 11:28:46 [TestNG-PoolService-1] LogUtils - Test case verify_UpdateUser is failed.
+[ERROR] 09-08-2025 11:28:46 [TestNG-PoolService-1] LogUtils - org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6ae6860af133b9516807091d25a67b2d, findElement [using, value]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.66, chrome: {chromedriverVersion: 139.0.7258.66 (a62d32994769..., userDataDir: /var/folders/_k/xz4r9gvx37z...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62905}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:62905/devtoo..., se:cdpVersion: 139.0.7258.66, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6ae6860af133b9516807091d25a67b2d
+[ERROR] 09-08-2025 11:28:46 [main] LogUtils - Test case verify_UpdateUser is failed.
+[ERROR] 09-08-2025 11:28:46 [main] LogUtils - java.util.concurrent.CompletionException: org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6ae6860af133b9516807091d25a67b2d, screenshot []]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.66, chrome: {chromedriverVersion: 139.0.7258.66 (a62d32994769..., userDataDir: /var/folders/_k/xz4r9gvx37z...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62905}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:62905/devtoo..., se:cdpVersion: 139.0.7258.66, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6ae6860af133b9516807091d25a67b2d
+[INFO] 09-08-2025 11:28:46 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 09-08-2025 11:29:09 [main] LogUtils - #########
+[INFO] 09-08-2025 11:29:09 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 09-08-2025 11:29:09 [main] LogUtils - Login Data from Excel: [[Ljava.lang.Object;@70a24f9
+[INFO] 09-08-2025 11:29:11 [TestNG-PoolService-1] LogUtils - Running test case detail_dataUser
+[INFO] 09-08-2025 11:29:12 [TestNG-PoolService-1] LogUtils - Title Page Login:By.xpath: //h2[normalize-space()='Sign In to Fiverr']
+[INFO] 09-08-2025 11:29:13 [TestNG-PoolService-1] LogUtils - Email hợp lệ: user12847@gmail.com
+[INFO] 09-08-2025 11:29:13 [TestNG-PoolService-1] LogUtils - Password:Aty1456@
+[INFO] 09-08-2025 11:29:13 [TestNG-PoolService-1] LogUtils - click button Login
+[ERROR] 09-08-2025 11:29:21 [TestNG-PoolService-1] LogUtils - Test case detail_dataUser is failed.
+[ERROR] 09-08-2025 11:29:21 [TestNG-PoolService-1] LogUtils - org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0bbe4f7ebbb84c02b96569b5edcb35a6, findElements [value, using]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.66, chrome: {chromedriverVersion: 139.0.7258.66 (a62d32994769..., userDataDir: /var/folders/_k/xz4r9gvx37z...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62967}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:62967/devtoo..., se:cdpVersion: 139.0.7258.66, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0bbe4f7ebbb84c02b96569b5edcb35a6
+[ERROR] 09-08-2025 11:29:21 [main] LogUtils - Test case detail_dataUser is failed.
+[ERROR] 09-08-2025 11:29:21 [main] LogUtils - java.util.concurrent.CompletionException: org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0bbe4f7ebbb84c02b96569b5edcb35a6, screenshot []]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.66, chrome: {chromedriverVersion: 139.0.7258.66 (a62d32994769..., userDataDir: /var/folders/_k/xz4r9gvx37z...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62967}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:62967/devtoo..., se:cdpVersion: 139.0.7258.66, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0bbe4f7ebbb84c02b96569b5edcb35a6
+[INFO] 09-08-2025 11:29:21 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 09-08-2025 11:30:27 [main] LogUtils - #########
+[INFO] 09-08-2025 11:30:27 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 09-08-2025 11:30:29 [main] LogUtils - Running test case Write_Data
+[INFO] 09-08-2025 11:30:30 [main] LogUtils - emaill:user54784@gmail.com
+[INFO] 09-08-2025 11:30:30 [main] LogUtils - password:Aty5900@
+[INFO] 09-08-2025 11:30:30 [main] LogUtils - name:fkznyobe
+[INFO] 09-08-2025 11:30:30 [main] LogUtils - Phone Number:0379506634
+[INFO] 09-08-2025 11:30:30 [main] LogUtils - brithday:10041981
+[INFO] 09-08-2025 11:30:30 [main] LogUtils - Write Random Data Successfully
+[INFO] 09-08-2025 11:30:30 [main] LogUtils - WriteData_Pass
+[INFO] 09-08-2025 11:30:30 [main] LogUtils - Test case Write_Data is passed.
+[INFO] 09-08-2025 11:30:32 [main] LogUtils - Login Data from Excel: [[Ljava.lang.Object;@524418a2
+[INFO] 09-08-2025 11:30:33 [main] LogUtils - Running test case verify_Register
+[INFO] 09-08-2025 11:30:34 [main] LogUtils - This is Page Register
+[INFO] 09-08-2025 11:30:34 [main] LogUtils - Title Page Register:REGISTER
+[INFO] 09-08-2025 11:30:35 [main] LogUtils - name:fkznyobe
+[INFO] 09-08-2025 11:30:35 [main] LogUtils - Email hợp lệ: user54784@gmail.com
+[INFO] 09-08-2025 11:30:35 [main] LogUtils - password: Aty5900@
+[INFO] 09-08-2025 11:30:35 [main] LogUtils - Re_password: Aty5900@
+[INFO] 09-08-2025 11:30:35 [main] LogUtils - Số điện thoại hợp lệ: 0379506634
+[INFO] 09-08-2025 11:30:35 [main] LogUtils - birthday: 10041981
+[INFO] 09-08-2025 11:30:35 [main] LogUtils - gender is: Male
+[INFO] 09-08-2025 11:30:35 [main] LogUtils - click Agree 
+[INFO] 09-08-2025 11:30:35 [main] LogUtils - Click button Register
+[INFO] 09-08-2025 11:30:36 [main] LogUtils - RegisterPass
+[ERROR] 09-08-2025 11:30:36 [main] LogUtils - Test case verify_Register is failed.
+[ERROR] 09-08-2025 11:30:37 [main] LogUtils - java.lang.AssertionError: fail van login expected [true] but found [false]
+[INFO] 09-08-2025 11:30:40 [main] LogUtils - Running test case haveAccountSucess
+[INFO] 09-08-2025 11:30:42 [main] LogUtils - Goto the page Login
+[INFO] 09-08-2025 11:30:42 [main] LogUtils - Title Page Register:REGISTER
+[INFO] 09-08-2025 11:30:42 [main] LogUtils - Go To Page LoginBy.xpath: //*[contains(text(),'I am already member')]
+[INFO] 09-08-2025 11:30:42 [main] LogUtils - Goto the page Login
+[INFO] 09-08-2025 11:30:42 [main] LogUtils - Test case haveAccountSucess is passed.
+[INFO] 09-08-2025 11:30:44 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 09-08-2025 11:38:13 [main] LogUtils - #########
+[INFO] 09-08-2025 11:38:13 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 09-08-2025 11:38:15 [main] LogUtils - Running test case haveAccountSucess
+[INFO] 09-08-2025 11:38:16 [main] LogUtils - Goto the page Login
+[INFO] 09-08-2025 11:38:16 [main] LogUtils - Title Page Register:REGISTER
+[INFO] 09-08-2025 11:38:16 [main] LogUtils - Go To Page LoginBy.xpath: //*[contains(text(),'I am already member')]
+[INFO] 09-08-2025 11:38:16 [main] LogUtils - Goto the page Login
+[INFO] 09-08-2025 11:38:16 [main] LogUtils - Test case haveAccountSucess is passed.
+[INFO] 09-08-2025 11:38:19 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 09-08-2025 11:40:36 [main] LogUtils - #########
+[INFO] 09-08-2025 11:40:36 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 09-08-2025 11:40:38 [main] LogUtils - Running test case haveAccountSucess
+[INFO] 09-08-2025 11:40:40 [main] LogUtils - Goto the page Login
+[INFO] 09-08-2025 11:40:41 [main] LogUtils - Title Page Register:REGISTER
+[INFO] 09-08-2025 11:40:41 [main] LogUtils - Go To Page LoginBy.xpath: //*[contains(text(),'I am already member')]
+[INFO] 09-08-2025 11:40:41 [main] LogUtils - Goto the page Login
+[INFO] 09-08-2025 11:40:41 [main] LogUtils - Test case haveAccountSucess is passed.
+[INFO] 09-08-2025 11:40:43 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 09-08-2025 11:41:53 [main] LogUtils - #########
+[INFO] 09-08-2025 11:41:53 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 09-08-2025 11:41:55 [main] LogUtils - Running test case Write_Data
+[INFO] 09-08-2025 11:41:56 [main] LogUtils - emaill:user86558@gmail.com
+[INFO] 09-08-2025 11:41:56 [main] LogUtils - password:Aty5395@
+[INFO] 09-08-2025 11:41:56 [main] LogUtils - name:qptmzkxi
+[INFO] 09-08-2025 11:41:56 [main] LogUtils - Phone Number:0888891718
+[INFO] 09-08-2025 11:41:56 [main] LogUtils - brithday:02121988
+[INFO] 09-08-2025 11:41:56 [main] LogUtils - Write Random Data Successfully
+[INFO] 09-08-2025 11:41:56 [main] LogUtils - WriteData_Pass
+[INFO] 09-08-2025 11:41:56 [main] LogUtils - Test case Write_Data is passed.
+[INFO] 09-08-2025 11:41:58 [main] LogUtils - Login Data from Excel: [[Ljava.lang.Object;@5abc488d
+[INFO] 09-08-2025 11:41:59 [main] LogUtils - Running test case verify_Register
+[INFO] 09-08-2025 11:42:02 [main] LogUtils - This is Page Register
+[INFO] 09-08-2025 11:42:02 [main] LogUtils - Title Page Register:REGISTER
+[INFO] 09-08-2025 11:42:02 [main] LogUtils - name:qptmzkxi
+[INFO] 09-08-2025 11:42:02 [main] LogUtils - Email hợp lệ: user86558@gmail.com
+[INFO] 09-08-2025 11:42:02 [main] LogUtils - password: Aty5395@
+[INFO] 09-08-2025 11:42:02 [main] LogUtils - Re_password: Aty5395@
+[INFO] 09-08-2025 11:42:02 [main] LogUtils - Số điện thoại hợp lệ: 0888891718
+[INFO] 09-08-2025 11:42:02 [main] LogUtils - birthday: 02121988
+[INFO] 09-08-2025 11:42:02 [main] LogUtils - gender is: Male
+[INFO] 09-08-2025 11:42:02 [main] LogUtils - click Agree 
+[INFO] 09-08-2025 11:42:02 [main] LogUtils - Click button Register
+[INFO] 09-08-2025 11:42:03 [main] LogUtils - RegisterPass
+[ERROR] 09-08-2025 11:42:03 [main] LogUtils - verify Register
+[INFO] 09-08-2025 11:42:03 [main] LogUtils - Test case verify_Register is passed.
+[INFO] 09-08-2025 11:42:06 [main] LogUtils - Running test case haveAccountSucess
+[INFO] 09-08-2025 11:42:07 [main] LogUtils - Goto the page Login
+[INFO] 09-08-2025 11:42:07 [main] LogUtils - Title Page Register:REGISTER
+[INFO] 09-08-2025 11:42:07 [main] LogUtils - Go To Page LoginBy.xpath: //*[contains(text(),'I am already member')]
+[INFO] 09-08-2025 11:42:07 [main] LogUtils - Goto the page Login
+[INFO] 09-08-2025 11:42:07 [main] LogUtils - Test case haveAccountSucess is passed.
+[INFO] 09-08-2025 11:42:10 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam

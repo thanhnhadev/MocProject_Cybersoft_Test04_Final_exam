@@ -204,6 +204,8 @@ public class joinPage {
 //        this.verifyRegisterSuccsess();
         return new HomePage(driver);
     }
+
+    // case 03: Nhấn vào button I am already member
     public HomePage registerLogin(){
         driver.get(ConfigData.registerUrl);
         LogUtils.info("Goto the page Login");
