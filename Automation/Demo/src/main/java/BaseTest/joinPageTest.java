@@ -43,6 +43,5 @@ public  class joinPageTest extends BaseSetup {
     public void haveAccountSucess(){
         joinPageTest = new joinPage(driver);
         joinPageTest.registerLogin();
-        LogUtils.info("Goto the page Login");
     }
 }

@@ -201,12 +201,11 @@ public class joinPage {
         this.submitButton();
         sleep(5);
         CaptureReport.captureScreenshot(driver,"verify_Register");
-//        this.verifyRegisterSuccsess();
         return new HomePage(driver);
     }
     public HomePage registerLogin(){
         driver.get(ConfigData.registerUrl);
-        LogUtils.info("Goto the page Login");
+        LogUtils.info("Click button I am already member");
         this.TitlePage();
         this.login();
         return new HomePage(driver);
