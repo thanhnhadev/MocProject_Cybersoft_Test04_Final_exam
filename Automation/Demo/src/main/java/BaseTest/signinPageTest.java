@@ -4,8 +4,10 @@ package BaseTest;
 import Base.BaseSetup;
 import BasePages.signinPage;
 import io.qameta.allure.Step;
+import org.testng.Assert;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
+import utils.Constants.ConfigData;
 import utils.Constants.DataFactory;
 import utils.Logs.LogUtils;
 import utils.listeners.TestListener;
@@ -46,4 +48,33 @@ public class signinPageTest extends BaseSetup {
             CaptureReport.captureScreenshot(driver, "Page Resgiter Pass");
             CaptureReport.stopRecord();
     }
+
+    @Test(priority = 4, testName =  "tc_04_Empty_Username_Field")
+    public void verifyEmptyusernameField(){
+        CaptureReport.startRecord("Empty_Username_Field");
+        signinPageTest = new signinPage(driver);
+
+        driver.get(ConfigData.signinUrl);
+        signinPageTest.triggerEmailError();
+        Assert.assertTrue(signinPageTest.verifyEmptyEmailError(),
+                "Không thấy hiển thị lỗi 'Email không được bỏ trống !'");
+        CaptureReport.captureScreenshot(driver, "Empty_Username_Field");
+        CaptureReport.stopRecord();
+    }
+
+    @Test(priority = 5, testName = "tc_05_Invalid_Email_Format")
+        public void verifyInvalidEmailFormat(){
+            CaptureReport.startRecord("Invalid_Email_Field");
+            signinPageTest = new signinPage(driver);
+
+            driver.get(ConfigData.signinUrl);
+            signinPageTest.getEmailFormatErrorText();
+             Assert.assertTrue(signinPageTest.verifyInvalidEmailFormat(),
+                "Không thấy hiển thị lỗi 'Email không đúng định dạng !'");
+
+            CaptureReport.captureScreenshot(driver, "Invalid_Email_Format");
+            CaptureReport.stopRecord();
+    }
+
+
 }

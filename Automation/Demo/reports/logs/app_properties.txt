@@ -200,3 +200,127 @@ Session ID: 0bbe4f7ebbb84c02b96569b5edcb35a6
 [INFO] 09-08-2025 11:42:07 [main] LogUtils - Goto the page Login
 [INFO] 09-08-2025 11:42:07 [main] LogUtils - Test case haveAccountSucess is passed.
 [INFO] 09-08-2025 11:42:10 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 17-08-2025 23:08:12 [main] LogUtils - #########
+[INFO] 17-08-2025 23:08:12 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 17-08-2025 23:08:20 [main] LogUtils - Running test case verifyEmptyusernameField
+[INFO] 17-08-2025 23:08:22 [main] LogUtils - Đã click ô email và click ra ngoài
+[ERROR] 17-08-2025 23:08:42 [main] LogUtils - Test case verifyEmptyusernameField is failed.
+[ERROR] 17-08-2025 23:08:42 [main] LogUtils - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //*[contains(@class,'error') and contains(text(),'Email is required')] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.128, chrome: {chromedriverVersion: 139.0.7258.68 (40ff94600b6e..., userDataDir: /var/folders/_k/xz4r9gvx37z...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63345}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:63345/devtoo..., se:cdpVersion: 139.0.7258.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e4d7be7a45feb7a59c6adcae0dd4a892
+[INFO] 17-08-2025 23:08:45 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 17-08-2025 23:15:04 [main] LogUtils - #########
+[INFO] 17-08-2025 23:15:04 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 17-08-2025 23:15:06 [main] LogUtils - Running test case verifyEmptyusernameField
+[ERROR] 17-08-2025 23:15:06 [main] LogUtils - Test case verifyEmptyusernameField is failed.
+[ERROR] 17-08-2025 23:15:06 [main] LogUtils - org.openqa.selenium.InvalidArgumentException: invalid argument
+  (Session info: chrome=139.0.7258.128)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c566ff280a5766fd4bf6451f9a628e64, get {url=url_browse}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.128, chrome: {chromedriverVersion: 139.0.7258.68 (40ff94600b6e..., userDataDir: /var/folders/_k/xz4r9gvx37z...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63446}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:63446/devtoo..., se:cdpVersion: 139.0.7258.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c566ff280a5766fd4bf6451f9a628e64
+[INFO] 17-08-2025 23:15:09 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 17-08-2025 23:15:59 [main] LogUtils - #########
+[INFO] 17-08-2025 23:15:59 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 17-08-2025 23:16:00 [main] LogUtils - Running test case verifyEmptyusernameField
+[INFO] 17-08-2025 23:16:01 [main] LogUtils - Đã click ô email và click ra ngoài
+[ERROR] 17-08-2025 23:16:14 [main] LogUtils - Test case verifyEmptyusernameField is failed.
+[ERROR] 17-08-2025 23:16:14 [main] LogUtils - org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [04f3b29fe45a0b4d12607c67ebf4f34c, findElement [using, value]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.128, chrome: {chromedriverVersion: 139.0.7258.68 (40ff94600b6e..., userDataDir: /var/folders/_k/xz4r9gvx37z...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63479}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:63479/devtoo..., se:cdpVersion: 139.0.7258.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 04f3b29fe45a0b4d12607c67ebf4f34c
+[ERROR] 17-08-2025 23:16:14 [main] LogUtils - Test case verifyEmptyusernameField is failed.
+[ERROR] 17-08-2025 23:16:14 [main] LogUtils - org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [04f3b29fe45a0b4d12607c67ebf4f34c, screenshot []]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.128, chrome: {chromedriverVersion: 139.0.7258.68 (40ff94600b6e..., userDataDir: /var/folders/_k/xz4r9gvx37z...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63479}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:63479/devtoo..., se:cdpVersion: 139.0.7258.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 04f3b29fe45a0b4d12607c67ebf4f34c
+[INFO] 17-08-2025 23:16:14 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 17-08-2025 23:19:03 [main] LogUtils - #########
+[INFO] 17-08-2025 23:19:03 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 17-08-2025 23:19:05 [main] LogUtils - Running test case verifyEmptyusernameField
+[INFO] 17-08-2025 23:19:07 [main] LogUtils - Đã click ô email và click ra ngoài
+[INFO] 17-08-2025 23:19:07 [main] LogUtils - Error message hiển thị: true
+[ERROR] 17-08-2025 23:19:07 [main] LogUtils - Test case verifyEmptyusernameField is failed.
+[ERROR] 17-08-2025 23:19:08 [main] LogUtils - java.lang.AssertionError: expected [Email không được bỏ trống !] but found [true]
+[INFO] 17-08-2025 23:19:11 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 17-08-2025 23:19:29 [main] LogUtils - #########
+[INFO] 17-08-2025 23:19:29 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 17-08-2025 23:19:30 [main] LogUtils - Running test case verifyEmptyusernameField
+[INFO] 17-08-2025 23:19:32 [main] LogUtils - Đã click ô email và click ra ngoài
+[INFO] 17-08-2025 23:19:32 [main] LogUtils - Error message hiển thị: true
+[ERROR] 17-08-2025 23:19:32 [main] LogUtils - Test case verifyEmptyusernameField is failed.
+[ERROR] 17-08-2025 23:19:32 [main] LogUtils - java.lang.AssertionError: expected [//span[@class='text-danger' and normalize-space()='Email không được bỏ trống !']] but found [true]
+[INFO] 17-08-2025 23:19:35 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 17-08-2025 23:21:23 [main] LogUtils - #########
+[INFO] 17-08-2025 23:21:23 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 17-08-2025 23:21:25 [main] LogUtils - Running test case verifyEmptyusernameField
+[INFO] 17-08-2025 23:21:26 [main] LogUtils - Đã click ô email và click ra ngoài
+[INFO] 17-08-2025 23:21:26 [main] LogUtils - Error message hiển thị: true
+[INFO] 17-08-2025 23:21:26 [main] LogUtils - Test case verifyEmptyusernameField is passed.
+[INFO] 17-08-2025 23:21:28 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 17-08-2025 23:31:10 [main] LogUtils - #########
+[INFO] 17-08-2025 23:31:10 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 17-08-2025 23:31:12 [main] LogUtils - Running test case verifyInvalidEmailFormat
+[INFO] 17-08-2025 23:31:13 [main] LogUtils - Email không hợp lệ: abc123
+[ERROR] 17-08-2025 23:31:22 [main] LogUtils - Test case verifyInvalidEmailFormat is failed.
+[ERROR] 17-08-2025 23:31:22 [main] LogUtils - org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b2c717ecad6a53c520f187b1f32a1e94, findElement [using, value]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.128, chrome: {chromedriverVersion: 139.0.7258.68 (40ff94600b6e..., userDataDir: /var/folders/_k/xz4r9gvx37z...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63831}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:63831/devtoo..., se:cdpVersion: 139.0.7258.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b2c717ecad6a53c520f187b1f32a1e94
+[ERROR] 17-08-2025 23:31:22 [main] LogUtils - Test case verifyInvalidEmailFormat is failed.
+[ERROR] 17-08-2025 23:31:22 [main] LogUtils - org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b2c717ecad6a53c520f187b1f32a1e94, screenshot []]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.128, chrome: {chromedriverVersion: 139.0.7258.68 (40ff94600b6e..., userDataDir: /var/folders/_k/xz4r9gvx37z...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63831}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:63831/devtoo..., se:cdpVersion: 139.0.7258.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b2c717ecad6a53c520f187b1f32a1e94
+[INFO] 17-08-2025 23:31:22 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 17-08-2025 23:32:45 [main] LogUtils - #########
+[INFO] 17-08-2025 23:32:45 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 17-08-2025 23:32:47 [main] LogUtils - Running test case verifyInvalidEmailFormat
+[ERROR] 17-08-2025 23:33:05 [main] LogUtils - Test case verifyInvalidEmailFormat is failed.
+[ERROR] 17-08-2025 23:33:05 [main] LogUtils - org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0e1add43e9a731da83191b8507e702b5, findElement [using, value]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.128, chrome: {chromedriverVersion: 139.0.7258.68 (40ff94600b6e..., userDataDir: /var/folders/_k/xz4r9gvx37z...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63906}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:63906/devtoo..., se:cdpVersion: 139.0.7258.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0e1add43e9a731da83191b8507e702b5
+[ERROR] 17-08-2025 23:33:05 [main] LogUtils - Test case verifyInvalidEmailFormat is failed.
+[ERROR] 17-08-2025 23:33:05 [main] LogUtils - org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0e1add43e9a731da83191b8507e702b5, screenshot []]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.128, chrome: {chromedriverVersion: 139.0.7258.68 (40ff94600b6e..., userDataDir: /var/folders/_k/xz4r9gvx37z...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63906}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:63906/devtoo..., se:cdpVersion: 139.0.7258.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0e1add43e9a731da83191b8507e702b5
+[INFO] 17-08-2025 23:33:05 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 17-08-2025 23:41:06 [main] LogUtils - #########
+[INFO] 17-08-2025 23:41:06 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 17-08-2025 23:41:08 [main] LogUtils - Running test case verifyInvalidEmailFormat
+[INFO] 17-08-2025 23:41:10 [main] LogUtils - Đã điền email không có @domain
+[INFO] 17-08-2025 23:41:17 [main] LogUtils - Error message hiển thị: true
+[INFO] 17-08-2025 23:41:18 [main] LogUtils - Test case verifyInvalidEmailFormat is passed.
+[INFO] 17-08-2025 23:41:20 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 17-08-2025 23:41:52 [main] LogUtils - #########
+[INFO] 17-08-2025 23:41:52 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 17-08-2025 23:41:54 [main] LogUtils - Running test case verifyInvalidEmailFormat
+[INFO] 17-08-2025 23:41:56 [main] LogUtils - Đã điền email không có @domain và click ra ngoài
+[INFO] 17-08-2025 23:41:56 [main] LogUtils - Error message hiển thị: true
+[INFO] 17-08-2025 23:41:56 [main] LogUtils - Test case verifyInvalidEmailFormat is passed.
+[INFO] 17-08-2025 23:41:58 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam

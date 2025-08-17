@@ -13,6 +13,7 @@ import utils.Logs.LogUtils;
 import java.time.Duration;
 
 import static Base.BaseSetup.sleep;
+import static Locator.Locator_CMS.btnSignin;
 import static utils.Constants.ConfigData.emailRegex;
 
 public class signinPage {
@@ -23,6 +24,10 @@ public class signinPage {
     private By Passsword = By.xpath(Locator_CMS.password);
     private By aResgister = By.xpath(Locator_CMS.aResgister);
     private  By btnLogin = By.xpath(Locator_CMS.btnLogin);
+    private By emailError = By.xpath("//span[@class='text-danger' and normalize-space()='Email không được bỏ trống !']");
+    private By emailFormatError = By.xpath("//span[@class='text-danger' and normalize-space()='Email không đúng định dạng !']");
+
+
     public signinPage(WebDriver _driver){
         this.driver=_driver;
         wait= new WebDriverWait(driver, Duration.ofSeconds(5));
@@ -85,6 +90,38 @@ public class signinPage {
         this.a_Resgister();
         return new HomePage(driver);
     }
+
+// TC_04
+    // Kiem tra loi khi de trong username
+    public boolean verifyEmptyEmailError(){
+        wait.until(ExpectedConditions.visibilityOfElementLocated(emailError));
+        boolean isErrorDisplayed = driver.findElement(emailError).isDisplayed();
+        LogUtils.info("Error message hiển thị: " + isErrorDisplayed);
+        return isErrorDisplayed;
+    }
+
+    // Click vao o email roi clik ra ngoai
+    public void triggerEmailError() {
+        wait.until(ExpectedConditions.visibilityOfElementLocated(UserID));
+        driver.findElement(UserID).click(); // Click vào ô email
+        // Click ra ngoài (ở đây giả sử click lên title page login)
+        driver.findElement(Title).click();
+        LogUtils.info("Đã click ô email và click ra ngoài");
+    }
+
+// TC_05
+    public boolean verifyInvalidEmailFormat(){
+        wait.until(ExpectedConditions.visibilityOfElementLocated(emailFormatError));
+        boolean isErrorDisplayed = driver.findElement(emailFormatError).isDisplayed();
+        LogUtils.info("Error message hiển thị: " + isErrorDisplayed);
+        return isErrorDisplayed;
+    }
+   public void getEmailFormatErrorText(){
+       wait.until(ExpectedConditions.visibilityOfElementLocated(UserID));
+       driver.findElement(UserID).sendKeys("123abc"); // Click vào ô email
+       driver.findElement(Title).click();
+       LogUtils.info("Đã điền email không có @domain và click ra ngoài");
+   }
 
 
 
