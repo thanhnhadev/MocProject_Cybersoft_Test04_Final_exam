@@ -110,7 +110,7 @@ public class profilePage {
         String productXpath = String.format(Locator_CMS.btnRemoveCartItemclass1,productName);
         List<WebElement> elements = driver.findElements(By.xpath(productXpath));
         if (elements.isEmpty()) {
-            LogUtils.warn("No cart item found to remove for product: ");
+            LogUtils.warn("No cart item found to remove for product ");
             return;
         }
         for (WebElement element : elements) {
@@ -126,7 +126,7 @@ public class profilePage {
         String productXpath = String.format(Locator_CMS.btnViewdetail,productName);
         List<WebElement> elements = driver.findElements(By.xpath(productXpath));
         if (elements.isEmpty()) {
-            LogUtils.warn("No detail button found for product: " );
+            LogUtils.warn("No detail button found for product " );
             return;
         }
         for (WebElement element : elements) {

@@ -324,3 +324,120 @@ Session ID: 0e1add43e9a731da83191b8507e702b5
 [INFO] 17-08-2025 23:41:56 [main] LogUtils - Error message hiển thị: true
 [INFO] 17-08-2025 23:41:56 [main] LogUtils - Test case verifyInvalidEmailFormat is passed.
 [INFO] 17-08-2025 23:41:58 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 21-08-2025 09:33:15 [main] LogUtils - #########
+[INFO] 21-08-2025 09:33:15 [main] LogUtils - *****Demo***
+[INFO] 21-08-2025 09:33:17 [main] LogUtils - Login Data from Excel: [[Ljava.lang.Object;@517a46f3
+[INFO] 21-08-2025 09:33:23 [TestNG-PoolService-5] LogUtils - Running test case verify_UpdateUser
+[INFO] 21-08-2025 09:33:23 [TestNG-PoolService-2] LogUtils - Running test case verify_UpdateUser
+[INFO] 21-08-2025 09:33:23 [TestNG-PoolService-1] LogUtils - Running test case verify_UpdateUser
+[INFO] 21-08-2025 09:33:23 [TestNG-PoolService-3] LogUtils - Running test case verify_UpdateUser
+[INFO] 21-08-2025 09:33:23 [TestNG-PoolService-4] LogUtils - Running test case verify_UpdateUser
+[INFO] 21-08-2025 09:33:33 [TestNG-PoolService-3] LogUtils - Title Page Login:By.xpath: //h2[normalize-space()='Sign In to Fiverr']
+[INFO] 21-08-2025 09:33:33 [TestNG-PoolService-3] LogUtils - Email không hợp lệ: 
+[INFO] 21-08-2025 09:33:33 [TestNG-PoolService-2] LogUtils - Title Page Login:By.xpath: //h2[normalize-space()='Sign In to Fiverr']
+[INFO] 21-08-2025 09:33:33 [TestNG-PoolService-2] LogUtils - Email không hợp lệ: 
+[INFO] 21-08-2025 09:33:33 [TestNG-PoolService-4] LogUtils - Title Page Login:By.xpath: //h2[normalize-space()='Sign In to Fiverr']
+[INFO] 21-08-2025 09:33:33 [TestNG-PoolService-4] LogUtils - Email không hợp lệ: 
+[INFO] 21-08-2025 09:33:33 [TestNG-PoolService-5] LogUtils - Title Page Login:By.xpath: //h2[normalize-space()='Sign In to Fiverr']
+[INFO] 21-08-2025 09:33:33 [TestNG-PoolService-5] LogUtils - Email không hợp lệ: 
+[INFO] 21-08-2025 09:33:34 [TestNG-PoolService-1] LogUtils - Title Page Login:By.xpath: //h2[normalize-space()='Sign In to Fiverr']
+[INFO] 21-08-2025 09:33:34 [TestNG-PoolService-3] LogUtils - Password:
+[INFO] 21-08-2025 09:33:34 [TestNG-PoolService-2] LogUtils - Password:
+[INFO] 21-08-2025 09:33:35 [TestNG-PoolService-4] LogUtils - Password:
+[INFO] 21-08-2025 09:33:36 [TestNG-PoolService-5] LogUtils - Password:
+[INFO] 21-08-2025 09:33:37 [TestNG-PoolService-1] LogUtils - Email hợp lệ: user86736@gmail.com
+[INFO] 21-08-2025 09:33:37 [TestNG-PoolService-3] LogUtils - click button Login
+[INFO] 21-08-2025 09:33:37 [TestNG-PoolService-3] LogUtils - login sucessfully
+[INFO] 21-08-2025 09:33:38 [TestNG-PoolService-2] LogUtils - click button Login
+[INFO] 21-08-2025 09:33:38 [TestNG-PoolService-2] LogUtils - login sucessfully
+[INFO] 21-08-2025 09:33:38 [TestNG-PoolService-4] LogUtils - click button Login
+[INFO] 21-08-2025 09:33:38 [TestNG-PoolService-4] LogUtils - login sucessfully
+[ERROR] 21-08-2025 09:33:58 [TestNG-PoolService-3] LogUtils - Test case verify_UpdateUser is failed.
+[INFO] 21-08-2025 09:33:58 [TestNG-PoolService-5] LogUtils - click button Login
+[INFO] 21-08-2025 09:33:58 [TestNG-PoolService-5] LogUtils - login sucessfully
+[ERROR] 21-08-2025 09:34:19 [TestNG-PoolService-2] LogUtils - Test case verify_UpdateUser is failed.
+[ERROR] 21-08-2025 09:34:39 [TestNG-PoolService-4] LogUtils - Test case verify_UpdateUser is failed.
+[ERROR] 21-08-2025 09:35:00 [TestNG-PoolService-5] LogUtils - Test case verify_UpdateUser is failed.
+[ERROR] 21-08-2025 09:35:03 [TestNG-PoolService-3] LogUtils - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: (//*[@class='edit'])[1] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.138, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51714}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51714/devtoo..., se:cdpVersion: 139.0.7258.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 330cedc4ad907d4bd94fac3b3dd1f6d0
+[INFO] 21-08-2025 09:35:06 [TestNG-PoolService-1] LogUtils - Password:Aty2559@
+[ERROR] 21-08-2025 09:35:07 [TestNG-PoolService-2] LogUtils - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: (//*[@class='edit'])[1] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.138, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51714}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51714/devtoo..., se:cdpVersion: 139.0.7258.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 330cedc4ad907d4bd94fac3b3dd1f6d0
+[ERROR] 21-08-2025 09:35:07 [TestNG-PoolService-4] LogUtils - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: (//*[@class='edit'])[1] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.138, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51714}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51714/devtoo..., se:cdpVersion: 139.0.7258.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 330cedc4ad907d4bd94fac3b3dd1f6d0
+[ERROR] 21-08-2025 09:35:11 [TestNG-PoolService-5] LogUtils - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: (//*[@class='edit'])[1] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.138, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51714}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51714/devtoo..., se:cdpVersion: 139.0.7258.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 330cedc4ad907d4bd94fac3b3dd1f6d0
+[INFO] 21-08-2025 09:35:15 [TestNG-PoolService-1] LogUtils - click button Login
+[INFO] 21-08-2025 09:35:15 [TestNG-PoolService-1] LogUtils - login sucessfully
+[INFO] 21-08-2025 09:35:19 [TestNG-PoolService-1] LogUtils - click edit account
+[INFO] 21-08-2025 09:35:19 [TestNG-PoolService-1] LogUtils - open podup
+[ERROR] 21-08-2025 09:35:40 [TestNG-PoolService-1] LogUtils - Test case verify_UpdateUser is failed.
+[ERROR] 21-08-2025 09:35:40 [TestNG-PoolService-1] LogUtils - org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [330cedc4ad907d4bd94fac3b3dd1f6d0, isElementDisplayed [id]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.138, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51714}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51714/devtoo..., se:cdpVersion: 139.0.7258.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (330cedc4ad907d4bd94fac3b3dd1f6d0)] -> xpath: //h2[contains(normalize-space(),'Update User')]]
+[ERROR] 21-08-2025 09:36:01 [main] LogUtils - Test case verify_UpdateUser is failed.
+[ERROR] 21-08-2025 09:36:01 [main] LogUtils - java.util.concurrent.CompletionException: org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.138, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51714}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51714/devtoo..., se:cdpVersion: 139.0.7258.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+[INFO] 21-08-2025 09:36:01 [main] LogUtils - End testing Demo
+[INFO] 21-08-2025 09:39:26 [main] LogUtils - #########
+[INFO] 21-08-2025 09:39:26 [main] LogUtils - *****Demo***
+[INFO] 21-08-2025 09:39:28 [main] LogUtils - Login Data from Excel: [[Ljava.lang.Object;@29c244e
+[INFO] 21-08-2025 09:39:30 [TestNG-PoolService-1] LogUtils - Running test case verify_UpdateUser
+[INFO] 21-08-2025 09:39:33 [TestNG-PoolService-1] LogUtils - Title Page Login:By.xpath: //h2[normalize-space()='Sign In to Fiverr']
+[INFO] 21-08-2025 09:39:33 [TestNG-PoolService-1] LogUtils - Email hợp lệ: user86736@gmail.com
+[INFO] 21-08-2025 09:39:34 [TestNG-PoolService-1] LogUtils - Password:Aty2559@
+[INFO] 21-08-2025 09:39:34 [TestNG-PoolService-1] LogUtils - click button Login
+[INFO] 21-08-2025 09:39:34 [TestNG-PoolService-1] LogUtils - login sucessfully
+[INFO] 21-08-2025 09:39:34 [TestNG-PoolService-1] LogUtils - click edit account
+[INFO] 21-08-2025 09:39:34 [TestNG-PoolService-1] LogUtils - open podup
+[INFO] 21-08-2025 09:39:35 [TestNG-PoolService-1] LogUtils - Title Podup//h2[contains(normalize-space(),'Update User')]
+[INFO] 21-08-2025 09:39:35 [TestNG-PoolService-1] LogUtils - field_Email: //*[contains(@id,'email')]
+[INFO] 21-08-2025 09:39:35 [TestNG-PoolService-1] LogUtils - field_Phone: 0939018814
+[INFO] 21-08-2025 09:39:36 [TestNG-PoolService-1] LogUtils - field_Name: thanhnhadev@gmail.com
+[INFO] 21-08-2025 09:39:36 [TestNG-PoolService-1] LogUtils - field_brithday: 22/02/2015
+[INFO] 21-08-2025 09:39:37 [TestNG-PoolService-1] LogUtils - gender is: Female click
+[INFO] 21-08-2025 09:39:37 [TestNG-PoolService-1] LogUtils - field_certificate: 56-des87-g7t
+[INFO] 21-08-2025 09:39:37 [TestNG-PoolService-1] LogUtils - field_skill: Js
+[INFO] 21-08-2025 09:39:37 [TestNG-PoolService-1] LogUtils - press button Save
+[INFO] 21-08-2025 09:39:37 [TestNG-PoolService-1] LogUtils - Test case verify_UpdateUser is passed.
+[INFO] 21-08-2025 09:39:40 [main] LogUtils - Login Data from Excel: [[Ljava.lang.Object;@67f591c2
+[INFO] 21-08-2025 09:39:42 [TestNG-PoolService-1] LogUtils - Running test case detail_dataUser
+[INFO] 21-08-2025 09:39:44 [TestNG-PoolService-1] LogUtils - Title Page Login:By.xpath: //h2[normalize-space()='Sign In to Fiverr']
+[INFO] 21-08-2025 09:39:44 [TestNG-PoolService-1] LogUtils - Email hợp lệ: user86736@gmail.com
+[INFO] 21-08-2025 09:39:44 [TestNG-PoolService-1] LogUtils - Password:Aty2559@
+[INFO] 21-08-2025 09:39:45 [TestNG-PoolService-1] LogUtils - click button Login
+[WARN] 21-08-2025 09:40:05 [TestNG-PoolService-1] LogUtils - No detail button found for product: 
+[INFO] 21-08-2025 09:40:05 [TestNG-PoolService-1] LogUtils - Test case detail_dataUser is passed.
+[INFO] 21-08-2025 09:40:07 [main] LogUtils - Login Data from Excel: [[Ljava.lang.Object;@7c956dda
+[INFO] 21-08-2025 09:40:08 [TestNG-PoolService-1] LogUtils - Running test case remove_DataUser
+[INFO] 21-08-2025 09:40:10 [TestNG-PoolService-1] LogUtils - Title Page Login:By.xpath: //h2[normalize-space()='Sign In to Fiverr']
+[INFO] 21-08-2025 09:40:10 [TestNG-PoolService-1] LogUtils - Email hợp lệ: user86736@gmail.com
+[INFO] 21-08-2025 09:40:10 [TestNG-PoolService-1] LogUtils - Password:Aty2559@
+[INFO] 21-08-2025 09:40:11 [TestNG-PoolService-1] LogUtils - click button Login
+[WARN] 21-08-2025 09:40:31 [TestNG-PoolService-1] LogUtils - No cart item found to remove for product: 
+[INFO] 21-08-2025 09:40:31 [TestNG-PoolService-1] LogUtils - Test case remove_DataUser is passed.
+[INFO] 21-08-2025 09:40:33 [main] LogUtils - End testing Demo
