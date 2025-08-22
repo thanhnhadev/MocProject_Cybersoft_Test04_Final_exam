@@ -25,4 +25,7 @@ public class ConfigData {
     public static String phoneRegex = PropertiesHelper.getValue("phoneRegex");
     public static String expectedFormat = PropertiesHelper.getValue("expectedFormat");
     public static  String nameRegex = PropertiesHelper.getValue("nameRegex");
+    public static final String detailPage_url = "https://demo5.cybersoft.edu.vn/jobDetail/10";
+    public static final String demo5_url = "https://demo5.cybersoft.edu.vn";
+    public static final String siginPage_url = "https://demo5.cybersoft.edu.vn/login";
 }

@@ -324,3 +324,1027 @@ Session ID: 0e1add43e9a731da83191b8507e702b5
 [INFO] 17-08-2025 23:41:56 [main] LogUtils - Error message hiển thị: true
 [INFO] 17-08-2025 23:41:56 [main] LogUtils - Test case verifyInvalidEmailFormat is passed.
 [INFO] 17-08-2025 23:41:58 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 18-08-2025 00:00:13 [main] LogUtils - #########
+[INFO] 18-08-2025 00:00:13 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 18-08-2025 00:00:14 [main] LogUtils - Running test case verifyInvalidEmailFormat
+[INFO] 18-08-2025 00:00:17 [main] LogUtils - Đã điền email không có @domain và click ra ngoài
+[INFO] 18-08-2025 00:00:17 [main] LogUtils - Error message hiển thị: true
+[INFO] 18-08-2025 00:00:17 [main] LogUtils - Test case verifyInvalidEmailFormat is passed.
+[INFO] 18-08-2025 00:00:19 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 20-08-2025 22:57:54 [main] LogUtils - #########
+[INFO] 20-08-2025 22:57:54 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 20-08-2025 22:58:01 [main] LogUtils - Running test case headerToListingAndDetail
+[ERROR] 20-08-2025 22:58:09 [main] LogUtils - Test case headerToListingAndDetail is failed.
+[ERROR] 20-08-2025 22:58:09 [main] LogUtils - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //*[normalize-space()='Search Engine Optimization (SEO)'] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.129, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: /var/folders/_k/xz4r9gvx37z...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55005}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:55005/devtoo..., se:cdpVersion: 139.0.7258.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7b0242a996c56d07661c73704baddacd
+[INFO] 20-08-2025 22:58:11 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 20-08-2025 23:00:36 [main] LogUtils - #########
+[INFO] 20-08-2025 23:00:36 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 20-08-2025 23:00:38 [main] LogUtils - Running test case basicInfoAndSwitchPackages
+[ERROR] 20-08-2025 23:00:50 [main] LogUtils - Test case basicInfoAndSwitchPackages is failed.
+[ERROR] 20-08-2025 23:00:50 [main] LogUtils - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //*[normalize-space()='Basic'] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.129, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: /var/folders/_k/xz4r9gvx37z...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55069}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:55069/devtoo..., se:cdpVersion: 139.0.7258.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3d45bbb4c0e27424f6582c88edd836bd
+[INFO] 20-08-2025 23:00:52 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 20-08-2025 23:07:57 [main] LogUtils - #########
+[INFO] 20-08-2025 23:07:57 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 20-08-2025 23:07:59 [main] LogUtils - Running test case basicInfoAndSwitchPackages
+[INFO] 20-08-2025 23:08:01 [main] LogUtils - Basic info hiển thị đầy đủ
+[ERROR] 20-08-2025 23:08:11 [main] LogUtils - Test case basicInfoAndSwitchPackages is failed.
+[ERROR] 20-08-2025 23:08:12 [main] LogUtils - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //*[normalize-space()='Basic'] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.129, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: /var/folders/_k/xz4r9gvx37z...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55152}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:55152/devtoo..., se:cdpVersion: 139.0.7258.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7c237747bc151a9dc82885c7ed4bca46
+[INFO] 20-08-2025 23:08:14 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 20-08-2025 23:08:19 [main] LogUtils - #########
+[INFO] 20-08-2025 23:08:19 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 20-08-2025 23:08:21 [main] LogUtils - Running test case changeCurrencyIfSupported
+[INFO] 20-08-2025 23:08:22 [main] LogUtils - Test case changeCurrencyIfSupported is passed.
+[INFO] 20-08-2025 23:08:24 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 20-08-2025 23:08:47 [main] LogUtils - #########
+[INFO] 20-08-2025 23:08:47 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 20-08-2025 23:08:48 [main] LogUtils - Running test case contactFormValidation
+[ERROR] 20-08-2025 23:09:10 [main] LogUtils - Test case contactFormValidation is failed.
+[ERROR] 20-08-2025 23:09:10 [main] LogUtils - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //*[contains(@class,'modal') or contains(@class,'dialog')]//*[textarea] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.129, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: /var/folders/_k/xz4r9gvx37z...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55249}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:55249/devtoo..., se:cdpVersion: 139.0.7258.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 59fd5e3305d44a291c8b33eb459b74fb
+[INFO] 20-08-2025 23:09:12 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 20-08-2025 23:33:15 [main] LogUtils - #########
+[INFO] 20-08-2025 23:33:15 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 20-08-2025 23:33:16 [main] LogUtils - Login Data from Excel: [[Ljava.lang.Object;@311a0b3e
+[INFO] 20-08-2025 23:33:18 [TestNG-PoolService-1] LogUtils - Running test case verifyLoginSucess
+[INFO] 20-08-2025 23:33:19 [TestNG-PoolService-1] LogUtils - Title Page Login:By.xpath: //h2[normalize-space()='Sign In to Fiverr']
+[INFO] 20-08-2025 23:33:19 [TestNG-PoolService-1] LogUtils - Email hợp lệ: user86558@gmail.com
+[INFO] 20-08-2025 23:33:19 [TestNG-PoolService-1] LogUtils - Password:Aty5395@
+[INFO] 20-08-2025 23:33:20 [TestNG-PoolService-1] LogUtils - click button Login
+[ERROR] 20-08-2025 23:33:20 [TestNG-PoolService-1] LogUtils - Login Fail
+[INFO] 20-08-2025 23:33:20 [TestNG-PoolService-1] LogUtils - Test case verifyLoginSucess is passed.
+[INFO] 20-08-2025 23:33:22 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 20-08-2025 23:38:57 [main] LogUtils - #########
+[INFO] 20-08-2025 23:38:57 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 20-08-2025 23:38:59 [main] LogUtils - Running test case verifyJoinDetailPage
+[ERROR] 20-08-2025 23:38:59 [main] LogUtils - Test case verifyJoinDetailPage is failed.
+[ERROR] 20-08-2025 23:38:59 [main] LogUtils - java.lang.RuntimeException: org.openqa.selenium.InvalidArgumentException: invalid argument
+  (Session info: chrome=139.0.7258.129)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [42745578b75ea46b7cc23423a6e2299b, get {url=url_page}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.129, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: /var/folders/_k/xz4r9gvx37z...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55487}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:55487/devtoo..., se:cdpVersion: 139.0.7258.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 42745578b75ea46b7cc23423a6e2299b
+[INFO] 20-08-2025 23:39:02 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 20-08-2025 23:40:16 [main] LogUtils - #########
+[INFO] 20-08-2025 23:40:16 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 20-08-2025 23:40:16 [main] LogUtils - Running test case verifyJoinDetailPage
+[ERROR] 20-08-2025 23:40:17 [main] LogUtils - Test case verifyJoinDetailPage is failed.
+[ERROR] 20-08-2025 23:40:17 [main] LogUtils - java.lang.RuntimeException: java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "this.driver" is null
+[ERROR] 20-08-2025 23:40:17 [main] LogUtils - Test case verifyJoinDetailPage is failed.
+[ERROR] 20-08-2025 23:40:17 [main] LogUtils - java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "driver" is null
+[INFO] 20-08-2025 23:40:17 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 20-08-2025 23:40:35 [main] LogUtils - #########
+[INFO] 20-08-2025 23:40:35 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 20-08-2025 23:40:36 [main] LogUtils - Running test case verifyJoinDetailPage
+[ERROR] 20-08-2025 23:40:36 [main] LogUtils - Test case verifyJoinDetailPage is failed.
+[ERROR] 20-08-2025 23:40:37 [main] LogUtils - java.lang.RuntimeException: org.openqa.selenium.InvalidArgumentException: invalid argument
+  (Session info: chrome=139.0.7258.129)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cc3206a8021ad2d77f11c018fed04ce8, get {url=url_page}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.129, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: /var/folders/_k/xz4r9gvx37z...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55523}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:55523/devtoo..., se:cdpVersion: 139.0.7258.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cc3206a8021ad2d77f11c018fed04ce8
+[INFO] 20-08-2025 23:40:39 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 20-08-2025 23:41:13 [main] LogUtils - #########
+[INFO] 20-08-2025 23:41:13 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 20-08-2025 23:41:14 [main] LogUtils - Running test case verifyJoinDetailPage
+[INFO] 20-08-2025 23:41:16 [main] LogUtils - Test case verifyJoinDetailPage is passed.
+[INFO] 20-08-2025 23:41:18 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 20-08-2025 23:54:43 [main] LogUtils - #########
+[INFO] 20-08-2025 23:54:43 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 20-08-2025 23:54:44 [main] LogUtils - Running test case hireServiceWhenLoggedIn
+[INFO] 20-08-2025 23:54:46 [main] LogUtils - Title Page Login:By.xpath: //h2[normalize-space()='Sign In to Fiverr']
+[INFO] 20-08-2025 23:54:46 [main] LogUtils - Email hợp lệ: thanhnhadev@gmail.com
+[INFO] 20-08-2025 23:54:46 [main] LogUtils - Password:Aty05121995
+[INFO] 20-08-2025 23:54:47 [main] LogUtils - click button Login
+[ERROR] 20-08-2025 23:54:52 [main] LogUtils - Test case hireServiceWhenLoggedIn is failed.
+[ERROR] 20-08-2025 23:54:52 [main] LogUtils - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //button[contains(@class,'submit') and contains(normalize-space(),'Continue')] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.129, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: /var/folders/_k/xz4r9gvx37z...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55643}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:55643/devtoo..., se:cdpVersion: 139.0.7258.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4acb6aa279db2f25d0013d5a76f5a550
+[INFO] 20-08-2025 23:54:55 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 20-08-2025 23:55:34 [main] LogUtils - #########
+[INFO] 20-08-2025 23:55:34 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 20-08-2025 23:55:36 [main] LogUtils - Running test case hireServiceWhenLoggedIn
+[INFO] 20-08-2025 23:55:37 [main] LogUtils - Title Page Login:By.xpath: //h2[normalize-space()='Sign In to Fiverr']
+[INFO] 20-08-2025 23:55:37 [main] LogUtils - Email hợp lệ: thanhnhadev@gmail.com
+[INFO] 20-08-2025 23:55:37 [main] LogUtils - Password:Aty05121995
+[INFO] 20-08-2025 23:55:38 [main] LogUtils - click button Login
+[ERROR] 20-08-2025 23:55:43 [main] LogUtils - Test case hireServiceWhenLoggedIn is failed.
+[ERROR] 20-08-2025 23:55:43 [main] LogUtils - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //button[contains(@class,'submit') and contains(normalize-space(),'Continue')] (tried for 5 second(s) with 500 milliseconds interval)
+[ERROR] 20-08-2025 23:55:43 [main] LogUtils - Test case hireServiceWhenLoggedIn is failed.
+[ERROR] 20-08-2025 23:55:43 [main] LogUtils - org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=139.0.7258.129)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e997bd880da0a381ea383bc5df2bc2cc, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.129, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: /var/folders/_k/xz4r9gvx37z...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55690}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:55690/devtoo..., se:cdpVersion: 139.0.7258.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e997bd880da0a381ea383bc5df2bc2cc
+[INFO] 20-08-2025 23:55:43 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 20-08-2025 23:55:55 [main] LogUtils - #########
+[INFO] 20-08-2025 23:55:55 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 20-08-2025 23:55:56 [main] LogUtils - Running test case hireServiceWhenLoggedIn
+[INFO] 20-08-2025 23:55:58 [main] LogUtils - Title Page Login:By.xpath: //h2[normalize-space()='Sign In to Fiverr']
+[INFO] 20-08-2025 23:55:58 [main] LogUtils - Email hợp lệ: thanhnhadev@gmail.com
+[INFO] 20-08-2025 23:55:58 [main] LogUtils - Password:Aty05121995
+[INFO] 20-08-2025 23:55:58 [main] LogUtils - click button Login
+[ERROR] 20-08-2025 23:56:04 [main] LogUtils - Test case hireServiceWhenLoggedIn is failed.
+[ERROR] 20-08-2025 23:56:04 [main] LogUtils - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //button[contains(@class,'submit') and contains(normalize-space(),'Continue')] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.129, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: /var/folders/_k/xz4r9gvx37z...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55735}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:55735/devtoo..., se:cdpVersion: 139.0.7258.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2427433495036291b8c3e40955d419e2
+[INFO] 20-08-2025 23:56:07 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 21-08-2025 00:00:17 [main] LogUtils - #########
+[INFO] 21-08-2025 00:00:17 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 21-08-2025 00:00:19 [main] LogUtils - Running test case hireServiceWhenLoggedIn
+[INFO] 21-08-2025 00:00:21 [main] LogUtils - Title Page Login:By.xpath: //h2[normalize-space()='Sign In to Fiverr']
+[INFO] 21-08-2025 00:00:21 [main] LogUtils - Email hợp lệ: thanhnhadev@gmail.com
+[INFO] 21-08-2025 00:00:21 [main] LogUtils - Password:Aty05121995
+[INFO] 21-08-2025 00:00:22 [main] LogUtils - click button Login
+[ERROR] 21-08-2025 00:00:27 [main] LogUtils - Test case hireServiceWhenLoggedIn is failed.
+[ERROR] 21-08-2025 00:00:28 [main] LogUtils - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.cssSelector: button.submit (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.129, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: /var/folders/_k/xz4r9gvx37z...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55803}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:55803/devtoo..., se:cdpVersion: 139.0.7258.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d8542028a54713094ddeebd65020bcb8
+[INFO] 21-08-2025 00:00:30 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 21-08-2025 00:06:39 [main] LogUtils - #########
+[INFO] 21-08-2025 00:06:39 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 21-08-2025 00:06:41 [main] LogUtils - Running test case hireServiceWhenLoggedIn
+[ERROR] 21-08-2025 00:06:41 [main] LogUtils - Test case hireServiceWhenLoggedIn is failed.
+[ERROR] 21-08-2025 00:06:42 [main] LogUtils - java.lang.NullPointerException: Cannot invoke "BasePages.detailProductPage.login()" because "this.detailPage" is null
+[INFO] 21-08-2025 00:06:44 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 21-08-2025 00:07:52 [main] LogUtils - #########
+[INFO] 21-08-2025 00:07:52 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 21-08-2025 00:07:54 [main] LogUtils - Running test case hireServiceWhenLoggedIn
+[ERROR] 21-08-2025 00:07:54 [main] LogUtils - Test case hireServiceWhenLoggedIn is failed.
+[ERROR] 21-08-2025 00:07:55 [main] LogUtils - java.lang.NullPointerException: Cannot invoke "BasePages.detailProductPage.login()" because "this.detailPage" is null
+[INFO] 21-08-2025 00:07:57 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 21-08-2025 00:08:57 [main] LogUtils - #########
+[INFO] 21-08-2025 00:08:57 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 21-08-2025 00:08:58 [main] LogUtils - Running test case hireServiceWhenLoggedIn
+[ERROR] 21-08-2025 00:08:59 [main] LogUtils - Test case hireServiceWhenLoggedIn is failed.
+[ERROR] 21-08-2025 00:08:59 [main] LogUtils - java.lang.NullPointerException: Cannot invoke "BasePages.detailProductPage.login()" because "this.detailPage" is null
+[INFO] 21-08-2025 00:09:02 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 21-08-2025 00:09:49 [main] LogUtils - #########
+[INFO] 21-08-2025 00:09:49 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 21-08-2025 00:09:51 [main] LogUtils - Running test case hireServiceWhenLoggedIn
+[ERROR] 21-08-2025 00:09:52 [main] LogUtils - Test case hireServiceWhenLoggedIn is failed.
+[ERROR] 21-08-2025 00:09:52 [main] LogUtils - java.lang.NullPointerException: Cannot invoke "BasePages.detailProductPage.login()" because "this.detailPage" is null
+[INFO] 21-08-2025 00:09:54 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 21-08-2025 00:10:57 [main] LogUtils - #########
+[INFO] 21-08-2025 00:10:57 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 21-08-2025 00:10:59 [main] LogUtils - Running test case hireServiceWhenLoggedIn
+[ERROR] 21-08-2025 00:11:00 [main] LogUtils - Test case hireServiceWhenLoggedIn is failed.
+[ERROR] 21-08-2025 00:11:00 [main] LogUtils - java.lang.NullPointerException: Cannot invoke "BasePages.detailProductPage.login()" because "this.detailPage" is null
+[INFO] 21-08-2025 00:11:03 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 21-08-2025 00:13:42 [main] LogUtils - #########
+[INFO] 21-08-2025 00:13:42 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 21-08-2025 00:13:45 [main] LogUtils - Running test case hireServiceWhenLoggedIn
+[ERROR] 21-08-2025 00:14:01 [main] LogUtils - Test case hireServiceWhenLoggedIn is failed.
+[ERROR] 21-08-2025 00:14:01 [main] LogUtils - org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6bbb1948ec2fd77bcfad77a6e1a6b646, findElement [value, using]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.129, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: /var/folders/_k/xz4r9gvx37z...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56001}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:56001/devtoo..., se:cdpVersion: 139.0.7258.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6bbb1948ec2fd77bcfad77a6e1a6b646
+[ERROR] 21-08-2025 00:14:01 [main] LogUtils - Test case hireServiceWhenLoggedIn is failed.
+[ERROR] 21-08-2025 00:14:01 [main] LogUtils - org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6bbb1948ec2fd77bcfad77a6e1a6b646, screenshot []]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.129, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: /var/folders/_k/xz4r9gvx37z...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56001}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:56001/devtoo..., se:cdpVersion: 139.0.7258.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6bbb1948ec2fd77bcfad77a6e1a6b646
+[INFO] 21-08-2025 00:14:01 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 21-08-2025 00:14:42 [main] LogUtils - #########
+[INFO] 21-08-2025 00:14:42 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 21-08-2025 00:14:45 [main] LogUtils - Running test case hireServiceWhenLoggedIn
+[ERROR] 21-08-2025 00:15:08 [main] LogUtils - Test case hireServiceWhenLoggedIn is failed.
+[ERROR] 21-08-2025 00:15:08 [main] LogUtils - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //*[contains(@id,'email')] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.129, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: /var/folders/_k/xz4r9gvx37z...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56066}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:56066/devtoo..., se:cdpVersion: 139.0.7258.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6a82bb9bb452e27e88dec07a691a2d13
+[INFO] 21-08-2025 00:15:11 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 21-08-2025 00:15:58 [main] LogUtils - #########
+[INFO] 21-08-2025 00:15:58 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 21-08-2025 00:16:01 [main] LogUtils - Running test case hireServiceWhenLoggedIn
+[ERROR] 21-08-2025 00:16:14 [main] LogUtils - Test case hireServiceWhenLoggedIn is failed.
+[ERROR] 21-08-2025 00:16:14 [main] LogUtils - org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [af6163303ec3c5e2428800b9759420d5, findElement [using, value]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.129, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: /var/folders/_k/xz4r9gvx37z...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56124}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:56124/devtoo..., se:cdpVersion: 139.0.7258.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: af6163303ec3c5e2428800b9759420d5
+[ERROR] 21-08-2025 00:16:14 [main] LogUtils - Test case hireServiceWhenLoggedIn is failed.
+[ERROR] 21-08-2025 00:16:14 [main] LogUtils - org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [af6163303ec3c5e2428800b9759420d5, screenshot []]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.129, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: /var/folders/_k/xz4r9gvx37z...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56124}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:56124/devtoo..., se:cdpVersion: 139.0.7258.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: af6163303ec3c5e2428800b9759420d5
+[INFO] 21-08-2025 00:16:14 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 21-08-2025 00:17:49 [main] LogUtils - #########
+[INFO] 21-08-2025 00:17:49 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 21-08-2025 00:17:51 [main] LogUtils - Running test case hireServiceWhenLoggedIn
+[ERROR] 21-08-2025 00:18:00 [main] LogUtils - Test case hireServiceWhenLoggedIn is failed.
+[ERROR] 21-08-2025 00:18:00 [main] LogUtils - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.cssSelector: button.submit (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.129, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: /var/folders/_k/xz4r9gvx37z...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56204}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:56204/devtoo..., se:cdpVersion: 139.0.7258.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d92f78b4f8df5defeae3b33350f5be66
+[INFO] 21-08-2025 00:18:04 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 21-08-2025 00:19:09 [main] LogUtils - #########
+[INFO] 21-08-2025 00:19:09 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 21-08-2025 00:19:11 [main] LogUtils - Running test case hireServiceWhenLoggedIn
+[ERROR] 21-08-2025 00:19:18 [main] LogUtils - Test case hireServiceWhenLoggedIn is failed.
+[ERROR] 21-08-2025 00:19:19 [main] LogUtils - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.cssSelector: button.submit (tried for 3 second(s) with 500 milliseconds interval)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.129, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: /var/folders/_k/xz4r9gvx37z...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56266}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:56266/devtoo..., se:cdpVersion: 139.0.7258.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2a49235935b8da1b92853dad3ea13c5f
+[INFO] 21-08-2025 00:19:21 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 21-08-2025 00:20:32 [main] LogUtils - #########
+[INFO] 21-08-2025 00:20:32 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 21-08-2025 00:20:35 [main] LogUtils - Running test case hireServiceWhenLoggedIn
+[ERROR] 21-08-2025 00:20:42 [main] LogUtils - Test case hireServiceWhenLoggedIn is failed.
+[ERROR] 21-08-2025 00:20:42 [main] LogUtils - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.cssSelector: button.submit (tried for 3 second(s) with 500 milliseconds interval)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.129, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: /var/folders/_k/xz4r9gvx37z...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56327}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:56327/devtoo..., se:cdpVersion: 139.0.7258.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1e5bd76bd957b0d7e64d4515d48328e0
+[INFO] 21-08-2025 00:20:42 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 21-08-2025 00:21:20 [main] LogUtils - #########
+[INFO] 21-08-2025 00:21:20 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 21-08-2025 00:21:23 [main] LogUtils - Running test case hireServiceWhenLoggedIn
+[INFO] 21-08-2025 00:21:41 [main] LogUtils - #########
+[INFO] 21-08-2025 00:21:41 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 21-08-2025 00:21:44 [main] LogUtils - Running test case hireServiceWhenLoggedIn
+[ERROR] 21-08-2025 00:21:52 [main] LogUtils - Test case hireServiceWhenLoggedIn is failed.
+[ERROR] 21-08-2025 00:21:52 [main] LogUtils - org.openqa.selenium.NoSuchSessionException: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=139.0.7258.129)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e8baf3bd0b984eec04b6778c1ceef4e5, findElement {value=button.submit, using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.129, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: /var/folders/_k/xz4r9gvx37z...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56422}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:56422/devtoo..., se:cdpVersion: 139.0.7258.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e8baf3bd0b984eec04b6778c1ceef4e5
+[ERROR] 21-08-2025 00:21:52 [main] LogUtils - Test case hireServiceWhenLoggedIn is failed.
+[ERROR] 21-08-2025 00:21:52 [main] LogUtils - org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e8baf3bd0b984eec04b6778c1ceef4e5, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.129, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: /var/folders/_k/xz4r9gvx37z...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56422}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:56422/devtoo..., se:cdpVersion: 139.0.7258.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e8baf3bd0b984eec04b6778c1ceef4e5
+[INFO] 21-08-2025 00:21:52 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 21-08-2025 00:22:04 [main] LogUtils - #########
+[INFO] 21-08-2025 00:22:04 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 21-08-2025 00:22:06 [main] LogUtils - Running test case hireServiceWhenLoggedIn
+[INFO] 21-08-2025 00:22:44 [main] LogUtils - #########
+[INFO] 21-08-2025 00:22:44 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 21-08-2025 00:22:46 [main] LogUtils - Running test case hireServiceWhenLoggedIn
+[ERROR] 21-08-2025 00:23:00 [main] LogUtils - Test case hireServiceWhenLoggedIn is failed.
+[ERROR] 21-08-2025 00:23:00 [main] LogUtils - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.cssSelector: button.submit (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.129, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: /var/folders/_k/xz4r9gvx37z...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56481}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:56481/devtoo..., se:cdpVersion: 139.0.7258.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 263f640352e77382fbb24a21a29756bb
+[INFO] 21-08-2025 00:23:03 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 21-08-2025 00:28:16 [main] LogUtils - #########
+[INFO] 21-08-2025 00:28:16 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 21-08-2025 00:28:18 [main] LogUtils - Running test case hireServiceWhenLoggedIn
+[ERROR] 21-08-2025 00:28:36 [main] LogUtils - Test case hireServiceWhenLoggedIn is failed.
+[ERROR] 21-08-2025 00:28:36 [main] LogUtils - org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6693aa262c9fbf93e6ca0fffc4f38a63, findElement [using, value]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.129, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: /var/folders/_k/xz4r9gvx37z...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56548}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:56548/devtoo..., se:cdpVersion: 139.0.7258.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6693aa262c9fbf93e6ca0fffc4f38a63
+[ERROR] 21-08-2025 00:28:36 [main] LogUtils - Test case hireServiceWhenLoggedIn is failed.
+[ERROR] 21-08-2025 00:28:36 [main] LogUtils - org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6693aa262c9fbf93e6ca0fffc4f38a63, screenshot []]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.129, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: /var/folders/_k/xz4r9gvx37z...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56548}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:56548/devtoo..., se:cdpVersion: 139.0.7258.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6693aa262c9fbf93e6ca0fffc4f38a63
+[INFO] 21-08-2025 00:28:36 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 21-08-2025 00:28:50 [main] LogUtils - #########
+[INFO] 21-08-2025 00:28:50 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 21-08-2025 00:28:52 [main] LogUtils - Running test case hireServiceWhenLoggedIn
+[ERROR] 21-08-2025 00:29:15 [main] LogUtils - Test case hireServiceWhenLoggedIn is failed.
+[ERROR] 21-08-2025 00:29:15 [main] LogUtils - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.cssSelector: section.check-out .check-out-footer button.submit (tried for 20 second(s) with 500 milliseconds interval)
+[INFO] 21-08-2025 00:29:17 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 21-08-2025 00:29:55 [main] LogUtils - #########
+[INFO] 21-08-2025 00:29:55 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 21-08-2025 00:29:57 [main] LogUtils - Running test case hireServiceWhenLoggedIn
+[ERROR] 21-08-2025 00:30:10 [main] LogUtils - Test case hireServiceWhenLoggedIn is failed.
+[ERROR] 21-08-2025 00:30:10 [main] LogUtils - org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [230bdcba713a7857d7bea732fe36b4f1, findElement [value, using]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.129, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: /var/folders/_k/xz4r9gvx37z...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56680}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:56680/devtoo..., se:cdpVersion: 139.0.7258.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 230bdcba713a7857d7bea732fe36b4f1
+[ERROR] 21-08-2025 00:30:10 [main] LogUtils - Test case hireServiceWhenLoggedIn is failed.
+[ERROR] 21-08-2025 00:30:10 [main] LogUtils - org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [230bdcba713a7857d7bea732fe36b4f1, screenshot []]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.129, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: /var/folders/_k/xz4r9gvx37z...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56680}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:56680/devtoo..., se:cdpVersion: 139.0.7258.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 230bdcba713a7857d7bea732fe36b4f1
+[INFO] 21-08-2025 00:30:10 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 21-08-2025 00:30:22 [main] LogUtils - #########
+[INFO] 21-08-2025 00:30:22 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 21-08-2025 00:30:24 [main] LogUtils - Running test case hireServiceWhenLoggedIn
+[ERROR] 21-08-2025 00:30:38 [main] LogUtils - Test case hireServiceWhenLoggedIn is failed.
+[ERROR] 21-08-2025 00:30:39 [main] LogUtils - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.cssSelector: button.submit (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.129, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: /var/folders/_k/xz4r9gvx37z...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56743}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:56743/devtoo..., se:cdpVersion: 139.0.7258.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d85b5a30697331aae95e238d7bffbf8c
+[INFO] 21-08-2025 00:30:42 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 21-08-2025 00:34:27 [main] LogUtils - #########
+[INFO] 21-08-2025 00:34:27 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 21-08-2025 00:34:29 [main] LogUtils - Running test case hireServiceWhenLoggedIn
+[ERROR] 21-08-2025 00:34:44 [main] LogUtils - Test case hireServiceWhenLoggedIn is failed.
+[ERROR] 21-08-2025 00:34:44 [main] LogUtils - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //button[@class='submit' and contains(normalize-space(.),'Continue')] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.129, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: /var/folders/_k/xz4r9gvx37z...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56822}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:56822/devtoo..., se:cdpVersion: 139.0.7258.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: adfc0539032c87db79cd37b7aad7a107
+[ERROR] 21-08-2025 00:34:44 [main] LogUtils - Test case hireServiceWhenLoggedIn is failed.
+[ERROR] 21-08-2025 00:34:44 [main] LogUtils - org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=139.0.7258.129)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [adfc0539032c87db79cd37b7aad7a107, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.129, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: /var/folders/_k/xz4r9gvx37z...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56822}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:56822/devtoo..., se:cdpVersion: 139.0.7258.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: adfc0539032c87db79cd37b7aad7a107
+[INFO] 21-08-2025 00:34:44 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 21-08-2025 00:35:28 [main] LogUtils - #########
+[INFO] 21-08-2025 00:35:28 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 21-08-2025 00:35:30 [main] LogUtils - Running test case hireServiceWhenLoggedIn
+[ERROR] 21-08-2025 00:35:54 [main] LogUtils - Test case hireServiceWhenLoggedIn is failed.
+[ERROR] 21-08-2025 00:35:54 [main] LogUtils - org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=139.0.7258.129)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0f2139d7cc08afc85cf15738783836e9, clickElement {id=f.F86A93EFD73F118C6801DCEAA6DCDF2D.d.2B344BF61DE760F3FC189159AEBDB7EF.e.68}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.129, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: /var/folders/_k/xz4r9gvx37z...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56880}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:56880/devtoo..., se:cdpVersion: 139.0.7258.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (0f2139d7cc08afc85cf15738783836e9)] -> xpath: //button[@class='submit' and contains(normalize-space(.),'Continue')]]
+Session ID: 0f2139d7cc08afc85cf15738783836e9
+[INFO] 21-08-2025 00:35:57 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 21-08-2025 00:41:01 [main] LogUtils - #########
+[INFO] 21-08-2025 00:41:01 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 21-08-2025 00:41:04 [main] LogUtils - Running test case hireServiceWhenLoggedIn
+[ERROR] 21-08-2025 00:41:28 [main] LogUtils - Test case hireServiceWhenLoggedIn is failed.
+[ERROR] 21-08-2025 00:41:28 [main] LogUtils - org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=139.0.7258.129)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0183c2597155bec7b3971335624fb6d4, clickElement {id=f.FB6E91097D856BDB60DBB8581DC5166D.d.9E237E05B48234B37104E5CA577CB47E.e.64}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.129, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: /var/folders/_k/xz4r9gvx37z...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56954}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:56954/devtoo..., se:cdpVersion: 139.0.7258.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (0183c2597155bec7b3971335624fb6d4)] -> xpath: (//button[@class='submit' and contains(normalize-space(.),'Continue')])[1]]
+Session ID: 0183c2597155bec7b3971335624fb6d4
+[INFO] 21-08-2025 00:41:31 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 21-08-2025 00:41:50 [main] LogUtils - #########
+[INFO] 21-08-2025 00:41:50 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 21-08-2025 00:41:53 [main] LogUtils - Running test case hireServiceWhenLoggedIn
+[INFO] 21-08-2025 00:42:15 [main] LogUtils - Test case hireServiceWhenLoggedIn is passed.
+[INFO] 21-08-2025 00:42:17 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 21-08-2025 00:48:07 [main] LogUtils - #########
+[INFO] 21-08-2025 00:48:07 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 21-08-2025 00:48:10 [main] LogUtils - Running test case hireServiceWhenLoggedIn
+[ERROR] 21-08-2025 00:48:34 [main] LogUtils - Test case hireServiceWhenLoggedIn is failed.
+[ERROR] 21-08-2025 00:48:34 [main] LogUtils - org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=139.0.7258.129)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9e07d115e48390c3c76e628a3e4583b9, clickElement {id=f.D4B34BD3DA243E9204FF9635C028D5D3.d.4C8466861457E2E745CD922756F73420.e.78}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.129, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: /var/folders/_k/xz4r9gvx37z...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57102}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:57102/devtoo..., se:cdpVersion: 139.0.7258.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (9e07d115e48390c3c76e628a3e4583b9)] -> xpath: (//button[@class='submit' and contains(normalize-space(.),'Continue')])[1]]
+Session ID: 9e07d115e48390c3c76e628a3e4583b9
+[INFO] 21-08-2025 00:48:37 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 21-08-2025 00:48:57 [main] LogUtils - #########
+[INFO] 21-08-2025 00:48:57 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 21-08-2025 00:49:00 [main] LogUtils - Running test case hireServiceWhenLoggedIn
+[ERROR] 21-08-2025 00:49:25 [main] LogUtils - Test case hireServiceWhenLoggedIn is failed.
+[ERROR] 21-08-2025 00:49:25 [main] LogUtils - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class,'Toastify__toast-body') and contains(text(),'Thuê công việc thành công')] (tried for 10 second(s) with 500 milliseconds interval)
+[ERROR] 21-08-2025 00:49:25 [main] LogUtils - Test case hireServiceWhenLoggedIn is failed.
+[ERROR] 21-08-2025 00:49:25 [main] LogUtils - org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=139.0.7258.129)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [811a98cd48ce6f8be2e1b3522cecae8c, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.129, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: /var/folders/_k/xz4r9gvx37z...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57160}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:57160/devtoo..., se:cdpVersion: 139.0.7258.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 811a98cd48ce6f8be2e1b3522cecae8c
+[INFO] 21-08-2025 00:49:25 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 21-08-2025 00:50:38 [main] LogUtils - #########
+[INFO] 21-08-2025 00:50:38 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 21-08-2025 00:50:41 [main] LogUtils - Running test case hireServiceWhenLoggedIn
+[ERROR] 21-08-2025 00:51:05 [main] LogUtils - Test case hireServiceWhenLoggedIn is failed.
+[ERROR] 21-08-2025 00:51:05 [main] LogUtils - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class,'Toastify__toast-body') and contains(text(),'Thuê công việc thành công')] (tried for 10 second(s) with 500 milliseconds interval)
+[ERROR] 21-08-2025 00:51:05 [main] LogUtils - Test case hireServiceWhenLoggedIn is failed.
+[ERROR] 21-08-2025 00:51:05 [main] LogUtils - org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=139.0.7258.129)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1d65b5676e0f5ccd5966214c640b15a7, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.129, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: /var/folders/_k/xz4r9gvx37z...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57219}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:57219/devtoo..., se:cdpVersion: 139.0.7258.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1d65b5676e0f5ccd5966214c640b15a7
+[INFO] 21-08-2025 00:51:05 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 21-08-2025 00:51:49 [main] LogUtils - #########
+[INFO] 21-08-2025 00:51:49 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 21-08-2025 00:51:53 [main] LogUtils - Running test case hireServiceWhenLoggedIn
+[ERROR] 21-08-2025 00:52:03 [main] LogUtils - Test case hireServiceWhenLoggedIn is failed.
+[ERROR] 21-08-2025 00:52:03 [main] LogUtils - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class,'Toastify__toast-body') and contains(text(),'Thuê công việc thành công')] (tried for 2 second(s) with 500 milliseconds interval)
+[ERROR] 21-08-2025 00:52:03 [main] LogUtils - Test case hireServiceWhenLoggedIn is failed.
+[ERROR] 21-08-2025 00:52:03 [main] LogUtils - org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=139.0.7258.129)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6c436c355f0a961e40c9fa6e232470fc, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.129, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: /var/folders/_k/xz4r9gvx37z...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57279}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:57279/devtoo..., se:cdpVersion: 139.0.7258.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6c436c355f0a961e40c9fa6e232470fc
+[INFO] 21-08-2025 00:52:03 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 21-08-2025 00:52:18 [main] LogUtils - #########
+[INFO] 21-08-2025 00:52:18 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 21-08-2025 00:52:20 [main] LogUtils - Running test case hireServiceWhenLoggedIn
+[ERROR] 21-08-2025 00:52:44 [main] LogUtils - Test case hireServiceWhenLoggedIn is failed.
+[ERROR] 21-08-2025 00:52:44 [main] LogUtils - org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=139.0.7258.129)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [804e36eb1e9b459af5b49940fd4118ba, clickElement {id=f.E5BD5AFD7FD7C2180071EF2F130BDE11.d.B78C585EA113F67790E6E2AEB9C4D797.e.102}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.129, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: /var/folders/_k/xz4r9gvx37z...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57328}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:57328/devtoo..., se:cdpVersion: 139.0.7258.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (804e36eb1e9b459af5b49940fd4118ba)] -> xpath: (//button[@class='submit' and contains(normalize-space(.),'Continue')])[1]]
+Session ID: 804e36eb1e9b459af5b49940fd4118ba
+[INFO] 21-08-2025 00:52:47 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 21-08-2025 00:57:07 [main] LogUtils - #########
+[INFO] 21-08-2025 00:57:07 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 21-08-2025 00:57:08 [main] LogUtils - Running test case hireServiceWhenLoggedIn
+[ERROR] 21-08-2025 00:57:31 [main] LogUtils - Test case hireServiceWhenLoggedIn is failed.
+[ERROR] 21-08-2025 00:57:32 [main] LogUtils - org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=139.0.7258.129)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [72be3d34be1a35f632679e8f4a194bf9, clickElement {id=f.8EA40B8D64615D26B775D4A6EDDC8329.d.815ED516F853D6CEA4C35751147ECD7B.e.77}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.129, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: /var/folders/_k/xz4r9gvx37z...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57399}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:57399/devtoo..., se:cdpVersion: 139.0.7258.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (72be3d34be1a35f632679e8f4a194bf9)] -> xpath: (//button[@class='submit' and contains(normalize-space(.),'Continue')])[1]]
+Session ID: 72be3d34be1a35f632679e8f4a194bf9
+[INFO] 21-08-2025 00:57:34 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 21-08-2025 00:58:41 [main] LogUtils - #########
+[INFO] 21-08-2025 00:58:41 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 21-08-2025 00:58:43 [main] LogUtils - Running test case hireServiceWhenLoggedIn
+[ERROR] 21-08-2025 00:59:06 [main] LogUtils - Test case hireServiceWhenLoggedIn is failed.
+[ERROR] 21-08-2025 00:59:06 [main] LogUtils - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":" button[normalize-space(text())='Continue (US$5)']"}
+  (Session info: chrome=139.0.7258.129)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [11701a89ad6eef337131fb47e270707d, findElement {value= button[normalize-space(text())='Continue (US$5)'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.129, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: /var/folders/_k/xz4r9gvx37z...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57460}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:57460/devtoo..., se:cdpVersion: 139.0.7258.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 11701a89ad6eef337131fb47e270707d
+[INFO] 21-08-2025 00:59:08 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 21-08-2025 00:59:59 [main] LogUtils - #########
+[INFO] 21-08-2025 00:59:59 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 21-08-2025 01:00:01 [main] LogUtils - Running test case hireServiceWhenLoggedIn
+[ERROR] 21-08-2025 01:00:23 [main] LogUtils - Test case hireServiceWhenLoggedIn is failed.
+[ERROR] 21-08-2025 01:00:24 [main] LogUtils - org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=139.0.7258.129)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5671f71f3e8be72d24cfb6fd4a5d4614, clickElement {id=f.B200C4DD4A52771D10045731E3A971B5.d.E19E67CC8DDDA9F779CE74E15C03CFB5.e.77}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.129, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: /var/folders/_k/xz4r9gvx37z...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57522}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:57522/devtoo..., se:cdpVersion: 139.0.7258.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (5671f71f3e8be72d24cfb6fd4a5d4614)] -> xpath: (//button[@class='submit' ])[1]]
+Session ID: 5671f71f3e8be72d24cfb6fd4a5d4614
+[INFO] 21-08-2025 01:00:26 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 21-08-2025 01:01:15 [main] LogUtils - #########
+[INFO] 21-08-2025 01:01:15 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 21-08-2025 01:01:17 [main] LogUtils - Running test case hireServiceWhenLoggedIn
+[ERROR] 21-08-2025 01:01:39 [main] LogUtils - Test case hireServiceWhenLoggedIn is failed.
+[ERROR] 21-08-2025 01:01:39 [main] LogUtils - org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2bb4954465b253e2efcefe23237adf20, clickElement [id]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.129, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: /var/folders/_k/xz4r9gvx37z...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57583}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:57583/devtoo..., se:cdpVersion: 139.0.7258.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (2bb4954465b253e2efcefe23237adf20)] -> xpath: (//button[@class='submit'])[1]]
+Session ID: 2bb4954465b253e2efcefe23237adf20
+[ERROR] 21-08-2025 01:01:39 [main] LogUtils - Test case hireServiceWhenLoggedIn is failed.
+[ERROR] 21-08-2025 01:01:39 [main] LogUtils - org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2bb4954465b253e2efcefe23237adf20, screenshot []]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.129, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: /var/folders/_k/xz4r9gvx37z...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57583}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:57583/devtoo..., se:cdpVersion: 139.0.7258.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2bb4954465b253e2efcefe23237adf20
+[INFO] 21-08-2025 01:01:39 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 21-08-2025 01:02:19 [main] LogUtils - #########
+[INFO] 21-08-2025 01:02:19 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 21-08-2025 01:02:20 [main] LogUtils - Running test case hireServiceWhenLoggedIn
+[ERROR] 21-08-2025 01:02:44 [main] LogUtils - Test case hireServiceWhenLoggedIn is failed.
+[ERROR] 21-08-2025 01:02:44 [main] LogUtils - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class,'Toastify__toast-body') and contains(text(),'Thuê công việc thành công')] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.129, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: /var/folders/_k/xz4r9gvx37z...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57660}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:57660/devtoo..., se:cdpVersion: 139.0.7258.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 45ac8b934a64ea58579806d0eb83536a
+[INFO] 21-08-2025 01:02:47 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 21-08-2025 01:03:41 [main] LogUtils - #########
+[INFO] 21-08-2025 01:03:41 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 21-08-2025 01:03:43 [main] LogUtils - Running test case hireServiceWhenLoggedIn
+[ERROR] 21-08-2025 01:04:06 [main] LogUtils - Test case hireServiceWhenLoggedIn is failed.
+[ERROR] 21-08-2025 01:04:06 [main] LogUtils - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class,'Toastify__toast-body') and contains(text(),'Thuê công việc thành công')] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.129, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: /var/folders/_k/xz4r9gvx37z...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57725}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:57725/devtoo..., se:cdpVersion: 139.0.7258.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1ebb6fe7cacaeac7cb862f175637171b
+[INFO] 21-08-2025 01:04:09 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 21-08-2025 01:08:39 [main] LogUtils - #########
+[INFO] 21-08-2025 01:08:39 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 21-08-2025 01:08:41 [main] LogUtils - Running test case hireServiceWhenLoggedIn
+[INFO] 21-08-2025 01:08:46 [main] LogUtils - Test case hireServiceWhenLoggedIn is passed.
+[INFO] 21-08-2025 01:08:48 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 22-08-2025 10:33:44 [main] LogUtils - #########
+[INFO] 22-08-2025 10:33:44 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 22-08-2025 10:33:50 [main] LogUtils - Running test case verifyJoinDetailPage
+[INFO] 22-08-2025 10:33:52 [main] LogUtils - Test case verifyJoinDetailPage is passed.
+[INFO] 22-08-2025 10:33:54 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 22-08-2025 10:34:57 [main] LogUtils - #########
+[INFO] 22-08-2025 10:34:57 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 22-08-2025 10:34:59 [main] LogUtils - Running test case hireServiceWhenLoggedIn
+[ERROR] 22-08-2025 10:35:07 [main] LogUtils - Test case hireServiceWhenLoggedIn is failed.
+[ERROR] 22-08-2025 10:35:07 [main] LogUtils - org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [327bae9faa4a234fee15384eb622573e, findElement [value, using]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.129, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: /var/folders/_k/xz4r9gvx37z...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49777}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:49777/devtoo..., se:cdpVersion: 139.0.7258.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 327bae9faa4a234fee15384eb622573e
+[ERROR] 22-08-2025 10:35:07 [main] LogUtils - Test case hireServiceWhenLoggedIn is failed.
+[ERROR] 22-08-2025 10:35:07 [main] LogUtils - org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [327bae9faa4a234fee15384eb622573e, screenshot []]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.129, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: /var/folders/_k/xz4r9gvx37z...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49777}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:49777/devtoo..., se:cdpVersion: 139.0.7258.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 327bae9faa4a234fee15384eb622573e
+[INFO] 22-08-2025 10:35:08 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 22-08-2025 10:35:17 [main] LogUtils - #########
+[INFO] 22-08-2025 10:35:17 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 22-08-2025 10:35:19 [main] LogUtils - Running test case hireServiceWhenLoggedIn
+[ERROR] 22-08-2025 10:35:24 [main] LogUtils - Test case hireServiceWhenLoggedIn is failed.
+[ERROR] 22-08-2025 10:35:24 [main] LogUtils - org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [859531ef7121ffd4bdb17d72c87e0e87, findElement [value, using]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.129, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: /var/folders/_k/xz4r9gvx37z...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49839}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:49839/devtoo..., se:cdpVersion: 139.0.7258.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 859531ef7121ffd4bdb17d72c87e0e87
+[ERROR] 22-08-2025 10:35:24 [main] LogUtils - Test case hireServiceWhenLoggedIn is failed.
+[ERROR] 22-08-2025 10:35:24 [main] LogUtils - org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [859531ef7121ffd4bdb17d72c87e0e87, screenshot []]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.129, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: /var/folders/_k/xz4r9gvx37z...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49839}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:49839/devtoo..., se:cdpVersion: 139.0.7258.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 859531ef7121ffd4bdb17d72c87e0e87
+[INFO] 22-08-2025 10:35:24 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 22-08-2025 10:36:00 [main] LogUtils - #########
+[INFO] 22-08-2025 10:36:00 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 22-08-2025 10:36:01 [main] LogUtils - Running test case verifyJoinDetailPage
+[INFO] 22-08-2025 10:36:03 [main] LogUtils - Test case verifyJoinDetailPage is passed.
+[INFO] 22-08-2025 10:36:06 [main] LogUtils - Running test case hireServiceWhenLoggedIn
+[INFO] 22-08-2025 10:36:09 [main] LogUtils - Test case hireServiceWhenLoggedIn is passed.
+[INFO] 22-08-2025 10:36:12 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 22-08-2025 10:36:20 [main] LogUtils - #########
+[INFO] 22-08-2025 10:36:20 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 22-08-2025 10:36:21 [main] LogUtils - Running test case hireServiceWhenLoggedIn
+[ERROR] 22-08-2025 10:36:27 [main] LogUtils - Test case hireServiceWhenLoggedIn is failed.
+[ERROR] 22-08-2025 10:36:27 [main] LogUtils - org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [93ab4ea17482a348f870eefa16a9d45a, findElement [value, using]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.129, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: /var/folders/_k/xz4r9gvx37z...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49998}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:49998/devtoo..., se:cdpVersion: 139.0.7258.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 93ab4ea17482a348f870eefa16a9d45a
+[ERROR] 22-08-2025 10:36:27 [main] LogUtils - Test case hireServiceWhenLoggedIn is failed.
+[ERROR] 22-08-2025 10:36:27 [main] LogUtils - org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [93ab4ea17482a348f870eefa16a9d45a, screenshot []]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.129, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: /var/folders/_k/xz4r9gvx37z...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49998}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:49998/devtoo..., se:cdpVersion: 139.0.7258.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 93ab4ea17482a348f870eefa16a9d45a
+[INFO] 22-08-2025 10:36:27 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 22-08-2025 10:37:45 [main] LogUtils - #########
+[INFO] 22-08-2025 10:37:45 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 22-08-2025 10:37:47 [main] LogUtils - Running test case hireServiceWhenLoggedIn
+[ERROR] 22-08-2025 10:38:08 [main] LogUtils - Test case hireServiceWhenLoggedIn is failed.
+[ERROR] 22-08-2025 10:38:08 [main] LogUtils - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class= 'Toastify__toast-body'] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.129, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: /var/folders/_k/xz4r9gvx37z...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50065}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:50065/devtoo..., se:cdpVersion: 139.0.7258.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c86082f83ea27df4d52a7691f2ad9916
+[ERROR] 22-08-2025 10:38:09 [main] LogUtils - Test case hireServiceWhenLoggedIn is failed.
+[ERROR] 22-08-2025 10:38:09 [main] LogUtils - org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=139.0.7258.129)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c86082f83ea27df4d52a7691f2ad9916, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.129, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: /var/folders/_k/xz4r9gvx37z...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50065}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:50065/devtoo..., se:cdpVersion: 139.0.7258.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c86082f83ea27df4d52a7691f2ad9916
+[INFO] 22-08-2025 10:38:09 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 22-08-2025 10:48:01 [main] LogUtils - #########
+[INFO] 22-08-2025 10:48:01 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 22-08-2025 10:48:03 [main] LogUtils - Running test case hireServiceWhenLoggedIn
+[ERROR] 22-08-2025 10:48:06 [main] LogUtils - Test case hireServiceWhenLoggedIn is failed.
+[ERROR] 22-08-2025 10:48:07 [main] LogUtils - java.lang.AssertionError: expected [Da hien thi thong bao 'Thuê công việc thành công' sau khi click Continue.] but found [true]
+[INFO] 22-08-2025 10:48:09 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 22-08-2025 10:50:12 [main] LogUtils - #########
+[INFO] 22-08-2025 10:50:12 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 22-08-2025 10:50:14 [main] LogUtils - Running test case hireServiceWhenLoggedIn
+[INFO] 22-08-2025 10:50:18 [main] LogUtils - Test case hireServiceWhenLoggedIn is passed.
+[INFO] 22-08-2025 10:50:20 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 22-08-2025 20:52:28 [main] LogUtils - #########
+[INFO] 22-08-2025 20:52:28 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 22-08-2025 20:53:01 [main] LogUtils - Running test case verifyJoinDetailPage
+[INFO] 22-08-2025 20:53:15 [main] LogUtils - Test case verifyJoinDetailPage is passed.
+[INFO] 22-08-2025 20:53:17 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 22-08-2025 20:53:50 [main] LogUtils - #########
+[INFO] 22-08-2025 20:53:50 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 22-08-2025 20:53:51 [main] LogUtils - Running test case hireServiceWhenLoggedIn
+[ERROR] 22-08-2025 20:54:21 [main] LogUtils - Test case hireServiceWhenLoggedIn is failed.
+[ERROR] 22-08-2025 20:54:21 [main] LogUtils - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class= 'Toastify__toast-body'] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: /var/folders/_k/xz4r9gvx37z...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58553}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:58553/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a02cb80ebd8863662fb43fd8001e2ef3
+[INFO] 22-08-2025 20:54:23 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 22-08-2025 20:56:29 [main] LogUtils - #########
+[INFO] 22-08-2025 20:56:29 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 22-08-2025 20:56:30 [main] LogUtils - Running test case hireServiceWhenLoggedIn
+[ERROR] 22-08-2025 20:56:51 [main] LogUtils - Test case hireServiceWhenLoggedIn is failed.
+[ERROR] 22-08-2025 20:56:51 [main] LogUtils - java.lang.RuntimeException: org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 19.502
+  (Session info: chrome=139.0.7258.139)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b63288ebfa01f415b0af0759c5479445, get {url=https://demo5.cybersoft.edu.vn}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: /var/folders/_k/xz4r9gvx37z...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58625}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:58625/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b63288ebfa01f415b0af0759c5479445
+[INFO] 22-08-2025 20:56:53 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 22-08-2025 20:57:01 [main] LogUtils - #########
+[INFO] 22-08-2025 20:57:01 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 22-08-2025 20:57:02 [main] LogUtils - Running test case hireServiceWhenLoggedIn
+[ERROR] 22-08-2025 20:57:22 [main] LogUtils - Test case hireServiceWhenLoggedIn is failed.
+[ERROR] 22-08-2025 20:57:22 [main] LogUtils - org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8a9420445cb13b13718c0b37b134632e, findElement [using, value]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: /var/folders/_k/xz4r9gvx37z...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58690}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:58690/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8a9420445cb13b13718c0b37b134632e
+[ERROR] 22-08-2025 20:57:22 [main] LogUtils - Test case hireServiceWhenLoggedIn is failed.
+[ERROR] 22-08-2025 20:57:22 [main] LogUtils - org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8a9420445cb13b13718c0b37b134632e, screenshot []]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: /var/folders/_k/xz4r9gvx37z...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58690}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:58690/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8a9420445cb13b13718c0b37b134632e
+[INFO] 22-08-2025 20:57:22 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 22-08-2025 21:00:24 [main] LogUtils - #########
+[INFO] 22-08-2025 21:00:24 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 22-08-2025 21:00:25 [main] LogUtils - Running test case verifyJoinDetailPage
+[ERROR] 22-08-2025 21:00:46 [main] LogUtils - Test case verifyJoinDetailPage is failed.
+[ERROR] 22-08-2025 21:00:46 [main] LogUtils - java.lang.RuntimeException: org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 19.772
+  (Session info: chrome=139.0.7258.139)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [84436924360888867ee8048ee512123b, get {url=https://demo5.cybersoft.edu.vn/jobDetail/10}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: /var/folders/_k/xz4r9gvx37z...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58779}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:58779/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 84436924360888867ee8048ee512123b
+[INFO] 22-08-2025 21:00:48 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 22-08-2025 21:11:29 [main] LogUtils - #########
+[INFO] 22-08-2025 21:11:29 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 22-08-2025 21:11:30 [main] LogUtils - Running test case hireServiceWhenNotLoggedIn
+[ERROR] 22-08-2025 21:11:39 [main] LogUtils - Test case hireServiceWhenNotLoggedIn is failed.
+[ERROR] 22-08-2025 21:11:39 [main] LogUtils - java.lang.AssertionError: Không chuyển hướng sang trang login sau khi click Continue mà chưa đăng nhập! expected [https://demo5.cybersoft.edu.vn/login] but found [https://demo5.cybersoft.edu.vn/jobDetail/10]
+[INFO] 22-08-2025 21:11:41 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 22-08-2025 21:21:24 [main] LogUtils - #########
+[INFO] 22-08-2025 21:21:24 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 22-08-2025 21:21:25 [main] LogUtils - Running test case hireServiceWhenNotLoggedIn
+[ERROR] 22-08-2025 21:21:27 [main] LogUtils - Test case hireServiceWhenNotLoggedIn is failed.
+[ERROR] 22-08-2025 21:21:27 [main] LogUtils - java.lang.AssertionError: Không chuyển hướng sang trang login sau khi click Continue mà chưa đăng nhập! expected [https://demo5.cybersoft.edu.vn/login] but found [https://demo5.cybersoft.edu.vn/jobDetail/10]
+[INFO] 22-08-2025 21:21:30 [main] LogUtils - Running test case hireServiceWhenLoggedIn
+[ERROR] 22-08-2025 21:21:41 [main] LogUtils - Test case hireServiceWhenLoggedIn is failed.
+[ERROR] 22-08-2025 21:21:41 [main] LogUtils - org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e170003edaa97cc5c7099b93c4715754, findElement [value, using]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: /var/folders/_k/xz4r9gvx37z...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59009}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:59009/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e170003edaa97cc5c7099b93c4715754
+[ERROR] 22-08-2025 21:21:41 [main] LogUtils - Test case hireServiceWhenLoggedIn is failed.
+[ERROR] 22-08-2025 21:21:41 [main] LogUtils - org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e170003edaa97cc5c7099b93c4715754, screenshot []]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: /var/folders/_k/xz4r9gvx37z...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59009}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:59009/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e170003edaa97cc5c7099b93c4715754
+[INFO] 22-08-2025 21:21:41 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 22-08-2025 21:27:17 [main] LogUtils - #########
+[INFO] 22-08-2025 21:27:17 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 22-08-2025 21:27:19 [main] LogUtils - Running test case hireServiceWhenNotLoggedIn
+[ERROR] 22-08-2025 21:27:22 [main] LogUtils - Test case hireServiceWhenNotLoggedIn is failed.
+[ERROR] 22-08-2025 21:27:22 [main] LogUtils - java.lang.AssertionError: Không chuyển hướng sang trang login sau khi click Continue mà chưa đăng nhập! expected [https://demo5.cybersoft.edu.vn/login] but found [https://demo5.cybersoft.edu.vn/jobDetail/10]
+[INFO] 22-08-2025 21:27:26 [main] LogUtils - Running test case hireServiceWhenLoggedIn
+[INFO] 22-08-2025 21:27:32 [main] LogUtils - Test case hireServiceWhenLoggedIn is passed.
+[INFO] 22-08-2025 21:27:34 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 22-08-2025 21:31:38 [main] LogUtils - #########
+[INFO] 22-08-2025 21:31:38 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 22-08-2025 21:31:39 [main] LogUtils - Running test case hireServiceWhenNotLoggedIn
+[ERROR] 22-08-2025 21:31:41 [main] LogUtils - Test case hireServiceWhenNotLoggedIn is failed.
+[ERROR] 22-08-2025 21:31:41 [main] LogUtils - java.lang.AssertionError: Không chuyển hướng sang trang login sau khi click Continue mà chưa đăng nhập! expected [https://demo5.cybersoft.edu.vn/login] but found [https://demo5.cybersoft.edu.vn/jobDetail/10]
+[INFO] 22-08-2025 21:31:45 [main] LogUtils - Running test case hireServiceWhenLoggedIn
+[ERROR] 22-08-2025 21:31:56 [main] LogUtils - Test case hireServiceWhenLoggedIn is failed.
+[ERROR] 22-08-2025 21:31:56 [main] LogUtils - org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0bdf9f37ed0fbdd8390585dbb232ea9d, findElement [using, value]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: /var/folders/_k/xz4r9gvx37z...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59236}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:59236/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0bdf9f37ed0fbdd8390585dbb232ea9d
+[ERROR] 22-08-2025 21:31:56 [main] LogUtils - Test case hireServiceWhenLoggedIn is failed.
+[ERROR] 22-08-2025 21:31:56 [main] LogUtils - org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0bdf9f37ed0fbdd8390585dbb232ea9d, screenshot []]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: /var/folders/_k/xz4r9gvx37z...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59236}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:59236/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0bdf9f37ed0fbdd8390585dbb232ea9d
+[INFO] 22-08-2025 21:31:56 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 22-08-2025 21:34:38 [main] LogUtils - #########
+[INFO] 22-08-2025 21:34:38 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 22-08-2025 21:34:41 [main] LogUtils - Running test case hireServiceWhenNotLoggedIn
+[ERROR] 22-08-2025 21:34:44 [main] LogUtils - Test case hireServiceWhenNotLoggedIn is failed.
+[ERROR] 22-08-2025 21:34:45 [main] LogUtils - java.lang.AssertionError: Không chuyển hướng sang trang login sau khi click Continue mà chưa đăng nhập! expected [https://demo5.cybersoft.edu.vn/login] but found [https://demo5.cybersoft.edu.vn/jobDetail/10]
+[INFO] 22-08-2025 21:34:49 [main] LogUtils - Running test case hireServiceWhenLoggedIn
+[ERROR] 22-08-2025 21:35:04 [main] LogUtils - Test case hireServiceWhenLoggedIn is failed.
+[ERROR] 22-08-2025 21:35:04 [main] LogUtils - org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1a1c8f5a086535a03247b2284bd3ed3c, findElement [value, using]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: /var/folders/_k/xz4r9gvx37z...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59352}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:59352/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1a1c8f5a086535a03247b2284bd3ed3c
+[ERROR] 22-08-2025 21:35:04 [main] LogUtils - Test case hireServiceWhenLoggedIn is failed.
+[ERROR] 22-08-2025 21:35:04 [main] LogUtils - org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1a1c8f5a086535a03247b2284bd3ed3c, screenshot []]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: /var/folders/_k/xz4r9gvx37z...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59352}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:59352/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1a1c8f5a086535a03247b2284bd3ed3c
+[INFO] 22-08-2025 21:35:04 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 22-08-2025 21:37:59 [main] LogUtils - #########
+[INFO] 22-08-2025 21:37:59 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 22-08-2025 21:38:01 [main] LogUtils - Running test case hireServiceWhenNotLoggedIn
+[ERROR] 22-08-2025 21:38:03 [main] LogUtils - Test case hireServiceWhenNotLoggedIn is failed.
+[ERROR] 22-08-2025 21:38:03 [main] LogUtils - java.lang.AssertionError: Không chuyển hướng sang trang login sau khi click Continue mà chưa đăng nhập! expected [https://demo5.cybersoft.edu.vn/login] but found [https://demo5.cybersoft.edu.vn/jobDetail/10]
+[INFO] 22-08-2025 21:38:07 [main] LogUtils - Running test case hireServiceWhenLoggedIn
+[ERROR] 22-08-2025 21:38:32 [main] LogUtils - Test case hireServiceWhenLoggedIn is failed.
+[ERROR] 22-08-2025 21:38:32 [main] LogUtils - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class= 'Toastify__toast-body'] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: /var/folders/_k/xz4r9gvx37z...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59476}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:59476/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 21ab412a3c31b150e3a95c16fb5d13f6
+[INFO] 22-08-2025 21:38:34 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 22-08-2025 21:39:18 [main] LogUtils - #########
+[INFO] 22-08-2025 21:39:18 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 22-08-2025 21:39:20 [main] LogUtils - Running test case hireServiceWhenNotLoggedIn
+[ERROR] 22-08-2025 21:39:23 [main] LogUtils - Test case hireServiceWhenNotLoggedIn is failed.
+[ERROR] 22-08-2025 21:39:23 [main] LogUtils - java.lang.AssertionError: Không chuyển hướng sang trang login sau khi click Continue mà chưa đăng nhập! expected [https://demo5.cybersoft.edu.vn/login] but found [https://demo5.cybersoft.edu.vn/jobDetail/10]
+[INFO] 22-08-2025 21:39:26 [main] LogUtils - Running test case hireServiceWhenLoggedIn
+[ERROR] 22-08-2025 21:39:33 [main] LogUtils - Test case hireServiceWhenLoggedIn is failed.
+[ERROR] 22-08-2025 21:39:33 [main] LogUtils - java.lang.AssertionError: Không thấy thông báo 'Thuê công việc thành công' sau khi click Continue. expected [true] but found [https://demo5.cybersoft.edu.vn/jobDetail/10]
+[INFO] 22-08-2025 21:39:35 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 22-08-2025 21:40:46 [main] LogUtils - #########
+[INFO] 22-08-2025 21:40:46 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 22-08-2025 21:40:48 [main] LogUtils - Running test case hireServiceWhenLoggedIn
+[ERROR] 22-08-2025 21:40:58 [main] LogUtils - Test case hireServiceWhenLoggedIn is failed.
+[ERROR] 22-08-2025 21:40:58 [main] LogUtils - org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6b69b7136e01d5159a387ae4473e704a, findElement [value, using]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: /var/folders/_k/xz4r9gvx37z...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59642}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:59642/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6b69b7136e01d5159a387ae4473e704a
+[ERROR] 22-08-2025 21:40:58 [main] LogUtils - Test case hireServiceWhenLoggedIn is failed.
+[ERROR] 22-08-2025 21:40:58 [main] LogUtils - org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6b69b7136e01d5159a387ae4473e704a, screenshot []]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: /var/folders/_k/xz4r9gvx37z...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59642}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:59642/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6b69b7136e01d5159a387ae4473e704a
+[INFO] 22-08-2025 21:40:58 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 22-08-2025 21:41:01 [main] LogUtils - #########
+[INFO] 22-08-2025 21:41:01 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 22-08-2025 21:41:03 [main] LogUtils - Running test case hireServiceWhenLoggedIn
+[ERROR] 22-08-2025 21:41:09 [main] LogUtils - Test case hireServiceWhenLoggedIn is failed.
+[ERROR] 22-08-2025 21:41:09 [main] LogUtils - java.lang.AssertionError: Không thấy thông báo 'Thuê công việc thành công' sau khi click Continue. expected [true] but found [https://demo5.cybersoft.edu.vn/jobDetail/10]
+[INFO] 22-08-2025 21:41:11 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 22-08-2025 21:42:48 [main] LogUtils - #########
+[INFO] 22-08-2025 21:42:48 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 22-08-2025 21:42:50 [main] LogUtils - Running test case hireServiceWhenLoggedIn
+[ERROR] 22-08-2025 21:43:10 [main] LogUtils - Test case hireServiceWhenLoggedIn is failed.
+[ERROR] 22-08-2025 21:43:10 [main] LogUtils - org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3a6dadb501937f3be74c71d7e8ae8b8a, findElement [value, using]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: /var/folders/_k/xz4r9gvx37z...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59775}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:59775/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3a6dadb501937f3be74c71d7e8ae8b8a
+[ERROR] 22-08-2025 21:43:10 [main] LogUtils - Test case hireServiceWhenLoggedIn is failed.
+[ERROR] 22-08-2025 21:43:10 [main] LogUtils - org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3a6dadb501937f3be74c71d7e8ae8b8a, screenshot []]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: /var/folders/_k/xz4r9gvx37z...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59775}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:59775/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3a6dadb501937f3be74c71d7e8ae8b8a
+[INFO] 22-08-2025 21:43:10 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 22-08-2025 21:43:17 [main] LogUtils - #########
+[INFO] 22-08-2025 21:43:17 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 22-08-2025 21:43:19 [main] LogUtils - Running test case hireServiceWhenLoggedIn
+[ERROR] 22-08-2025 21:43:30 [main] LogUtils - Test case hireServiceWhenLoggedIn is failed.
+[ERROR] 22-08-2025 21:43:30 [main] LogUtils - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class= 'Toastify__toast-body'] (tried for 5 second(s) with 500 milliseconds interval)
+[ERROR] 22-08-2025 21:43:30 [main] LogUtils - Test case hireServiceWhenLoggedIn is failed.
+[ERROR] 22-08-2025 21:43:30 [main] LogUtils - org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=139.0.7258.139)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [839957ec4c1ecdeb04643f501299de14, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: /var/folders/_k/xz4r9gvx37z...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59840}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:59840/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 839957ec4c1ecdeb04643f501299de14
+[INFO] 22-08-2025 21:43:30 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 22-08-2025 21:43:41 [main] LogUtils - #########
+[INFO] 22-08-2025 21:43:41 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 22-08-2025 21:43:43 [main] LogUtils - Running test case hireServiceWhenLoggedIn
+[ERROR] 22-08-2025 21:43:52 [main] LogUtils - Test case hireServiceWhenLoggedIn is failed.
+[ERROR] 22-08-2025 21:43:52 [main] LogUtils - java.lang.AssertionError: expected [Không thấy thông báo 'Thuê công việc thành công' sau khi click Continue.] but found [true]
+[INFO] 22-08-2025 21:43:54 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 22-08-2025 21:44:25 [main] LogUtils - #########
+[INFO] 22-08-2025 21:44:25 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 22-08-2025 21:44:27 [main] LogUtils - Running test case hireServiceWhenLoggedIn
+[ERROR] 22-08-2025 21:44:37 [main] LogUtils - Test case hireServiceWhenLoggedIn is failed.
+[ERROR] 22-08-2025 21:44:37 [main] LogUtils - org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [be2a659c41430911a4e862112168489d, findElement [using, value]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: /var/folders/_k/xz4r9gvx37z...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59957}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:59957/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: be2a659c41430911a4e862112168489d
+[ERROR] 22-08-2025 21:44:37 [main] LogUtils - Test case hireServiceWhenLoggedIn is failed.
+[ERROR] 22-08-2025 21:44:37 [main] LogUtils - org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [be2a659c41430911a4e862112168489d, screenshot []]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: /var/folders/_k/xz4r9gvx37z...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59957}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:59957/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: be2a659c41430911a4e862112168489d
+[INFO] 22-08-2025 21:44:37 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 22-08-2025 21:44:42 [main] LogUtils - #########
+[INFO] 22-08-2025 21:44:42 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 22-08-2025 21:44:44 [main] LogUtils - Running test case hireServiceWhenLoggedIn
+[ERROR] 22-08-2025 21:44:55 [main] LogUtils - Test case hireServiceWhenLoggedIn is failed.
+[ERROR] 22-08-2025 21:44:55 [main] LogUtils - org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5bbd9ada842f91247f8dac15760f50a7, findElement [value, using]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: /var/folders/_k/xz4r9gvx37z...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60026}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:60026/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5bbd9ada842f91247f8dac15760f50a7
+[ERROR] 22-08-2025 21:44:55 [main] LogUtils - Test case hireServiceWhenLoggedIn is failed.
+[ERROR] 22-08-2025 21:44:55 [main] LogUtils - org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5bbd9ada842f91247f8dac15760f50a7, screenshot []]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: /var/folders/_k/xz4r9gvx37z...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60026}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:60026/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5bbd9ada842f91247f8dac15760f50a7
+[INFO] 22-08-2025 21:44:55 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 22-08-2025 21:45:26 [main] LogUtils - #########
+[INFO] 22-08-2025 21:45:26 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 22-08-2025 21:45:28 [main] LogUtils - Running test case hireServiceWhenLoggedIn
+[ERROR] 22-08-2025 21:45:38 [main] LogUtils - Test case hireServiceWhenLoggedIn is failed.
+[ERROR] 22-08-2025 21:45:38 [main] LogUtils - org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [38166c692821bf1d5cf788cad4102fb3, findElement [using, value]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: /var/folders/_k/xz4r9gvx37z...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60092}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:60092/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 38166c692821bf1d5cf788cad4102fb3
+[ERROR] 22-08-2025 21:45:39 [main] LogUtils - Test case hireServiceWhenLoggedIn is failed.
+[ERROR] 22-08-2025 21:45:39 [main] LogUtils - org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [38166c692821bf1d5cf788cad4102fb3, screenshot []]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: /var/folders/_k/xz4r9gvx37z...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60092}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:60092/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 38166c692821bf1d5cf788cad4102fb3
+[INFO] 22-08-2025 21:45:39 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 22-08-2025 21:46:06 [main] LogUtils - #########
+[INFO] 22-08-2025 21:46:06 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 22-08-2025 21:46:09 [main] LogUtils - Running test case hireServiceWhenLoggedIn
+[ERROR] 22-08-2025 21:46:15 [main] LogUtils - Test case hireServiceWhenLoggedIn is failed.
+[ERROR] 22-08-2025 21:46:15 [main] LogUtils - java.lang.AssertionError: expected [Không thấy thông báo 'Thuê công việc thành công' sau khi click Continue.] but found [false]
+[INFO] 22-08-2025 21:46:18 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 22-08-2025 21:49:23 [main] LogUtils - #########
+[INFO] 22-08-2025 21:49:23 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 22-08-2025 21:49:26 [main] LogUtils - Running test case hireServiceWhenLoggedIn
+[ERROR] 22-08-2025 21:49:34 [main] LogUtils - Test case hireServiceWhenLoggedIn is failed.
+[ERROR] 22-08-2025 21:49:34 [main] LogUtils - java.lang.AssertionError: Không thấy thông báo 'Thuê công việc thành công' sau khi click Continue. expected [true] but found [false]
+[INFO] 22-08-2025 21:49:37 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 22-08-2025 21:54:04 [main] LogUtils - #########
+[INFO] 22-08-2025 21:54:04 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 22-08-2025 21:54:10 [main] LogUtils - Running test case hireServiceWhenLoggedIn
+[INFO] 22-08-2025 21:54:21 [main] LogUtils - Test case hireServiceWhenLoggedIn is passed.
+[INFO] 22-08-2025 21:54:23 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 22-08-2025 21:54:58 [main] LogUtils - #########
+[INFO] 22-08-2025 21:54:58 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 22-08-2025 21:55:00 [main] LogUtils - Running test case hireServiceWhenLoggedIn
+[INFO] 22-08-2025 21:55:13 [main] LogUtils - Test case hireServiceWhenLoggedIn is passed.
+[INFO] 22-08-2025 21:55:15 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam

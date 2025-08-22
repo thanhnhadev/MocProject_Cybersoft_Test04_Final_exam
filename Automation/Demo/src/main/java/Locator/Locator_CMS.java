@@ -1,5 +1,7 @@
 package Locator;
 
+import org.openqa.selenium.By;
+
 public class Locator_CMS {
     //header
     public static final String headerUser="//p[@class='text my-0']";
@@ -28,6 +30,9 @@ public class Locator_CMS {
     public static final String password="//*[contains(@id,'password')]";
     public static final String btnLogin="//*[contains(@type,'submit')]";
     public static final String aResgister="//*[contains(@class,'text_register')]";
+    public static final String emailError_Locator = "//span[@class='text-danger' and normalize-space()='Email không được bỏ trống !']";
+    public static final String emailFormatError_Locator = "//span[@class='text-danger' and normalize-space()='Email không đúng định dạng !']";
+
     //page Register
     public static final String lbRegisterTitle="//h2[normalize-space()='REGISTER']";
     public static final String ipUser="//*[contains(@id,'name')]";
@@ -58,4 +63,11 @@ public class Locator_CMS {
     public static final String btnCancel="//button[contains(normalize-space(),'Cancel')]";
     public static final String btnSave="//button[contains(normalize-space(),'Save')]";
 
+    // detail page
+//    public static final String btnCountinue = "(//button[@class='submit' and contains(normalize-space(.),'Continue')])[1]";
+public static final String btnCountinue ="(//button[@class='submit'])[2]";
+
+    public static final String toastHireSuccess =
+            "//*[contains(@class,'Toastify') and contains(normalize-space(),'Thuê công việc thành công')]";
 }
+
