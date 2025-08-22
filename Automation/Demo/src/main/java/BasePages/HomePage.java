@@ -7,6 +7,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import utils.ActionKeyword.ActionKeyword;
+import utils.Constants.ConfigData;
 import utils.Logs.LogUtils;
 
 import java.time.Duration;
@@ -83,7 +84,7 @@ public class HomePage {
         actions.hover(option);
         LogUtils.info("nav:"+option);
     }
-    public void nav_Testing(){
+    public void nav_Testing(String content){
         wait.until(ExpectedConditions.visibilityOfElementLocated(Testing));
         //Instantiate Action Class
         ActionKeyword actions = new ActionKeyword(driver);
@@ -106,4 +107,5 @@ public class HomePage {
         driver.findElement(Search_Bar).click();
         LogUtils.info("click search");
     }
+
 }
