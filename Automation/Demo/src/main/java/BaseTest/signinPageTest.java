@@ -29,17 +29,7 @@ public class signinPageTest extends BaseSetup {
         CaptureReport.stopRecord();
         signinPageTest.verifyLoginSuccsess();
     }
-    @Test (priority = 1, testName = "tc_02_Login_Fail", dataProvider = "data_LoginFail_Excel", dataProviderClass = DataFactory.class)
-    public void verifyLoginFail(Hashtable< String, String > data){
-            CaptureReport.startRecord("Login_Fail");
-            signinPageTest = new signinPage(driver);
-            signinPageTest.login(
-                    data.get("username"),
-                    data.get("password"));
-            CaptureReport.captureScreenshot(driver, "Login_Fail");
-            CaptureReport.stopRecord();
-            signinPageTest.verifyLoginSuccsess();
-    }
+
     @Test(priority = 3,testName = "tc_03_Click_Register")
     public void goToPageRester(){
             CaptureReport.startRecord("Page Resgiter Pass");

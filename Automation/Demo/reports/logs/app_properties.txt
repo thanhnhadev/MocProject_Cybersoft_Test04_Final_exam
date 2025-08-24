@@ -1,502 +1,326 @@
-[INFO] 22-08-2025 20:44:12 [main] LogUtils - #########
-[INFO] 22-08-2025 20:44:12 [main] LogUtils - *****Demo***
-[INFO] 22-08-2025 20:44:15 [main] LogUtils - Running test case verifyNavigationExplore
-[INFO] 22-08-2025 20:44:27 [main] LogUtils - Go to Home Page
-[ERROR] 22-08-2025 20:44:33 [main] LogUtils - Test case verifyNavigationExplore is failed.
-[ERROR] 22-08-2025 20:44:34 [main] LogUtils - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //*[contains(text(),'Explore')] (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 07-08-2025 21:24:07 [main] LogUtils - #########
+[INFO] 07-08-2025 21:24:07 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 07-08-2025 21:24:12 [main] LogUtils - Running test case Write_Data
+[INFO] 07-08-2025 21:24:13 [main] LogUtils - emaill:user65636@gmail.com
+[INFO] 07-08-2025 21:24:13 [main] LogUtils - password:Aty9432@
+[INFO] 07-08-2025 21:24:13 [main] LogUtils - name:ezqzbaji
+[INFO] 07-08-2025 21:24:13 [main] LogUtils - Phone Number:0977412913
+[INFO] 07-08-2025 21:24:13 [main] LogUtils - brithday:02061994
+[INFO] 07-08-2025 21:24:13 [main] LogUtils - Write Random Data Successfully
+[INFO] 07-08-2025 21:24:13 [main] LogUtils - WriteData_Pass
+[INFO] 07-08-2025 21:24:13 [main] LogUtils - Test case Write_Data is passed.
+[INFO] 07-08-2025 21:24:15 [main] LogUtils - Login Data from Excel: [[Ljava.lang.Object;@6e5a77ef
+[INFO] 07-08-2025 21:24:16 [main] LogUtils - Running test case verify_Register
+[INFO] 07-08-2025 21:24:17 [main] LogUtils - This is Page Register
+[INFO] 07-08-2025 21:24:17 [main] LogUtils - Title Page Register:REGISTER
+[INFO] 07-08-2025 21:24:18 [main] LogUtils - name:ezqzbaji
+[INFO] 07-08-2025 21:24:18 [main] LogUtils - Email hợp lệ: user65636@gmail.com
+[INFO] 07-08-2025 21:24:18 [main] LogUtils - password: Aty9432@
+[INFO] 07-08-2025 21:24:18 [main] LogUtils - Re_password: Aty9432@
+[INFO] 07-08-2025 21:24:18 [main] LogUtils - Số điện thoại hợp lệ: 0977412913
+[INFO] 07-08-2025 21:24:18 [main] LogUtils - birthday: 02061994
+[INFO] 07-08-2025 21:24:18 [main] LogUtils - gender is: Male
+[INFO] 07-08-2025 21:24:18 [main] LogUtils - click Agree 
+[INFO] 07-08-2025 21:24:18 [main] LogUtils - Click button Register
+[INFO] 07-08-2025 21:24:19 [main] LogUtils - RegisterPass
+[ERROR] 07-08-2025 21:24:19 [main] LogUtils - verify Register
+[INFO] 07-08-2025 21:24:19 [main] LogUtils - Test case verify_Register is passed.
+[INFO] 07-08-2025 21:24:22 [main] LogUtils - Running test case haveAccountSucess
+[INFO] 07-08-2025 21:24:23 [main] LogUtils - Goto the page Login
+[INFO] 07-08-2025 21:24:23 [main] LogUtils - Title Page Register:REGISTER
+[INFO] 07-08-2025 21:24:23 [main] LogUtils - Go To Page LoginBy.xpath: //*[contains(text(),'I am already member')]
+[INFO] 07-08-2025 21:24:23 [main] LogUtils - Goto the page Login
+[INFO] 07-08-2025 21:24:23 [main] LogUtils - Test case haveAccountSucess is passed.
+[INFO] 07-08-2025 21:24:25 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 09-08-2025 11:24:02 [main] LogUtils - #########
+[INFO] 09-08-2025 11:24:02 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 09-08-2025 11:24:02 [main] LogUtils - Login Data from Excel: [[Ljava.lang.Object;@36238b12
+[INFO] 09-08-2025 11:24:06 [main] LogUtils - Running test case verify_Register
+[INFO] 09-08-2025 11:24:08 [main] LogUtils - This is Page Register
+[INFO] 09-08-2025 11:24:08 [main] LogUtils - Title Page Register:REGISTER
+[INFO] 09-08-2025 11:24:08 [main] LogUtils - name:ezqzbaji
+[INFO] 09-08-2025 11:24:08 [main] LogUtils - Email hợp lệ: user65636@gmail.com
+[INFO] 09-08-2025 11:24:08 [main] LogUtils - password: Aty9432@
+[INFO] 09-08-2025 11:24:08 [main] LogUtils - Re_password: Aty9432@
+[INFO] 09-08-2025 11:24:08 [main] LogUtils - Số điện thoại hợp lệ: 0977412913
+[INFO] 09-08-2025 11:24:08 [main] LogUtils - birthday: 02061994
+[INFO] 09-08-2025 11:24:08 [main] LogUtils - gender is: Male
+[INFO] 09-08-2025 11:24:08 [main] LogUtils - click Agree 
+[INFO] 09-08-2025 11:24:08 [main] LogUtils - Click button Register
+[INFO] 09-08-2025 11:24:09 [main] LogUtils - RegisterPass
+[ERROR] 09-08-2025 11:24:09 [main] LogUtils - Test case verify_Register is failed.
+[ERROR] 09-08-2025 11:24:09 [main] LogUtils - java.lang.AssertionError: fail van login expected [true] but found [false]
+[INFO] 09-08-2025 11:24:12 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 09-08-2025 11:26:18 [main] LogUtils - #########
+[INFO] 09-08-2025 11:26:18 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 09-08-2025 11:26:20 [main] LogUtils - Running test case Write_Data
+[INFO] 09-08-2025 11:26:21 [main] LogUtils - emaill:user12847@gmail.com
+[INFO] 09-08-2025 11:26:21 [main] LogUtils - password:Aty1456@
+[INFO] 09-08-2025 11:26:21 [main] LogUtils - name:hzvyjreh
+[INFO] 09-08-2025 11:26:21 [main] LogUtils - Phone Number:0376904524
+[INFO] 09-08-2025 11:26:21 [main] LogUtils - brithday:10081983
+[INFO] 09-08-2025 11:26:21 [main] LogUtils - Write Random Data Successfully
+[INFO] 09-08-2025 11:26:21 [main] LogUtils - WriteData_Pass
+[INFO] 09-08-2025 11:26:21 [main] LogUtils - Test case Write_Data is passed.
+[INFO] 09-08-2025 11:26:23 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 09-08-2025 11:28:30 [main] LogUtils - #########
+[INFO] 09-08-2025 11:28:30 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 09-08-2025 11:28:31 [main] LogUtils - Login Data from Excel: [[Ljava.lang.Object;@6f6c8d45
+[INFO] 09-08-2025 11:28:32 [TestNG-PoolService-1] LogUtils - Running test case verify_UpdateUser
+[INFO] 09-08-2025 11:28:34 [TestNG-PoolService-1] LogUtils - Title Page Login:By.xpath: //h2[normalize-space()='Sign In to Fiverr']
+[INFO] 09-08-2025 11:28:35 [TestNG-PoolService-1] LogUtils - Email hợp lệ: user12847@gmail.com
+[INFO] 09-08-2025 11:28:35 [TestNG-PoolService-1] LogUtils - Password:Aty1456@
+[INFO] 09-08-2025 11:28:35 [TestNG-PoolService-1] LogUtils - click button Login
+[INFO] 09-08-2025 11:28:35 [TestNG-PoolService-1] LogUtils - login sucessfully
+[ERROR] 09-08-2025 11:28:46 [TestNG-PoolService-1] LogUtils - Test case verify_UpdateUser is failed.
+[ERROR] 09-08-2025 11:28:46 [TestNG-PoolService-1] LogUtils - org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
 Build info: version: '4.34.0', revision: '707dcb4246*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '24.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.138, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\TNGUYE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59679}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59679/devtoo..., se:cdpVersion: 139.0.7258.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 31934355ef3d6444037d6f5f2cb9cc03
-[INFO] 22-08-2025 20:44:38 [main] LogUtils - End testing Demo
-[INFO] 22-08-2025 20:46:35 [main] LogUtils - #########
-[INFO] 22-08-2025 20:46:35 [main] LogUtils - *****Demo***
-[INFO] 22-08-2025 20:46:38 [main] LogUtils - Running test case verifyNavigationFiverr
-[INFO] 22-08-2025 20:46:48 [main] LogUtils - Go to Home Page
-[INFO] 22-08-2025 20:46:48 [main] LogUtils - header:Fiverr Business
-[ERROR] 22-08-2025 20:46:49 [main] LogUtils - Test case verifyNavigationFiverr is failed.
-[ERROR] 22-08-2025 20:46:50 [main] LogUtils - java.lang.AssertionError: fail van login expected [true] but found [false]
-[INFO] 22-08-2025 20:46:57 [main] LogUtils - Running test case verifyNavigationExplore
-[INFO] 22-08-2025 20:47:07 [main] LogUtils - Go to Home Page
-[ERROR] 22-08-2025 20:47:13 [main] LogUtils - Test case verifyNavigationExplore is failed.
-[ERROR] 22-08-2025 20:47:13 [main] LogUtils - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //*[contains(text(),'Explore')] (tried for 5 second(s) with 500 milliseconds interval)
+Command: [6ae6860af133b9516807091d25a67b2d, findElement [using, value]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.66, chrome: {chromedriverVersion: 139.0.7258.66 (a62d32994769..., userDataDir: /var/folders/_k/xz4r9gvx37z...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62905}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:62905/devtoo..., se:cdpVersion: 139.0.7258.66, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6ae6860af133b9516807091d25a67b2d
+[ERROR] 09-08-2025 11:28:46 [main] LogUtils - Test case verify_UpdateUser is failed.
+[ERROR] 09-08-2025 11:28:46 [main] LogUtils - java.util.concurrent.CompletionException: org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
 Build info: version: '4.34.0', revision: '707dcb4246*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '24.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.138, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\TNGUYE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54325}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54325/devtoo..., se:cdpVersion: 139.0.7258.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 7287426b90df259d553543cb7b64f6b3
-[INFO] 22-08-2025 20:47:19 [main] LogUtils - End testing Demo
-[INFO] 24-08-2025 16:01:59 [main] LogUtils - #########
-[INFO] 24-08-2025 16:01:59 [main] LogUtils - *****Demos***
-[INFO] 24-08-2025 16:02:21 [main] LogUtils - Running test case verifyNavigationFiverr
-[ERROR] 24-08-2025 16:02:43 [main] LogUtils - Test case verifyNavigationFiverr is failed.
-[ERROR] 24-08-2025 16:02:43 [main] LogUtils - org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 18.417
-  (Session info: chrome=139.0.7258.138)
+Command: [6ae6860af133b9516807091d25a67b2d, screenshot []]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.66, chrome: {chromedriverVersion: 139.0.7258.66 (a62d32994769..., userDataDir: /var/folders/_k/xz4r9gvx37z...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62905}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:62905/devtoo..., se:cdpVersion: 139.0.7258.66, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6ae6860af133b9516807091d25a67b2d
+[INFO] 09-08-2025 11:28:46 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 09-08-2025 11:29:09 [main] LogUtils - #########
+[INFO] 09-08-2025 11:29:09 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 09-08-2025 11:29:09 [main] LogUtils - Login Data from Excel: [[Ljava.lang.Object;@70a24f9
+[INFO] 09-08-2025 11:29:11 [TestNG-PoolService-1] LogUtils - Running test case detail_dataUser
+[INFO] 09-08-2025 11:29:12 [TestNG-PoolService-1] LogUtils - Title Page Login:By.xpath: //h2[normalize-space()='Sign In to Fiverr']
+[INFO] 09-08-2025 11:29:13 [TestNG-PoolService-1] LogUtils - Email hợp lệ: user12847@gmail.com
+[INFO] 09-08-2025 11:29:13 [TestNG-PoolService-1] LogUtils - Password:Aty1456@
+[INFO] 09-08-2025 11:29:13 [TestNG-PoolService-1] LogUtils - click button Login
+[ERROR] 09-08-2025 11:29:21 [TestNG-PoolService-1] LogUtils - Test case detail_dataUser is failed.
+[ERROR] 09-08-2025 11:29:21 [TestNG-PoolService-1] LogUtils - org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
 Build info: version: '4.34.0', revision: '707dcb4246*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '24.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [60626e3a7a6899138e0c5961e51ac2cd, get {url=https://demo5.cybersoft.edu.vn/}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.138, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\TNGUYE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55769}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55769/devtoo..., se:cdpVersion: 139.0.7258.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 60626e3a7a6899138e0c5961e51ac2cd
-[INFO] 24-08-2025 16:02:49 [main] LogUtils - Running test case verifyNavigationExplore
-[INFO] 24-08-2025 16:02:59 [main] LogUtils - Go to Home Page
-[ERROR] 24-08-2025 16:03:05 [main] LogUtils - Test case verifyNavigationExplore is failed.
-[ERROR] 24-08-2025 16:03:05 [main] LogUtils - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //*[contains(text(),'Explore')] (tried for 5 second(s) with 500 milliseconds interval)
+Command: [0bbe4f7ebbb84c02b96569b5edcb35a6, findElements [value, using]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.66, chrome: {chromedriverVersion: 139.0.7258.66 (a62d32994769..., userDataDir: /var/folders/_k/xz4r9gvx37z...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62967}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:62967/devtoo..., se:cdpVersion: 139.0.7258.66, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0bbe4f7ebbb84c02b96569b5edcb35a6
+[ERROR] 09-08-2025 11:29:21 [main] LogUtils - Test case detail_dataUser is failed.
+[ERROR] 09-08-2025 11:29:21 [main] LogUtils - java.util.concurrent.CompletionException: org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
 Build info: version: '4.34.0', revision: '707dcb4246*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '24.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.138, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\TNGUYE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55916}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55916/devtoo..., se:cdpVersion: 139.0.7258.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 7d56f8c1a00c95321f51860ca4b61b87
-[INFO] 24-08-2025 16:03:12 [main] LogUtils - Running test case verifyNavigationEnglish
-[INFO] 24-08-2025 16:03:12 [main] LogUtils - Go to Home Page
-[INFO] 24-08-2025 16:03:22 [main] LogUtils - header:English
-[ERROR] 24-08-2025 16:03:23 [main] LogUtils - Test case verifyNavigationEnglish is failed.
-[ERROR] 24-08-2025 16:03:23 [main] LogUtils - java.lang.AssertionError: fail van login expected [true] but found [false]
-[INFO] 24-08-2025 16:03:29 [main] LogUtils - End testing Demos
-[INFO] 24-08-2025 16:04:58 [main] LogUtils - #########
-[INFO] 24-08-2025 16:04:58 [main] LogUtils - *****Demos***
-[INFO] 24-08-2025 16:05:01 [main] LogUtils - Running test case verifyNavigationEnglish
-[INFO] 24-08-2025 16:05:11 [main] LogUtils - Go to Home Page
-[INFO] 24-08-2025 16:05:11 [main] LogUtils - header:English
-[ERROR] 24-08-2025 16:05:12 [main] LogUtils - Test case verifyNavigationEnglish is failed.
-[ERROR] 24-08-2025 16:05:12 [main] LogUtils - java.lang.AssertionError: fail van login expected [true] but found [false]
-[INFO] 24-08-2025 16:05:19 [main] LogUtils - End testing Demos
-[INFO] 24-08-2025 16:08:27 [main] LogUtils - #########
-[INFO] 24-08-2025 16:08:27 [main] LogUtils - *****Demos***
-[INFO] 24-08-2025 16:08:30 [main] LogUtils - Running test case verifyNavigationSignIn
-[INFO] 24-08-2025 16:08:42 [main] LogUtils - Go to Home Page
-[INFO] 24-08-2025 16:08:43 [main] LogUtils - header:Sign in
-[ERROR] 24-08-2025 16:08:44 [main] LogUtils - Test case verifyNavigationSignIn is failed.
-[ERROR] 24-08-2025 16:08:44 [main] LogUtils - java.lang.AssertionError: fail van login expected [true] but found [false]
-[INFO] 24-08-2025 16:08:48 [main] LogUtils - End testing Demos
-[INFO] 24-08-2025 16:10:45 [main] LogUtils - #########
-[INFO] 24-08-2025 16:10:45 [main] LogUtils - *****Demos***
-[INFO] 24-08-2025 16:10:48 [main] LogUtils - Running test case verifyNavigationSignIn
-[ERROR] 24-08-2025 16:11:09 [main] LogUtils - Test case verifyNavigationSignIn is failed.
-[ERROR] 24-08-2025 16:11:09 [main] LogUtils - org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 19.793
-  (Session info: chrome=139.0.7258.138)
+Command: [0bbe4f7ebbb84c02b96569b5edcb35a6, screenshot []]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.66, chrome: {chromedriverVersion: 139.0.7258.66 (a62d32994769..., userDataDir: /var/folders/_k/xz4r9gvx37z...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62967}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:62967/devtoo..., se:cdpVersion: 139.0.7258.66, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0bbe4f7ebbb84c02b96569b5edcb35a6
+[INFO] 09-08-2025 11:29:21 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 09-08-2025 11:30:27 [main] LogUtils - #########
+[INFO] 09-08-2025 11:30:27 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 09-08-2025 11:30:29 [main] LogUtils - Running test case Write_Data
+[INFO] 09-08-2025 11:30:30 [main] LogUtils - emaill:user54784@gmail.com
+[INFO] 09-08-2025 11:30:30 [main] LogUtils - password:Aty5900@
+[INFO] 09-08-2025 11:30:30 [main] LogUtils - name:fkznyobe
+[INFO] 09-08-2025 11:30:30 [main] LogUtils - Phone Number:0379506634
+[INFO] 09-08-2025 11:30:30 [main] LogUtils - brithday:10041981
+[INFO] 09-08-2025 11:30:30 [main] LogUtils - Write Random Data Successfully
+[INFO] 09-08-2025 11:30:30 [main] LogUtils - WriteData_Pass
+[INFO] 09-08-2025 11:30:30 [main] LogUtils - Test case Write_Data is passed.
+[INFO] 09-08-2025 11:30:32 [main] LogUtils - Login Data from Excel: [[Ljava.lang.Object;@524418a2
+[INFO] 09-08-2025 11:30:33 [main] LogUtils - Running test case verify_Register
+[INFO] 09-08-2025 11:30:34 [main] LogUtils - This is Page Register
+[INFO] 09-08-2025 11:30:34 [main] LogUtils - Title Page Register:REGISTER
+[INFO] 09-08-2025 11:30:35 [main] LogUtils - name:fkznyobe
+[INFO] 09-08-2025 11:30:35 [main] LogUtils - Email hợp lệ: user54784@gmail.com
+[INFO] 09-08-2025 11:30:35 [main] LogUtils - password: Aty5900@
+[INFO] 09-08-2025 11:30:35 [main] LogUtils - Re_password: Aty5900@
+[INFO] 09-08-2025 11:30:35 [main] LogUtils - Số điện thoại hợp lệ: 0379506634
+[INFO] 09-08-2025 11:30:35 [main] LogUtils - birthday: 10041981
+[INFO] 09-08-2025 11:30:35 [main] LogUtils - gender is: Male
+[INFO] 09-08-2025 11:30:35 [main] LogUtils - click Agree 
+[INFO] 09-08-2025 11:30:35 [main] LogUtils - Click button Register
+[INFO] 09-08-2025 11:30:36 [main] LogUtils - RegisterPass
+[ERROR] 09-08-2025 11:30:36 [main] LogUtils - Test case verify_Register is failed.
+[ERROR] 09-08-2025 11:30:37 [main] LogUtils - java.lang.AssertionError: fail van login expected [true] but found [false]
+[INFO] 09-08-2025 11:30:40 [main] LogUtils - Running test case haveAccountSucess
+[INFO] 09-08-2025 11:30:42 [main] LogUtils - Goto the page Login
+[INFO] 09-08-2025 11:30:42 [main] LogUtils - Title Page Register:REGISTER
+[INFO] 09-08-2025 11:30:42 [main] LogUtils - Go To Page LoginBy.xpath: //*[contains(text(),'I am already member')]
+[INFO] 09-08-2025 11:30:42 [main] LogUtils - Goto the page Login
+[INFO] 09-08-2025 11:30:42 [main] LogUtils - Test case haveAccountSucess is passed.
+[INFO] 09-08-2025 11:30:44 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 09-08-2025 11:38:13 [main] LogUtils - #########
+[INFO] 09-08-2025 11:38:13 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 09-08-2025 11:38:15 [main] LogUtils - Running test case haveAccountSucess
+[INFO] 09-08-2025 11:38:16 [main] LogUtils - Goto the page Login
+[INFO] 09-08-2025 11:38:16 [main] LogUtils - Title Page Register:REGISTER
+[INFO] 09-08-2025 11:38:16 [main] LogUtils - Go To Page LoginBy.xpath: //*[contains(text(),'I am already member')]
+[INFO] 09-08-2025 11:38:16 [main] LogUtils - Goto the page Login
+[INFO] 09-08-2025 11:38:16 [main] LogUtils - Test case haveAccountSucess is passed.
+[INFO] 09-08-2025 11:38:19 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 09-08-2025 11:40:36 [main] LogUtils - #########
+[INFO] 09-08-2025 11:40:36 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 09-08-2025 11:40:38 [main] LogUtils - Running test case haveAccountSucess
+[INFO] 09-08-2025 11:40:40 [main] LogUtils - Goto the page Login
+[INFO] 09-08-2025 11:40:41 [main] LogUtils - Title Page Register:REGISTER
+[INFO] 09-08-2025 11:40:41 [main] LogUtils - Go To Page LoginBy.xpath: //*[contains(text(),'I am already member')]
+[INFO] 09-08-2025 11:40:41 [main] LogUtils - Goto the page Login
+[INFO] 09-08-2025 11:40:41 [main] LogUtils - Test case haveAccountSucess is passed.
+[INFO] 09-08-2025 11:40:43 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 09-08-2025 11:41:53 [main] LogUtils - #########
+[INFO] 09-08-2025 11:41:53 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 09-08-2025 11:41:55 [main] LogUtils - Running test case Write_Data
+[INFO] 09-08-2025 11:41:56 [main] LogUtils - emaill:user86558@gmail.com
+[INFO] 09-08-2025 11:41:56 [main] LogUtils - password:Aty5395@
+[INFO] 09-08-2025 11:41:56 [main] LogUtils - name:qptmzkxi
+[INFO] 09-08-2025 11:41:56 [main] LogUtils - Phone Number:0888891718
+[INFO] 09-08-2025 11:41:56 [main] LogUtils - brithday:02121988
+[INFO] 09-08-2025 11:41:56 [main] LogUtils - Write Random Data Successfully
+[INFO] 09-08-2025 11:41:56 [main] LogUtils - WriteData_Pass
+[INFO] 09-08-2025 11:41:56 [main] LogUtils - Test case Write_Data is passed.
+[INFO] 09-08-2025 11:41:58 [main] LogUtils - Login Data from Excel: [[Ljava.lang.Object;@5abc488d
+[INFO] 09-08-2025 11:41:59 [main] LogUtils - Running test case verify_Register
+[INFO] 09-08-2025 11:42:02 [main] LogUtils - This is Page Register
+[INFO] 09-08-2025 11:42:02 [main] LogUtils - Title Page Register:REGISTER
+[INFO] 09-08-2025 11:42:02 [main] LogUtils - name:qptmzkxi
+[INFO] 09-08-2025 11:42:02 [main] LogUtils - Email hợp lệ: user86558@gmail.com
+[INFO] 09-08-2025 11:42:02 [main] LogUtils - password: Aty5395@
+[INFO] 09-08-2025 11:42:02 [main] LogUtils - Re_password: Aty5395@
+[INFO] 09-08-2025 11:42:02 [main] LogUtils - Số điện thoại hợp lệ: 0888891718
+[INFO] 09-08-2025 11:42:02 [main] LogUtils - birthday: 02121988
+[INFO] 09-08-2025 11:42:02 [main] LogUtils - gender is: Male
+[INFO] 09-08-2025 11:42:02 [main] LogUtils - click Agree 
+[INFO] 09-08-2025 11:42:02 [main] LogUtils - Click button Register
+[INFO] 09-08-2025 11:42:03 [main] LogUtils - RegisterPass
+[ERROR] 09-08-2025 11:42:03 [main] LogUtils - verify Register
+[INFO] 09-08-2025 11:42:03 [main] LogUtils - Test case verify_Register is passed.
+[INFO] 09-08-2025 11:42:06 [main] LogUtils - Running test case haveAccountSucess
+[INFO] 09-08-2025 11:42:07 [main] LogUtils - Goto the page Login
+[INFO] 09-08-2025 11:42:07 [main] LogUtils - Title Page Register:REGISTER
+[INFO] 09-08-2025 11:42:07 [main] LogUtils - Go To Page LoginBy.xpath: //*[contains(text(),'I am already member')]
+[INFO] 09-08-2025 11:42:07 [main] LogUtils - Goto the page Login
+[INFO] 09-08-2025 11:42:07 [main] LogUtils - Test case haveAccountSucess is passed.
+[INFO] 09-08-2025 11:42:10 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 17-08-2025 23:08:12 [main] LogUtils - #########
+[INFO] 17-08-2025 23:08:12 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 17-08-2025 23:08:20 [main] LogUtils - Running test case verifyEmptyusernameField
+[INFO] 17-08-2025 23:08:22 [main] LogUtils - Đã click ô email và click ra ngoài
+[ERROR] 17-08-2025 23:08:42 [main] LogUtils - Test case verifyEmptyusernameField is failed.
+[ERROR] 17-08-2025 23:08:42 [main] LogUtils - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //*[contains(@class,'error') and contains(text(),'Email is required')] (tried for 5 second(s) with 500 milliseconds interval)
 Build info: version: '4.34.0', revision: '707dcb4246*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '24.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [5becd2b58d8a164686257096638186d6, get {url=https://demo5.cybersoft.edu.vn/}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.138, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\TNGUYE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56565}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56565/devtoo..., se:cdpVersion: 139.0.7258.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 5becd2b58d8a164686257096638186d6
-[INFO] 24-08-2025 16:11:13 [main] LogUtils - End testing Demos
-[INFO] 24-08-2025 16:12:54 [main] LogUtils - #########
-[INFO] 24-08-2025 16:12:54 [main] LogUtils - *****Demos***
-[INFO] 24-08-2025 16:12:57 [main] LogUtils - Running test case verifyNavigationSignIn
-[INFO] 24-08-2025 16:13:07 [main] LogUtils - Go to Home Page
-[INFO] 24-08-2025 16:13:08 [main] LogUtils - header:Sign in
-[ERROR] 24-08-2025 16:13:08 [main] LogUtils - Login Fail
-[INFO] 24-08-2025 16:13:08 [main] LogUtils - Test case verifyNavigationSignIn is passed.
-[INFO] 24-08-2025 16:13:12 [main] LogUtils - End testing Demos
-[INFO] 24-08-2025 16:53:13 [main] LogUtils - #########
-[INFO] 24-08-2025 16:53:13 [main] LogUtils - *****Demos***
-[INFO] 24-08-2025 16:53:16 [main] LogUtils - Running test case verifyNavigationSignIn
-[INFO] 24-08-2025 16:53:30 [main] LogUtils - Go to Home Page
-[INFO] 24-08-2025 16:53:31 [main] LogUtils - header:Sign in
-[ERROR] 24-08-2025 16:53:32 [main] LogUtils - Login Fail
-[INFO] 24-08-2025 16:53:32 [main] LogUtils - Test case verifyNavigationSignIn is passed.
-[INFO] 24-08-2025 16:53:35 [main] LogUtils - End testing Demos
-[INFO] 24-08-2025 16:54:01 [main] LogUtils - #########
-[INFO] 24-08-2025 16:54:01 [main] LogUtils - *****Demos***
-[INFO] 24-08-2025 16:54:04 [main] LogUtils - Running test case verifyNavigationFiverr
-[INFO] 24-08-2025 16:54:16 [main] LogUtils - Go to Home Page
-[INFO] 24-08-2025 16:54:17 [main] LogUtils - header:Fiverr Business
-[ERROR] 24-08-2025 16:54:18 [main] LogUtils - Test case verifyNavigationFiverr is failed.
-[ERROR] 24-08-2025 16:54:18 [main] LogUtils - java.lang.AssertionError: fail van login expected [true] but found [false]
-[INFO] 24-08-2025 16:54:25 [main] LogUtils - Running test case verifyNavigationExplore
-[INFO] 24-08-2025 16:54:37 [main] LogUtils - Go to Home Page
-[ERROR] 24-08-2025 16:54:43 [main] LogUtils - Test case verifyNavigationExplore is failed.
-[ERROR] 24-08-2025 16:54:43 [main] LogUtils - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //*[contains(text(),'Explore')] (tried for 5 second(s) with 500 milliseconds interval)
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.128, chrome: {chromedriverVersion: 139.0.7258.68 (40ff94600b6e..., userDataDir: /var/folders/_k/xz4r9gvx37z...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63345}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:63345/devtoo..., se:cdpVersion: 139.0.7258.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e4d7be7a45feb7a59c6adcae0dd4a892
+[INFO] 17-08-2025 23:08:45 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 17-08-2025 23:15:04 [main] LogUtils - #########
+[INFO] 17-08-2025 23:15:04 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 17-08-2025 23:15:06 [main] LogUtils - Running test case verifyEmptyusernameField
+[ERROR] 17-08-2025 23:15:06 [main] LogUtils - Test case verifyEmptyusernameField is failed.
+[ERROR] 17-08-2025 23:15:06 [main] LogUtils - org.openqa.selenium.InvalidArgumentException: invalid argument
+  (Session info: chrome=139.0.7258.128)
 Build info: version: '4.34.0', revision: '707dcb4246*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '24.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.138, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\TNGUYE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50363}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50363/devtoo..., se:cdpVersion: 139.0.7258.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: e290a195f89eab765d4d9494e44ac6ea
-[INFO] 24-08-2025 16:54:50 [main] LogUtils - Running test case verifyNavigationEnglish
-[INFO] 24-08-2025 16:54:50 [main] LogUtils - Go to Home Page
-[INFO] 24-08-2025 16:55:01 [main] LogUtils - header:English
-[ERROR] 24-08-2025 16:55:02 [main] LogUtils - Test case verifyNavigationEnglish is failed.
-[ERROR] 24-08-2025 16:55:02 [main] LogUtils - java.lang.AssertionError: fail van login expected [true] but found [false]
-[INFO] 24-08-2025 16:55:10 [main] LogUtils - Running test case verifyNavigationRegister
-[INFO] 24-08-2025 16:55:21 [main] LogUtils - Go to Registration page
-[INFO] 24-08-2025 16:55:22 [main] LogUtils - header:Join
-[ERROR] 24-08-2025 16:55:23 [main] LogUtils - Login Fail
-[INFO] 24-08-2025 16:55:23 [main] LogUtils - Test case verifyNavigationRegister is passed.
-[INFO] 24-08-2025 16:55:31 [main] LogUtils - Running test case verifyCurrencyConversion
-[INFO] 24-08-2025 16:55:43 [main] LogUtils - Currency conversion US
-[INFO] 24-08-2025 16:55:43 [main] LogUtils - header:US$ USD
-[ERROR] 24-08-2025 16:55:45 [main] LogUtils - Test case verifyCurrencyConversion is failed.
-[ERROR] 24-08-2025 16:55:45 [main] LogUtils - java.lang.AssertionError: fail van login expected [true] but found [false]
-[INFO] 24-08-2025 16:55:55 [main] LogUtils - Running test case verifyNavigation
-[INFO] 24-08-2025 16:56:08 [main] LogUtils - TC-09 Navigation Become a Seller
-[INFO] 24-08-2025 16:56:09 [main] LogUtils - header:Become a Seller
-[ERROR] 24-08-2025 16:56:11 [main] LogUtils - Test case verifyNavigation is failed.
-[ERROR] 24-08-2025 16:56:12 [main] LogUtils - java.lang.AssertionError: fail van login expected [true] but found [false]
-[INFO] 24-08-2025 16:56:23 [main] LogUtils - Running test case verifyNavigationSignIn
-[INFO] 24-08-2025 16:56:35 [main] LogUtils - Go to Home Page
-[INFO] 24-08-2025 16:56:37 [main] LogUtils - header:Sign in
-[ERROR] 24-08-2025 16:56:39 [main] LogUtils - Login Fail
-[INFO] 24-08-2025 16:56:39 [main] LogUtils - Test case verifyNavigationSignIn is passed.
-[INFO] 24-08-2025 16:56:42 [main] LogUtils - End testing Demos
-[INFO] 24-08-2025 16:58:22 [main] LogUtils - #########
-[INFO] 24-08-2025 16:58:22 [main] LogUtils - *****Demos***
-[INFO] 24-08-2025 16:58:25 [main] LogUtils - Running test case verifyNavigationRegister
-[INFO] 24-08-2025 16:58:42 [main] LogUtils - Go to Registration page
-[INFO] 24-08-2025 16:58:43 [main] LogUtils - header:Join
-[ERROR] 24-08-2025 16:58:44 [main] LogUtils - Login Fail
-[INFO] 24-08-2025 16:58:44 [main] LogUtils - Test case verifyNavigationRegister is passed.
-[INFO] 24-08-2025 16:58:46 [main] LogUtils - End testing Demos
-[INFO] 24-08-2025 16:59:11 [main] LogUtils - #########
-[INFO] 24-08-2025 16:59:11 [main] LogUtils - *****Demos***
-[INFO] 24-08-2025 16:59:14 [main] LogUtils - Running test case verifyNavigationRegister
-[INFO] 24-08-2025 16:59:21 [main] LogUtils - Go to Registration page
-[INFO] 24-08-2025 16:59:22 [main] LogUtils - header:Join
-[ERROR] 24-08-2025 16:59:22 [main] LogUtils - Login Fail
-[INFO] 24-08-2025 16:59:23 [main] LogUtils - Test case verifyNavigationRegister is passed.
-[INFO] 24-08-2025 16:59:25 [main] LogUtils - End testing Demos
-[INFO] 24-08-2025 17:25:11 [main] LogUtils - #########
-[INFO] 24-08-2025 17:25:11 [main] LogUtils - *****Demos***
-[INFO] 24-08-2025 17:25:20 [main] LogUtils - Running test case verifyNavigationRegister
-[INFO] 24-08-2025 17:25:33 [main] LogUtils - Go to Registration page
-[INFO] 24-08-2025 17:25:34 [main] LogUtils - header:Join
-[ERROR] 24-08-2025 17:25:34 [main] LogUtils - Login Fail
-[INFO] 24-08-2025 17:25:34 [main] LogUtils - Test case verifyNavigationRegister is passed.
-[INFO] 24-08-2025 17:25:38 [main] LogUtils - End testing Demos
-[INFO] 24-08-2025 17:38:35 [main] LogUtils - #########
-[INFO] 24-08-2025 17:38:35 [main] LogUtils - *****Demos***
-[INFO] 24-08-2025 17:38:38 [main] LogUtils - Running test case verifyNavigationRegister
-[INFO] 24-08-2025 17:38:39 [main] LogUtils - TC-10 Navigation Become a Seller
-[INFO] 24-08-2025 17:38:39 [main] LogUtils - Go to Registration page
-[ERROR] 24-08-2025 17:38:39 [main] LogUtils - Test case verifyNavigationRegister is failed.
-[ERROR] 24-08-2025 17:38:40 [main] LogUtils - java.lang.NullPointerException: Cannot invoke "BasePages.Components.Header.btnJoin()" because "this.Header" is null
-[INFO] 24-08-2025 17:38:43 [main] LogUtils - End testing Demos
-[INFO] 24-08-2025 17:39:30 [main] LogUtils - #########
-[INFO] 24-08-2025 17:39:30 [main] LogUtils - *****Demos***
-[INFO] 24-08-2025 17:39:33 [main] LogUtils - Running test case verifyNavigationRegister
-[INFO] 24-08-2025 17:39:34 [main] LogUtils - TC-10 Navigation Become a Seller
-[INFO] 24-08-2025 17:39:34 [main] LogUtils - Go to Registration page
-[ERROR] 24-08-2025 17:39:34 [main] LogUtils - Test case verifyNavigationRegister is failed.
-[ERROR] 24-08-2025 17:39:34 [main] LogUtils - java.lang.NullPointerException: Cannot invoke "BasePages.Components.Header.btnJoin()" because "this.Header" is null
-[INFO] 24-08-2025 17:39:38 [main] LogUtils - End testing Demos
-[INFO] 24-08-2025 17:42:05 [main] LogUtils - #########
-[INFO] 24-08-2025 17:42:05 [main] LogUtils - *****Demos***
-[INFO] 24-08-2025 17:42:08 [main] LogUtils - Running test case verifyNavigationRegister
-[INFO] 24-08-2025 17:42:19 [main] LogUtils - Go to Registration page
-[INFO] 24-08-2025 17:42:20 [main] LogUtils - header:Join
-[ERROR] 24-08-2025 17:42:21 [main] LogUtils - Login Fail
-[INFO] 24-08-2025 17:42:21 [main] LogUtils - Test case verifyNavigationRegister is passed.
-[INFO] 24-08-2025 17:42:24 [main] LogUtils - End testing Demos
-[INFO] 24-08-2025 17:43:40 [main] LogUtils - #########
-[INFO] 24-08-2025 17:43:40 [main] LogUtils - *****Demos***
-[INFO] 24-08-2025 17:43:43 [main] LogUtils - Running test case verifyNavigationRegister
-[INFO] 24-08-2025 17:43:55 [main] LogUtils - Go to Home Page
-[INFO] 24-08-2025 17:43:56 [main] LogUtils - header:Join
-[ERROR] 24-08-2025 17:43:56 [main] LogUtils - Login Fail
-[INFO] 24-08-2025 17:43:56 [main] LogUtils - Test case verifyNavigationRegister is passed.
-[INFO] 24-08-2025 17:43:59 [main] LogUtils - End testing Demos
-[INFO] 24-08-2025 17:44:59 [main] LogUtils - #########
-[INFO] 24-08-2025 17:44:59 [main] LogUtils - *****Demos***
-[INFO] 24-08-2025 17:45:01 [main] LogUtils - Running test case verifyNavigationFiverr
-[INFO] 24-08-2025 17:45:12 [main] LogUtils - Go to Home Page
-[INFO] 24-08-2025 17:45:13 [main] LogUtils - Go to Home Page
-[INFO] 24-08-2025 17:45:13 [main] LogUtils - header:Fiverr Business
-[ERROR] 24-08-2025 17:45:14 [main] LogUtils - Test case verifyNavigationFiverr is failed.
-[ERROR] 24-08-2025 17:45:14 [main] LogUtils - java.lang.AssertionError: fail van login expected [true] but found [false]
-[INFO] 24-08-2025 17:45:21 [main] LogUtils - Running test case verifyNavigationExplore
-[INFO] 24-08-2025 17:45:21 [main] LogUtils - Go to Home Page
-[ERROR] 24-08-2025 17:45:33 [main] LogUtils - Test case verifyNavigationExplore is failed.
-[ERROR] 24-08-2025 17:45:33 [main] LogUtils - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //*[contains(text(),'Explore')] (tried for 5 second(s) with 500 milliseconds interval)
+Command: [c566ff280a5766fd4bf6451f9a628e64, get {url=url_browse}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.128, chrome: {chromedriverVersion: 139.0.7258.68 (40ff94600b6e..., userDataDir: /var/folders/_k/xz4r9gvx37z...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63446}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:63446/devtoo..., se:cdpVersion: 139.0.7258.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c566ff280a5766fd4bf6451f9a628e64
+[INFO] 17-08-2025 23:15:09 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 17-08-2025 23:15:59 [main] LogUtils - #########
+[INFO] 17-08-2025 23:15:59 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 17-08-2025 23:16:00 [main] LogUtils - Running test case verifyEmptyusernameField
+[INFO] 17-08-2025 23:16:01 [main] LogUtils - Đã click ô email và click ra ngoài
+[ERROR] 17-08-2025 23:16:14 [main] LogUtils - Test case verifyEmptyusernameField is failed.
+[ERROR] 17-08-2025 23:16:14 [main] LogUtils - org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
 Build info: version: '4.34.0', revision: '707dcb4246*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '24.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.138, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\TNGUYE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54502}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54502/devtoo..., se:cdpVersion: 139.0.7258.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 7607db0323540c363a58609b49ff3875
-[INFO] 24-08-2025 17:45:42 [main] LogUtils - Running test case verifyNavigationEnglish
-[INFO] 24-08-2025 17:45:49 [main] LogUtils - Go to Home Page
-[INFO] 24-08-2025 17:45:49 [main] LogUtils - Go to Home Page
-[INFO] 24-08-2025 17:45:50 [main] LogUtils - header:English
-[ERROR] 24-08-2025 17:45:50 [main] LogUtils - Test case verifyNavigationEnglish is failed.
-[ERROR] 24-08-2025 17:45:51 [main] LogUtils - java.lang.AssertionError: fail van login expected [true] but found [false]
-[INFO] 24-08-2025 17:45:59 [main] LogUtils - Running test case verifyCurrencyConversion
-[INFO] 24-08-2025 17:46:09 [main] LogUtils - Go to Home Page
-[INFO] 24-08-2025 17:46:10 [main] LogUtils - header:US$ USD
-[INFO] 24-08-2025 17:46:11 [main] LogUtils - Currency conversion US
-[ERROR] 24-08-2025 17:46:12 [main] LogUtils - Test case verifyCurrencyConversion is failed.
-[ERROR] 24-08-2025 17:46:12 [main] LogUtils - java.lang.AssertionError: fail van login expected [true] but found [false]
-[INFO] 24-08-2025 17:46:25 [main] LogUtils - Running test case verifyNavigationSeller
-[INFO] 24-08-2025 17:46:34 [main] LogUtils - Go to Home Page
-[INFO] 24-08-2025 17:46:36 [main] LogUtils - header:Become a Seller
-[INFO] 24-08-2025 17:46:37 [main] LogUtils - TC-09 Navigation Become a Seller
-[ERROR] 24-08-2025 17:46:37 [main] LogUtils - Test case verifyNavigationSeller is failed.
-[ERROR] 24-08-2025 17:46:38 [main] LogUtils - java.lang.AssertionError: fail van login expected [true] but found [false]
-[INFO] 24-08-2025 17:46:50 [main] LogUtils - Running test case verifyNavigationSignIn
-[INFO] 24-08-2025 17:46:58 [main] LogUtils - Go to Home Page
-[INFO] 24-08-2025 17:47:00 [main] LogUtils - header:Sign in
-[INFO] 24-08-2025 17:47:02 [main] LogUtils - Go to Sign In Page
-[ERROR] 24-08-2025 17:47:03 [main] LogUtils - Login Fail
-[INFO] 24-08-2025 17:47:03 [main] LogUtils - Test case verifyNavigationSignIn is passed.
-[INFO] 24-08-2025 17:47:17 [main] LogUtils - Running test case verifyNavigationRegister
-[INFO] 24-08-2025 17:47:27 [main] LogUtils - Go to Home Page
-[INFO] 24-08-2025 17:47:30 [main] LogUtils - header:Join
-[INFO] 24-08-2025 17:47:31 [main] LogUtils - Go to Register Page
-[ERROR] 24-08-2025 17:47:32 [main] LogUtils - Login Fail
-[INFO] 24-08-2025 17:47:32 [main] LogUtils - Test case verifyNavigationRegister is passed.
-[INFO] 24-08-2025 17:47:43 [main] LogUtils - Running test case verifyNavigation
-[INFO] 24-08-2025 17:47:53 [main] LogUtils - Go to Home Page
-[INFO] 24-08-2025 17:47:55 [main] LogUtils - header:Sign in
-[INFO] 24-08-2025 17:47:57 [main] LogUtils - Go to Sign In Page
-[ERROR] 24-08-2025 17:47:58 [main] LogUtils - Login Fail
-[INFO] 24-08-2025 17:47:58 [main] LogUtils - Test case verifyNavigation is passed.
-[INFO] 24-08-2025 17:48:01 [main] LogUtils - End testing Demos
-[INFO] 24-08-2025 18:13:20 [main] LogUtils - #########
-[INFO] 24-08-2025 18:13:20 [main] LogUtils - *****Demos***
-[INFO] 24-08-2025 18:13:23 [main] LogUtils - Running test case verifyNavigationFiverr
-[INFO] 24-08-2025 18:13:26 [main] LogUtils - Go to Home Page
-[INFO] 24-08-2025 18:13:27 [main] LogUtils - Go to Home Page
-[ERROR] 24-08-2025 18:13:32 [main] LogUtils - Test case verifyNavigationFiverr is failed.
-[ERROR] 24-08-2025 18:13:32 [main] LogUtils - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: (//*[contains(text(),'Fiverr Business')])[1] (tried for 5 second(s) with 500 milliseconds interval)
-[ERROR] 24-08-2025 18:13:32 [main] LogUtils - Test case verifyNavigationFiverr is failed.
-[ERROR] 24-08-2025 18:13:32 [main] LogUtils - org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=139.0.7258.138)
+Command: [04f3b29fe45a0b4d12607c67ebf4f34c, findElement [using, value]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.128, chrome: {chromedriverVersion: 139.0.7258.68 (40ff94600b6e..., userDataDir: /var/folders/_k/xz4r9gvx37z...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63479}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:63479/devtoo..., se:cdpVersion: 139.0.7258.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 04f3b29fe45a0b4d12607c67ebf4f34c
+[ERROR] 17-08-2025 23:16:14 [main] LogUtils - Test case verifyEmptyusernameField is failed.
+[ERROR] 17-08-2025 23:16:14 [main] LogUtils - org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
 Build info: version: '4.34.0', revision: '707dcb4246*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '24.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d728f41e846332419755df06e0a02ae7, screenshot {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.138, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\TNGUYE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65181}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65181/devtoo..., se:cdpVersion: 139.0.7258.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d728f41e846332419755df06e0a02ae7
-[INFO] 24-08-2025 18:13:32 [main] LogUtils - End testing Demos
-[INFO] 24-08-2025 18:13:34 [main] LogUtils - #########
-[INFO] 24-08-2025 18:13:34 [main] LogUtils - *****Demos***
-[INFO] 24-08-2025 18:13:37 [main] LogUtils - Running test case verifyNavigation
-[INFO] 24-08-2025 18:13:46 [main] LogUtils - Go to Home Page
-[INFO] 24-08-2025 18:13:46 [main] LogUtils - header:Sign in
-[INFO] 24-08-2025 18:13:46 [main] LogUtils - Go to Sign In Page
-[ERROR] 24-08-2025 18:13:47 [main] LogUtils - Login Fail
-[INFO] 24-08-2025 18:13:47 [main] LogUtils - Go to back Home Page
-[ERROR] 24-08-2025 18:13:47 [main] LogUtils - Login Fail
-[INFO] 24-08-2025 18:13:47 [main] LogUtils - Test case verifyNavigation is passed.
-[INFO] 24-08-2025 18:13:52 [main] LogUtils - End testing Demos
-[INFO] 24-08-2025 18:49:30 [main] LogUtils - #########
-[INFO] 24-08-2025 18:49:30 [main] LogUtils - *****Demos***
-[INFO] 24-08-2025 18:49:40 [main] LogUtils - Running test case placeholderSearchBox
-[INFO] 24-08-2025 18:49:52 [main] LogUtils - Go to Home Page
-[INFO] 24-08-2025 18:49:53 [main] LogUtils - header:Sign in
-[INFO] 24-08-2025 18:49:53 [main] LogUtils - Go to Sign In Page
-[ERROR] 24-08-2025 18:49:53 [main] LogUtils - Login Fail
-[INFO] 24-08-2025 18:49:53 [main] LogUtils - Go to back Home Page
-[ERROR] 24-08-2025 18:49:54 [main] LogUtils - Login Fail
-[INFO] 24-08-2025 18:49:54 [main] LogUtils - Test case placeholderSearchBox is passed.
-[INFO] 24-08-2025 18:49:57 [main] LogUtils - End testing Demos
-[INFO] 24-08-2025 22:57:50 [main] LogUtils - #########
-[INFO] 24-08-2025 22:57:50 [main] LogUtils - *****Demos***
-[INFO] 24-08-2025 22:57:58 [main] LogUtils - Running test case placeholderSearchBox
-[INFO] 24-08-2025 22:58:01 [main] LogUtils - Go to Home Page
-[ERROR] 24-08-2025 22:58:10 [main] LogUtils - Test case placeholderSearchBox is failed.
-[ERROR] 24-08-2025 22:58:10 [main] LogUtils - java.lang.AssertionError: expected [try "building mobile app"'] but found []
-[INFO] 24-08-2025 22:58:14 [main] LogUtils - End testing Demos
-[INFO] 24-08-2025 23:06:10 [main] LogUtils - #########
-[INFO] 24-08-2025 23:06:10 [main] LogUtils - *****Demos***
-[INFO] 24-08-2025 23:06:13 [main] LogUtils - Running test case placeholderSearchBox
-[INFO] 24-08-2025 23:06:29 [main] LogUtils - Go to Home Page
-[ERROR] 24-08-2025 23:06:30 [main] LogUtils - Test case placeholderSearchBox is failed.
-[ERROR] 24-08-2025 23:06:30 [main] LogUtils - java.lang.AssertionError: expected [try "building mobile app"'] but found []
-[INFO] 24-08-2025 23:06:35 [main] LogUtils - End testing Demos
-[INFO] 24-08-2025 23:08:35 [main] LogUtils - #########
-[INFO] 24-08-2025 23:08:35 [main] LogUtils - *****Demos***
-[INFO] 24-08-2025 23:08:38 [main] LogUtils - Running test case placeholderSearchBox
-[INFO] 24-08-2025 23:08:53 [main] LogUtils - Go to Home Page
-[ERROR] 24-08-2025 23:08:54 [main] LogUtils - Test case placeholderSearchBox is failed.
-[ERROR] 24-08-2025 23:08:54 [main] LogUtils - java.lang.AssertionError: expected [try "building mobile app"'] but found []
-[INFO] 24-08-2025 23:08:59 [main] LogUtils - End testing Demos
-[INFO] 24-08-2025 23:34:49 [main] LogUtils - #########
-[INFO] 24-08-2025 23:34:49 [main] LogUtils - *****Demos***
-[INFO] 24-08-2025 23:34:52 [main] LogUtils - Running test case placeholderSearchBox
-[INFO] 24-08-2025 23:35:00 [main] LogUtils - Go to Home Page
-[ERROR] 24-08-2025 23:35:01 [main] LogUtils - Test case placeholderSearchBox is failed.
-[ERROR] 24-08-2025 23:35:01 [main] LogUtils - org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Command: [04f3b29fe45a0b4d12607c67ebf4f34c, screenshot []]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.128, chrome: {chromedriverVersion: 139.0.7258.68 (40ff94600b6e..., userDataDir: /var/folders/_k/xz4r9gvx37z...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63479}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:63479/devtoo..., se:cdpVersion: 139.0.7258.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 04f3b29fe45a0b4d12607c67ebf4f34c
+[INFO] 17-08-2025 23:16:14 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 17-08-2025 23:19:03 [main] LogUtils - #########
+[INFO] 17-08-2025 23:19:03 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 17-08-2025 23:19:05 [main] LogUtils - Running test case verifyEmptyusernameField
+[INFO] 17-08-2025 23:19:07 [main] LogUtils - Đã click ô email và click ra ngoài
+[INFO] 17-08-2025 23:19:07 [main] LogUtils - Error message hiển thị: true
+[ERROR] 17-08-2025 23:19:07 [main] LogUtils - Test case verifyEmptyusernameField is failed.
+[ERROR] 17-08-2025 23:19:08 [main] LogUtils - java.lang.AssertionError: expected [Email không được bỏ trống !] but found [true]
+[INFO] 17-08-2025 23:19:11 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 17-08-2025 23:19:29 [main] LogUtils - #########
+[INFO] 17-08-2025 23:19:29 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 17-08-2025 23:19:30 [main] LogUtils - Running test case verifyEmptyusernameField
+[INFO] 17-08-2025 23:19:32 [main] LogUtils - Đã click ô email và click ra ngoài
+[INFO] 17-08-2025 23:19:32 [main] LogUtils - Error message hiển thị: true
+[ERROR] 17-08-2025 23:19:32 [main] LogUtils - Test case verifyEmptyusernameField is failed.
+[ERROR] 17-08-2025 23:19:32 [main] LogUtils - java.lang.AssertionError: expected [//span[@class='text-danger' and normalize-space()='Email không được bỏ trống !']] but found [true]
+[INFO] 17-08-2025 23:19:35 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 17-08-2025 23:21:23 [main] LogUtils - #########
+[INFO] 17-08-2025 23:21:23 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 17-08-2025 23:21:25 [main] LogUtils - Running test case verifyEmptyusernameField
+[INFO] 17-08-2025 23:21:26 [main] LogUtils - Đã click ô email và click ra ngoài
+[INFO] 17-08-2025 23:21:26 [main] LogUtils - Error message hiển thị: true
+[INFO] 17-08-2025 23:21:26 [main] LogUtils - Test case verifyEmptyusernameField is passed.
+[INFO] 17-08-2025 23:21:28 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 17-08-2025 23:31:10 [main] LogUtils - #########
+[INFO] 17-08-2025 23:31:10 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 17-08-2025 23:31:12 [main] LogUtils - Running test case verifyInvalidEmailFormat
+[INFO] 17-08-2025 23:31:13 [main] LogUtils - Email không hợp lệ: abc123
+[ERROR] 17-08-2025 23:31:22 [main] LogUtils - Test case verifyInvalidEmailFormat is failed.
+[ERROR] 17-08-2025 23:31:22 [main] LogUtils - org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
 Build info: version: '4.34.0', revision: '707dcb4246*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '24.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [null, findElement {using=xpath, value=//input[@placeholder='Try "building mobile app"']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.138, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\TNGUYE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54943}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54943/devtoo..., se:cdpVersion: 139.0.7258.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-[ERROR] 24-08-2025 23:35:01 [main] LogUtils - Test case placeholderSearchBox is failed.
-[ERROR] 24-08-2025 23:35:01 [main] LogUtils - org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Command: [b2c717ecad6a53c520f187b1f32a1e94, findElement [using, value]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.128, chrome: {chromedriverVersion: 139.0.7258.68 (40ff94600b6e..., userDataDir: /var/folders/_k/xz4r9gvx37z...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63831}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:63831/devtoo..., se:cdpVersion: 139.0.7258.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b2c717ecad6a53c520f187b1f32a1e94
+[ERROR] 17-08-2025 23:31:22 [main] LogUtils - Test case verifyInvalidEmailFormat is failed.
+[ERROR] 17-08-2025 23:31:22 [main] LogUtils - org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
 Build info: version: '4.34.0', revision: '707dcb4246*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '24.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [null, screenshot {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.138, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\TNGUYE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54943}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54943/devtoo..., se:cdpVersion: 139.0.7258.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-[INFO] 24-08-2025 23:35:01 [main] LogUtils - End testing Demos
-[INFO] 24-08-2025 23:35:33 [main] LogUtils - #########
-[INFO] 24-08-2025 23:35:33 [main] LogUtils - *****Demos***
-[INFO] 24-08-2025 23:35:36 [main] LogUtils - Running test case placeholderSearchBox
-[INFO] 24-08-2025 23:35:45 [main] LogUtils - Go to Home Page
-[ERROR] 24-08-2025 23:35:46 [main] LogUtils - Test case placeholderSearchBox is failed.
-[ERROR] 24-08-2025 23:35:46 [main] LogUtils - org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Command: [b2c717ecad6a53c520f187b1f32a1e94, screenshot []]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.128, chrome: {chromedriverVersion: 139.0.7258.68 (40ff94600b6e..., userDataDir: /var/folders/_k/xz4r9gvx37z...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63831}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:63831/devtoo..., se:cdpVersion: 139.0.7258.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b2c717ecad6a53c520f187b1f32a1e94
+[INFO] 17-08-2025 23:31:22 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 17-08-2025 23:32:45 [main] LogUtils - #########
+[INFO] 17-08-2025 23:32:45 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 17-08-2025 23:32:47 [main] LogUtils - Running test case verifyInvalidEmailFormat
+[ERROR] 17-08-2025 23:33:05 [main] LogUtils - Test case verifyInvalidEmailFormat is failed.
+[ERROR] 17-08-2025 23:33:05 [main] LogUtils - org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
 Build info: version: '4.34.0', revision: '707dcb4246*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '24.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [null, findElement {value=//input[@placeholder='Try "building mobile app"'], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.138, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\TNGUYE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55374}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55374/devtoo..., se:cdpVersion: 139.0.7258.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-[ERROR] 24-08-2025 23:35:46 [main] LogUtils - Test case placeholderSearchBox is failed.
-[ERROR] 24-08-2025 23:35:46 [main] LogUtils - org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Command: [0e1add43e9a731da83191b8507e702b5, findElement [using, value]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.128, chrome: {chromedriverVersion: 139.0.7258.68 (40ff94600b6e..., userDataDir: /var/folders/_k/xz4r9gvx37z...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63906}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:63906/devtoo..., se:cdpVersion: 139.0.7258.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0e1add43e9a731da83191b8507e702b5
+[ERROR] 17-08-2025 23:33:05 [main] LogUtils - Test case verifyInvalidEmailFormat is failed.
+[ERROR] 17-08-2025 23:33:05 [main] LogUtils - org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
 Build info: version: '4.34.0', revision: '707dcb4246*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '24.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [null, screenshot {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.138, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\TNGUYE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55374}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55374/devtoo..., se:cdpVersion: 139.0.7258.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-[INFO] 24-08-2025 23:35:46 [main] LogUtils - End testing Demos
-[INFO] 24-08-2025 23:37:38 [main] LogUtils - #########
-[INFO] 24-08-2025 23:37:38 [main] LogUtils - *****Demos***
-[INFO] 24-08-2025 23:37:41 [main] LogUtils - Running test case placeholderSearchBox
-[INFO] 24-08-2025 23:37:59 [main] LogUtils - Go to Home Page
-[ERROR] 24-08-2025 23:38:00 [main] LogUtils - Test case placeholderSearchBox is failed.
-[ERROR] 24-08-2025 23:38:00 [main] LogUtils - org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
-Build info: version: '4.34.0', revision: '707dcb4246*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [null, findElement {value=//input[@placeholder='Try "building mobile app"'], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.138, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\TNGUYE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63233}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63233/devtoo..., se:cdpVersion: 139.0.7258.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-[ERROR] 24-08-2025 23:38:00 [main] LogUtils - Test case placeholderSearchBox is failed.
-[ERROR] 24-08-2025 23:38:00 [main] LogUtils - org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
-Build info: version: '4.34.0', revision: '707dcb4246*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [null, screenshot {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.138, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\TNGUYE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63233}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63233/devtoo..., se:cdpVersion: 139.0.7258.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-[INFO] 24-08-2025 23:38:00 [main] LogUtils - End testing Demos
-[INFO] 24-08-2025 23:40:32 [main] LogUtils - #########
-[INFO] 24-08-2025 23:40:32 [main] LogUtils - *****Demos***
-[INFO] 24-08-2025 23:40:35 [main] LogUtils - Running test case placeholderSearchBox
-[INFO] 24-08-2025 23:40:42 [main] LogUtils - Go to Home Page
-[ERROR] 24-08-2025 23:40:43 [main] LogUtils - Test case placeholderSearchBox is failed.
-[ERROR] 24-08-2025 23:40:43 [main] LogUtils - org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
-Build info: version: '4.34.0', revision: '707dcb4246*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [null, findElement {value=//input[@placeholder='Try "building mobile app"'], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.138, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\TNGUYE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56957}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56957/devtoo..., se:cdpVersion: 139.0.7258.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-[ERROR] 24-08-2025 23:40:43 [main] LogUtils - Test case placeholderSearchBox is failed.
-[ERROR] 24-08-2025 23:40:43 [main] LogUtils - org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
-Build info: version: '4.34.0', revision: '707dcb4246*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [null, screenshot {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.138, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\TNGUYE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56957}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56957/devtoo..., se:cdpVersion: 139.0.7258.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-[INFO] 24-08-2025 23:40:44 [main] LogUtils - End testing Demos
-[INFO] 25-08-2025 00:14:11 [main] LogUtils - #########
-[INFO] 25-08-2025 00:14:11 [main] LogUtils - *****Demos***
-[INFO] 25-08-2025 00:14:20 [main] LogUtils - Running test case placeholderSearchBox
-[INFO] 25-08-2025 00:14:31 [main] LogUtils - Go to Home Page
-[ERROR] 25-08-2025 00:14:32 [main] LogUtils - Test case placeholderSearchBox is failed.
-[ERROR] 25-08-2025 00:14:32 [main] LogUtils - java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.support.ui.WebDriverWait.until(java.util.function.Function)" because "this.wait" is null
-[ERROR] 25-08-2025 00:14:32 [main] LogUtils - Test case placeholderSearchBox is failed.
-[ERROR] 25-08-2025 00:14:32 [main] LogUtils - org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
-Build info: version: '4.34.0', revision: '707dcb4246*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [null, screenshot {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.138, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\TNGUYE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57847}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57847/devtoo..., se:cdpVersion: 139.0.7258.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-[INFO] 25-08-2025 00:14:32 [main] LogUtils - End testing Demos
-[INFO] 25-08-2025 00:18:00 [main] LogUtils - #########
-[INFO] 25-08-2025 00:18:00 [main] LogUtils - *****Demos***
-[INFO] 25-08-2025 00:18:03 [main] LogUtils - Running test case placeholderSearchBox
-[INFO] 25-08-2025 00:18:12 [main] LogUtils - Go to Home Page
-[ERROR] 25-08-2025 00:18:13 [main] LogUtils - Test case placeholderSearchBox is failed.
-[ERROR] 25-08-2025 00:18:13 [main] LogUtils - java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.support.ui.WebDriverWait.until(java.util.function.Function)" because "this.wait" is null
-[INFO] 25-08-2025 00:18:17 [main] LogUtils - End testing Demos
-[INFO] 25-08-2025 00:18:50 [main] LogUtils - #########
-[INFO] 25-08-2025 00:18:50 [main] LogUtils - *****Demos***
-[INFO] 25-08-2025 00:18:52 [main] LogUtils - Running test case placeholderSearchBox
-[INFO] 25-08-2025 00:19:00 [main] LogUtils - Go to Home Page
-[ERROR] 25-08-2025 00:19:00 [main] LogUtils - Test case placeholderSearchBox is failed.
-[ERROR] 25-08-2025 00:19:00 [main] LogUtils - java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.support.ui.WebDriverWait.until(java.util.function.Function)" because "this.wait" is null
-[INFO] 25-08-2025 00:19:06 [main] LogUtils - End testing Demos
-[INFO] 25-08-2025 00:22:10 [main] LogUtils - #########
-[INFO] 25-08-2025 00:22:10 [main] LogUtils - *****Demos***
-[INFO] 25-08-2025 00:22:13 [main] LogUtils - Running test case placeholderSearchBox
-[INFO] 25-08-2025 00:22:23 [main] LogUtils - Go to Home Page
-[ERROR] 25-08-2025 00:22:24 [main] LogUtils - Test case placeholderSearchBox is failed.
-[ERROR] 25-08-2025 00:22:24 [main] LogUtils - java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.support.ui.WebDriverWait.until(java.util.function.Function)" because "this.wait" is null
-[INFO] 25-08-2025 00:22:30 [main] LogUtils - End testing Demos
-[INFO] 25-08-2025 00:24:47 [main] LogUtils - #########
-[INFO] 25-08-2025 00:24:47 [main] LogUtils - *****Demos***
-[INFO] 25-08-2025 00:24:50 [main] LogUtils - Running test case placeholderSearchBox
-[INFO] 25-08-2025 00:25:02 [main] LogUtils - Go to Home Page
-[INFO] 25-08-2025 00:25:02 [main] LogUtils - Test case placeholderSearchBox is passed.
-[INFO] 25-08-2025 00:25:06 [main] LogUtils - End testing Demos
-[INFO] 25-08-2025 00:26:27 [main] LogUtils - #########
-[INFO] 25-08-2025 00:26:27 [main] LogUtils - *****Demos***
-[INFO] 25-08-2025 00:26:29 [main] LogUtils - Running test case placeholderSearchBox
-[INFO] 25-08-2025 00:26:38 [main] LogUtils - Go to Home Page
-[INFO] 25-08-2025 00:26:39 [main] LogUtils - Test case placeholderSearchBox is passed.
-[INFO] 25-08-2025 00:26:42 [main] LogUtils - End testing Demos
-[INFO] 25-08-2025 00:52:25 [main] LogUtils - #########
-[INFO] 25-08-2025 00:52:25 [main] LogUtils - *****Demos***
-[INFO] 25-08-2025 00:52:28 [main] LogUtils - Running test case inputValidKeySearchBox
-[INFO] 25-08-2025 00:52:38 [main] LogUtils - Go to Home Page
-[ERROR] 25-08-2025 00:52:39 [main] LogUtils - Test case inputValidKeySearchBox is failed.
-[ERROR] 25-08-2025 00:52:39 [main] LogUtils - java.lang.AssertionError: fail van login expected [true] but found [false]
-[INFO] 25-08-2025 00:52:44 [main] LogUtils - End testing Demos
-[INFO] 25-08-2025 00:53:26 [main] LogUtils - #########
-[INFO] 25-08-2025 00:53:26 [main] LogUtils - *****Demos***
-[INFO] 25-08-2025 00:53:29 [main] LogUtils - Running test case inputValidKeySearchBox
-[INFO] 25-08-2025 00:53:36 [main] LogUtils - Go to Home Page
-[ERROR] 25-08-2025 00:53:37 [main] LogUtils - Test case inputValidKeySearchBox is failed.
-[ERROR] 25-08-2025 00:53:37 [main] LogUtils - java.lang.AssertionError: fail van login expected [true] but found [false]
-[INFO] 25-08-2025 00:53:42 [main] LogUtils - End testing Demos
-[INFO] 25-08-2025 00:58:42 [main] LogUtils - #########
-[INFO] 25-08-2025 00:58:42 [main] LogUtils - *****Demos***
-[INFO] 25-08-2025 00:58:49 [main] LogUtils - Running test case inputValidKeySearchBox
-[INFO] 25-08-2025 00:58:56 [main] LogUtils - Go to Home Page
-[ERROR] 25-08-2025 00:58:57 [main] LogUtils - Test case inputValidKeySearchBox is failed.
-[ERROR] 25-08-2025 00:58:58 [main] LogUtils - java.lang.AssertionError: fail van login expected [true] but found [false]
-[INFO] 25-08-2025 00:59:03 [main] LogUtils - End testing Demos
-[INFO] 25-08-2025 01:00:26 [main] LogUtils - #########
-[INFO] 25-08-2025 01:00:26 [main] LogUtils - *****Demos***
-[INFO] 25-08-2025 01:00:29 [main] LogUtils - Running test case inputValidKeySearchBox
-[INFO] 25-08-2025 01:00:36 [main] LogUtils - Go to Home Page
-[ERROR] 25-08-2025 01:00:37 [main] LogUtils - Test case inputValidKeySearchBox is failed.
-[ERROR] 25-08-2025 01:00:38 [main] LogUtils - java.lang.AssertionError: fail van login expected [true] but found [false]
-[INFO] 25-08-2025 01:00:42 [main] LogUtils - End testing Demos
-[INFO] 25-08-2025 01:14:42 [main] LogUtils - #########
-[INFO] 25-08-2025 01:14:42 [main] LogUtils - *****Demos***
-[INFO] 25-08-2025 01:14:47 [main] LogUtils - Running test case inputValidKeySearchBox
-[INFO] 25-08-2025 01:15:00 [main] LogUtils - Go to Home Page
-[ERROR] 25-08-2025 01:15:00 [main] LogUtils - Test case inputValidKeySearchBox is failed.
-[ERROR] 25-08-2025 01:15:01 [main] LogUtils - java.lang.AssertionError: fail van login expected [true] but found [false]
-[INFO] 25-08-2025 01:15:06 [main] LogUtils - End testing Demos
-[INFO] 25-08-2025 01:15:45 [main] LogUtils - #########
-[INFO] 25-08-2025 01:15:45 [main] LogUtils - *****Demos***
-[INFO] 25-08-2025 01:15:48 [main] LogUtils - Running test case inputValidKeySearchBox
-[INFO] 25-08-2025 01:15:57 [main] LogUtils - Go to Home Page
-[ERROR] 25-08-2025 01:15:58 [main] LogUtils - Test case inputValidKeySearchBox is failed.
-[ERROR] 25-08-2025 01:15:58 [main] LogUtils - java.lang.AssertionError: fail van login expected [true] but found [false]
-[INFO] 25-08-2025 01:16:05 [main] LogUtils - End testing Demos
-[INFO] 25-08-2025 01:17:08 [main] LogUtils - #########
-[INFO] 25-08-2025 01:17:08 [main] LogUtils - *****Demos***
-[INFO] 25-08-2025 01:17:11 [main] LogUtils - Running test case inputValidKeySearchBox
-[INFO] 25-08-2025 01:17:19 [main] LogUtils - Go to Home Page
-[ERROR] 25-08-2025 01:17:20 [main] LogUtils - Test case inputValidKeySearchBox is failed.
-[ERROR] 25-08-2025 01:17:21 [main] LogUtils - java.lang.AssertionError: fail van login expected [true] but found [false]
-[INFO] 25-08-2025 01:17:25 [main] LogUtils - End testing Demos
-[INFO] 25-08-2025 01:17:44 [main] LogUtils - #########
-[INFO] 25-08-2025 01:17:44 [main] LogUtils - *****Demos***
-[INFO] 25-08-2025 01:17:47 [main] LogUtils - Running test case inputValidKeySearchBox
-[INFO] 25-08-2025 01:17:53 [main] LogUtils - Go to Home Page
-[ERROR] 25-08-2025 01:17:55 [main] LogUtils - Test case inputValidKeySearchBox is failed.
-[ERROR] 25-08-2025 01:17:55 [main] LogUtils - java.lang.AssertionError: fail van login expected [true] but found [false]
-[INFO] 25-08-2025 01:17:59 [main] LogUtils - End testing Demos
-[INFO] 25-08-2025 01:24:34 [main] LogUtils - #########
-[INFO] 25-08-2025 01:24:34 [main] LogUtils - *****Demos***
-[INFO] 25-08-2025 01:24:39 [main] LogUtils - Running test case inputValidKeySearchBox
-[INFO] 25-08-2025 01:24:48 [main] LogUtils - Go to Home Page
-[INFO] 25-08-2025 01:24:50 [main] LogUtils - click search
-[ERROR] 25-08-2025 01:24:51 [main] LogUtils - Login Fail
-[INFO] 25-08-2025 01:24:51 [main] LogUtils - Input Valid keywords Search Box passed!
-[INFO] 25-08-2025 01:24:51 [main] LogUtils - Test case inputValidKeySearchBox is passed.
-[INFO] 25-08-2025 01:24:56 [main] LogUtils - End testing Demos
+Command: [0e1add43e9a731da83191b8507e702b5, screenshot []]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.128, chrome: {chromedriverVersion: 139.0.7258.68 (40ff94600b6e..., userDataDir: /var/folders/_k/xz4r9gvx37z...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63906}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:63906/devtoo..., se:cdpVersion: 139.0.7258.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0e1add43e9a731da83191b8507e702b5
+[INFO] 17-08-2025 23:33:05 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 17-08-2025 23:41:06 [main] LogUtils - #########
+[INFO] 17-08-2025 23:41:06 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 17-08-2025 23:41:08 [main] LogUtils - Running test case verifyInvalidEmailFormat
+[INFO] 17-08-2025 23:41:10 [main] LogUtils - Đã điền email không có @domain
+[INFO] 17-08-2025 23:41:17 [main] LogUtils - Error message hiển thị: true
+[INFO] 17-08-2025 23:41:18 [main] LogUtils - Test case verifyInvalidEmailFormat is passed.
+[INFO] 17-08-2025 23:41:20 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 17-08-2025 23:41:52 [main] LogUtils - #########
+[INFO] 17-08-2025 23:41:52 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 17-08-2025 23:41:54 [main] LogUtils - Running test case verifyInvalidEmailFormat
+[INFO] 17-08-2025 23:41:56 [main] LogUtils - Đã điền email không có @domain và click ra ngoài
+[INFO] 17-08-2025 23:41:56 [main] LogUtils - Error message hiển thị: true
+[INFO] 17-08-2025 23:41:56 [main] LogUtils - Test case verifyInvalidEmailFormat is passed.
+[INFO] 17-08-2025 23:41:58 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam

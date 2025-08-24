@@ -24,8 +24,8 @@ public class signinPage {
     private By Passsword = By.xpath(Locator_CMS.password);
     private By aResgister = By.xpath(Locator_CMS.aResgister);
     private  By btnLogin = By.xpath(Locator_CMS.btnLogin);
-    private By emailError = By.xpath("//span[@class='text-danger' and normalize-space()='Email không được bỏ trống !']");
-    private By emailFormatError = By.xpath("//span[@class='text-danger' and normalize-space()='Email không đúng định dạng !']");
+    private By emailError = By.xpath(Locator_CMS.emailError_Locator);
+    private By emailFormatError = By.xpath(Locator_CMS.emailError_Locator);
 
 
     public signinPage(WebDriver _driver){
