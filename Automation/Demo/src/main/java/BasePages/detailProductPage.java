@@ -20,7 +20,8 @@ public class detailProductPage {
     private By btnContinue = By.xpath(Locator_CMS.btnCountinue);
     private By toastHireSuccess = By.xpath("//*[contains(@class,'Toastify__toast--success') and contains(.,'Thuê công việc thành công')]");
     private By toastMsg = By.xpath("//div[@class= 'Toastify__toast-body']");
-
+    private By toastLoginSuccess = By.xpath(Locator_CMS.toastLoginSuccess);
+    private By btnComparePackages = By.xpath(Locator_CMS.btnComparePackages);
 
     public detailProductPage(WebDriver _driver){
         this.driver=_driver;
@@ -42,10 +43,11 @@ public class detailProductPage {
         driver.findElement(userID).sendKeys("bao123@gmail.com");
         driver.findElement(passsWord).sendKeys("123123123");
 
-//        wait.until(ExpectedConditions.elementToBeClickable(btnLogin));
+//      wait.until(ExpectedConditions.elementToBeClickable(btnLogin));
         wait.until(ExpectedConditions.visibilityOfElementLocated(btnLogin));
-
         driver.findElement(btnLogin).click();
+        wait.until(ExpectedConditions.visibilityOfElementLocated(toastLoginSuccess));
+        System.out.println("Loggin thanh cong");
 
         return false;
     }
@@ -61,6 +63,11 @@ public class detailProductPage {
 
     @Step("Click Continue để thuê dịch vụ")
     public void clickContinueHire() {
+//        try{
+//            driver.get(ConfigData.detailPage_url);
+//        } catch (Exception e) {
+//            throw new RuntimeException(e);
+//        }
         wait.until(ExpectedConditions.visibilityOfElementLocated(btnContinue));
         driver.findElement(btnContinue).click();
 
@@ -76,6 +83,16 @@ public class detailProductPage {
             System.out.println("❌ Không thấy toast hiển thị trong 5s");
             return false;
         }
+    }
+
+    @Step("Click button Compare Packages")
+    public void clickButtonComparePackages(){
+
+        wait.until(ExpectedConditions.visibilityOfElementLocated(btnComparePackages));
+//        wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        driver.findElement(btnComparePackages).click();
+        System.out.println("Da click button ComparePackages");
+
     }
 
 }

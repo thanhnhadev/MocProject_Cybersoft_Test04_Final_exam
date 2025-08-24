@@ -4,6 +4,7 @@ import Base.BaseSetup;
 import BasePages.detailProductPage;
 import BasePages.signinPage;
 import org.openqa.selenium.By;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Listeners;
@@ -17,6 +18,8 @@ import utils.reports.CaptureReport;
 public class detailProductPageTest extends BaseSetup {
 
     detailProductPage detailPage;
+    private WebDriverWait wait;
+
 
 
     @BeforeMethod
@@ -57,13 +60,13 @@ public class detailProductPageTest extends BaseSetup {
         CaptureReport.stopRecord();
     }
 
-
     @Test(priority = 2, testName = "tc_02_Hire_Service_When_Logged_in")
     public void hireServiceWhenLoggedIn() {
-        CaptureReport.startRecord("");
+        CaptureReport.startRecord("Hire Service When Logged In");
 
         // B1 Login (hàm login )
         detailPage.login();
+
         // B2 Vào trang detail
         detailPage.joinDetailPage();
         // B3 Click Continue
@@ -73,10 +76,26 @@ public class detailProductPageTest extends BaseSetup {
                 "Không thấy thông báo 'Thuê công việc thành công' sau khi click Continue.");
 
 
-        CaptureReport.captureScreenshot(driver, "Click Countinue để thuê dịch success");
+        CaptureReport.captureScreenshot(driver, "Thue thanh cong dich vu khi da loggin");
         CaptureReport.stopRecord();
     }
 
+    @Test(priority = 3, testName = "tc_03_Click_Compare_Packages_When_Not_Logged_In")
+    public void clickComparepackages(){
+        CaptureReport.startRecord("Click button Compare Packages When Not Logged In");
+        detailPage.joinDetailPage();
+        detailPage.clickButtonComparePackages();
+        // B3: Verify điều hướng sang trang Login
+        String currentUrl = driver.getCurrentUrl();
+        Assert.assertEquals(
+                currentUrl,
+                ConfigData.siginPage_url,
+                "Không chuyển hướng sang trang login sau khi click Compare Packages mà chưa đăng nhập!");
+
+        CaptureReport.captureScreenshot(driver, "Redirect_To_Login_When_LoggedIn");
+        CaptureReport.stopRecord();
+
+    }
 
 
 

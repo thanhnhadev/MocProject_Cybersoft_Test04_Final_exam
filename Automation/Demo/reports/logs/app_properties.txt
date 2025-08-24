@@ -1348,3 +1348,249 @@ Session ID: 38166c692821bf1d5cf788cad4102fb3
 [INFO] 22-08-2025 21:55:00 [main] LogUtils - Running test case hireServiceWhenLoggedIn
 [INFO] 22-08-2025 21:55:13 [main] LogUtils - Test case hireServiceWhenLoggedIn is passed.
 [INFO] 22-08-2025 21:55:15 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 23-08-2025 14:15:12 [main] LogUtils - #########
+[INFO] 23-08-2025 14:15:12 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 23-08-2025 14:15:14 [main] LogUtils - Running test case hireServiceWhenLoggedIn
+[ERROR] 23-08-2025 14:15:28 [main] LogUtils - Test case hireServiceWhenLoggedIn is failed.
+[ERROR] 23-08-2025 14:15:28 [main] LogUtils - org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c3bdc29855186b013dd1d9ed5a54daa4, findElement [value, using]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: /var/folders/_k/xz4r9gvx37z...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50500}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:50500/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c3bdc29855186b013dd1d9ed5a54daa4
+[ERROR] 23-08-2025 14:15:28 [main] LogUtils - Test case hireServiceWhenLoggedIn is failed.
+[ERROR] 23-08-2025 14:15:28 [main] LogUtils - org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c3bdc29855186b013dd1d9ed5a54daa4, screenshot []]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: /var/folders/_k/xz4r9gvx37z...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50500}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:50500/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c3bdc29855186b013dd1d9ed5a54daa4
+[INFO] 23-08-2025 14:15:28 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 23-08-2025 14:15:49 [main] LogUtils - #########
+[INFO] 23-08-2025 14:15:49 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 23-08-2025 14:15:50 [main] LogUtils - Running test case hireServiceWhenLoggedIn
+[ERROR] 23-08-2025 14:15:56 [main] LogUtils - Test case hireServiceWhenLoggedIn is failed.
+[ERROR] 23-08-2025 14:15:56 [main] LogUtils - org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [079fa5949615bcea9b76113011797429, findElement [value, using]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: /var/folders/_k/xz4r9gvx37z...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50561}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:50561/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 079fa5949615bcea9b76113011797429
+[ERROR] 23-08-2025 14:15:56 [main] LogUtils - Test case hireServiceWhenLoggedIn is failed.
+[ERROR] 23-08-2025 14:15:56 [main] LogUtils - org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [079fa5949615bcea9b76113011797429, screenshot []]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: /var/folders/_k/xz4r9gvx37z...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50561}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:50561/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 079fa5949615bcea9b76113011797429
+[INFO] 23-08-2025 14:15:56 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 23-08-2025 14:16:09 [main] LogUtils - #########
+[INFO] 23-08-2025 14:16:09 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 23-08-2025 14:16:11 [main] LogUtils - Running test case hireServiceWhenLoggedIn
+[ERROR] 23-08-2025 14:16:17 [main] LogUtils - Test case hireServiceWhenLoggedIn is failed.
+[ERROR] 23-08-2025 14:16:17 [main] LogUtils - org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b96d44a0b0772cfe59074b2c91669344, findElement [value, using]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: /var/folders/_k/xz4r9gvx37z...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50619}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:50619/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b96d44a0b0772cfe59074b2c91669344
+[ERROR] 23-08-2025 14:16:17 [main] LogUtils - Test case hireServiceWhenLoggedIn is failed.
+[ERROR] 23-08-2025 14:16:17 [main] LogUtils - org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b96d44a0b0772cfe59074b2c91669344, screenshot []]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: /var/folders/_k/xz4r9gvx37z...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50619}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:50619/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b96d44a0b0772cfe59074b2c91669344
+[INFO] 23-08-2025 14:16:17 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 23-08-2025 14:16:35 [main] LogUtils - #########
+[INFO] 23-08-2025 14:16:35 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 23-08-2025 14:16:37 [main] LogUtils - Running test case hireServiceWhenLoggedIn
+[ERROR] 23-08-2025 14:16:42 [main] LogUtils - Test case hireServiceWhenLoggedIn is failed.
+[ERROR] 23-08-2025 14:16:43 [main] LogUtils - java.lang.AssertionError: Không thấy thông báo 'Thuê công việc thành công' sau khi click Continue. expected [true] but found [false]
+[INFO] 23-08-2025 14:16:46 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 23-08-2025 14:27:10 [main] LogUtils - #########
+[INFO] 23-08-2025 14:27:10 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 23-08-2025 14:27:12 [main] LogUtils - Running test case hireServiceWhenLoggedIn
+[INFO] 23-08-2025 14:27:17 [main] LogUtils - Test case hireServiceWhenLoggedIn is passed.
+[INFO] 23-08-2025 14:27:20 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 23-08-2025 14:27:42 [main] LogUtils - #########
+[INFO] 23-08-2025 14:27:42 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 23-08-2025 14:27:44 [main] LogUtils - Running test case hireServiceWhenLoggedIn
+[INFO] 23-08-2025 14:27:49 [main] LogUtils - Test case hireServiceWhenLoggedIn is passed.
+[INFO] 23-08-2025 14:27:51 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 23-08-2025 14:37:51 [main] LogUtils - #########
+[INFO] 23-08-2025 14:37:51 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 23-08-2025 14:37:53 [main] LogUtils - Running test case clickComparepackages
+[ERROR] 23-08-2025 14:38:04 [main] LogUtils - Test case clickComparepackages is failed.
+[ERROR] 23-08-2025 14:38:04 [main] LogUtils - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: (//a[text()= 'Compare Packages'])[1] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: /var/folders/_k/xz4r9gvx37z...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55382}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:55382/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0cf8cae1c1e9cf7d9a9c3e0dc659d6e0
+[INFO] 23-08-2025 14:38:07 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 23-08-2025 14:41:09 [main] LogUtils - #########
+[INFO] 23-08-2025 14:41:09 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 23-08-2025 14:41:11 [main] LogUtils - Running test case clickComparepackages
+[ERROR] 23-08-2025 14:41:18 [main] LogUtils - Test case clickComparepackages is failed.
+[ERROR] 23-08-2025 14:41:19 [main] LogUtils - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: (//a[text()= 'Compare Packages'])[1] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: /var/folders/_k/xz4r9gvx37z...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56286}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:56286/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3f7fe55138d973db8afb2e4fc758895f
+[INFO] 23-08-2025 14:41:21 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 23-08-2025 14:43:28 [main] LogUtils - #########
+[INFO] 23-08-2025 14:43:28 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 23-08-2025 14:43:30 [main] LogUtils - Running test case hireServiceWhenLoggedIn
+[INFO] 23-08-2025 14:43:36 [main] LogUtils - Test case hireServiceWhenLoggedIn is passed.
+[INFO] 23-08-2025 14:43:38 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 23-08-2025 14:45:04 [main] LogUtils - #########
+[INFO] 23-08-2025 14:45:04 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 23-08-2025 14:45:06 [main] LogUtils - Running test case clickComparepackages
+[ERROR] 23-08-2025 14:45:13 [main] LogUtils - Test case clickComparepackages is failed.
+[ERROR] 23-08-2025 14:45:13 [main] LogUtils - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: (//a[text()= 'Compare Packages'])[1] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: /var/folders/_k/xz4r9gvx37z...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57363}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:57363/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2ec3a8d9d21c2defca6d825b10522b72
+[INFO] 23-08-2025 14:45:16 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 23-08-2025 14:47:25 [main] LogUtils - #########
+[INFO] 23-08-2025 14:47:25 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 23-08-2025 14:47:27 [main] LogUtils - Running test case clickComparepackages
+[ERROR] 23-08-2025 14:47:29 [main] LogUtils - Test case clickComparepackages is failed.
+[ERROR] 23-08-2025 14:47:29 [main] LogUtils - org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression ((//a[normalize-space(text())='Compare Packages'])[1] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '((//a[normalize-space(text())='Compare Packages'])[1]' is not a valid XPath expression.
+  (Session info: chrome=139.0.7258.139)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e9593427697417ee20746c478416f889, findElement {using=xpath, value=((//a[normalize-space(text())='Compare Packages'])[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: /var/folders/_k/xz4r9gvx37z...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57995}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:57995/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e9593427697417ee20746c478416f889
+[INFO] 23-08-2025 14:47:32 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 23-08-2025 14:48:14 [main] LogUtils - #########
+[INFO] 23-08-2025 14:48:14 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 23-08-2025 14:48:15 [main] LogUtils - Running test case clickComparepackages
+[ERROR] 23-08-2025 14:48:17 [main] LogUtils - Test case clickComparepackages is failed.
+[ERROR] 23-08-2025 14:48:17 [main] LogUtils - org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression ((//a[normalize-space(text())='Compare Packages'])[1] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '((//a[normalize-space(text())='Compare Packages'])[1]' is not a valid XPath expression.
+  (Session info: chrome=139.0.7258.139)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4e7a3acc9f2afc73e2caac0089ed1192, findElement {using=xpath, value=((//a[normalize-space(text())='Compare Packages'])[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: /var/folders/_k/xz4r9gvx37z...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58239}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:58239/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4e7a3acc9f2afc73e2caac0089ed1192
+[INFO] 23-08-2025 14:48:19 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 23-08-2025 14:50:04 [main] LogUtils - #########
+[INFO] 23-08-2025 14:50:04 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 23-08-2025 14:50:06 [main] LogUtils - Running test case clickComparepackages
+[ERROR] 23-08-2025 14:50:13 [main] LogUtils - Test case clickComparepackages is failed.
+[ERROR] 23-08-2025 14:50:13 [main] LogUtils - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: (//a[normalize-space(text())='Compare Packages'])[1] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: /var/folders/_k/xz4r9gvx37z...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58729}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:58729/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 84388456e8c164ff38d7ddff54ae9e05
+[INFO] 23-08-2025 14:50:16 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 23-08-2025 14:51:13 [main] LogUtils - #########
+[INFO] 23-08-2025 14:51:13 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 23-08-2025 14:51:15 [main] LogUtils - Running test case clickComparepackages
+[ERROR] 23-08-2025 14:51:22 [main] LogUtils - Test case clickComparepackages is failed.
+[ERROR] 23-08-2025 14:51:22 [main] LogUtils - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: (//a[normalize-space(text())='Compare Packages'])[1] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: /var/folders/_k/xz4r9gvx37z...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59060}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:59060/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c23c54320c5a32927e508d8ccec2c58a
+[INFO] 23-08-2025 14:51:25 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 23-08-2025 14:51:55 [main] LogUtils - #########
+[INFO] 23-08-2025 14:51:55 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 23-08-2025 14:51:56 [main] LogUtils - Running test case clickComparepackages
+[ERROR] 23-08-2025 14:52:02 [main] LogUtils - Test case clickComparepackages is failed.
+[ERROR] 23-08-2025 14:52:03 [main] LogUtils - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: (//a[normalize-space(text())='Compare Packages'])[1] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: /var/folders/_k/xz4r9gvx37z...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59277}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:59277/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 76f740b72aad16271056184f322b5067
+[INFO] 23-08-2025 14:52:05 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 23-08-2025 14:52:23 [main] LogUtils - #########
+[INFO] 23-08-2025 14:52:23 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 23-08-2025 14:52:24 [main] LogUtils - Running test case clickComparepackages
+[ERROR] 23-08-2025 14:52:46 [main] LogUtils - Test case clickComparepackages is failed.
+[ERROR] 23-08-2025 14:52:46 [main] LogUtils - org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=139.0.7258.139)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1e2435b7931719c9ca92c8d997c175f4, clickElement {id=f.85269689593BFFC8E2A4CF37E989C0D6.d.B8944DC630909F243144FBFE7E05DC42.e.100}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: /var/folders/_k/xz4r9gvx37z...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59439}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:59439/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (1e2435b7931719c9ca92c8d997c175f4)] -> xpath: (//a[normalize-space(text())='Compare Packages'])[1]]
+Session ID: 1e2435b7931719c9ca92c8d997c175f4
+[INFO] 23-08-2025 14:52:49 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 23-08-2025 14:55:19 [main] LogUtils - #########
+[INFO] 23-08-2025 14:55:19 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 23-08-2025 14:55:21 [main] LogUtils - Running test case clickComparepackages
+[ERROR] 23-08-2025 14:55:29 [main] LogUtils - Test case clickComparepackages is failed.
+[ERROR] 23-08-2025 14:55:29 [main] LogUtils - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: (//*[normalize-space(text())='Compare Packages'])[1] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: /var/folders/_k/xz4r9gvx37z...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60207}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:60207/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3a7c3b9e0167f6747d0d4a554e5849b2
+[INFO] 23-08-2025 14:55:31 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 23-08-2025 15:02:52 [main] LogUtils - #########
+[INFO] 23-08-2025 15:02:52 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 23-08-2025 15:02:54 [main] LogUtils - Running test case clickComparepackages
+[ERROR] 23-08-2025 15:02:56 [main] LogUtils - Test case clickComparepackages is failed.
+[ERROR] 23-08-2025 15:02:56 [main] LogUtils - org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression ((//button[@Class= 'submit']//following::a[text()='Compare Packages'])[1] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '((//button[@Class= 'submit']//following::a[text()='Compare Packages'])[1]' is not a valid XPath expression.
+  (Session info: chrome=139.0.7258.139)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6931321022d56cba8414f8e2a73c50d6, findElement {using=xpath, value=((//button[@Class= 'submit']//following::a[text()='Compare Packages'])[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: /var/folders/_k/xz4r9gvx37z...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62166}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:62166/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6931321022d56cba8414f8e2a73c50d6
+[INFO] 23-08-2025 15:02:59 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 23-08-2025 15:08:10 [main] LogUtils - #########
+[INFO] 23-08-2025 15:08:10 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 23-08-2025 15:08:12 [main] LogUtils - Running test case hoverButtonContactMe
+[ERROR] 23-08-2025 15:08:18 [main] LogUtils - Test case hoverButtonContactMe is failed.
+[ERROR] 23-08-2025 15:08:18 [main] LogUtils - org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (282, 1078)
+  (Session info: chrome=139.0.7258.139)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [dba605e84ca2c7643a997313d5858fec, clickElement {id=f.1FFBD7180A9E374052360B5BC18C7B4A.d.440491F596455777DA3723AD62A10B4A.e.90}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: /var/folders/_k/xz4r9gvx37z...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63513}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:63513/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (dba605e84ca2c7643a997313d5858fec)] -> xpath: //button[text()= 'Contact Me']]
+Session ID: dba605e84ca2c7643a997313d5858fec
+[INFO] 23-08-2025 15:08:20 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 24-08-2025 13:55:46 [main] LogUtils - #########
+[INFO] 24-08-2025 13:55:46 [main] LogUtils - *****MocProject_Cybersoft_Test04_Final_exam***
+[INFO] 24-08-2025 13:55:55 [main] LogUtils - Running test case clickComparepackages
+[ERROR] 24-08-2025 13:56:14 [main] LogUtils - Test case clickComparepackages is failed.
+[ERROR] 24-08-2025 13:56:15 [main] LogUtils - org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression ((//button[@Class= 'submit']//following::a[text()='Compare Packages'])[1] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '((//button[@Class= 'submit']//following::a[text()='Compare Packages'])[1]' is not a valid XPath expression.
+  (Session info: chrome=139.0.7258.139)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0d34bd237cdf5f4036ae26971d3c5081, findElement {value=((//button[@Class= 'submit']//following::a[text()='Compare Packages'])[1], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: /var/folders/_k/xz4r9gvx37z...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59277}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:59277/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0d34bd237cdf5f4036ae26971d3c5081
+[INFO] 24-08-2025 13:56:17 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
