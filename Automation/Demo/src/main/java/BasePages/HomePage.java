@@ -6,6 +6,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
 import utils.ActionKeyword.ActionKeyword;
 import utils.Constants.ConfigData;
 import utils.Logs.LogUtils;
@@ -25,6 +26,9 @@ public class HomePage {
     private By Testing= By.xpath(Locator_CMS.Testing);
     private By Search_Bar= By.xpath(Locator_CMS.Search_Body);
     private By btnSearching= By.xpath(Locator_CMS.getBtnSearching_Body);
+    private By SearchPlaceholder = By.xpath(Locator_CMS.SearchPlaceholder);
+    private By btnSearch = By.xpath(Locator_CMS.btnSearch);
+
     public HomePage(WebDriver driver){
         this.driver= driver;
         wait = new WebDriverWait(driver, Duration.ofSeconds(5));
@@ -104,8 +108,10 @@ public class HomePage {
     }
     public void btnSearch(){
         wait.until(ExpectedConditions.visibilityOfElementLocated(btnSearching));
-        driver.findElement(Search_Bar).click();
+        driver.findElement(btnSearch).click();
         LogUtils.info("click search");
     }
+
+
 
 }
