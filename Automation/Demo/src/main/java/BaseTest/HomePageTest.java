@@ -8,6 +8,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import utils.Constants.ConfigData;
@@ -16,7 +18,9 @@ import utils.listeners.TestListener;
 import org.openqa.selenium.WebElement;
 import utils.reports.CaptureReport;
 import utils.reports.ExtentTestManager;
+import org.openqa.selenium.chrome.ChromeDriver;
 
+import java.time.Duration;
 import java.time.Instant;
 
 @Listeners(TestListener.class)
@@ -24,24 +28,32 @@ public class HomePageTest extends BaseSetup {
     HomePage HomePageTest;
     Header Header;
     private WebDriverWait wait;
-    private By SearchPlaceholder = By.xpath(Locator_CMS.SearchPlaceholder);
-//    @Test(testName = "tc_02_Navigatio Fiverr Bussines")
-//    public void verify_Navigation (){
-//        HomePageTest = new HomePage(driver);
-//        driver.get("https://demo5.cybersoft.edu.vn/");
-//        driver.findElement(By.xpath(Locator_CMS.Fiverr_Business)).click();
-//        CaptureReport.captureScreenshot(driver, "navigation success");
-//        CaptureReport.stopRecord();
-//    }
+    private By inputSearch = By.xpath(Locator_CMS.inputSearch);
 
-    // Navigation Bar
     public void gotoHomePage() {
         Header = new Header(driver);
         HomePageTest = new HomePage(driver);
         driver.get(ConfigData.base_url);
         LogUtils.info("Go to Home Page");
+        sleep(5);
     }
 
+    public int checkSearchBox(String sendkey){
+        WebElement searchBox = driver.findElement(inputSearch);
+        sleep(10);
+        searchBox.sendKeys(sendkey);
+        HomePageTest.btnSearch();
+        sleep(10);
+        String resultText = HomePageTest.checkResultSearch();
+        sleep(10);
+        System.out.println("resultText" + resultText);
+        int serviceCount = HomePageTest.extractNumber(resultText);
+        System.out.println("serviceCount" + serviceCount);
+        sleep(10);
+        return serviceCount;
+    }
+
+    // Navigation Bar
     @Test(priority = 1, testName = "TC-02 Navigatio Fiverr")
     public void verifyNavigationFiverr () {
         this.gotoHomePage();
@@ -90,7 +102,7 @@ public class HomePageTest extends BaseSetup {
 
     @Test(priority = 7, testName = "TC-10 Navigation Join")
     public void verifyNavigationRegister () {
-        this.gotoHomePage();
+       this.gotoHomePage();
         Header.btnJoin();
         LogUtils.info("Go to Register Page");
         Header.checkSuccessFull("register");
@@ -107,7 +119,7 @@ public class HomePageTest extends BaseSetup {
     @Test(priority = 9, testName = "TC-12 Placeholder Search Box" )
     public void placeholderSearchBox() {
         this.gotoHomePage();
-        WebElement searchBox = driver.findElement(By.xpath(Locator_CMS.SearchPlaceholder));
+        WebElement searchBox = driver.findElement(inputSearch);
         // Lấy placeholder
         String placeholder = searchBox.getAttribute("placeholder");
         System.out.println("Placeholder text: " + placeholder);
@@ -117,16 +129,41 @@ public class HomePageTest extends BaseSetup {
     }
     // Search Box
     @Test(priority = 10, testName = "TC-13 Input Valid keywords Search Box " )
-    public void inputValidKeySearchBox() {
+    public void inputValidKey() {
         this.gotoHomePage();
-        WebElement searchBox = driver.findElement(By.xpath(Locator_CMS.SearchPlaceholder));
         sleep(5);
-        searchBox.sendKeys("Website");
-        HomePageTest.btnSearch();
+        int serviceCount = this.checkSearchBox("website");
+        Assert.assertTrue(serviceCount > 0, "Expected > 0 services but found: " + serviceCount);
+    }
+
+    @Test(priority = 11, testName = "TC-14 Input Invalid keywords Search Box " )
+    public void inputInValidKey() {
+        this.gotoHomePage();
         sleep(5);
-        String URL = driver.getCurrentUrl();
-        System.out.println(URL);
-        Header.checkSuccessFull("result/Website");
-        LogUtils.info("Input Valid keywords Search Box passed!");
+        int serviceCount = this.checkSearchBox("xyz123");
+        Assert.assertEquals(serviceCount, 0, "Expected 0 services but found: " + serviceCount);
+    }
+
+    @Test(priority = 12, testName = "TC-15 Input Special Character Search Box " )
+    public void inputSpecialCharacter() {
+        this.gotoHomePage();
+        sleep(10);
+        int serviceCount = this.checkSearchBox("@@@###");
+        Assert.assertEquals(serviceCount, 0, "Expected 0 services but found: " + serviceCount);
+    }
+
+    @Test(priority = 13, testName = "TC-15 Input Empty Search Box " )
+    public void inputEmpty() {
+        this.gotoHomePage();
+        sleep(15);
+        int serviceCount = this.checkSearchBox("");
+        Assert.assertEquals(serviceCount, 0, "Expected 0 services but found: " + serviceCount);
+    }
+
+    @AfterTest
+    public void tearDown() {
+        if (driver != null) {
+            driver.quit(); // đóng hết tab
+        }
     }
 }

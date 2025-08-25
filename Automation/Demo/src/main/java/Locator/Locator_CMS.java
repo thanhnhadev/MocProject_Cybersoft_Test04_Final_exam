@@ -10,7 +10,8 @@ public class Locator_CMS {
     public static final String btnSearch="//button[@type='submit']";
     public static final String btnSearching="(//button[normalize-space()='Search'])[1]";
     public static final String Search_Body="(//input[@type='search'])[2]";
-    public static final String SearchPlaceholder="//input[@placeholder='Try \"building mobile app\"']";
+    public static final String inputSearch="//input[@placeholder='Try \"building mobile app\"']";
+    public static final String resultSearch="//span[contains(normalize-space(),'services available')]";
     public static final String getBtnSearching_Body="(//button[normalize-space()='Search'])[2]";
     public static final String Fiverr_Business= "(//*[contains(text(),'Fiverr Business')])[1]";
     public static final String Explore="//*[contains(text(),'Explore')]";

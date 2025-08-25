@@ -324,3 +324,629 @@ Session ID: 0e1add43e9a731da83191b8507e702b5
 [INFO] 17-08-2025 23:41:56 [main] LogUtils - Error message hiển thị: true
 [INFO] 17-08-2025 23:41:56 [main] LogUtils - Test case verifyInvalidEmailFormat is passed.
 [INFO] 17-08-2025 23:41:58 [main] LogUtils - End testing MocProject_Cybersoft_Test04_Final_exam
+[INFO] 26-08-2025 00:53:30 [main] LogUtils - #########
+[INFO] 26-08-2025 00:53:30 [main] LogUtils - *****Demos***
+[INFO] 26-08-2025 00:53:47 [main] LogUtils - Running test case verifyNavigationFiverr
+[ERROR] 26-08-2025 00:54:09 [main] LogUtils - Test case verifyNavigationFiverr is failed.
+[ERROR] 26-08-2025 00:54:09 [main] LogUtils - org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 18.552
+  (Session info: chrome=139.0.7258.139)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7d68a6b301ebf753348c8caf5cbca7f8, get {url=https://demo5.cybersoft.edu.vn/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\TNGUYE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64792}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64792/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7d68a6b301ebf753348c8caf5cbca7f8
+[INFO] 26-08-2025 00:54:12 [main] LogUtils - End testing Demos
+[INFO] 26-08-2025 00:54:52 [main] LogUtils - #########
+[INFO] 26-08-2025 00:54:52 [main] LogUtils - *****Demos***
+[INFO] 26-08-2025 00:54:58 [main] LogUtils - Running test case inputValidKeySearchBox
+[ERROR] 26-08-2025 00:55:19 [main] LogUtils - Test case inputValidKeySearchBox is failed.
+[ERROR] 26-08-2025 00:55:20 [main] LogUtils - org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 19.770
+  (Session info: chrome=139.0.7258.139)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9f6ddaff4216e272d867b15ff9fed3ec, get {url=https://demo5.cybersoft.edu.vn/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\TNGUYE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56300}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56300/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9f6ddaff4216e272d867b15ff9fed3ec
+[INFO] 26-08-2025 00:55:23 [main] LogUtils - End testing Demos
+[INFO] 26-08-2025 00:55:53 [main] LogUtils - #########
+[INFO] 26-08-2025 00:55:53 [main] LogUtils - *****Demos***
+[INFO] 26-08-2025 00:55:57 [main] LogUtils - Running test case inputInValidKeySearchBox
+[ERROR] 26-08-2025 00:56:18 [main] LogUtils - Test case inputInValidKeySearchBox is failed.
+[ERROR] 26-08-2025 00:56:18 [main] LogUtils - org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 19.770
+  (Session info: chrome=139.0.7258.139)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [84e183d705056b0f3512e802b92aa2e9, get {url=https://demo5.cybersoft.edu.vn/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\TNGUYE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53374}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53374/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 84e183d705056b0f3512e802b92aa2e9
+[INFO] 26-08-2025 00:56:22 [main] LogUtils - End testing Demos
+[INFO] 26-08-2025 00:56:46 [main] LogUtils - #########
+[INFO] 26-08-2025 00:56:46 [main] LogUtils - *****Demos***
+[INFO] 26-08-2025 00:56:52 [main] LogUtils - Running test case inputValidKeySearchBox
+[INFO] 26-08-2025 00:57:00 [main] LogUtils - Go to Home Page
+[INFO] 26-08-2025 00:57:00 [main] LogUtils - Go to Home Page
+[INFO] 26-08-2025 00:57:00 [main] LogUtils - Go to Home Page
+[INFO] 26-08-2025 00:57:01 [main] LogUtils - click search
+[ERROR] 26-08-2025 00:57:02 [main] LogUtils - Login Fail
+[INFO] 26-08-2025 00:57:02 [main] LogUtils - Input Valid keywords Search Box passed!
+[INFO] 26-08-2025 00:57:02 [main] LogUtils - Test case inputValidKeySearchBox is passed.
+[INFO] 26-08-2025 00:57:05 [main] LogUtils - End testing Demos
+[INFO] 26-08-2025 00:58:57 [main] LogUtils - #########
+[INFO] 26-08-2025 00:58:57 [main] LogUtils - *****Demos***
+[INFO] 26-08-2025 00:59:02 [main] LogUtils - Running test case inputValidKeySearchBox
+[ERROR] 26-08-2025 00:59:24 [main] LogUtils - Test case inputValidKeySearchBox is failed.
+[ERROR] 26-08-2025 00:59:24 [main] LogUtils - org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 19.735
+  (Session info: chrome=139.0.7258.139)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4233c601762c57d75cdfaff1b04b7c24, get {url=https://demo5.cybersoft.edu.vn/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\TNGUYE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53956}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53956/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4233c601762c57d75cdfaff1b04b7c24
+[INFO] 26-08-2025 00:59:27 [main] LogUtils - End testing Demos
+[INFO] 26-08-2025 01:00:29 [main] LogUtils - #########
+[INFO] 26-08-2025 01:00:29 [main] LogUtils - *****Demos***
+[INFO] 26-08-2025 01:00:43 [main] LogUtils - Running test case inputValidKeySearchBox
+[INFO] 26-08-2025 01:00:52 [main] LogUtils - Go to Home Page
+[ERROR] 26-08-2025 01:00:53 [main] LogUtils - Test case inputValidKeySearchBox is failed.
+[ERROR] 26-08-2025 01:00:53 [main] LogUtils - java.lang.NullPointerException: Cannot invoke "BasePages.HomePage.btnSearch()" because "this.HomePageTest" is null
+[INFO] 26-08-2025 01:00:58 [main] LogUtils - End testing Demos
+[INFO] 26-08-2025 01:01:50 [main] LogUtils - #########
+[INFO] 26-08-2025 01:01:50 [main] LogUtils - *****Demos***
+[INFO] 26-08-2025 01:01:55 [main] LogUtils - Running test case verifyNavigationFiverr
+[INFO] 26-08-2025 01:02:03 [main] LogUtils - Go to Home Page
+[INFO] 26-08-2025 01:02:03 [main] LogUtils - Go to Home Page
+[INFO] 26-08-2025 01:02:03 [main] LogUtils - Go to Home Page
+[INFO] 26-08-2025 01:02:03 [main] LogUtils - header:Fiverr Business
+[ERROR] 26-08-2025 01:02:04 [main] LogUtils - Test case verifyNavigationFiverr is failed.
+[ERROR] 26-08-2025 01:02:05 [main] LogUtils - java.lang.AssertionError: fail van login expected [true] but found [false]
+[INFO] 26-08-2025 01:02:13 [main] LogUtils - Running test case verifyNavigationExplore
+[INFO] 26-08-2025 01:02:19 [main] LogUtils - Go to Home Page
+[INFO] 26-08-2025 01:02:20 [main] LogUtils - Go to Home Page
+[ERROR] 26-08-2025 01:02:25 [main] LogUtils - Test case verifyNavigationExplore is failed.
+[ERROR] 26-08-2025 01:02:25 [main] LogUtils - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //*[contains(text(),'Explore')] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\TNGUYE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60869}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60869/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ec9e0a90580c15d05247a71ba5fe6cce
+[INFO] 26-08-2025 01:02:36 [main] LogUtils - Running test case verifyNavigationEnglish
+[INFO] 26-08-2025 01:02:43 [main] LogUtils - Go to Home Page
+[INFO] 26-08-2025 01:02:44 [main] LogUtils - Go to Home Page
+[INFO] 26-08-2025 01:02:44 [main] LogUtils - Go to Home Page
+[INFO] 26-08-2025 01:02:44 [main] LogUtils - header:English
+[ERROR] 26-08-2025 01:02:45 [main] LogUtils - Test case verifyNavigationEnglish is failed.
+[ERROR] 26-08-2025 01:02:45 [main] LogUtils - java.lang.AssertionError: fail van login expected [true] but found [false]
+[INFO] 26-08-2025 01:02:56 [main] LogUtils - Running test case verifyCurrencyConversion
+[INFO] 26-08-2025 01:03:04 [main] LogUtils - Go to Home Page
+[INFO] 26-08-2025 01:03:05 [main] LogUtils - Go to Home Page
+[INFO] 26-08-2025 01:03:05 [main] LogUtils - header:US$ USD
+[INFO] 26-08-2025 01:03:07 [main] LogUtils - Currency conversion US
+[ERROR] 26-08-2025 01:03:07 [main] LogUtils - Test case verifyCurrencyConversion is failed.
+[ERROR] 26-08-2025 01:03:08 [main] LogUtils - java.lang.AssertionError: fail van login expected [true] but found [false]
+[INFO] 26-08-2025 01:03:29 [main] LogUtils - Running test case verifyNavigationSeller
+[INFO] 26-08-2025 01:03:36 [main] LogUtils - Go to Home Page
+[INFO] 26-08-2025 01:03:36 [main] LogUtils - Go to Home Page
+[INFO] 26-08-2025 01:03:37 [main] LogUtils - header:Become a Seller
+[INFO] 26-08-2025 01:03:40 [main] LogUtils - Navigation Become a Seller
+[ERROR] 26-08-2025 01:03:40 [main] LogUtils - Test case verifyNavigationSeller is failed.
+[ERROR] 26-08-2025 01:03:41 [main] LogUtils - java.lang.AssertionError: fail van login expected [true] but found [false]
+[INFO] 26-08-2025 01:03:57 [main] LogUtils - Running test case verifyNavigationSignIn
+[INFO] 26-08-2025 01:04:06 [main] LogUtils - Go to Home Page
+[INFO] 26-08-2025 01:04:07 [main] LogUtils - Go to Home Page
+[INFO] 26-08-2025 01:04:09 [main] LogUtils - header:Sign in
+[INFO] 26-08-2025 01:04:11 [main] LogUtils - Go to Sign In Page
+[ERROR] 26-08-2025 01:04:11 [main] LogUtils - Login Fail
+[INFO] 26-08-2025 01:04:11 [main] LogUtils - Test case verifyNavigationSignIn is passed.
+[INFO] 26-08-2025 01:04:24 [main] LogUtils - Running test case verifyNavigationRegister
+[INFO] 26-08-2025 01:04:34 [main] LogUtils - Go to Home Page
+[INFO] 26-08-2025 01:04:35 [main] LogUtils - Go to Home Page
+[INFO] 26-08-2025 01:04:37 [main] LogUtils - header:Join
+[INFO] 26-08-2025 01:04:39 [main] LogUtils - Go to Register Page
+[ERROR] 26-08-2025 01:04:40 [main] LogUtils - Login Fail
+[INFO] 26-08-2025 01:04:40 [main] LogUtils - Test case verifyNavigationRegister is passed.
+[INFO] 26-08-2025 01:04:52 [main] LogUtils - Running test case verifyBackHomePage
+[INFO] 26-08-2025 01:05:02 [main] LogUtils - Go to Home Page
+[INFO] 26-08-2025 01:05:02 [main] LogUtils - Go to Home Page
+[INFO] 26-08-2025 01:05:04 [main] LogUtils - header:Sign in
+[INFO] 26-08-2025 01:05:06 [main] LogUtils - Go to Sign In Page
+[ERROR] 26-08-2025 01:05:07 [main] LogUtils - Login Fail
+[INFO] 26-08-2025 01:05:07 [main] LogUtils - Go to back Home Page
+[ERROR] 26-08-2025 01:05:08 [main] LogUtils - Login Fail
+[INFO] 26-08-2025 01:05:08 [main] LogUtils - Test case verifyBackHomePage is passed.
+[INFO] 26-08-2025 01:05:19 [main] LogUtils - Running test case placeholderSearchBox
+[INFO] 26-08-2025 01:05:26 [main] LogUtils - Go to Home Page
+[INFO] 26-08-2025 01:05:26 [main] LogUtils - Go to Home Page
+[INFO] 26-08-2025 01:05:28 [main] LogUtils - Placeholder assertion passed!
+[INFO] 26-08-2025 01:05:28 [main] LogUtils - Test case placeholderSearchBox is passed.
+[INFO] 26-08-2025 01:05:42 [main] LogUtils - Running test case inputInValidKeySearchBox
+[INFO] 26-08-2025 01:05:49 [main] LogUtils - Go to Home Page
+[INFO] 26-08-2025 01:05:50 [main] LogUtils - Go to Home Page
+[INFO] 26-08-2025 01:05:53 [main] LogUtils - click search
+[ERROR] 26-08-2025 01:05:54 [main] LogUtils - Login Fail
+[INFO] 26-08-2025 01:05:54 [main] LogUtils - Input InVvalid keywords Search Box passed!
+[INFO] 26-08-2025 01:05:54 [main] LogUtils - Test case inputInValidKeySearchBox is passed.
+[INFO] 26-08-2025 01:06:06 [main] LogUtils - Running test case inputValidKeySearchBox
+[INFO] 26-08-2025 01:06:14 [main] LogUtils - Go to Home Page
+[INFO] 26-08-2025 01:06:15 [main] LogUtils - Go to Home Page
+[INFO] 26-08-2025 01:06:19 [main] LogUtils - click search
+[ERROR] 26-08-2025 01:06:20 [main] LogUtils - Login Fail
+[INFO] 26-08-2025 01:06:20 [main] LogUtils - Input Valid keywords Search Box passed!
+[INFO] 26-08-2025 01:06:20 [main] LogUtils - Test case inputValidKeySearchBox is passed.
+[INFO] 26-08-2025 01:06:23 [main] LogUtils - End testing Demos
+[INFO] 26-08-2025 01:09:10 [main] LogUtils - #########
+[INFO] 26-08-2025 01:09:10 [main] LogUtils - *****Demos***
+[INFO] 26-08-2025 01:09:16 [main] LogUtils - Running test case inputValidKeySearchBox
+[INFO] 26-08-2025 01:09:27 [main] LogUtils - Go to Home Page
+[INFO] 26-08-2025 01:09:28 [main] LogUtils - click search
+[ERROR] 26-08-2025 01:09:29 [main] LogUtils - Login Fail
+[INFO] 26-08-2025 01:09:29 [main] LogUtils - Input Valid keywords Search Box passed!
+[INFO] 26-08-2025 01:09:29 [main] LogUtils - Test case inputValidKeySearchBox is passed.
+[INFO] 26-08-2025 01:09:34 [main] LogUtils - End testing Demos
+[INFO] 26-08-2025 01:48:34 [main] LogUtils - #########
+[INFO] 26-08-2025 01:48:34 [main] LogUtils - *****Demos***
+[INFO] 26-08-2025 01:48:34 [main] LogUtils - Running test case verifyNavigationFiverr
+[ERROR] 26-08-2025 01:48:35 [main] LogUtils - Test case verifyNavigationFiverr is skipped.
+[ERROR] 26-08-2025 01:48:35 [main] LogUtils - java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "BaseTest.HomePageTest.driver" is null
+[INFO] 26-08-2025 01:48:35 [main] LogUtils - Running test case verifyNavigationExplore
+[ERROR] 26-08-2025 01:48:35 [main] LogUtils - Test case verifyNavigationExplore is skipped.
+[ERROR] 26-08-2025 01:48:35 [main] LogUtils - java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "BaseTest.HomePageTest.driver" is null
+[INFO] 26-08-2025 01:48:35 [main] LogUtils - Running test case verifyNavigationEnglish
+[ERROR] 26-08-2025 01:48:35 [main] LogUtils - Test case verifyNavigationEnglish is skipped.
+[ERROR] 26-08-2025 01:48:35 [main] LogUtils - java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "BaseTest.HomePageTest.driver" is null
+[INFO] 26-08-2025 01:48:35 [main] LogUtils - Running test case verifyCurrencyConversion
+[ERROR] 26-08-2025 01:48:35 [main] LogUtils - Test case verifyCurrencyConversion is skipped.
+[ERROR] 26-08-2025 01:48:35 [main] LogUtils - java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "BaseTest.HomePageTest.driver" is null
+[INFO] 26-08-2025 01:48:35 [main] LogUtils - Running test case verifyNavigationSeller
+[ERROR] 26-08-2025 01:48:35 [main] LogUtils - Test case verifyNavigationSeller is skipped.
+[ERROR] 26-08-2025 01:48:35 [main] LogUtils - java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "BaseTest.HomePageTest.driver" is null
+[INFO] 26-08-2025 01:48:35 [main] LogUtils - Running test case verifyNavigationSignIn
+[ERROR] 26-08-2025 01:48:35 [main] LogUtils - Test case verifyNavigationSignIn is skipped.
+[ERROR] 26-08-2025 01:48:35 [main] LogUtils - java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "BaseTest.HomePageTest.driver" is null
+[INFO] 26-08-2025 01:48:35 [main] LogUtils - Running test case verifyNavigationRegister
+[ERROR] 26-08-2025 01:48:35 [main] LogUtils - Test case verifyNavigationRegister is skipped.
+[ERROR] 26-08-2025 01:48:35 [main] LogUtils - java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "BaseTest.HomePageTest.driver" is null
+[INFO] 26-08-2025 01:48:35 [main] LogUtils - Running test case verifyBackHomePage
+[ERROR] 26-08-2025 01:48:35 [main] LogUtils - Test case verifyBackHomePage is skipped.
+[ERROR] 26-08-2025 01:48:35 [main] LogUtils - java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "BaseTest.HomePageTest.driver" is null
+[INFO] 26-08-2025 01:48:35 [main] LogUtils - Running test case placeholderSearchBox
+[ERROR] 26-08-2025 01:48:35 [main] LogUtils - Test case placeholderSearchBox is skipped.
+[ERROR] 26-08-2025 01:48:35 [main] LogUtils - java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "BaseTest.HomePageTest.driver" is null
+[INFO] 26-08-2025 01:48:35 [main] LogUtils - Running test case inputValidKeySearchBox
+[ERROR] 26-08-2025 01:48:35 [main] LogUtils - Test case inputValidKeySearchBox is skipped.
+[ERROR] 26-08-2025 01:48:35 [main] LogUtils - java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "BaseTest.HomePageTest.driver" is null
+[INFO] 26-08-2025 01:48:35 [main] LogUtils - Running test case inputInValidKeySearchBox
+[ERROR] 26-08-2025 01:48:35 [main] LogUtils - Test case inputInValidKeySearchBox is skipped.
+[ERROR] 26-08-2025 01:48:35 [main] LogUtils - java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "BaseTest.HomePageTest.driver" is null
+[INFO] 26-08-2025 01:48:35 [main] LogUtils - End testing Demos
+[INFO] 26-08-2025 01:49:12 [main] LogUtils - #########
+[INFO] 26-08-2025 01:49:12 [main] LogUtils - *****Demos***
+[INFO] 26-08-2025 01:49:12 [main] LogUtils - Running test case verifyNavigationFiverr
+[ERROR] 26-08-2025 01:49:13 [main] LogUtils - Test case verifyNavigationFiverr is skipped.
+[ERROR] 26-08-2025 01:49:13 [main] LogUtils - java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "BaseTest.HomePageTest.driver" is null
+[INFO] 26-08-2025 01:49:13 [main] LogUtils - Running test case verifyNavigationExplore
+[ERROR] 26-08-2025 01:49:13 [main] LogUtils - Test case verifyNavigationExplore is skipped.
+[ERROR] 26-08-2025 01:49:13 [main] LogUtils - java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "BaseTest.HomePageTest.driver" is null
+[INFO] 26-08-2025 01:49:13 [main] LogUtils - Running test case verifyNavigationEnglish
+[ERROR] 26-08-2025 01:49:13 [main] LogUtils - Test case verifyNavigationEnglish is skipped.
+[ERROR] 26-08-2025 01:49:13 [main] LogUtils - java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "BaseTest.HomePageTest.driver" is null
+[INFO] 26-08-2025 01:49:13 [main] LogUtils - Running test case verifyCurrencyConversion
+[ERROR] 26-08-2025 01:49:13 [main] LogUtils - Test case verifyCurrencyConversion is skipped.
+[ERROR] 26-08-2025 01:49:13 [main] LogUtils - java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "BaseTest.HomePageTest.driver" is null
+[INFO] 26-08-2025 01:49:13 [main] LogUtils - Running test case verifyNavigationSeller
+[ERROR] 26-08-2025 01:49:13 [main] LogUtils - Test case verifyNavigationSeller is skipped.
+[ERROR] 26-08-2025 01:49:13 [main] LogUtils - java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "BaseTest.HomePageTest.driver" is null
+[INFO] 26-08-2025 01:49:13 [main] LogUtils - Running test case verifyNavigationSignIn
+[ERROR] 26-08-2025 01:49:13 [main] LogUtils - Test case verifyNavigationSignIn is skipped.
+[ERROR] 26-08-2025 01:49:13 [main] LogUtils - java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "BaseTest.HomePageTest.driver" is null
+[INFO] 26-08-2025 01:49:13 [main] LogUtils - Running test case verifyNavigationRegister
+[ERROR] 26-08-2025 01:49:13 [main] LogUtils - Test case verifyNavigationRegister is skipped.
+[ERROR] 26-08-2025 01:49:13 [main] LogUtils - java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "BaseTest.HomePageTest.driver" is null
+[INFO] 26-08-2025 01:49:13 [main] LogUtils - Running test case verifyBackHomePage
+[ERROR] 26-08-2025 01:49:13 [main] LogUtils - Test case verifyBackHomePage is skipped.
+[ERROR] 26-08-2025 01:49:13 [main] LogUtils - java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "BaseTest.HomePageTest.driver" is null
+[INFO] 26-08-2025 01:49:13 [main] LogUtils - Running test case placeholderSearchBox
+[ERROR] 26-08-2025 01:49:14 [main] LogUtils - Test case placeholderSearchBox is skipped.
+[ERROR] 26-08-2025 01:49:14 [main] LogUtils - java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "BaseTest.HomePageTest.driver" is null
+[INFO] 26-08-2025 01:49:14 [main] LogUtils - Running test case inputValidKeySearchBox
+[ERROR] 26-08-2025 01:49:14 [main] LogUtils - Test case inputValidKeySearchBox is skipped.
+[ERROR] 26-08-2025 01:49:14 [main] LogUtils - java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "BaseTest.HomePageTest.driver" is null
+[INFO] 26-08-2025 01:49:14 [main] LogUtils - Running test case inputInValidKeySearchBox
+[ERROR] 26-08-2025 01:49:14 [main] LogUtils - Test case inputInValidKeySearchBox is skipped.
+[ERROR] 26-08-2025 01:49:14 [main] LogUtils - java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "BaseTest.HomePageTest.driver" is null
+[INFO] 26-08-2025 01:49:14 [main] LogUtils - End testing Demos
+[INFO] 26-08-2025 01:51:35 [main] LogUtils - #########
+[INFO] 26-08-2025 01:51:35 [main] LogUtils - *****Demos***
+[INFO] 26-08-2025 01:51:47 [main] LogUtils - Running test case verifyNavigationFiverr
+[INFO] 26-08-2025 01:51:49 [main] LogUtils - Go to Home Page
+[ERROR] 26-08-2025 01:51:49 [main] LogUtils - Test case verifyNavigationFiverr is failed.
+[ERROR] 26-08-2025 01:51:49 [main] LogUtils - java.lang.NullPointerException: Cannot invoke "BasePages.Components.Header.Fiverr_Business()" because "this.Header" is null
+[INFO] 26-08-2025 01:51:56 [main] LogUtils - Running test case verifyNavigationExplore
+[ERROR] 26-08-2025 01:51:56 [main] LogUtils - Test case verifyNavigationExplore is failed.
+[ERROR] 26-08-2025 01:51:57 [main] LogUtils - java.lang.NullPointerException: Cannot invoke "BasePages.Components.Header.Explore()" because "this.Header" is null
+[INFO] 26-08-2025 01:52:03 [main] LogUtils - Running test case verifyNavigationEnglish
+[INFO] 26-08-2025 01:52:15 [main] LogUtils - Go to Home Page
+[ERROR] 26-08-2025 01:52:15 [main] LogUtils - Test case verifyNavigationEnglish is failed.
+[ERROR] 26-08-2025 01:52:15 [main] LogUtils - java.lang.NullPointerException: Cannot invoke "BasePages.Components.Header.English()" because "this.Header" is null
+[INFO] 26-08-2025 01:52:26 [main] LogUtils - Running test case verifyCurrencyConversion
+[ERROR] 26-08-2025 01:52:26 [main] LogUtils - Test case verifyCurrencyConversion is failed.
+[ERROR] 26-08-2025 01:52:26 [main] LogUtils - java.lang.NullPointerException: Cannot invoke "BasePages.Components.Header.UsD()" because "this.Header" is null
+[INFO] 26-08-2025 01:52:36 [main] LogUtils - Running test case verifyNavigationSeller
+[ERROR] 26-08-2025 01:52:36 [main] LogUtils - Test case verifyNavigationSeller is failed.
+[ERROR] 26-08-2025 01:52:36 [main] LogUtils - java.lang.NullPointerException: Cannot invoke "BasePages.Components.Header.Become_a_Seller()" because "this.Header" is null
+[INFO] 26-08-2025 01:52:49 [main] LogUtils - Running test case verifyNavigationSignIn
+[ERROR] 26-08-2025 01:53:06 [main] LogUtils - Test case verifyNavigationSignIn is failed.
+[ERROR] 26-08-2025 01:53:08 [main] LogUtils - java.lang.NullPointerException: Cannot invoke "BasePages.Components.Header.btnSignin()" because "this.Header" is null
+[INFO] 26-08-2025 01:53:24 [main] LogUtils - Running test case verifyNavigationRegister
+[ERROR] 26-08-2025 01:53:24 [main] LogUtils - Test case verifyNavigationRegister is failed.
+[ERROR] 26-08-2025 01:53:24 [main] LogUtils - java.lang.NullPointerException: Cannot invoke "BasePages.Components.Header.btnJoin()" because "this.Header" is null
+[INFO] 26-08-2025 01:53:38 [main] LogUtils - Running test case verifyBackHomePage
+[ERROR] 26-08-2025 01:54:03 [main] LogUtils - Test case verifyBackHomePage is failed.
+[ERROR] 26-08-2025 01:54:05 [main] LogUtils - java.lang.NullPointerException: Cannot invoke "BasePages.Components.Header.btnSignin()" because "this.Header" is null
+[INFO] 26-08-2025 01:54:25 [main] LogUtils - Running test case placeholderSearchBox
+[INFO] 26-08-2025 01:54:51 [main] LogUtils - Placeholder assertion passed!
+[INFO] 26-08-2025 01:54:51 [main] LogUtils - Test case placeholderSearchBox is passed.
+[INFO] 26-08-2025 01:55:10 [main] LogUtils - Running test case inputValidKeySearchBox
+[ERROR] 26-08-2025 01:55:30 [main] LogUtils - Test case inputValidKeySearchBox is failed.
+[ERROR] 26-08-2025 01:55:31 [main] LogUtils - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@placeholder='Try "building mobile app"']"}
+  (Session info: chrome=139.0.7258.139)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b04e44e6682162046e79cd56d75cb601, findElement {value=//input[@placeholder='Try "building mobile app"'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\TNGUYE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55497}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55497/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b04e44e6682162046e79cd56d75cb601
+[INFO] 26-08-2025 01:55:49 [main] LogUtils - Running test case inputInValidKeySearchBox
+[ERROR] 26-08-2025 01:56:09 [main] LogUtils - Test case inputInValidKeySearchBox is failed.
+[ERROR] 26-08-2025 01:56:10 [main] LogUtils - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@placeholder='Try "building mobile app"']"}
+  (Session info: chrome=139.0.7258.139)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0ed258f91d2b462bd9ff1d14cab6b2f2, findElement {value=//input[@placeholder='Try "building mobile app"'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\TNGUYE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61370}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61370/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0ed258f91d2b462bd9ff1d14cab6b2f2
+[INFO] 26-08-2025 01:56:13 [main] LogUtils - End testing Demos
+[INFO] 26-08-2025 02:01:56 [main] LogUtils - #########
+[INFO] 26-08-2025 02:01:56 [main] LogUtils - *****Demos***
+[INFO] 26-08-2025 02:02:00 [main] LogUtils - Running test case inputInValidKeySearchBox
+[INFO] 26-08-2025 02:02:20 [main] LogUtils - Go to Home Page
+[INFO] 26-08-2025 02:02:21 [main] LogUtils - click search
+[ERROR] 26-08-2025 02:02:22 [main] LogUtils - Login Fail
+[ERROR] 26-08-2025 02:02:22 [main] LogUtils - Test case inputInValidKeySearchBox is failed.
+[ERROR] 26-08-2025 02:02:23 [main] LogUtils - org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression ///span[contains(normalize-space(),'services available')] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '///span[contains(normalize-space(),'services available')]' is not a valid XPath expression.
+  (Session info: chrome=139.0.7258.139)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4e75bd1a81338943fba885b35b178a12, findElement {using=xpath, value=///span[contains(normalize-space(),'services available')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\TNGUYE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59007}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59007/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4e75bd1a81338943fba885b35b178a12
+[INFO] 26-08-2025 02:02:26 [main] LogUtils - End testing Demos
+[INFO] 26-08-2025 02:03:49 [main] LogUtils - #########
+[INFO] 26-08-2025 02:03:49 [main] LogUtils - *****Demos***
+[INFO] 26-08-2025 02:03:54 [main] LogUtils - Running test case inputInValidKeySearchBox
+[ERROR] 26-08-2025 02:04:15 [main] LogUtils - Test case inputInValidKeySearchBox is failed.
+[ERROR] 26-08-2025 02:04:15 [main] LogUtils - org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 19.783
+  (Session info: chrome=139.0.7258.139)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1d884cd8282e14bf5dfe6067f675c301, get {url=https://demo5.cybersoft.edu.vn/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\TNGUYE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51864}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51864/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1d884cd8282e14bf5dfe6067f675c301
+[INFO] 26-08-2025 02:04:18 [main] LogUtils - End testing Demos
+[INFO] 26-08-2025 02:05:03 [main] LogUtils - #########
+[INFO] 26-08-2025 02:05:03 [main] LogUtils - *****Demos***
+[INFO] 26-08-2025 02:05:10 [main] LogUtils - Running test case inputValidKeySearchBox
+[ERROR] 26-08-2025 02:05:32 [main] LogUtils - Test case inputValidKeySearchBox is failed.
+[ERROR] 26-08-2025 02:05:32 [main] LogUtils - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@placeholder='Try "building mobile app"']"}
+  (Session info: chrome=139.0.7258.139)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [28a397eba158c7b978d1e0dea8520a94, findElement {using=xpath, value=//input[@placeholder='Try "building mobile app"']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\TNGUYE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49273}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49273/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 28a397eba158c7b978d1e0dea8520a94
+[INFO] 26-08-2025 02:05:36 [main] LogUtils - End testing Demos
+[INFO] 26-08-2025 02:08:08 [main] LogUtils - #########
+[INFO] 26-08-2025 02:08:08 [main] LogUtils - *****Demos***
+[INFO] 26-08-2025 02:08:12 [main] LogUtils - Running test case inputValidKeySearchBox
+[ERROR] 26-08-2025 02:08:33 [main] LogUtils - Test case inputValidKeySearchBox is failed.
+[ERROR] 26-08-2025 02:08:33 [main] LogUtils - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@placeholder='Try "building mobile app"']"}
+  (Session info: chrome=139.0.7258.139)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fb70c10ebf7fa7e42da1076b946de63f, findElement {using=xpath, value=//input[@placeholder='Try "building mobile app"']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\TNGUYE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53836}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53836/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fb70c10ebf7fa7e42da1076b946de63f
+[INFO] 26-08-2025 02:08:37 [main] LogUtils - End testing Demos
+[INFO] 26-08-2025 02:08:52 [main] LogUtils - #########
+[INFO] 26-08-2025 02:08:52 [main] LogUtils - *****Demos***
+[INFO] 26-08-2025 02:08:56 [main] LogUtils - Running test case inputValidKeySearchBox
+[ERROR] 26-08-2025 02:09:17 [main] LogUtils - Test case inputValidKeySearchBox is failed.
+[ERROR] 26-08-2025 02:09:17 [main] LogUtils - org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 18.768
+  (Session info: chrome=139.0.7258.139)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f6fa179135e6731d47f2e8bc258d53bc, get {url=https://demo5.cybersoft.edu.vn/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\TNGUYE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59919}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59919/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f6fa179135e6731d47f2e8bc258d53bc
+[INFO] 26-08-2025 02:09:20 [main] LogUtils - End testing Demos
+[INFO] 26-08-2025 02:09:52 [main] LogUtils - #########
+[INFO] 26-08-2025 02:09:52 [main] LogUtils - *****Demos***
+[INFO] 26-08-2025 02:09:56 [main] LogUtils - Running test case inputValidKeySearchBox
+[INFO] 26-08-2025 02:10:04 [main] LogUtils - Go to Home Page
+[INFO] 26-08-2025 02:10:04 [main] LogUtils - click search
+[INFO] 26-08-2025 02:10:05 [main] LogUtils - Input Valid keywords Search Box passed!
+[ERROR] 26-08-2025 02:10:05 [main] LogUtils - Test case inputValidKeySearchBox is failed.
+[ERROR] 26-08-2025 02:10:06 [main] LogUtils - org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression ///span[contains(normalize-space(),'services available')] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '///span[contains(normalize-space(),'services available')]' is not a valid XPath expression.
+  (Session info: chrome=139.0.7258.139)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [353de06250bae9a5f2a5cc7fe27d216e, findElement {using=xpath, value=///span[contains(normalize-space(),'services available')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\TNGUYE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59522}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59522/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 353de06250bae9a5f2a5cc7fe27d216e
+[INFO] 26-08-2025 02:10:11 [main] LogUtils - End testing Demos
+[INFO] 26-08-2025 02:11:17 [main] LogUtils - #########
+[INFO] 26-08-2025 02:11:17 [main] LogUtils - *****Demos***
+[INFO] 26-08-2025 02:11:21 [main] LogUtils - Running test case inputInValidKeySearchBox
+[INFO] 26-08-2025 02:11:34 [main] LogUtils - Go to Home Page
+[INFO] 26-08-2025 02:11:35 [main] LogUtils - click search
+[ERROR] 26-08-2025 02:11:36 [main] LogUtils - Login Fail
+[ERROR] 26-08-2025 02:11:36 [main] LogUtils - Test case inputInValidKeySearchBox is failed.
+[ERROR] 26-08-2025 02:11:36 [main] LogUtils - org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression ///span[contains(normalize-space(),'services available')] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '///span[contains(normalize-space(),'services available')]' is not a valid XPath expression.
+  (Session info: chrome=139.0.7258.139)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3094c568038f908f0e1908b8acacedd6, findElement {value=///span[contains(normalize-space(),'services available')], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\TNGUYE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56326}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56326/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3094c568038f908f0e1908b8acacedd6
+[INFO] 26-08-2025 02:11:40 [main] LogUtils - End testing Demos
+[INFO] 26-08-2025 02:13:22 [main] LogUtils - #########
+[INFO] 26-08-2025 02:13:22 [main] LogUtils - *****Demos***
+[INFO] 26-08-2025 02:13:27 [main] LogUtils - Running test case inputInValidKeySearchBox
+[ERROR] 26-08-2025 02:13:48 [main] LogUtils - Test case inputInValidKeySearchBox is failed.
+[ERROR] 26-08-2025 02:13:48 [main] LogUtils - org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 19.756
+  (Session info: chrome=139.0.7258.139)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7c0857f54c734f01af9de74b30871694, get {url=https://demo5.cybersoft.edu.vn/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\TNGUYE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60805}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60805/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7c0857f54c734f01af9de74b30871694
+[INFO] 26-08-2025 02:13:51 [main] LogUtils - End testing Demos
+[INFO] 26-08-2025 02:14:05 [main] LogUtils - #########
+[INFO] 26-08-2025 02:14:05 [main] LogUtils - *****Demos***
+[INFO] 26-08-2025 02:14:09 [main] LogUtils - Running test case inputValidKeySearchBox
+[INFO] 26-08-2025 02:14:17 [main] LogUtils - Go to Home Page
+[INFO] 26-08-2025 02:14:17 [main] LogUtils - click search
+[INFO] 26-08-2025 02:14:18 [main] LogUtils - Input Valid keywords Search Box passed!
+[ERROR] 26-08-2025 02:14:19 [main] LogUtils - Test case inputValidKeySearchBox is failed.
+[ERROR] 26-08-2025 02:14:20 [main] LogUtils - java.lang.AssertionError: Expected > 0 services but found: 0 expected [true] but found [false]
+[INFO] 26-08-2025 02:14:23 [main] LogUtils - End testing Demos
+[INFO] 26-08-2025 02:16:15 [main] LogUtils - #########
+[INFO] 26-08-2025 02:16:15 [main] LogUtils - *****Demos***
+[INFO] 26-08-2025 02:16:21 [main] LogUtils - Running test case inputValidKeySearchBox
+[INFO] 26-08-2025 02:16:28 [main] LogUtils - Go to Home Page
+[INFO] 26-08-2025 02:16:29 [main] LogUtils - click search
+[INFO] 26-08-2025 02:16:29 [main] LogUtils - Input Valid keywords Search Box passed!
+[INFO] 26-08-2025 02:16:31 [main] LogUtils - Test case inputValidKeySearchBox is passed.
+[INFO] 26-08-2025 02:16:34 [main] LogUtils - End testing Demos
+[INFO] 26-08-2025 02:21:27 [main] LogUtils - #########
+[INFO] 26-08-2025 02:21:27 [main] LogUtils - *****Demos***
+[INFO] 26-08-2025 02:21:30 [main] LogUtils - Running test case inputInValidKeySearchBox
+[ERROR] 26-08-2025 02:21:52 [main] LogUtils - Test case inputInValidKeySearchBox is failed.
+[ERROR] 26-08-2025 02:21:52 [main] LogUtils - org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 19.748
+  (Session info: chrome=139.0.7258.139)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e9e5726ff5fc03ea6a73839e5b6fa129, get {url=https://demo5.cybersoft.edu.vn/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\TNGUYE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52296}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52296/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e9e5726ff5fc03ea6a73839e5b6fa129
+[INFO] 26-08-2025 02:21:55 [main] LogUtils - End testing Demos
+[INFO] 26-08-2025 02:22:55 [main] LogUtils - #########
+[INFO] 26-08-2025 02:22:55 [main] LogUtils - *****Demos***
+[INFO] 26-08-2025 02:22:59 [main] LogUtils - Running test case inputInValidKeySearchBox
+[ERROR] 26-08-2025 02:23:20 [main] LogUtils - Test case inputInValidKeySearchBox is failed.
+[ERROR] 26-08-2025 02:23:20 [main] LogUtils - org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 19.821
+  (Session info: chrome=139.0.7258.139)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [121b08842841245b725a37a4a9a12ab5, get {url=https://demo5.cybersoft.edu.vn/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\TNGUYE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61560}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61560/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 121b08842841245b725a37a4a9a12ab5
+[INFO] 26-08-2025 02:23:24 [main] LogUtils - End testing Demos
+[INFO] 26-08-2025 02:26:15 [main] LogUtils - #########
+[INFO] 26-08-2025 02:26:15 [main] LogUtils - *****Demos***
+[INFO] 26-08-2025 02:26:20 [main] LogUtils - Running test case inputInValidKeySearchBox
+[ERROR] 26-08-2025 02:26:42 [main] LogUtils - Test case inputInValidKeySearchBox is failed.
+[ERROR] 26-08-2025 02:26:42 [main] LogUtils - org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 19.716
+  (Session info: chrome=139.0.7258.139)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [44c07615e417adc154d2fa134317bb13, get {url=https://demo5.cybersoft.edu.vn/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\TNGUYE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54398}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54398/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 44c07615e417adc154d2fa134317bb13
+[INFO] 26-08-2025 02:26:45 [main] LogUtils - End testing Demos
+[INFO] 26-08-2025 02:30:14 [main] LogUtils - #########
+[INFO] 26-08-2025 02:30:14 [main] LogUtils - *****Demos***
+[INFO] 26-08-2025 02:30:19 [main] LogUtils - Running test case inputInValidKeySearchBox
+[INFO] 26-08-2025 02:30:27 [main] LogUtils - Go to Home Page
+[INFO] 26-08-2025 02:30:30 [main] LogUtils - click search
+[INFO] 26-08-2025 02:30:32 [main] LogUtils - Test case inputInValidKeySearchBox is passed.
+[INFO] 26-08-2025 02:30:35 [main] LogUtils - End testing Demos
+[INFO] 26-08-2025 02:31:20 [main] LogUtils - #########
+[INFO] 26-08-2025 02:31:20 [main] LogUtils - *****Demos***
+[INFO] 26-08-2025 02:31:26 [main] LogUtils - Running test case inputValidKeySearchBox
+[INFO] 26-08-2025 02:31:36 [main] LogUtils - Go to Home Page
+[INFO] 26-08-2025 02:31:37 [main] LogUtils - click search
+[INFO] 26-08-2025 02:31:40 [main] LogUtils - Test case inputValidKeySearchBox is passed.
+[INFO] 26-08-2025 02:31:44 [main] LogUtils - End testing Demos
+[INFO] 26-08-2025 02:35:33 [main] LogUtils - #########
+[INFO] 26-08-2025 02:35:33 [main] LogUtils - *****Demos***
+[INFO] 26-08-2025 02:35:38 [main] LogUtils - Running test case inputInValidKeySearchBox
+[INFO] 26-08-2025 02:35:46 [main] LogUtils - Go to Home Page
+[INFO] 26-08-2025 02:35:48 [main] LogUtils - click search
+[INFO] 26-08-2025 02:35:51 [main] LogUtils - Test case inputInValidKeySearchBox is passed.
+[INFO] 26-08-2025 02:35:54 [main] LogUtils - End testing Demos
+[INFO] 26-08-2025 02:41:15 [main] LogUtils - #########
+[INFO] 26-08-2025 02:41:15 [main] LogUtils - *****Demos***
+[INFO] 26-08-2025 02:41:20 [main] LogUtils - Running test case inputSpecialCharacter
+[ERROR] 26-08-2025 02:41:41 [main] LogUtils - Test case inputSpecialCharacter is failed.
+[ERROR] 26-08-2025 02:41:42 [main] LogUtils - org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 19.702
+  (Session info: chrome=139.0.7258.139)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f6cd7c2e3084ecb6ff0939830e14b97f, get {url=https://demo5.cybersoft.edu.vn/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\TNGUYE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65279}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65279/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f6cd7c2e3084ecb6ff0939830e14b97f
+[INFO] 26-08-2025 02:41:45 [main] LogUtils - End testing Demos
+[INFO] 26-08-2025 02:42:35 [main] LogUtils - #########
+[INFO] 26-08-2025 02:42:35 [main] LogUtils - *****Demos***
+[INFO] 26-08-2025 02:42:40 [main] LogUtils - Running test case inputSpecialCharacter
+[INFO] 26-08-2025 02:42:49 [main] LogUtils - Go to Home Page
+[INFO] 26-08-2025 02:42:51 [main] LogUtils - click search
+[INFO] 26-08-2025 02:42:55 [main] LogUtils - Test case inputSpecialCharacter is passed.
+[INFO] 26-08-2025 02:42:58 [main] LogUtils - End testing Demos
+[INFO] 26-08-2025 02:44:09 [main] LogUtils - #########
+[INFO] 26-08-2025 02:44:09 [main] LogUtils - *****Demos***
+[INFO] 26-08-2025 02:44:15 [main] LogUtils - Running test case inputEmpty
+[INFO] 26-08-2025 02:44:32 [main] LogUtils - Go to Home Page
+[INFO] 26-08-2025 02:44:35 [main] LogUtils - click search
+[ERROR] 26-08-2025 02:44:56 [main] LogUtils - Test case inputEmpty is failed.
+[ERROR] 26-08-2025 02:44:57 [main] LogUtils - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //span[contains(normalize-space(),'services available')] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\TNGUYE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51167}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51167/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ed5f8fd4f69fd007cdf387544ed3721d
+[INFO] 26-08-2025 02:45:00 [main] LogUtils - End testing Demos
+[INFO] 26-08-2025 02:48:35 [main] LogUtils - #########
+[INFO] 26-08-2025 02:48:35 [main] LogUtils - *****Demos***
+[INFO] 26-08-2025 02:48:42 [main] LogUtils - Running test case inputEmpty
+[INFO] 26-08-2025 02:48:50 [main] LogUtils - Go to Home Page
+[INFO] 26-08-2025 02:48:53 [main] LogUtils - click search
+[ERROR] 26-08-2025 02:49:15 [main] LogUtils - Test case inputEmpty is failed.
+[ERROR] 26-08-2025 02:49:15 [main] LogUtils - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //span[contains(normalize-space(),'services available')] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\TNGUYE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58100}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58100/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: dcd4f7d1d0dddf005f77281f5d8a90d8
+[INFO] 26-08-2025 02:49:19 [main] LogUtils - End testing Demos
+[INFO] 26-08-2025 02:49:33 [main] LogUtils - #########
+[INFO] 26-08-2025 02:49:33 [main] LogUtils - *****Demos***
+[INFO] 26-08-2025 02:49:38 [main] LogUtils - Running test case verifyNavigationFiverr
+[INFO] 26-08-2025 02:49:46 [main] LogUtils - Go to Home Page
+[INFO] 26-08-2025 02:49:46 [main] LogUtils - Go to Home Page
+[INFO] 26-08-2025 02:49:47 [main] LogUtils - header:Fiverr Business
+[ERROR] 26-08-2025 02:49:47 [main] LogUtils - Test case verifyNavigationFiverr is failed.
+[ERROR] 26-08-2025 02:49:48 [main] LogUtils - java.lang.AssertionError: fail van login expected [true] but found [false]
+[INFO] 26-08-2025 02:49:57 [main] LogUtils - Running test case verifyNavigationExplore
+[INFO] 26-08-2025 02:50:04 [main] LogUtils - Go to Home Page
+[ERROR] 26-08-2025 02:50:10 [main] LogUtils - Test case verifyNavigationExplore is failed.
+[ERROR] 26-08-2025 02:50:11 [main] LogUtils - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //*[contains(text(),'Explore')] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\TNGUYE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62714}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62714/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e15df4a96bf16ed4345ffcf32458200f
+[INFO] 26-08-2025 02:50:19 [main] LogUtils - Running test case verifyNavigationEnglish
+[INFO] 26-08-2025 02:50:19 [main] LogUtils - Go to Home Page
+[INFO] 26-08-2025 02:50:20 [main] LogUtils - Go to Home Page
+[INFO] 26-08-2025 02:50:26 [main] LogUtils - header:English
+[ERROR] 26-08-2025 02:50:27 [main] LogUtils - Test case verifyNavigationEnglish is failed.
+[ERROR] 26-08-2025 02:50:27 [main] LogUtils - java.lang.AssertionError: fail van login expected [true] but found [false]
+[INFO] 26-08-2025 02:50:36 [main] LogUtils - Running test case verifyCurrencyConversion
+[INFO] 26-08-2025 02:50:37 [main] LogUtils - Go to Home Page
+[INFO] 26-08-2025 02:50:43 [main] LogUtils - header:US$ USD
+[INFO] 26-08-2025 02:50:43 [main] LogUtils - Currency conversion US
+[ERROR] 26-08-2025 02:50:44 [main] LogUtils - Test case verifyCurrencyConversion is failed.
+[ERROR] 26-08-2025 02:50:44 [main] LogUtils - java.lang.AssertionError: fail van login expected [true] but found [false]
+[INFO] 26-08-2025 02:50:56 [main] LogUtils - Running test case verifyNavigationSeller
+[INFO] 26-08-2025 02:51:02 [main] LogUtils - Go to Home Page
+[INFO] 26-08-2025 02:51:03 [main] LogUtils - header:Become a Seller
+[INFO] 26-08-2025 02:51:03 [main] LogUtils - Navigation Become a Seller
+[ERROR] 26-08-2025 02:51:04 [main] LogUtils - Test case verifyNavigationSeller is failed.
+[ERROR] 26-08-2025 02:51:04 [main] LogUtils - java.lang.AssertionError: fail van login expected [true] but found [false]
+[INFO] 26-08-2025 02:51:17 [main] LogUtils - Running test case verifyNavigationSignIn
+[INFO] 26-08-2025 02:51:24 [main] LogUtils - Go to Home Page
+[INFO] 26-08-2025 02:51:25 [main] LogUtils - header:Sign in
+[INFO] 26-08-2025 02:51:27 [main] LogUtils - Go to Sign In Page
+[ERROR] 26-08-2025 02:51:28 [main] LogUtils - Login Fail
+[INFO] 26-08-2025 02:51:28 [main] LogUtils - Test case verifyNavigationSignIn is passed.
+[INFO] 26-08-2025 02:51:42 [main] LogUtils - Running test case verifyNavigationRegister
+[INFO] 26-08-2025 02:51:49 [main] LogUtils - Go to Home Page
+[INFO] 26-08-2025 02:51:51 [main] LogUtils - header:Join
+[INFO] 26-08-2025 02:51:53 [main] LogUtils - Go to Register Page
+[ERROR] 26-08-2025 02:51:54 [main] LogUtils - Login Fail
+[INFO] 26-08-2025 02:51:54 [main] LogUtils - Test case verifyNavigationRegister is passed.
+[INFO] 26-08-2025 02:52:08 [main] LogUtils - Running test case verifyBackHomePage
+[INFO] 26-08-2025 02:52:14 [main] LogUtils - Go to Home Page
+[INFO] 26-08-2025 02:52:16 [main] LogUtils - header:Sign in
+[INFO] 26-08-2025 02:52:17 [main] LogUtils - Go to Sign In Page
+[ERROR] 26-08-2025 02:52:18 [main] LogUtils - Login Fail
+[INFO] 26-08-2025 02:52:18 [main] LogUtils - Go to back Home Page
+[ERROR] 26-08-2025 02:52:19 [main] LogUtils - Login Fail
+[INFO] 26-08-2025 02:52:19 [main] LogUtils - Test case verifyBackHomePage is passed.
+[INFO] 26-08-2025 02:52:34 [main] LogUtils - Running test case placeholderSearchBox
+[INFO] 26-08-2025 02:52:41 [main] LogUtils - Go to Home Page
+[INFO] 26-08-2025 02:52:42 [main] LogUtils - Placeholder assertion passed!
+[INFO] 26-08-2025 02:52:42 [main] LogUtils - Test case placeholderSearchBox is passed.
+[INFO] 26-08-2025 02:52:54 [main] LogUtils - Running test case inputValidKey
+[INFO] 26-08-2025 02:53:01 [main] LogUtils - Go to Home Page
+[INFO] 26-08-2025 02:53:05 [main] LogUtils - click search
+[INFO] 26-08-2025 02:53:09 [main] LogUtils - Test case inputValidKey is passed.
+[INFO] 26-08-2025 02:53:31 [main] LogUtils - Running test case inputInValidKey
+[ERROR] 26-08-2025 02:53:51 [main] LogUtils - Test case inputInValidKey is failed.
+[ERROR] 26-08-2025 02:53:51 [main] LogUtils - org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 19.657
+  (Session info: chrome=139.0.7258.139)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2a3ac328752eb951421c588e59c15381, get {url=https://demo5.cybersoft.edu.vn/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\TNGUYE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61704}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61704/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2a3ac328752eb951421c588e59c15381
+[INFO] 26-08-2025 02:54:08 [main] LogUtils - Running test case inputSpecialCharacter
+[ERROR] 26-08-2025 02:54:28 [main] LogUtils - Test case inputSpecialCharacter is failed.
+[ERROR] 26-08-2025 02:54:29 [main] LogUtils - org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 19.638
+  (Session info: chrome=139.0.7258.139)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a309ccda0c6401b3ebc9eeb3d67bffb3, get {url=https://demo5.cybersoft.edu.vn/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\TNGUYE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54675}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54675/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a309ccda0c6401b3ebc9eeb3d67bffb3
+[INFO] 26-08-2025 02:54:51 [main] LogUtils - Running test case inputEmpty
+[ERROR] 26-08-2025 02:55:11 [main] LogUtils - Test case inputEmpty is failed.
+[ERROR] 26-08-2025 02:55:12 [main] LogUtils - org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 19.214
+  (Session info: chrome=139.0.7258.139)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [40055d4a5ba0f77263383d29f379751f, get {url=https://demo5.cybersoft.edu.vn/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\TNGUYE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60183}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60183/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 40055d4a5ba0f77263383d29f379751f
+[INFO] 26-08-2025 02:55:15 [main] LogUtils - End testing Demos

@@ -26,8 +26,9 @@ public class HomePage {
     private By Testing= By.xpath(Locator_CMS.Testing);
     private By Search_Bar= By.xpath(Locator_CMS.Search_Body);
     private By btnSearching= By.xpath(Locator_CMS.getBtnSearching_Body);
-    private By SearchPlaceholder = By.xpath(Locator_CMS.SearchPlaceholder);
+    private By inputSearch = By.xpath(Locator_CMS.inputSearch);
     private By btnSearch = By.xpath(Locator_CMS.btnSearch);
+    private By resultSearch = By.xpath(Locator_CMS.resultSearch);
 
     public HomePage(WebDriver driver){
         this.driver= driver;
@@ -111,6 +112,19 @@ public class HomePage {
         driver.findElement(btnSearch).click();
         LogUtils.info("click search");
     }
+    public String checkResultSearch(){
+        wait.until(ExpectedConditions.visibilityOfElementLocated(resultSearch));
+        new WebDriverWait(driver, Duration.ofSeconds(5));
+        WebElement resultElement = driver.findElement(resultSearch);
+        System.out.println("resultElement.getText() " + resultElement.getText());
+        return resultElement.getText();
+    }
+
+    public int extractNumber(String text) {
+        String number = text.split(" ")[0]; // lấy từ đầu tiên trước dấu cách
+        return Integer.parseInt(number);
+    }
+
 
 
 
