@@ -950,3 +950,78 @@ Command: [40055d4a5ba0f77263383d29f379751f, get {url=https://demo5.cybersoft.edu
 Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\TNGUYE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60183}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60183/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
 Session ID: 40055d4a5ba0f77263383d29f379751f
 [INFO] 26-08-2025 02:55:15 [main] LogUtils - End testing Demos
+[INFO] 27-08-2025 00:41:50 [main] LogUtils - #########
+[INFO] 27-08-2025 00:41:50 [main] LogUtils - *****Demos***
+[INFO] 27-08-2025 00:42:01 [main] LogUtils - Running test case clickWebsiteDesignKey
+[INFO] 27-08-2025 00:42:14 [main] LogUtils - Go to Home Page
+[ERROR] 27-08-2025 00:42:15 [main] LogUtils - Test case clickWebsiteDesignKey is failed.
+[ERROR] 27-08-2025 00:42:16 [main] LogUtils - java.lang.AssertionError: fail van login expected [true] but found [false]
+[INFO] 27-08-2025 00:42:22 [main] LogUtils - End testing Demos
+[INFO] 27-08-2025 00:44:43 [main] LogUtils - #########
+[INFO] 27-08-2025 00:44:43 [main] LogUtils - *****Demos***
+[INFO] 27-08-2025 00:44:45 [main] LogUtils - #########
+[INFO] 27-08-2025 00:44:45 [main] LogUtils - *****Demos***
+[INFO] 27-08-2025 00:44:52 [main] LogUtils - Running test case clickWordPressKey
+[INFO] 27-08-2025 00:44:53 [main] LogUtils - Running test case clickWordPressKey
+[INFO] 27-08-2025 00:45:07 [main] LogUtils - Go to Home Page
+[INFO] 27-08-2025 00:45:08 [main] LogUtils - Tìm thấy element Popular KeyWord
+[INFO] 27-08-2025 00:45:08 [main] LogUtils - Go to Home Page
+[INFO] 27-08-2025 00:45:08 [main] LogUtils - Clicked Popular KeyWord
+[INFO] 27-08-2025 00:45:08 [main] LogUtils - Tìm thấy element Popular KeyWord
+[INFO] 27-08-2025 00:45:09 [main] LogUtils - Clicked Popular KeyWord
+[ERROR] 27-08-2025 00:45:09 [main] LogUtils - Test case clickWordPressKey is failed.
+[ERROR] 27-08-2025 00:45:09 [main] LogUtils - Test case clickWordPressKey is failed.
+[ERROR] 27-08-2025 00:45:10 [main] LogUtils - java.lang.AssertionError: fail van login expected [true] but found [false]
+[ERROR] 27-08-2025 00:45:10 [main] LogUtils - java.lang.AssertionError: fail van login expected [true] but found [false]
+[INFO] 27-08-2025 00:45:15 [main] LogUtils - End testing Demos
+[INFO] 27-08-2025 00:45:16 [main] LogUtils - End testing Demos
+[INFO] 27-08-2025 00:47:07 [main] LogUtils - #########
+[INFO] 27-08-2025 00:47:07 [main] LogUtils - *****Demos***
+[INFO] 27-08-2025 00:47:14 [main] LogUtils - Running test case clickWebsiteDesignKey
+[INFO] 27-08-2025 00:47:22 [main] LogUtils - Go to Home Page
+[INFO] 27-08-2025 00:47:22 [main] LogUtils - Tìm thấy element Popular KeyWord
+[INFO] 27-08-2025 00:47:23 [main] LogUtils - Clicked Popular KeyWord
+[ERROR] 27-08-2025 00:47:23 [main] LogUtils - Test case clickWebsiteDesignKey is failed.
+[ERROR] 27-08-2025 00:47:24 [main] LogUtils - java.lang.AssertionError: fail van login expected [true] but found [false]
+[INFO] 27-08-2025 00:47:29 [main] LogUtils - End testing Demos
+[INFO] 27-08-2025 01:18:26 [main] LogUtils - #########
+[INFO] 27-08-2025 01:18:26 [main] LogUtils - *****Demos***
+[INFO] 27-08-2025 01:18:35 [main] LogUtils - Running test case clickPreAndNextBtn
+[INFO] 27-08-2025 01:18:49 [main] LogUtils - Go to Home Page
+[ERROR] 27-08-2025 01:18:49 [main] LogUtils - Test case clickPreAndNextBtn is failed.
+[ERROR] 27-08-2025 01:18:50 [main] LogUtils - org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression By.xpath: (//*[contains(text(),'Sign in')])[2] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string 'By.xpath: (//*[contains(text(),'Sign in')])[2]' is not a valid XPath expression.
+  (Session info: chrome=139.0.7258.139)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9f56d71dcc1ec763802b55328737c354, findElement {using=xpath, value=By.xpath: (//*[contains(text(),'Sign in')])[2]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\TNGUYE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60888}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60888/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9f56d71dcc1ec763802b55328737c354
+[INFO] 27-08-2025 01:18:56 [main] LogUtils - End testing Demos
+[INFO] 27-08-2025 01:24:55 [main] LogUtils - #########
+[INFO] 27-08-2025 01:24:55 [main] LogUtils - *****Demos***
+[INFO] 27-08-2025 01:25:03 [main] LogUtils - Running test case clickWordPressKey
+[INFO] 27-08-2025 01:25:14 [main] LogUtils - Go to Home Page
+[INFO] 27-08-2025 01:25:15 [main] LogUtils - Tìm thấy element Popular KeyWord
+[INFO] 27-08-2025 01:25:15 [main] LogUtils - Clicked Popular KeyWord
+[ERROR] 27-08-2025 01:25:16 [main] LogUtils - Test case clickWordPressKey is failed.
+[ERROR] 27-08-2025 01:25:17 [main] LogUtils - java.lang.AssertionError: fail van login expected [true] but found [false]
+[INFO] 27-08-2025 01:25:24 [main] LogUtils - End testing Demos
+[INFO] 27-08-2025 01:25:47 [main] LogUtils - #########
+[INFO] 27-08-2025 01:25:47 [main] LogUtils - *****Demos***
+[INFO] 27-08-2025 01:25:54 [main] LogUtils - Running test case clickPreAndNextBtn
+[INFO] 27-08-2025 01:26:05 [main] LogUtils - Go to Home Page
+[ERROR] 27-08-2025 01:26:05 [main] LogUtils - Test case clickPreAndNextBtn is failed.
+[ERROR] 27-08-2025 01:26:06 [main] LogUtils - org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression By.xpath: (//*[contains(text(),'Sign in')])[2] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string 'By.xpath: (//*[contains(text(),'Sign in')])[2]' is not a valid XPath expression.
+  (Session info: chrome=139.0.7258.139)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e03dee2073c475dfef41a5db6674b9af, findElement {value=By.xpath: (//*[contains(text(),'Sign in')])[2], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\TNGUYE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56148}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56148/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e03dee2073c475dfef41a5db6674b9af
+[INFO] 27-08-2025 01:26:12 [main] LogUtils - End testing Demos

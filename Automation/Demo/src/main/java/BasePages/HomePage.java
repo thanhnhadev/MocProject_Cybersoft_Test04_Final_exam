@@ -125,6 +125,30 @@ public class HomePage {
         return Integer.parseInt(number);
     }
 
+    public void clickPopularKeyWord(String text) {
+        String keyWord = "//div[normalize-space()='" + text + "']";
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(keyWord)));
+        LogUtils.info("Tìm thấy element Popular KeyWord");
+        new WebDriverWait(driver, Duration.ofSeconds(5));
+        WebElement resultElement = driver.findElement(By.xpath(keyWord));
+        resultElement.click();
+        LogUtils.info("Clicked Popular KeyWord");
+    }
+
+    public void clickElement(String xpath) {
+        System.out.println("CurrentUrl 1: " +xpath);
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(xpath)));
+        LogUtils.info("Tìm thấy element Popular xpath");
+        new WebDriverWait(driver, Duration.ofSeconds(5));
+        WebElement resultElement = driver.findElement(By.xpath(xpath));
+        resultElement.click();
+        LogUtils.info("Clicked Popular xpath");
+    }
+
+
+
+
+
 
 
 

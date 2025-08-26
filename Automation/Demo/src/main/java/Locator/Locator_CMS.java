@@ -20,6 +20,11 @@ public class Locator_CMS {
     public static final String Become_a_Seller="(//*[contains(text(),'Become a Seller')])[1]";
     public static final String btnSignin="(//*[contains(text(),'Sign in')])[2]";
     public static final String btnJoin="//*[contains(text(),'Join')]";
+    //Popular professional services
+    public static final String currSliderPopular="//div[@class='slider-package']//div[@class='slick-slide slick-active slick-current']";
+    public static final String btnPre="//div[@class='slider-package']//div[@class='slick-arrow slick-prev']";
+    public static final String btnNext="//div[@class='slider-package']//div[@class='slick-arrow slick-next']";
+
     //nav-header
     public static final String GraphicsDesign="(//*[contains(text(),'Graphics & Design')])[1]";
     public static final String DigitalMarketing="(//*[contains(text(),'Digital Marketing')])[1]";

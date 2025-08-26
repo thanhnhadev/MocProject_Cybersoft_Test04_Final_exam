@@ -29,6 +29,10 @@ public class HomePageTest extends BaseSetup {
     Header Header;
     private WebDriverWait wait;
     private By inputSearch = By.xpath(Locator_CMS.inputSearch);
+    private By currSliderPopular = By.xpath(Locator_CMS.currSliderPopular);
+    private By btnPre = By.xpath(Locator_CMS.btnPre);
+    private By btnNext = By.xpath(Locator_CMS.btnNext);
+    private By btnSignin = By.xpath(Locator_CMS.btnSignin);
 
     public void gotoHomePage() {
         Header = new Header(driver);
@@ -54,7 +58,7 @@ public class HomePageTest extends BaseSetup {
     }
 
     // Navigation Bar
-    @Test(priority = 1, testName = "TC-02 Navigatio Fiverr")
+    @Test(priority = 1, testName = "TC-02 Navigation Fiverr")
     public void verifyNavigationFiverr () {
         this.gotoHomePage();
         LogUtils.info("Go to Home Page");
@@ -159,6 +163,27 @@ public class HomePageTest extends BaseSetup {
         int serviceCount = this.checkSearchBox("");
         Assert.assertEquals(serviceCount, 0, "Expected 0 services but found: " + serviceCount);
     }
+
+    // Popular
+    @Test(priority = 14, testName = "TC-16 CLick key Website Design of Popular Search" )
+    public void clickWebsiteDesignKey() {
+        this.gotoHomePage();
+        HomePageTest.clickPopularKeyWord("Website Design");
+        System.out.println("CurrentUrl: " + driver.getCurrentUrl());
+        Header.checkSuccessFull("Website Design");
+    }
+
+    @Test(priority = 15, testName = "TC-16  CLick key WordPress of Popular Search" )
+    public void clickWordPressKey() {
+        this.gotoHomePage();
+        HomePageTest.clickPopularKeyWord("WordPress");
+        System.out.println("CurrentUrl: " + driver.getCurrentUrl());
+        Header.checkSuccessFull("WordPress");
+    }
+
+    // Popular professional services
+    
+
 
     @AfterTest
     public void tearDown() {
