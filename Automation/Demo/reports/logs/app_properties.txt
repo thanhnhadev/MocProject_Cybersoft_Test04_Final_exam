@@ -1025,3 +1025,189 @@ Command: [e03dee2073c475dfef41a5db6674b9af, findElement {value=By.xpath: (//*[co
 Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\TNGUYE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56148}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56148/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
 Session ID: e03dee2073c475dfef41a5db6674b9af
 [INFO] 27-08-2025 01:26:12 [main] LogUtils - End testing Demos
+[INFO] 27-08-2025 01:42:32 [main] LogUtils - #########
+[INFO] 27-08-2025 01:42:32 [main] LogUtils - *****Demos***
+[INFO] 27-08-2025 01:42:43 [main] LogUtils - Running test case clickPreAndNextBtn
+[INFO] 27-08-2025 01:42:53 [main] LogUtils - Go to Home Page
+[INFO] 27-08-2025 01:42:53 [main] LogUtils - Clicked element with xpath: (//*[contains(text(),'Sign in')])[2]
+[INFO] 27-08-2025 01:42:53 [main] LogUtils - Test case clickPreAndNextBtn is passed.
+[INFO] 27-08-2025 01:42:58 [main] LogUtils - End testing Demos
+[INFO] 27-08-2025 01:43:28 [main] LogUtils - #########
+[INFO] 27-08-2025 01:43:28 [main] LogUtils - *****Demos***
+[INFO] 27-08-2025 01:43:34 [main] LogUtils - Running test case clickPreAndNextBtn
+[INFO] 27-08-2025 01:43:49 [main] LogUtils - Go to Home Page
+[INFO] 27-08-2025 01:43:50 [main] LogUtils - Clicked element with xpath: (//*[contains(text(),'Sign in')])[2]
+[INFO] 27-08-2025 01:43:50 [main] LogUtils - Test case clickPreAndNextBtn is passed.
+[INFO] 27-08-2025 01:43:55 [main] LogUtils - End testing Demos
+[INFO] 27-08-2025 01:46:00 [main] LogUtils - #########
+[INFO] 27-08-2025 01:46:00 [main] LogUtils - *****Demos***
+[INFO] 27-08-2025 01:46:08 [main] LogUtils - Running test case clickPreAndNextBtn
+[INFO] 27-08-2025 01:46:18 [main] LogUtils - Go to Home Page
+[ERROR] 27-08-2025 01:46:19 [main] LogUtils - Test case clickPreAndNextBtn is failed.
+[ERROR] 27-08-2025 01:46:20 [main] LogUtils - org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (62, 1034)
+  (Session info: chrome=139.0.7258.139)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3db00829b1d912ba36100b069ab6ee3a, clickElement {id=f.A78CB451E8201A4E698C3E333D42FB2D.d.7AC1F07C8F87D102FE91EA061D82268A.e.33}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\TNGUYE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63083}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63083/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (3db00829b1d912ba36100b069ab6ee3a)] -> xpath: //div[@class='slider-package']//div[@class='slick-arrow slick-prev']]
+Session ID: 3db00829b1d912ba36100b069ab6ee3a
+[INFO] 27-08-2025 01:46:27 [main] LogUtils - End testing Demos
+[INFO] 27-08-2025 01:49:27 [main] LogUtils - #########
+[INFO] 27-08-2025 01:49:27 [main] LogUtils - *****Demo***
+[INFO] 27-08-2025 01:49:34 [main] LogUtils - Running test case clickPreAndNextBtn
+[INFO] 27-08-2025 01:49:36 [main] LogUtils - Go to Home Page
+[ERROR] 27-08-2025 01:49:51 [main] LogUtils - Test case clickPreAndNextBtn is failed.
+[ERROR] 27-08-2025 01:49:52 [main] LogUtils - org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (62, 985)
+  (Session info: chrome=139.0.7258.139)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1fac8951fedea1e716d11dccc91500fd, clickElement {id=f.735FCC0738D217190CBF2ED467886267.d.FA5ED7655A03398FA03FCE593620388A.e.34}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\TNGUYE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52282}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52282/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (1fac8951fedea1e716d11dccc91500fd)] -> xpath: //div[@class='slider-package']//div[@class='slick-arrow slick-prev']]
+Session ID: 1fac8951fedea1e716d11dccc91500fd
+[INFO] 27-08-2025 01:50:02 [main] LogUtils - End testing Demo
+[INFO] 27-08-2025 01:51:06 [main] LogUtils - #########
+[INFO] 27-08-2025 01:51:06 [main] LogUtils - *****Demo***
+[INFO] 27-08-2025 01:51:22 [main] LogUtils - Running test case clickPreAndNextBtn
+[INFO] 27-08-2025 01:51:25 [main] LogUtils - Go to Home Page
+[ERROR] 27-08-2025 01:51:40 [main] LogUtils - Test case clickPreAndNextBtn is failed.
+[ERROR] 27-08-2025 01:51:41 [main] LogUtils - org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (62, 1013)
+  (Session info: chrome=139.0.7258.139)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [14e4cb156d57df8ec3e7586fa1eed8d6, clickElement {id=f.0BB1F6BAA803F62D53B2A8A3967A7096.d.87B31C1D65A7922BD6912D2C5818D674.e.34}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\TNGUYE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53579}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53579/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (14e4cb156d57df8ec3e7586fa1eed8d6)] -> xpath: //div[@class='slider-package']//div[@class='slick-arrow slick-prev']]
+Session ID: 14e4cb156d57df8ec3e7586fa1eed8d6
+[INFO] 27-08-2025 01:51:46 [main] LogUtils - End testing Demo
+[INFO] 27-08-2025 01:53:55 [main] LogUtils - #########
+[INFO] 27-08-2025 01:53:55 [main] LogUtils - *****Demo***
+[INFO] 27-08-2025 01:54:03 [main] LogUtils - Running test case clickPreAndNextBtn
+[INFO] 27-08-2025 01:54:19 [main] LogUtils - Go to Home Page
+[ERROR] 27-08-2025 01:54:21 [main] LogUtils - Test case clickPreAndNextBtn is failed.
+[ERROR] 27-08-2025 01:54:21 [main] LogUtils - org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (62, 647)
+  (Session info: chrome=139.0.7258.139)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [99b4cc4374f3a8e589a4bc2a11c4aa34, clickElement {id=f.37DC2D608B210226B038F552A703CCBF.d.762BEC4D5F86099F13DDCDDCAB5A35C8.e.34}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\TNGUYE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54808}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54808/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (99b4cc4374f3a8e589a4bc2a11c4aa34)] -> xpath: //div[@class='slider-package']//div[@class='slick-arrow slick-prev']]
+Session ID: 99b4cc4374f3a8e589a4bc2a11c4aa34
+[INFO] 27-08-2025 01:54:27 [main] LogUtils - End testing Demo
+[INFO] 27-08-2025 01:58:00 [main] LogUtils - #########
+[INFO] 27-08-2025 01:58:00 [main] LogUtils - *****Demo***
+[INFO] 27-08-2025 01:58:07 [main] LogUtils - Running test case clickPreAndNextBtn
+[INFO] 27-08-2025 01:58:20 [main] LogUtils - Go to Home Page
+[INFO] 27-08-2025 01:58:22 [main] LogUtils - Clicked via JS (fallback): //div[@class='slider-package']//div[@class='slick-arrow slick-prev']
+[INFO] 27-08-2025 01:58:22 [main] LogUtils - Test case clickPreAndNextBtn is passed.
+[INFO] 27-08-2025 01:58:28 [main] LogUtils - End testing Demo
+[INFO] 27-08-2025 01:59:06 [main] LogUtils - #########
+[INFO] 27-08-2025 01:59:06 [main] LogUtils - *****Demo***
+[INFO] 27-08-2025 01:59:13 [main] LogUtils - Running test case clickPreAndNextBtn
+[INFO] 27-08-2025 01:59:23 [main] LogUtils - Go to Home Page
+[INFO] 27-08-2025 01:59:25 [main] LogUtils - Clicked via JS (fallback): //div[@class='slider-package']//div[@class='slick-arrow slick-prev']
+[INFO] 27-08-2025 01:59:25 [main] LogUtils - Test case clickPreAndNextBtn is passed.
+[INFO] 27-08-2025 01:59:32 [main] LogUtils - End testing Demo
+[INFO] 27-08-2025 02:00:47 [main] LogUtils - #########
+[INFO] 27-08-2025 02:00:47 [main] LogUtils - *****Demo***
+[INFO] 27-08-2025 02:00:54 [main] LogUtils - Running test case clickPreAndNextBtn
+[INFO] 27-08-2025 02:01:03 [main] LogUtils - Go to Home Page
+[INFO] 27-08-2025 02:01:05 [main] LogUtils - Clicked via JS (fallback): //div[@class='slider-package']//div[@class='slick-arrow slick-prev']
+[INFO] 27-08-2025 02:01:05 [main] LogUtils - Test case clickPreAndNextBtn is passed.
+[INFO] 27-08-2025 02:01:11 [main] LogUtils - End testing Demo
+[INFO] 27-08-2025 02:07:19 [main] LogUtils - #########
+[INFO] 27-08-2025 02:07:19 [main] LogUtils - *****Demo***
+[INFO] 27-08-2025 02:07:26 [main] LogUtils - Running test case clickPreAndNextBtn
+[INFO] 27-08-2025 02:07:35 [main] LogUtils - Go to Home Page
+[INFO] 27-08-2025 02:07:37 [main] LogUtils - Clicked via JS (fallback): //div[@class='slider-package']//div[@class='slick-arrow slick-prev']
+[INFO] 27-08-2025 02:07:37 [main] LogUtils - Test case clickPreAndNextBtn is passed.
+[INFO] 27-08-2025 02:07:43 [main] LogUtils - End testing Demo
+[INFO] 27-08-2025 02:09:27 [main] LogUtils - #########
+[INFO] 27-08-2025 02:09:27 [main] LogUtils - *****Demo***
+[INFO] 27-08-2025 02:09:34 [main] LogUtils - Running test case clickPreAndNextBtn
+[INFO] 27-08-2025 02:09:47 [main] LogUtils - Go to Home Page
+[INFO] 27-08-2025 02:09:48 [main] LogUtils - Clicked normally: //div[@class='slider-package']//div[@class='slick-arrow slick-prev']
+[INFO] 27-08-2025 02:09:48 [main] LogUtils - Test case clickPreAndNextBtn is passed.
+[INFO] 27-08-2025 02:09:54 [main] LogUtils - End testing Demo
+[INFO] 27-08-2025 02:10:19 [main] LogUtils - #########
+[INFO] 27-08-2025 02:10:19 [main] LogUtils - *****Demo***
+[INFO] 27-08-2025 02:10:25 [main] LogUtils - Running test case clickPreAndNextBtn
+[INFO] 27-08-2025 02:10:33 [main] LogUtils - Go to Home Page
+[INFO] 27-08-2025 02:10:35 [main] LogUtils - Clicked via JS (fallback): //div[@class='slider-package']//div[@class='slick-arrow slick-prev']
+[INFO] 27-08-2025 02:10:35 [main] LogUtils - Test case clickPreAndNextBtn is passed.
+[INFO] 27-08-2025 02:10:38 [main] LogUtils - End testing Demo
+[INFO] 27-08-2025 02:10:50 [main] LogUtils - #########
+[INFO] 27-08-2025 02:10:50 [main] LogUtils - *****Demo***
+[INFO] 27-08-2025 02:10:56 [main] LogUtils - Running test case clickPreAndNextBtn
+[INFO] 27-08-2025 02:11:05 [main] LogUtils - Go to Home Page
+[INFO] 27-08-2025 02:11:07 [main] LogUtils - Clicked via JS (fallback): //div[@class='slider-package']//div[@class='slick-arrow slick-prev']
+[INFO] 27-08-2025 02:11:07 [main] LogUtils - Test case clickPreAndNextBtn is passed.
+[INFO] 27-08-2025 02:11:11 [main] LogUtils - End testing Demo
+[INFO] 27-08-2025 02:11:26 [main] LogUtils - #########
+[INFO] 27-08-2025 02:11:26 [main] LogUtils - *****Demo***
+[INFO] 27-08-2025 02:11:32 [main] LogUtils - Running test case clickPreAndNextBtn
+[INFO] 27-08-2025 02:11:41 [main] LogUtils - Go to Home Page
+[INFO] 27-08-2025 02:11:42 [main] LogUtils - Clicked via JS (fallback): //div[@class='slider-package']//div[@class='slick-arrow slick-prev']
+[INFO] 27-08-2025 02:11:42 [main] LogUtils - Test case clickPreAndNextBtn is passed.
+[INFO] 27-08-2025 02:11:47 [main] LogUtils - End testing Demo
+[INFO] 27-08-2025 02:15:59 [main] LogUtils - #########
+[INFO] 27-08-2025 02:15:59 [main] LogUtils - *****Demo***
+[INFO] 27-08-2025 02:16:06 [main] LogUtils - Running test case clickPreAndNextBtn
+[INFO] 27-08-2025 02:16:16 [main] LogUtils - Go to Home Page
+[INFO] 27-08-2025 02:16:17 [main] LogUtils - Clicked normally: //div[@class='slider-package']//div[@class='slick-arrow slick-prev']
+[INFO] 27-08-2025 02:16:17 [main] LogUtils - Test case clickPreAndNextBtn is passed.
+[INFO] 27-08-2025 02:16:22 [main] LogUtils - End testing Demo
+[INFO] 27-08-2025 02:19:23 [main] LogUtils - #########
+[INFO] 27-08-2025 02:19:23 [main] LogUtils - *****Demo***
+[INFO] 27-08-2025 02:19:30 [main] LogUtils - Running test case clickNextBtn
+[INFO] 27-08-2025 02:19:45 [main] LogUtils - Go to Home Page
+[INFO] 27-08-2025 02:19:47 [main] LogUtils - Clicked via JS (fallback): //div[@class='slider-package']//div[@class='slick-arrow slick-next']
+[INFO] 27-08-2025 02:19:47 [main] LogUtils - Test case clickNextBtn is passed.
+[INFO] 27-08-2025 02:19:50 [main] LogUtils - End testing Demo
+[INFO] 27-08-2025 02:20:16 [main] LogUtils - #########
+[INFO] 27-08-2025 02:20:16 [main] LogUtils - *****Demo***
+[INFO] 27-08-2025 02:20:20 [main] LogUtils - Running test case clickNextBtn
+[INFO] 27-08-2025 02:20:27 [main] LogUtils - Go to Home Page
+[INFO] 27-08-2025 02:20:29 [main] LogUtils - Clicked via JS (fallback): //div[@class='slider-package']//div[@class='slick-arrow slick-next']
+[INFO] 27-08-2025 02:20:29 [main] LogUtils - Test case clickNextBtn is passed.
+[INFO] 27-08-2025 02:20:31 [main] LogUtils - End testing Demo
+[INFO] 27-08-2025 02:20:50 [main] LogUtils - #########
+[INFO] 27-08-2025 02:20:50 [main] LogUtils - *****Demo***
+[INFO] 27-08-2025 02:20:54 [main] LogUtils - Running test case clickNextBtn
+[INFO] 27-08-2025 02:21:00 [main] LogUtils - Go to Home Page
+[INFO] 27-08-2025 02:21:02 [main] LogUtils - Clicked via JS (fallback): //div[@class='slider-package']//div[@class='slick-arrow slick-next']
+[INFO] 27-08-2025 02:21:02 [main] LogUtils - Test case clickNextBtn is passed.
+[INFO] 27-08-2025 02:21:06 [main] LogUtils - End testing Demo
+[INFO] 27-08-2025 02:22:49 [main] LogUtils - #########
+[INFO] 27-08-2025 02:22:49 [main] LogUtils - *****Demo***
+[INFO] 27-08-2025 02:22:53 [main] LogUtils - Running test case clickNextBtn
+[INFO] 27-08-2025 02:23:00 [main] LogUtils - Go to Home Page
+[INFO] 27-08-2025 02:23:02 [main] LogUtils - Clicked via JS (fallback): //div[@class='slider-package']//div[@class='slick-arrow slick-next']
+[INFO] 27-08-2025 02:23:02 [main] LogUtils - Test case clickNextBtn is passed.
+[INFO] 27-08-2025 02:23:04 [main] LogUtils - End testing Demo
+[INFO] 27-08-2025 02:23:22 [main] LogUtils - #########
+[INFO] 27-08-2025 02:23:22 [main] LogUtils - *****Demo***
+[INFO] 27-08-2025 02:23:26 [main] LogUtils - Running test case clickPreAndNextBtn
+[INFO] 27-08-2025 02:23:33 [main] LogUtils - Go to Home Page
+[INFO] 27-08-2025 02:23:35 [main] LogUtils - Clicked via JS (fallback): //div[@class='slider-package']//div[@class='slick-arrow slick-prev']
+[INFO] 27-08-2025 02:23:35 [main] LogUtils - Test case clickPreAndNextBtn is passed.
+[INFO] 27-08-2025 02:23:38 [main] LogUtils - End testing Demo
+[INFO] 27-08-2025 02:24:59 [main] LogUtils - #########
+[INFO] 27-08-2025 02:24:59 [main] LogUtils - *****Demo***
+[INFO] 27-08-2025 02:25:13 [main] LogUtils - Running test case clickNextBtn
+[INFO] 27-08-2025 02:25:23 [main] LogUtils - Go to Home Page
+[INFO] 27-08-2025 02:25:24 [main] LogUtils - Clicked normally: //div[@class='slider-package']//div[@class='slick-arrow slick-next']
+[INFO] 27-08-2025 02:25:24 [main] LogUtils - Test case clickNextBtn is passed.
+[INFO] 27-08-2025 02:25:28 [main] LogUtils - End testing Demo
+[INFO] 27-08-2025 02:29:14 [main] LogUtils - #########
+[INFO] 27-08-2025 02:29:14 [main] LogUtils - *****Demo***
+[INFO] 27-08-2025 02:29:19 [main] LogUtils - Running test case clickSlide
+[INFO] 27-08-2025 02:29:26 [main] LogUtils - Go to Home Page
+[INFO] 27-08-2025 02:29:28 [main] LogUtils - Clicked via JS (fallback): //div[@class='slider-package']//div[@class='slick-slide slick-active slick-current']
+[INFO] 27-08-2025 02:29:28 [main] LogUtils - Test case clickSlide is passed.
+[INFO] 27-08-2025 02:29:31 [main] LogUtils - End testing Demo

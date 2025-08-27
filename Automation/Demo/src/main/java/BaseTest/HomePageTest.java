@@ -29,10 +29,11 @@ public class HomePageTest extends BaseSetup {
     Header Header;
     private WebDriverWait wait;
     private By inputSearch = By.xpath(Locator_CMS.inputSearch);
-    private By currSliderPopular = By.xpath(Locator_CMS.currSliderPopular);
-    private By btnPre = By.xpath(Locator_CMS.btnPre);
-    private By btnNext = By.xpath(Locator_CMS.btnNext);
+    private By btnPre1 = By.xpath(Locator_CMS.btnPre);
     private By btnSignin = By.xpath(Locator_CMS.btnSignin);
+    private String btnPre = Locator_CMS.btnPre;
+    private String btnNext = Locator_CMS.btnNext;
+    private String currSliderPopular = Locator_CMS.currSliderPopular;
 
     public void gotoHomePage() {
         Header = new Header(driver);
@@ -156,7 +157,7 @@ public class HomePageTest extends BaseSetup {
         Assert.assertEquals(serviceCount, 0, "Expected 0 services but found: " + serviceCount);
     }
 
-    @Test(priority = 13, testName = "TC-15 Input Empty Search Box " )
+    @Test(priority = 13, testName = "TC-16 Input Empty Search Box " )
     public void inputEmpty() {
         this.gotoHomePage();
         sleep(15);
@@ -165,7 +166,7 @@ public class HomePageTest extends BaseSetup {
     }
 
     // Popular
-    @Test(priority = 14, testName = "TC-16 CLick key Website Design of Popular Search" )
+    @Test(priority = 14, testName = "TC-17 CLick key Website Design of Popular Search" )
     public void clickWebsiteDesignKey() {
         this.gotoHomePage();
         HomePageTest.clickPopularKeyWord("Website Design");
@@ -173,7 +174,7 @@ public class HomePageTest extends BaseSetup {
         Header.checkSuccessFull("Website Design");
     }
 
-    @Test(priority = 15, testName = "TC-16  CLick key WordPress of Popular Search" )
+    @Test(priority = 15, testName = "TC-17  CLick key WordPress of Popular Search" )
     public void clickWordPressKey() {
         this.gotoHomePage();
         HomePageTest.clickPopularKeyWord("WordPress");
@@ -182,8 +183,26 @@ public class HomePageTest extends BaseSetup {
     }
 
     // Popular professional services
-    
+    @Test(priority = 16, testName = "TC-18  CLick key WordPress of Popular Search" )
+    public void clickPreAndNextBtn() {
+        this.gotoHomePage();
+        System.out.println("btnPre: " + btnPre);
+        HomePageTest.clickElement(btnPre);
+    }
 
+    @Test(priority = 17, testName = "TC-18  CLick key WordPress of Popular Search" )
+    public void clickNextBtn() {
+        this.gotoHomePage();
+        System.out.println("btnPre: " + btnNext);
+        HomePageTest.clickElement(btnNext);
+    }
+
+    @Test(priority = 18, testName = "TC-19  CLick key WordPress of Popular Search" )
+    public void clickSlide() {
+        this.gotoHomePage();
+        System.out.println("btnPre: " + currSliderPopular);
+        HomePageTest.clickElement(currSliderPopular);
+    }
 
     @AfterTest
     public void tearDown() {

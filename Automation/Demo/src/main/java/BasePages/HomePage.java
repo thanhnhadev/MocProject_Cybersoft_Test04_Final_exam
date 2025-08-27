@@ -1,9 +1,7 @@
 package BasePages;
 
 import Locator.Locator_CMS;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
@@ -129,21 +127,57 @@ public class HomePage {
         String keyWord = "//div[normalize-space()='" + text + "']";
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(keyWord)));
         LogUtils.info("Tìm thấy element Popular KeyWord");
-        new WebDriverWait(driver, Duration.ofSeconds(5));
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
         WebElement resultElement = driver.findElement(By.xpath(keyWord));
         resultElement.click();
         LogUtils.info("Clicked Popular KeyWord");
     }
 
+//    public void clickElement(String xpath) {
+//        System.out.println("Clicking element with xpath: " + xpath);
+//
+//        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+//        WebElement resultElement = wait.until(
+//                ExpectedConditions.elementToBeClickable(By.xpath(xpath))
+//        );
+//
+//        // Scroll vào giữa màn hình
+//        JavascriptExecutor js = (JavascriptExecutor) driver;
+//        js.executeScript("arguments[0].scrollIntoView({block: 'center'});", resultElement);
+//
+//        resultElement.click();
+//        LogUtils.info("Clicked element with xpath: " + xpath);
+//    }
+
     public void clickElement(String xpath) {
-        System.out.println("CurrentUrl 1: " +xpath);
-        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(xpath)));
-        LogUtils.info("Tìm thấy element Popular xpath");
-        new WebDriverWait(driver, Duration.ofSeconds(5));
-        WebElement resultElement = driver.findElement(By.xpath(xpath));
-        resultElement.click();
-        LogUtils.info("Clicked Popular xpath");
+        // Timeout tổng cho presence: 30s
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
+        WebElement element = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(xpath)));
+
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+
+        try {
+            // Scroll element ra giữa màn hình
+            js.executeScript("arguments[0].scrollIntoView(false);", element);
+
+            // Chờ thêm 10 giây "mềm" bằng WebDriverWait
+            new WebDriverWait(driver, Duration.ofSeconds(20))
+                    .until(ExpectedConditions.visibilityOf(element));
+
+            // Click element khi có thể
+            wait.until(ExpectedConditions.elementToBeClickable(element)).click();
+            LogUtils.info("Clicked normally: " + xpath);
+
+        } catch (ElementClickInterceptedException e) {
+            // Fallback click bằng JS
+            js.executeScript("arguments[0].click();", element);
+            LogUtils.info("Clicked via JS (fallback): " + xpath);
+        }
     }
+
+
+
+
 
 
 
