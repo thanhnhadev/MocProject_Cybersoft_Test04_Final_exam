@@ -1,0 +1,858 @@
+{INFO ] 2025-06-12 21:57:45.658 [main] BaseTest - Initializing Brave browser
+{INFO ] 2025-06-12 21:57:46.856 [main] BaseTest - Navigating to base URL: https://www.rophim.me/
+{INFO ] 2025-06-12 21:58:00.151 [main] BaseTest - Starting test: Verify successful login
+{INFO ] 2025-06-12 21:58:02.343 [main] BaseTest - Initializing Brave browser
+{INFO ] 2025-06-12 21:58:03.092 [main] BaseTest - Navigating to base URL: https://www.rophim.me/
+{INFO ] 2025-06-12 21:58:15.581 [main] BaseTest - Starting test: Verify Filter Nation Movie
+{INFO ] 2025-08-12 09:49:11.992 [main] RegisterTest - TC-RG-03: Kiểm tra đăng kí thành công với nhấn Enter
+{INFO ] 2025-08-12 09:49:12.005 [main] RegisterTest - Nhập thông tin đăng ký
+{INFO ] 2025-08-12 09:49:12.112 [main] RegisterTest - Chọn nhóm GP05
+{INFO ] 2025-08-12 09:55:52.477 [main] LoginTest - TC-LG-03: Kiểm tra đăng nhập với nhấn nút Enter
+{INFO ] 2025-08-12 09:55:52.527 [main] LoginTest - Kiểm tra avatar để xác định đăng nhập thành công
+{ERROR] 2025-08-12 09:55:52.533 [main] LoginTest - Đăng nhập thất bại
+{INFO ] 2025-08-12 10:00:27.137 [main] LoginTest - TC-LG-03: Kiểm tra đăng nhập với nhấn nút Enter
+{INFO ] 2025-08-12 10:00:27.141 [main] LoginTest - Đang ở trang menu
+{INFO ] 2025-08-12 10:03:17.844 [main] LoginTest - TC-LG-03: Kiểm tra đăng nhập với nhấn nút Enter
+{INFO ] 2025-08-12 10:03:17.932 [main] LoginTest - Kiểm tra avatar để xác định đăng nhập thành công
+{ERROR] 2025-08-12 10:03:17.937 [main] LoginTest - Đăng nhập thất bại
+{INFO ] 2025-08-12 10:04:22.940 [main] LoginTest - TC-LG-03: Kiểm tra đăng nhập với nhấn nút Enter
+{INFO ] 2025-08-12 10:04:28.037 [main] LoginTest - Kiểm tra avatar để xác định đăng nhập thành công
+{ERROR] 2025-08-12 10:04:28.051 [main] LoginTest - Đăng nhập thất bại
+{INFO ] 2025-08-12 10:05:26.614 [main] LoginTest - TC-LG-03: Kiểm tra đăng nhập với nhấn nút Enter
+{INFO ] 2025-08-12 10:05:59.434 [main] LoginTest - TC-LG-03: Kiểm tra đăng nhập với nhấn nút Enter
+{INFO ] 2025-08-12 10:14:20.128 [main] LoginTest - TC-LG-03: Kiểm tra đăng nhập với nhấn nút Enter
+{INFO ] 2025-08-12 10:27:13.466 [main] LoginTest - TC-LG-03: Kiểm tra đăng nhập với nhấn nút Enter
+{INFO ] 2025-08-12 10:27:16.393 [main] LoginTest - Kiểm tra avatar để xác định đăng nhập thành công
+{WARN ] 2025-08-12 10:27:16.408 [main] LoginTest - Login thất bại
+{INFO ] 2025-08-12 10:29:08.812 [main] LoginTest - TC-LG-03: Kiểm tra đăng nhập với nhấn nút Enter
+{INFO ] 2025-08-12 10:29:11.908 [main] LoginTest - Kiểm tra avatar để xác định đăng nhập thành công
+{INFO ] 2025-08-12 10:31:32.277 [main] LoginTest - TC-LG-03: Kiểm tra đăng nhập với nhấn nút Enter
+{INFO ] 2025-08-12 10:33:06.417 [main] LoginTest - TC-LG-03: Kiểm tra đăng nhập với nhấn nút Enter
+{INFO ] 2025-08-12 10:33:09.481 [main] LoginTest - Login thành công
+{INFO ] 2025-08-12 10:57:36.602 [main] LoginTest - TC-LG-03: Kiểm tra đăng nhập với nhấn nút Enter
+{INFO ] 2025-08-12 10:57:38.697 [main] LoginTest - URL hiện tại sau khi click: https://demo2.cybersoft.edu.vn/login#
+{WARN ] 2025-08-12 10:57:38.701 [main] LoginTest - Chức năng quên mật khẩu chưa hoạt động hoặc đang clone
+{INFO ] 2025-08-12 11:19:20.995 [main] LoginTest - TC-LG-16: Kiểm tra truy cập màn hình Login từ Menu
+{INFO ] 2025-08-12 11:19:25.552 [main] LoginTest - URL sau khi click: https://demo2.cybersoft.edu.vn/
+{ERROR] 2025-08-12 11:19:25.560 [main] LoginTest - Không điều hướng được sang màn hình đăng nhập
+{INFO ] 2025-08-12 11:22:55.695 [main] LoginTest - TC-LG-16: Kiểm tra truy cập màn hình Login từ Menu
+{INFO ] 2025-08-12 11:29:04.986 [main] LoginTest - TC-LG-16: Kiểm tra truy cập màn hình Login từ Menu
+{INFO ] 2025-08-12 11:29:07.105 [main] LoginTest - URL sau khi click: https://demo2.cybersoft.edu.vn/login
+{INFO ] 2025-08-12 11:29:07.105 [main] LoginTest - Điều hướng sang màn hình đăng nhập thành công
+{INFO ] 2025-08-12 11:44:56.477 [main] LoginTest - TC-LG-16: Kiểm tra truy cập màn hình Login từ Menu
+{INFO ] 2025-08-12 12:24:25.435 [main] LoginTest - TC-LG-03: Kiểm tra đăng nhập với nhấn nút Enter
+{INFO ] 2025-08-12 12:24:27.747 [main] LoginTest - URL hiện tại sau khi click: https://demo2.cybersoft.edu.vn/login#
+{WARN ] 2025-08-12 12:24:27.753 [main] LoginTest - Chức năng quên mật khẩu chưa hoạt động hoặc đang clone
+{INFO ] 2025-08-12 12:26:01.216 [main] LoginTest - TC-LG-16: Kiểm tra truy cập màn hình Login từ Menu
+{INFO ] 2025-08-12 12:30:25.891 [main] LoginTest - TC-LG-01: Kiểm tra đăng nhập với button "Đăng Nhập"
+{INFO ] 2025-08-12 12:31:49.025 [main] LoginTest - TC-LG-03: Kiểm tra đăng nhập với nhấn nút Enter
+{INFO ] 2025-08-12 12:32:00.482 [main] LoginTest - Kiểm tra login thành công chưa
+{INFO ] 2025-08-12 12:32:00.499 [main] LoginTest - Login thành công
+{INFO ] 2025-08-12 12:32:22.286 [main] LoginTest - TC-LG-01: Kiểm tra đăng nhập với button "Đăng Nhập"
+{INFO ] 2025-08-12 12:32:29.634 [main] LoginTest - Kiểm tra login thành công chưa
+{INFO ] 2025-08-12 12:37:17.183 [main] LoginTest - TC-LG-16: Kiểm tra truy cập màn hình Login từ Menu
+{WARN ] 2025-08-12 12:37:17.217 [main] LoginTest - Nút Đăng nhập không tương tác được
+{INFO ] 2025-08-12 12:46:50.203 [main] LoginTest - TC-LG-13: Kiểm tra giới hạn nhập sai
+{INFO ] 2025-08-12 12:46:57.308 [main] LoginTest - Lần nhập sai thứ 1
+{INFO ] 2025-08-12 12:47:02.419 [main] LoginTest - Lần nhập sai thứ 2
+{INFO ] 2025-08-12 12:47:07.496 [main] LoginTest - Lần nhập sai thứ 3
+{INFO ] 2025-08-12 12:47:12.579 [main] LoginTest - Lần nhập sai thứ 4
+{INFO ] 2025-08-12 12:47:17.653 [main] LoginTest - URL hiện tại: https://demo2.cybersoft.edu.vn/login
+{WARN ] 2025-08-12 12:47:17.654 [main] LoginTest - Hiện chưa có cơ chế xử lý người dùng nhập sai
+{INFO ] 2025-08-12 12:54:31.584 [main] LoginTest - TC-LG-14: Kiểm tra điều hướng đến Register
+{INFO ] 2025-08-12 12:54:34.232 [main] LoginTest - Đã click vào nút điều hướng đến trang đăng ký
+{INFO ] 2025-08-12 12:54:34.237 [main] LoginTest - Đã điều hướng đến Register thành công
+{INFO ] 2025-08-12 13:10:00.261 [main] LoginTest - TC-LG-7,8,9,13: Kiểm tra giới hạn nhập sai
+{INFO ] 2025-08-12 13:10:09.383 [main] LoginTest - Lần nhập sai thứ 1
+{INFO ] 2025-08-12 13:10:14.499 [main] LoginTest - Lần nhập sai thứ 2
+{INFO ] 2025-08-12 13:10:19.574 [main] LoginTest - Lần nhập sai thứ 3
+{INFO ] 2025-08-12 13:10:24.654 [main] LoginTest - URL hiện tại: https://demo2.cybersoft.edu.vn/login
+{WARN ] 2025-08-12 13:10:24.655 [main] LoginTest - Hiện chưa có cơ chế xử lý người dùng nhập sai
+{INFO ] 2025-08-12 13:18:13.870 [main] LoginTest - TC-LG-7,8,9,13: Kiểm tra giới hạn nhập sai
+{INFO ] 2025-08-12 13:18:17.512 [main] LoginTest - Kiểm tra không nhập dữ liệu
+{WARN ] 2025-08-12 13:18:18.598 [main] LoginTest - Không hiển thị cảnh báo khi không nhập dữ liệu
+{INFO ] 2025-08-12 13:18:18.599 [main] LoginTest - Lần nhập sai thứ 1
+{INFO ] 2025-08-12 13:18:23.685 [main] LoginTest - Lần nhập sai thứ 2
+{INFO ] 2025-08-12 13:18:28.759 [main] LoginTest - Lần nhập sai thứ 3
+{INFO ] 2025-08-12 13:18:33.830 [main] LoginTest - URL hiện tại: https://demo2.cybersoft.edu.vn/login
+{WARN ] 2025-08-12 13:18:33.830 [main] LoginTest - Hiện chưa có cơ chế xử lý người dùng nhập sai
+{INFO ] 2025-08-12 13:57:16.004 [main] RegisterTest - TC-RG-17,18: kiểm tra truy cập màn hình Register bằng url & flow từ Menu
+{ERROR] 2025-08-12 13:57:25.368 [main] RegisterTest - Truy cập bằng url thất bại do url sai hoặc màn hình không tồn tại
+{INFO ] 2025-08-12 13:57:27.981 [main] RegisterTest - Truy cập thành công trang Login
+{INFO ] 2025-08-12 13:57:27.981 [main] RegisterTest - Tiến hành truy cập page Register
+{INFO ] 2025-08-12 13:57:28.060 [main] RegisterTest - Đã truy cập thành công trang Register bằng flow
+{INFO ] 2025-08-12 14:00:35.886 [main] RegisterTest - TC-RG-17,18: kiểm tra truy cập màn hình Register bằng url & flow từ Menu
+{ERROR] 2025-08-12 14:00:39.614 [main] RegisterTest - Truy cập bằng URL thất bại do URL sai hoặc màn hình không tồn tại
+{INFO ] 2025-08-12 14:01:58.722 [main] RegisterTest - TC-RG-17,18: kiểm tra truy cập màn hình Register bằng url & flow từ Menu
+{ERROR] 2025-08-12 14:02:09.887 [main] RegisterTest - Truy cập bằng url thất bại do url sai hoặc màn hình không tồn tại
+{INFO ] 2025-08-12 14:06:12.738 [main] RegisterTest - TC-RG-17,18: kiểm tra truy cập màn hình Register bằng url & flow từ Menu
+{ERROR] 2025-08-12 14:06:20.607 [main] RegisterTest - Truy cập bằng url thất bại do url sai hoặc màn hình không tồn tại
+{INFO ] 2025-08-12 14:08:01.479 [main] RegisterTest - TC-RG-17,18: kiểm tra truy cập màn hình Register bằng url & flow từ Menu
+{ERROR] 2025-08-12 14:08:05.320 [main] RegisterTest - Truy cập bằng url thất bại do url sai hoặc màn hình không tồn tại
+{INFO ] 2025-08-12 14:09:32.771 [main] RegisterTest - TC-RG-17,18: kiểm tra truy cập màn hình Register bằng url & flow từ Menu
+{ERROR] 2025-08-12 14:09:37.977 [main] RegisterTest - Truy cập bằng url thất bại do url sai hoặc màn hình không tồn tại
+{INFO ] 2025-08-12 14:12:27.910 [main] RegisterTest - TC-RG-17,18: Kiểm tra truy cập màn hình Register bằng URL & flow từ Menu
+{ERROR] 2025-08-12 14:12:37.507 [main] RegisterTest - Truy cập bằng URL thất bại do URL sai hoặc màn hình không tồn tại
+{INFO ] 2025-08-12 14:18:26.521 [main] RegisterTest - TC-RG-17,18: Kiểm tra truy cập màn hình Register bằng URL & flow từ Menu
+{ERROR] 2025-08-12 14:18:29.909 [main] RegisterTest - Truy cập bằng URL thất bại do màn hình không tồn tại
+{INFO ] 2025-08-12 14:18:32.270 [main] RegisterTest - Truy cập thành công trang Login
+{INFO ] 2025-08-12 14:18:32.270 [main] RegisterTest - Tiến hành truy cập trang Register
+{INFO ] 2025-08-12 14:18:33.322 [main] RegisterTest - Đã truy cập thành công trang Register bằng flow
+{INFO ] 2025-08-12 14:19:32.715 [main] RegisterTest - TC-RG-17,18: Kiểm tra truy cập màn hình Register bằng URL & flow từ Menu
+{INFO ] 2025-08-12 14:19:38.057 [main] RegisterTest - Truy cập thành công trang Login
+{INFO ] 2025-08-12 14:19:38.057 [main] RegisterTest - Tiến hành truy cập trang Register
+{INFO ] 2025-08-12 14:19:39.096 [main] RegisterTest - Đã truy cập thành công trang Register bằng flow
+{INFO ] 2025-08-12 14:24:01.460 [main] LoginTest - TC-LG-16: Kiểm tra truy cập màn hình Login từ Menu
+{INFO ] 2025-08-12 14:24:04.357 [main] LoginTest - Đã click vào nút Đăng nhập
+{INFO ] 2025-08-12 14:24:06.361 [main] LoginTest - URL sau khi click: https://demo2.cybersoft.edu.vn/login
+{INFO ] 2025-08-12 14:24:06.365 [main] LoginTest - Điều hướng sang màn hình đăng nhập thành công
+{INFO ] 2025-08-12 14:36:13.990 [main] RegisterTest - TC-RG-01: Kiểm tra đăng kí thành công với click button "Đăng ký"
+{INFO ] 2025-08-12 14:36:13.995 [main] RegisterTest - Nhập thông tin đăng ký
+{INFO ] 2025-08-12 14:46:00.738 [main] RegisterTest - TC-RG-01: Kiểm tra đăng kí thành công với click button "Đăng ký"
+{INFO ] 2025-08-12 14:53:13.229 [main] RegisterTest - TC-RG-01: Kiểm tra đăng kí thành công với click button "Đăng ký"
+{INFO ] 2025-08-12 14:53:19.420 [main] RegisterTest - Đã chuyển sang trang đăng ký
+{INFO ] 2025-08-12 14:53:19.420 [main] RegisterTest - Nhập thông tin đăng ký
+{INFO ] 2025-08-12 14:53:19.509 [main] RegisterTest - Chọn nhóm GP04
+{ERROR] 2025-08-12 14:53:49.558 [main] RegisterTest - Lỗi trong quá trình đăng ký và xác minh: Error {
+  message='Timeout 30000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 30000ms exceeded.
+    at ProgressController.run (C:\Users\minht\AppData\Local\Temp\playwright-java-8772419601724034781\package\lib\server\progress.js:76:26)
+    at Frame.click (C:\Users\minht\AppData\Local\Temp\playwright-java-8772419601724034781\package\lib\server\frames.js:959:23)
+    at FrameDispatcher.click (C:\Users\minht\AppData\Local\Temp\playwright-java-8772419601724034781\package\lib\server\dispatchers\frameDispatcher.js:117:30)
+    at FrameDispatcher._handleCommand (C:\Users\minht\AppData\Local\Temp\playwright-java-8772419601724034781\package\lib\server\dispatchers\dispatcher.js:88:40)
+    at DispatcherConnection.dispatch (C:\Users\minht\AppData\Local\Temp\playwright-java-8772419601724034781\package\lib\server\dispatchers\dispatcher.js:309:39)
+}
+Call log:
+-   - waiting for locator("//select[@name=\"maNhom\"]//option[@value=\"GP04\"]")
+-     - locator resolved to <option value="GP04">GP04</option>
+-   - attempting click action
+-     2 × waiting for element to be visible, enabled and stable
+-       - element is not visible
+-     - retrying click action
+-     - waiting 20ms
+-     2 × waiting for element to be visible, enabled and stable
+-       - element is not visible
+-     - retrying click action
+-       - waiting 100ms
+-     58 × waiting for element to be visible, enabled and stable
+-        - element is not visible
+-      - retrying click action
+-        - waiting 500ms
+
+{INFO ] 2025-08-12 14:56:59.588 [main] RegisterTest - TC-RG-01: Kiểm tra đăng kí thành công với click button "Đăng ký"
+{INFO ] 2025-08-12 14:57:15.386 [main] RegisterTest - Đã chuyển sang trang đăng ký
+{INFO ] 2025-08-12 14:57:15.386 [main] RegisterTest - Nhập thông tin đăng ký
+{INFO ] 2025-08-12 14:57:15.475 [main] RegisterTest - Chọn nhóm GP04
+{INFO ] 2025-08-12 14:57:15.519 [main] RegisterTest - Click nút Đăng ký
+{INFO ] 2025-08-12 14:57:24.607 [main] RegisterTest - Đã tới trang đăng nhập
+{ERROR] 2025-08-12 14:57:26.748 [main] RegisterTest - Lỗi trong quá trình đăng ký và xác minh: Error {
+  message='net::ERR_ABORTED at https://demo2.cybersoft.edu.vn/thongtincanhan
+  name='Error
+  stack='Error: net::ERR_ABORTED at https://demo2.cybersoft.edu.vn/thongtincanhan
+    at FrameSession._navigate (C:\Users\minht\AppData\Local\Temp\playwright-java-12836748242392139290\package\lib\server\chromium\crPage.js:490:13)
+    at runNextTicks (node:internal/process/task_queues:65:5)
+    at process.processImmediate (node:internal/timers:453:9)
+    at async Frame._gotoAction (C:\Users\minht\AppData\Local\Temp\playwright-java-12836748242392139290\package\lib\server\frames.js:518:28)
+}
+Call log:
+-   - navigating to "https://demo2.cybersoft.edu.vn/thongtincanhan", waiting until "load"
+
+{INFO ] 2025-08-12 15:17:36.274 [main] RegisterTest - TC-RG-01: Kiểm tra đăng kí thành công với click button "Đăng ký"
+{INFO ] 2025-08-12 15:17:47.936 [main] RegisterTest - Đã chuyển sang trang đăng ký
+{INFO ] 2025-08-12 15:17:47.936 [main] RegisterTest - Nhập thông tin đăng ký
+{INFO ] 2025-08-12 15:17:48.021 [main] RegisterTest - Chọn nhóm GP04
+{INFO ] 2025-08-12 15:17:48.035 [main] RegisterTest - Click nút Đăng ký
+{INFO ] 2025-08-12 15:17:57.102 [main] RegisterTest - Đã tới trang đăng nhập
+{INFO ] 2025-08-12 15:18:05.447 [main] RegisterTest - Kiểm tra login thành công chưa
+{INFO ] 2025-08-12 15:18:05.460 [main] RegisterTest - Login thành công sau khi đăng ký
+{INFO ] 2025-08-12 15:30:38.309 [main] RegisterTest - TC-RG-06: Kiểm tra điều hướng đến trang Login
+{INFO ] 2025-08-12 15:30:53.988 [main] RegisterTest - Đã click vào nút điều hướng đến trang Register
+{INFO ] 2025-08-12 15:30:53.992 [main] RegisterTest - Đã điều hướng đến Register thành công
+{INFO ] 2025-08-12 15:30:53.992 [main] RegisterTest - Đang ở trang Register
+{INFO ] 2025-08-12 15:30:53.992 [main] RegisterTest - Điều hướng đến trang login
+{INFO ] 2025-08-12 15:30:54.850 [main] RegisterTest - Đã click vào nút điều hướng đến trang Login
+{INFO ] 2025-08-12 15:30:54.853 [main] RegisterTest - Đã điều hướng đến Login thành công
+{INFO ] 2025-08-12 15:30:54.853 [main] RegisterTest - Đang ở trang Login
+{INFO ] 2025-08-12 15:56:16.878 [main] RegisterTest - TC-RG-8-13: Kiểm tra Register với 0 data và data sai + username trùng
+{INFO ] 2025-08-12 15:56:24.300 [main] RegisterTest - Đã chuyển sang trang đăng ký
+{INFO ] 2025-08-12 15:56:24.300 [main] RegisterTest - ===== Case 1: Không nhập dữ liệu =====
+{INFO ] 2025-08-12 15:56:26.370 [main] RegisterTest - Lỗi: Tài khoản không được để trống
+{INFO ] 2025-08-12 15:56:26.370 [main] RegisterTest - Lỗi: Tên không được để trống
+{INFO ] 2025-08-12 15:56:26.370 [main] RegisterTest - Lỗi: Tài khoản không được để trống
+{INFO ] 2025-08-12 15:56:26.370 [main] RegisterTest - Lỗi: Email không được để trống
+{INFO ] 2025-08-12 15:56:26.370 [main] RegisterTest - Lỗi: Số điện thoại không được để trống
+{INFO ] 2025-08-12 15:56:26.376 [main] RegisterTest - Nút ĐĂNG KÝ disable? false
+{INFO ] 2025-08-12 15:56:26.376 [main] RegisterTest - ===== Case 2: Nhập data sai định dạng =====
+{INFO ] 2025-08-12 15:56:28.500 [main] RegisterTest - Hiển thị đúng lỗi: Chỉ nhập kí tự chữ
+{INFO ] 2025-08-12 15:56:28.503 [main] RegisterTest - Hiển thị đúng lỗi: Mật khẩu phải ít nhất 8 tự gồm chữ, số, và kí tự đặc biệt
+{INFO ] 2025-08-12 15:56:28.508 [main] RegisterTest - Hiển thị đúng lỗi: Email không hợp lệ
+{ERROR] 2025-08-12 15:56:28.513 [main] RegisterTest - Không tìm thấy lỗi mong đợi: Số điện thoại chưa đúng định dạng
+{INFO ] 2025-08-12 15:56:28.513 [main] RegisterTest - ===== Tiếp tục nhập dữ liệu hợp lệ nhưng username trùng =====
+{ERROR] 2025-08-12 15:56:33.634 [main] RegisterTest - Lỗi trong quá trình kiểm tra đăng ký: Error {
+  message='Timeout 5000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 5000ms exceeded.
+    at ProgressController.run (C:\Users\minht\AppData\Local\Temp\playwright-java-16365119840968724585\package\lib\server\progress.js:76:26)
+    at Frame.waitForSelector (C:\Users\minht\AppData\Local\Temp\playwright-java-16365119840968724585\package\lib\server\frames.js:615:23)
+    at FrameDispatcher.waitForSelector (C:\Users\minht\AppData\Local\Temp\playwright-java-16365119840968724585\package\lib\server\dispatchers\frameDispatcher.js:82:116)
+    at FrameDispatcher._handleCommand (C:\Users\minht\AppData\Local\Temp\playwright-java-16365119840968724585\package\lib\server\dispatchers\dispatcher.js:88:40)
+    at DispatcherConnection.dispatch (C:\Users\minht\AppData\Local\Temp\playwright-java-16365119840968724585\package\lib\server\dispatchers\dispatcher.js:309:39)
+}
+Call log:
+-   - waiting for locator("text=/tài khoản đã tồn tại|username đã có sẵn/i") to be visible
+
+{INFO ] 2025-08-12 15:58:54.426 [main] RegisterTest - TC-RG-8-13: Kiểm tra Register với 0 data và full data sai (bao gồm username trùng)
+{INFO ] 2025-08-12 15:58:59.459 [main] RegisterTest - Đã chuyển sang trang đăng ký
+{INFO ] 2025-08-12 15:58:59.459 [main] RegisterTest - ===== CASE 1: Không nhập dữ liệu =====
+{INFO ] 2025-08-12 15:59:01.526 [main] RegisterTest - Lỗi: Tài khoản không được để trống
+{INFO ] 2025-08-12 15:59:01.526 [main] RegisterTest - Lỗi: Tên không được để trống
+{INFO ] 2025-08-12 15:59:01.527 [main] RegisterTest - Lỗi: Tài khoản không được để trống
+{INFO ] 2025-08-12 15:59:01.527 [main] RegisterTest - Lỗi: Email không được để trống
+{INFO ] 2025-08-12 15:59:01.527 [main] RegisterTest - Lỗi: Số điện thoại không được để trống
+{INFO ] 2025-08-12 15:59:01.527 [main] RegisterTest - ===== CASE 2: Full data sai định dạng + username trùng =====
+{ERROR] 2025-08-12 15:59:03.673 [main] RegisterTest - Không tìm thấy lỗi mong đợi: username đã có sẵn
+{INFO ] 2025-08-12 15:59:03.677 [main] RegisterTest - Hiển thị đúng lỗi: Chỉ nhập kí tự chữ
+{INFO ] 2025-08-12 15:59:03.680 [main] RegisterTest - Hiển thị đúng lỗi: Mật khẩu phải ít nhất 8 tự gồm chữ, số, và kí tự đặc biệt
+{INFO ] 2025-08-12 15:59:03.684 [main] RegisterTest - Hiển thị đúng lỗi: Email không hợp lệ
+{ERROR] 2025-08-12 15:59:03.687 [main] RegisterTest - Không tìm thấy lỗi mong đợi: Số điện thoại chưa đúng định dạng
+{INFO ] 2025-08-12 16:00:26.563 [main] RegisterTest - TC-RG-8-13: Kiểm tra Register với 0 data và full data sai (bao gồm username trùng)
+{INFO ] 2025-08-12 16:00:32.031 [main] RegisterTest - Đã chuyển sang trang đăng ký
+{INFO ] 2025-08-12 16:00:32.031 [main] RegisterTest - ===== CASE 1: Không nhập dữ liệu =====
+{INFO ] 2025-08-12 16:00:34.089 [main] RegisterTest - Lỗi: Tài khoản không được để trống
+{INFO ] 2025-08-12 16:00:34.089 [main] RegisterTest - Lỗi: Tên không được để trống
+{INFO ] 2025-08-12 16:00:34.090 [main] RegisterTest - Lỗi: Tài khoản không được để trống
+{INFO ] 2025-08-12 16:00:34.090 [main] RegisterTest - Lỗi: Email không được để trống
+{INFO ] 2025-08-12 16:00:34.090 [main] RegisterTest - Lỗi: Số điện thoại không được để trống
+{INFO ] 2025-08-12 16:00:34.090 [main] RegisterTest - ===== CASE 2: Full data sai định dạng + username trùng =====
+{ERROR] 2025-08-12 16:00:36.242 [main] RegisterTest - Không tìm thấy lỗi mong đợi: username đã có sẵn
+{INFO ] 2025-08-12 16:00:36.246 [main] RegisterTest - Hiển thị đúng lỗi: Chỉ nhập kí tự chữ
+{INFO ] 2025-08-12 16:00:36.249 [main] RegisterTest - Hiển thị đúng lỗi: Mật khẩu phải ít nhất 8 tự gồm chữ, số, và kí tự đặc biệt
+{INFO ] 2025-08-12 16:00:36.253 [main] RegisterTest - Hiển thị đúng lỗi: Email không hợp lệ
+{ERROR] 2025-08-12 16:00:36.256 [main] RegisterTest - Không tìm thấy lỗi mong đợi: Số điện thoại chưa đúng định dạng
+{INFO ] 2025-08-12 16:01:30.949 [main] RegisterTest - TC-RG-8-13: Kiểm tra Register với 0 data và full data sai (bao gồm username trùng)
+{INFO ] 2025-08-12 16:01:37.109 [main] RegisterTest - Đã chuyển sang trang đăng ký
+{INFO ] 2025-08-12 16:01:37.109 [main] RegisterTest - ===== CASE 1: Không nhập dữ liệu =====
+{INFO ] 2025-08-12 16:01:39.179 [main] RegisterTest - Lỗi: Tài khoản không được để trống
+{INFO ] 2025-08-12 16:01:39.179 [main] RegisterTest - Lỗi: Tên không được để trống
+{INFO ] 2025-08-12 16:01:39.180 [main] RegisterTest - Lỗi: Tài khoản không được để trống
+{INFO ] 2025-08-12 16:01:39.180 [main] RegisterTest - Lỗi: Email không được để trống
+{INFO ] 2025-08-12 16:01:39.180 [main] RegisterTest - Lỗi: Số điện thoại không được để trống
+{INFO ] 2025-08-12 16:01:39.180 [main] RegisterTest - ===== CASE 2: Full data sai định dạng + username trùng =====
+{ERROR] 2025-08-12 16:01:41.329 [main] RegisterTest - Không tìm thấy lỗi mong đợi: username đã có sẵn
+{INFO ] 2025-08-12 16:01:41.332 [main] RegisterTest - Hiển thị đúng lỗi: Chỉ nhập kí tự chữ
+{INFO ] 2025-08-12 16:01:41.336 [main] RegisterTest - Hiển thị đúng lỗi: Mật khẩu phải ít nhất 8 tự gồm chữ, số, và kí tự đặc biệt
+{INFO ] 2025-08-12 16:01:41.339 [main] RegisterTest - Hiển thị đúng lỗi: Email không hợp lệ
+{ERROR] 2025-08-12 16:01:41.343 [main] RegisterTest - Không tìm thấy lỗi mong đợi: Số điện thoại chưa đúng định dạng
+{INFO ] 2025-08-12 16:03:10.645 [main] RegisterTest - TC-RG-8-13: Kiểm tra Register với 0 data và full data sai (bao gồm username trùng)
+{INFO ] 2025-08-12 16:03:16.878 [main] RegisterTest - Đã chuyển sang trang đăng ký
+{INFO ] 2025-08-12 16:03:16.879 [main] RegisterTest - ===== CASE 1: Không nhập dữ liệu =====
+{INFO ] 2025-08-12 16:03:18.964 [main] RegisterTest - Lỗi: Tài khoản không được để trống
+{INFO ] 2025-08-12 16:03:18.964 [main] RegisterTest - Lỗi: Tên không được để trống
+{INFO ] 2025-08-12 16:03:18.964 [main] RegisterTest - Lỗi: Tài khoản không được để trống
+{INFO ] 2025-08-12 16:03:18.965 [main] RegisterTest - Lỗi: Email không được để trống
+{INFO ] 2025-08-12 16:03:18.965 [main] RegisterTest - Lỗi: Số điện thoại không được để trống
+{INFO ] 2025-08-12 16:03:18.965 [main] RegisterTest - ===== CASE 2: Full data sai định dạng + username trùng =====
+{ERROR] 2025-08-12 16:03:21.135 [main] RegisterTest - Không tìm thấy lỗi mong đợi: username đã có sẵn
+{INFO ] 2025-08-12 16:03:21.139 [main] RegisterTest - Hiển thị đúng lỗi: Chỉ nhập kí tự chữ
+{INFO ] 2025-08-12 16:03:21.142 [main] RegisterTest - Hiển thị đúng lỗi: Mật khẩu phải ít nhất 8 tự gồm chữ, số, và kí tự đặc biệt
+{INFO ] 2025-08-12 16:03:21.146 [main] RegisterTest - Hiển thị đúng lỗi: Email không hợp lệ
+{ERROR] 2025-08-12 16:03:21.148 [main] RegisterTest - Không tìm thấy lỗi mong đợi: Số điện thoại chưa đúng định dạng
+{INFO ] 2025-08-12 16:05:55.332 [main] RegisterTest - TC-RG-8-13: Kiểm tra Register với 0 data và full data sai (bao gồm username trùng)
+{INFO ] 2025-08-12 16:06:00.568 [main] RegisterTest - Đã chuyển sang trang đăng ký
+{INFO ] 2025-08-12 16:06:00.569 [main] RegisterTest - ===== CASE 1: Không nhập dữ liệu =====
+{INFO ] 2025-08-12 16:06:02.625 [main] RegisterTest - Lỗi: Tài khoản không được để trống
+{INFO ] 2025-08-12 16:06:02.626 [main] RegisterTest - Lỗi: Tên không được để trống
+{INFO ] 2025-08-12 16:06:02.626 [main] RegisterTest - Lỗi: Tài khoản không được để trống
+{INFO ] 2025-08-12 16:06:02.626 [main] RegisterTest - Lỗi: Email không được để trống
+{INFO ] 2025-08-12 16:06:02.626 [main] RegisterTest - Lỗi: Số điện thoại không được để trống
+{INFO ] 2025-08-12 16:06:02.626 [main] RegisterTest - ===== CASE 2: Full data sai định dạng + username trùng =====
+{ERROR] 2025-08-12 16:06:07.787 [main] RegisterTest - Không tìm thấy lỗi mong đợi: username đã có sẵn
+{INFO ] 2025-08-12 16:06:07.797 [main] RegisterTest - Hiển thị đúng lỗi: Chỉ nhập kí tự chữ
+{INFO ] 2025-08-12 16:06:07.805 [main] RegisterTest - Hiển thị đúng lỗi: Mật khẩu phải ít nhất 8 tự gồm chữ, số, và kí tự đặc biệt
+{INFO ] 2025-08-12 16:06:07.824 [main] RegisterTest - Hiển thị đúng lỗi: Email không hợp lệ
+{ERROR] 2025-08-12 16:06:10.830 [main] RegisterTest - Không tìm thấy lỗi mong đợi: Số điện thoại chưa đúng định dạng
+{INFO ] 2025-08-12 16:38:06.570 [main] LoginTest - TC-LG-14: Kiểm tra điều hướng đến Register
+{INFO ] 2025-08-12 16:38:15.988 [main] LoginTest - Đã click vào nút điều hướng đến trang đăng ký
+{INFO ] 2025-08-12 16:38:15.992 [main] LoginTest - Đã điều hướng đến Register thành công
+{INFO ] 2025-08-12 16:38:36.396 [main] LoginTest - TC-LG-7,8,9,13: Kiểm tra giới hạn nhập sai
+{INFO ] 2025-08-12 16:38:39.300 [main] LoginTest - Kiểm tra không nhập dữ liệu
+{WARN ] 2025-08-12 16:38:40.383 [main] LoginTest - Không hiển thị cảnh báo khi không nhập dữ liệu
+{INFO ] 2025-08-12 16:38:40.383 [main] LoginTest - Lần nhập sai thứ 1
+{INFO ] 2025-08-12 16:38:45.461 [main] LoginTest - Lần nhập sai thứ 2
+{INFO ] 2025-08-12 16:38:50.541 [main] LoginTest - Lần nhập sai thứ 3
+{INFO ] 2025-08-12 16:38:55.614 [main] LoginTest - URL hiện tại: https://demo2.cybersoft.edu.vn/login
+{WARN ] 2025-08-12 16:38:55.614 [main] LoginTest - Hiện chưa có cơ chế xử lý người dùng nhập sai
+{INFO ] 2025-08-12 16:39:13.432 [main] LoginTest - TC-LG-16: Kiểm tra truy cập màn hình Login từ Menu
+{INFO ] 2025-08-12 16:39:16.693 [main] LoginTest - Đã click vào nút Đăng nhập
+{INFO ] 2025-08-12 16:39:18.698 [main] LoginTest - URL sau khi click: https://demo2.cybersoft.edu.vn/login
+{INFO ] 2025-08-12 16:39:18.701 [main] LoginTest - Điều hướng sang màn hình đăng nhập thành công
+{INFO ] 2025-08-12 16:39:38.314 [main] LoginTest - TC-LG-03: Kiểm tra đăng nhập với nhấn nút Enter
+{INFO ] 2025-08-12 16:39:43.399 [main] LoginTest - URL hiện tại sau khi click: https://demo2.cybersoft.edu.vn/login#
+{WARN ] 2025-08-12 16:39:43.404 [main] LoginTest - Chức năng quên mật khẩu chưa hoạt động hoặc đang clone
+{INFO ] 2025-08-12 16:40:00.984 [main] LoginTest - TC-LG-03: Kiểm tra đăng nhập với nhấn nút Enter
+{INFO ] 2025-08-12 16:40:06.979 [main] LoginTest - Kiểm tra login thành công chưa
+{INFO ] 2025-08-12 16:40:06.995 [main] LoginTest - Login thành công
+{INFO ] 2025-08-12 16:40:24.751 [main] LoginTest - TC-LG-01: Kiểm tra đăng nhập với button "Đăng Nhập"
+{INFO ] 2025-08-12 16:40:30.212 [main] LoginTest - Kiểm tra login thành công chưa
+{INFO ] 2025-08-12 16:41:37.167 [main] LoginTest - TC-LG-01: Kiểm tra đăng nhập với button "Đăng Nhập"
+{INFO ] 2025-08-12 16:41:41.562 [main] LoginTest - Kiểm tra login thành công chưa
+{INFO ] 2025-08-12 16:42:12.849 [main] LoginTest - TC-LG-01: Kiểm tra đăng nhập với button "Đăng Nhập"
+{INFO ] 2025-08-12 16:42:20.974 [main] LoginTest - Kiểm tra login thành công chưa
+{INFO ] 2025-08-12 16:42:41.351 [main] LoginTest - TC-LG-03: Kiểm tra đăng nhập với nhấn nút Enter
+{INFO ] 2025-08-12 16:42:50.728 [main] LoginTest - Kiểm tra login thành công chưa
+{INFO ] 2025-08-12 16:42:50.745 [main] LoginTest - Login thành công
+{INFO ] 2025-08-12 16:44:48.712 [main] LoginTest - TC-LG-01: Kiểm tra đăng nhập với nhấn Button "Đăng Nhập"
+{INFO ] 2025-08-12 16:44:57.010 [main] LoginTest - Kiểm tra login thành công chưa
+{INFO ] 2025-08-12 16:45:22.781 [main] LoginTest - TC-LG-01: Kiểm tra đăng nhập với nhấn Button "Đăng Nhập"
+{INFO ] 2025-08-12 16:45:33.224 [main] LoginTest - Kiểm tra login thành công chưa
+{INFO ] 2025-08-12 16:45:33.239 [main] LoginTest - Login thành công
+{INFO ] 2025-08-12 16:45:50.994 [main] RegisterTest - TC-RG-17,18: Kiểm tra truy cập màn hình Register bằng URL & flow từ Menu
+{ERROR] 2025-08-12 16:46:00.369 [main] RegisterTest - Truy cập bằng URL thất bại do màn hình không tồn tại
+{INFO ] 2025-08-12 16:46:02.685 [main] RegisterTest - Truy cập thành công trang Login
+{INFO ] 2025-08-12 16:46:02.685 [main] RegisterTest - Tiến hành truy cập trang Register
+{INFO ] 2025-08-12 16:46:03.727 [main] RegisterTest - Đã truy cập thành công trang Register bằng flow
+{INFO ] 2025-08-12 16:46:24.918 [main] RegisterTest - TC-RG-01: Kiểm tra đăng kí thành công với click button "Đăng ký"
+{INFO ] 2025-08-12 16:46:30.046 [main] RegisterTest - Đã chuyển sang trang đăng ký
+{INFO ] 2025-08-12 16:46:30.047 [main] RegisterTest - Nhập thông tin đăng ký
+{INFO ] 2025-08-12 16:46:30.134 [main] RegisterTest - Chọn nhóm GP04
+{INFO ] 2025-08-12 16:46:30.147 [main] RegisterTest - Click nút Đăng ký
+{ERROR] 2025-08-12 16:46:35.348 [main] RegisterTest - Lỗi trong quá trình đăng ký và xác minh: Error {
+  message='Target page, context or browser has been closed
+  name='TargetClosedError
+  stack='TargetClosedError:Target page, context or browser has been closed
+Error
+    at captureRawStack (C:\Users\minht\AppData\Local\Temp\playwright-java-8192014687965305136\package\lib\utils\isomorphic\stackTrace.js:32:17)
+    at LongStandingScope._race (C:\Users\minht\AppData\Local\Temp\playwright-java-8192014687965305136\package\lib\utils\isomorphic\manualPromise.js:87:58)
+    at LongStandingScope.race (C:\Users\minht\AppData\Local\Temp\playwright-java-8192014687965305136\package\lib\utils\isomorphic\manualPromise.js:80:17)
+    at FrameDispatcher._handleCommand (C:\Users\minht\AppData\Local\Temp\playwright-java-8192014687965305136\package\lib\server\dispatchers\dispatcher.js:90:36)
+    at DispatcherConnection.dispatch (C:\Users\minht\AppData\Local\Temp\playwright-java-8192014687965305136\package\lib\server\dispatchers\dispatcher.js:309:39)
+}
+{INFO ] 2025-08-13 08:53:13.128 [main] LoginTest - TC-LG-7,8,9,13: Kiểm tra giới hạn nhập sai
+{INFO ] 2025-08-13 08:53:17.120 [main] LoginTest - Kiểm tra không nhập dữ liệu
+{WARN ] 2025-08-13 08:53:18.211 [main] LoginTest - Không hiển thị cảnh báo khi không nhập dữ liệu
+{INFO ] 2025-08-13 08:53:18.212 [main] LoginTest - Lần nhập sai thứ 1
+{INFO ] 2025-08-13 08:53:23.298 [main] LoginTest - Lần nhập sai thứ 2
+{INFO ] 2025-08-13 08:53:28.377 [main] LoginTest - Lần nhập sai thứ 3
+{INFO ] 2025-08-13 08:53:33.460 [main] LoginTest - URL hiện tại: https://demo2.cybersoft.edu.vn/login
+{WARN ] 2025-08-13 08:53:33.461 [main] LoginTest - Hiện chưa có cơ chế xử lý người dùng nhập sai
+{INFO ] 2025-08-13 09:13:24.479 [main] LoginTest - TC-LG-16: Kiểm tra truy cập màn hình Login từ Menu
+{INFO ] 2025-08-13 09:13:28.755 [main] LoginTest - Đã click vào nút Đăng nhập
+{INFO ] 2025-08-13 09:13:30.769 [main] LoginTest - URL sau khi click: https://demo2.cybersoft.edu.vn/login
+{INFO ] 2025-08-13 09:13:30.773 [main] LoginTest - Điều hướng sang màn hình đăng nhập thành công
+{INFO ] 2025-08-13 09:13:34.226 [main] LoginTest - TC-LG-01: Kiểm tra đăng nhập với nhấn Button "Đăng Nhập"
+{INFO ] 2025-08-13 09:13:45.409 [main] LoginTest - Kiểm tra login thành công chưa
+{INFO ] 2025-08-13 09:13:45.424 [main] LoginTest - Login thành công
+{INFO ] 2025-08-13 09:13:48.719 [main] LoginTest - TC-LG-7,8,9,13: Kiểm tra giới hạn nhập sai
+{INFO ] 2025-08-13 09:13:52.708 [main] LoginTest - Kiểm tra không nhập dữ liệu
+{WARN ] 2025-08-13 09:13:53.792 [main] LoginTest - Không hiển thị cảnh báo khi không nhập dữ liệu
+{INFO ] 2025-08-13 09:13:53.792 [main] LoginTest - Lần nhập sai thứ 1
+{INFO ] 2025-08-13 09:13:58.869 [main] LoginTest - Lần nhập sai thứ 2
+{INFO ] 2025-08-13 09:14:03.954 [main] LoginTest - Lần nhập sai thứ 3
+{INFO ] 2025-08-13 09:14:09.023 [main] LoginTest - URL hiện tại: https://demo2.cybersoft.edu.vn/login
+{WARN ] 2025-08-13 09:14:09.023 [main] LoginTest - Hiện chưa có cơ chế xử lý người dùng nhập sai
+{INFO ] 2025-08-13 09:14:12.292 [main] LoginTest - TC-LG-03: Kiểm tra đăng nhập với nhấn nút Enter
+{INFO ] 2025-08-13 09:14:18.185 [main] LoginTest - URL hiện tại sau khi click: https://demo2.cybersoft.edu.vn/login#
+{WARN ] 2025-08-13 09:14:18.189 [main] LoginTest - Chức năng quên mật khẩu chưa hoạt động hoặc đang clone
+{INFO ] 2025-08-13 09:14:21.475 [main] LoginTest - TC-LG-14: Kiểm tra điều hướng đến Register
+{INFO ] 2025-08-13 09:14:24.487 [main] LoginTest - Đã click vào nút điều hướng đến trang đăng ký
+{INFO ] 2025-08-13 09:14:24.491 [main] LoginTest - Đã điều hướng đến Register thành công
+{INFO ] 2025-08-13 09:14:27.762 [main] LoginTest - TC-LG-03: Kiểm tra đăng nhập với nhấn nút Enter
+{INFO ] 2025-08-13 09:14:37.602 [main] LoginTest - Kiểm tra login thành công chưa
+{INFO ] 2025-08-13 09:14:37.617 [main] LoginTest - Login thành công
+{INFO ] 2025-08-13 11:05:53.321 [main] LoginTest - TC-LG-03: Kiểm tra đăng nhập với nhấn nút Enter
+{INFO ] 2025-08-13 11:06:01.984 [main] LoginTest - Kiểm tra login thành công chưa
+{INFO ] 2025-08-13 11:06:02.000 [main] LoginTest - Login thành công
+{INFO ] 2025-08-13 11:06:28.983 [main] LoginTest - TC-LG-03: Kiểm tra đăng nhập với nhấn nút Enter
+{INFO ] 2025-08-13 11:06:37.150 [main] LoginTest - Kiểm tra login thành công chưa
+{INFO ] 2025-08-13 11:06:37.167 [main] LoginTest - Login thành công
+{INFO ] 2025-08-13 11:07:08.296 [main] LoginTest - TC-LG-7,8,9,13: Kiểm tra giới hạn nhập sai
+{INFO ] 2025-08-13 11:07:10.867 [main] LoginTest - Kiểm tra không nhập dữ liệu
+{WARN ] 2025-08-13 11:07:11.952 [main] LoginTest - Không hiển thị cảnh báo khi không nhập dữ liệu
+{INFO ] 2025-08-13 11:07:11.952 [main] LoginTest - Lần nhập sai thứ 1
+{INFO ] 2025-08-13 11:07:17.032 [main] LoginTest - Lần nhập sai thứ 2
+{INFO ] 2025-08-13 11:07:22.114 [main] LoginTest - Lần nhập sai thứ 3
+{INFO ] 2025-08-13 11:07:27.178 [main] LoginTest - URL hiện tại: https://demo2.cybersoft.edu.vn/login
+{WARN ] 2025-08-13 11:07:27.179 [main] LoginTest - Hiện chưa có cơ chế xử lý người dùng nhập sai
+{INFO ] 2025-08-15 08:28:03.055 [main] LoginTest - TC-LG-03: Kiểm tra đăng nhập với nhấn nút Enter
+{INFO ] 2025-08-15 08:28:16.670 [main] LoginTest - Kiểm tra login thành công chưa
+{INFO ] 2025-08-15 08:28:16.683 [main] LoginTest - Login thành công
+{INFO ] 2025-08-15 08:32:07.130 [main] RegisterTest - TC-RG-17,18: Kiểm tra truy cập màn hình Register bằng URL & flow từ Menu
+{ERROR] 2025-08-15 08:32:21.735 [main] RegisterTest - Truy cập bằng URL thất bại do màn hình không tồn tại
+{INFO ] 2025-08-15 08:32:24.539 [main] RegisterTest - Truy cập thành công trang Login
+{INFO ] 2025-08-15 08:32:24.539 [main] RegisterTest - Tiến hành truy cập trang Register
+{INFO ] 2025-08-15 08:32:25.582 [main] RegisterTest - Đã truy cập thành công trang Register bằng flow
+{INFO ] 2025-08-25 15:36:14.827 [main] LoginTest - === Test setup bắt đầu ===
+{INFO ] 2025-08-25 15:36:24.495 [main] LoginTest - Khởi tạo Chromium thành công
+{INFO ] 2025-08-25 15:36:24.866 [main] LoginTest - Context & Page đã khởi tạo, sẵn sàng chạy test
+{INFO ] 2025-08-25 15:36:25.029 [main] LoginPage - Đi tới URL: https://demo5.cybersoft.edu.vn/login
+{INFO ] 2025-08-25 15:36:28.152 [main] LoginPage - Điền text 'tuantest0808@gmail.com' vào element: //*[contains(@id,'email')]
+{INFO ] 2025-08-25 15:36:28.210 [main] LoginPage - Điền text 'Weber080804' vào element: //*[contains(@id,'password')]
+{INFO ] 2025-08-25 15:36:29.242 [main] LoginPage - Click vào element: //*[contains(@type,'submit')]
+{INFO ] 2025-08-25 15:36:36.386 [main] LoginTest - === Test teardown bắt đầu ===
+{INFO ] 2025-08-25 15:36:36.432 [main] LoginTest - Context đóng
+{INFO ] 2025-08-25 15:36:36.628 [main] LoginTest - Browser đóng
+{INFO ] 2025-08-25 15:36:36.640 [main] LoginTest - Playwright đóng
+{INFO ] 2025-08-25 15:36:36.640 [main] LoginTest - === Test teardown hoàn tất ===
+{INFO ] 2025-08-25 16:08:11.554 [main] LoginTest - === Test setup bắt đầu ===
+{INFO ] 2025-08-25 16:08:17.601 [main] LoginTest - Khởi tạo Chromium thành công
+{INFO ] 2025-08-25 16:08:17.818 [main] LoginTest - Context & Page đã khởi tạo, sẵn sàng chạy test
+{INFO ] 2025-08-25 16:08:29.272 [main] LoginTest - === Test teardown bắt đầu ===
+{INFO ] 2025-08-25 16:08:29.312 [main] LoginTest - Context đóng
+{INFO ] 2025-08-25 16:08:29.487 [main] LoginTest - Browser đóng
+{INFO ] 2025-08-25 16:08:29.498 [main] LoginTest - Playwright đóng
+{INFO ] 2025-08-25 16:08:29.498 [main] LoginTest - === Test teardown hoàn tất ===
+{INFO ] 2025-08-25 16:09:02.620 [main] LoginTest - === Test setup bắt đầu ===
+{INFO ] 2025-08-25 16:09:08.471 [main] LoginTest - Khởi tạo Chromium thành công
+{INFO ] 2025-08-25 16:09:08.659 [main] LoginTest - Context & Page đã khởi tạo, sẵn sàng chạy test
+{INFO ] 2025-08-25 16:09:13.566 [main] LoginTest - === Test teardown bắt đầu ===
+{INFO ] 2025-08-25 16:09:13.617 [main] LoginTest - Context đóng
+{INFO ] 2025-08-25 16:09:13.796 [main] LoginTest - Browser đóng
+{INFO ] 2025-08-25 16:09:13.808 [main] LoginTest - Playwright đóng
+{INFO ] 2025-08-25 16:09:13.808 [main] LoginTest - === Test teardown hoàn tất ===
+{INFO ] 2025-08-25 16:11:58.279 [main] LoginTest - === Test setup bắt đầu ===
+{INFO ] 2025-08-25 16:12:04.100 [main] LoginTest - Khởi tạo Chromium thành công
+{INFO ] 2025-08-25 16:12:04.289 [main] LoginTest - Context & Page đã khởi tạo, sẵn sàng chạy test
+{INFO ] 2025-08-25 16:12:08.543 [main] LoginTest - === Test teardown bắt đầu ===
+{INFO ] 2025-08-25 16:12:08.591 [main] LoginTest - Context đóng
+{INFO ] 2025-08-25 16:12:08.771 [main] LoginTest - Browser đóng
+{INFO ] 2025-08-25 16:12:08.783 [main] LoginTest - Playwright đóng
+{INFO ] 2025-08-25 16:12:08.784 [main] LoginTest - === Test teardown hoàn tất ===
+{INFO ] 2025-08-25 16:13:12.582 [main] LoginTest - === Test setup bắt đầu ===
+{INFO ] 2025-08-25 16:13:18.406 [main] LoginTest - Khởi tạo Chromium thành công
+{INFO ] 2025-08-25 16:13:18.595 [main] LoginTest - Context & Page đã khởi tạo, sẵn sàng chạy test
+{INFO ] 2025-08-25 16:13:23.316 [main] LoginTest - === Test teardown bắt đầu ===
+{INFO ] 2025-08-25 16:13:23.359 [main] LoginTest - Context đóng
+{INFO ] 2025-08-25 16:13:23.540 [main] LoginTest - Browser đóng
+{INFO ] 2025-08-25 16:13:23.552 [main] LoginTest - Playwright đóng
+{INFO ] 2025-08-25 16:13:23.553 [main] LoginTest - === Test teardown hoàn tất ===
+{INFO ] 2025-08-25 16:14:09.836 [main] LoginTest - === Test setup bắt đầu ===
+{INFO ] 2025-08-25 16:14:15.679 [main] LoginTest - Khởi tạo Chromium thành công
+{INFO ] 2025-08-25 16:14:15.875 [main] LoginTest - Context & Page đã khởi tạo, sẵn sàng chạy test
+{INFO ] 2025-08-25 16:14:35.509 [main] LoginTest - === Test teardown bắt đầu ===
+{INFO ] 2025-08-25 16:14:35.557 [main] LoginTest - Context đóng
+{INFO ] 2025-08-25 16:14:35.746 [main] LoginTest - Browser đóng
+{INFO ] 2025-08-25 16:14:35.757 [main] LoginTest - Playwright đóng
+{INFO ] 2025-08-25 16:14:35.757 [main] LoginTest - === Test teardown hoàn tất ===
+{INFO ] 2025-08-25 16:17:36.655 [main] LoginTest - === Test setup bắt đầu ===
+{INFO ] 2025-08-25 16:17:42.408 [main] LoginTest - Khởi tạo Chromium thành công
+{INFO ] 2025-08-25 16:17:42.599 [main] LoginTest - Context & Page đã khởi tạo, sẵn sàng chạy test
+{INFO ] 2025-08-25 16:18:03.137 [main] LoginTest - === Test teardown bắt đầu ===
+{INFO ] 2025-08-25 16:18:03.184 [main] LoginTest - Context đóng
+{INFO ] 2025-08-25 16:18:03.368 [main] LoginTest - Browser đóng
+{INFO ] 2025-08-25 16:18:03.379 [main] LoginTest - Playwright đóng
+{INFO ] 2025-08-25 16:18:03.379 [main] LoginTest - === Test teardown hoàn tất ===
+{INFO ] 2025-08-25 16:18:24.782 [main] LoginTest - === Test setup bắt đầu ===
+{INFO ] 2025-08-25 16:18:31.059 [main] LoginTest - Khởi tạo Chromium thành công
+{INFO ] 2025-08-25 16:18:31.264 [main] LoginTest - Context & Page đã khởi tạo, sẵn sàng chạy test
+{INFO ] 2025-08-25 16:18:57.739 [main] LoginTest - === Test teardown bắt đầu ===
+{INFO ] 2025-08-25 16:18:57.788 [main] LoginTest - Context đóng
+{INFO ] 2025-08-25 16:18:57.970 [main] LoginTest - Browser đóng
+{INFO ] 2025-08-25 16:18:57.981 [main] LoginTest - Playwright đóng
+{INFO ] 2025-08-25 16:18:57.981 [main] LoginTest - === Test teardown hoàn tất ===
+{INFO ] 2025-08-25 16:19:21.512 [main] LoginTest - === Test setup bắt đầu ===
+{INFO ] 2025-08-25 16:19:27.349 [main] LoginTest - Khởi tạo Chromium thành công
+{INFO ] 2025-08-25 16:19:27.538 [main] LoginTest - Context & Page đã khởi tạo, sẵn sàng chạy test
+{INFO ] 2025-08-25 16:19:55.970 [main] LoginTest - === Test teardown bắt đầu ===
+{INFO ] 2025-08-25 16:19:56.022 [main] LoginTest - Context đóng
+{INFO ] 2025-08-25 16:19:56.201 [main] LoginTest - Browser đóng
+{INFO ] 2025-08-25 16:19:56.212 [main] LoginTest - Playwright đóng
+{INFO ] 2025-08-25 16:19:56.212 [main] LoginTest - === Test teardown hoàn tất ===
+{INFO ] 2025-08-25 16:21:22.649 [main] LoginTest - === Test setup bắt đầu ===
+{INFO ] 2025-08-25 16:21:28.487 [main] LoginTest - Khởi tạo Chromium thành công
+{INFO ] 2025-08-25 16:21:28.674 [main] LoginTest - Context & Page đã khởi tạo, sẵn sàng chạy test
+{INFO ] 2025-08-25 16:21:37.256 [main] LoginTest - === Test teardown bắt đầu ===
+{INFO ] 2025-08-25 16:21:37.265 [main] LoginTest - Context đóng
+{INFO ] 2025-08-25 16:21:37.420 [main] LoginTest - Browser đóng
+{INFO ] 2025-08-25 16:21:37.431 [main] LoginTest - Playwright đóng
+{INFO ] 2025-08-25 16:21:37.431 [main] LoginTest - === Test teardown hoàn tất ===
+{INFO ] 2025-08-25 16:21:58.753 [main] LoginTest - === Test setup bắt đầu ===
+{INFO ] 2025-08-25 16:22:04.666 [main] LoginTest - Khởi tạo Chromium thành công
+{INFO ] 2025-08-25 16:22:04.856 [main] LoginTest - Context & Page đã khởi tạo, sẵn sàng chạy test
+{INFO ] 2025-08-25 16:22:26.982 [main] LoginTest - === Test teardown bắt đầu ===
+{INFO ] 2025-08-25 16:22:27.021 [main] LoginTest - Context đóng
+{INFO ] 2025-08-25 16:22:27.190 [main] LoginTest - Browser đóng
+{INFO ] 2025-08-25 16:22:27.200 [main] LoginTest - Playwright đóng
+{INFO ] 2025-08-25 16:22:27.200 [main] LoginTest - === Test teardown hoàn tất ===
+{INFO ] 2025-08-25 16:30:13.696 [main] LoginTest - === Test setup bắt đầu ===
+{INFO ] 2025-08-25 16:30:19.527 [main] LoginTest - Khởi tạo Chromium thành công
+{INFO ] 2025-08-25 16:30:19.724 [main] LoginTest - Context & Page đã khởi tạo, sẵn sàng chạy test
+{INFO ] 2025-08-25 16:30:22.318 [main] LoginTest - === Test teardown bắt đầu ===
+{INFO ] 2025-08-25 16:30:22.360 [main] LoginTest - Context đóng
+{INFO ] 2025-08-25 16:30:22.534 [main] LoginTest - Browser đóng
+{INFO ] 2025-08-25 16:30:22.546 [main] LoginTest - Playwright đóng
+{INFO ] 2025-08-25 16:30:22.547 [main] LoginTest - === Test teardown hoàn tất ===
+{INFO ] 2025-08-25 16:32:56.400 [main] LoginTest - === Test setup bắt đầu ===
+{INFO ] 2025-08-25 16:33:02.251 [main] LoginTest - Khởi tạo Chromium thành công
+{INFO ] 2025-08-25 16:33:02.446 [main] LoginTest - Context & Page đã khởi tạo, sẵn sàng chạy test
+{INFO ] 2025-08-25 16:33:05.788 [main] LoginTest - === Test teardown bắt đầu ===
+{INFO ] 2025-08-25 16:33:05.837 [main] LoginTest - Context đóng
+{INFO ] 2025-08-25 16:33:06.017 [main] LoginTest - Browser đóng
+{INFO ] 2025-08-25 16:33:06.029 [main] LoginTest - Playwright đóng
+{INFO ] 2025-08-25 16:33:06.030 [main] LoginTest - === Test teardown hoàn tất ===
+{INFO ] 2025-08-26 08:57:26.041 [main] RegisterTest - === Test setup bắt đầu ===
+{INFO ] 2025-08-26 08:57:35.527 [main] RegisterTest - Khởi tạo Chromium thành công
+{INFO ] 2025-08-26 08:57:35.917 [main] RegisterTest - Context & Page đã khởi tạo, sẵn sàng chạy test
+{INFO ] 2025-08-26 08:57:41.138 [main] RegisterTest - === Test teardown bắt đầu ===
+{INFO ] 2025-08-26 08:57:41.181 [main] RegisterTest - Context đóng
+{INFO ] 2025-08-26 08:57:41.395 [main] RegisterTest - Browser đóng
+{INFO ] 2025-08-26 08:57:41.410 [main] RegisterTest - Playwright đóng
+{INFO ] 2025-08-26 08:57:41.410 [main] RegisterTest - === Test teardown hoàn tất ===
+{INFO ] 2025-08-26 08:58:13.265 [main] RegisterTest - === Test setup bắt đầu ===
+{INFO ] 2025-08-26 08:58:19.359 [main] RegisterTest - Khởi tạo Chromium thành công
+{INFO ] 2025-08-26 08:58:19.571 [main] RegisterTest - Context & Page đã khởi tạo, sẵn sàng chạy test
+{INFO ] 2025-08-26 08:58:38.231 [main] RegisterTest - === Test teardown bắt đầu ===
+{INFO ] 2025-08-26 08:58:38.240 [main] RegisterTest - Context đóng
+{INFO ] 2025-08-26 08:58:38.509 [main] RegisterTest - Browser đóng
+{INFO ] 2025-08-26 08:58:38.524 [main] RegisterTest - Playwright đóng
+{INFO ] 2025-08-26 08:58:38.524 [main] RegisterTest - === Test teardown hoàn tất ===
+{INFO ] 2025-08-26 09:00:18.441 [main] RegisterTest - === Test setup bắt đầu ===
+{INFO ] 2025-08-26 09:00:24.695 [main] RegisterTest - Khởi tạo Chromium thành công
+{INFO ] 2025-08-26 09:00:24.941 [main] RegisterTest - Context & Page đã khởi tạo, sẵn sàng chạy test
+{INFO ] 2025-08-26 09:00:47.682 [main] RegisterTest - === Test teardown bắt đầu ===
+{INFO ] 2025-08-26 09:00:47.699 [main] RegisterTest - Context đóng
+{INFO ] 2025-08-26 09:00:47.963 [main] RegisterTest - Browser đóng
+{INFO ] 2025-08-26 09:00:47.972 [main] RegisterTest - Playwright đóng
+{INFO ] 2025-08-26 09:00:47.972 [main] RegisterTest - === Test teardown hoàn tất ===
+{INFO ] 2025-08-26 09:01:39.533 [main] RegisterTest - === Test setup bắt đầu ===
+{INFO ] 2025-08-26 09:01:45.621 [main] RegisterTest - Khởi tạo Chromium thành công
+{INFO ] 2025-08-26 09:01:45.842 [main] RegisterTest - Context & Page đã khởi tạo, sẵn sàng chạy test
+{INFO ] 2025-08-26 09:01:52.188 [main] RegisterTest - === Test teardown bắt đầu ===
+{INFO ] 2025-08-26 09:01:52.231 [main] RegisterTest - Context đóng
+{INFO ] 2025-08-26 09:01:52.402 [main] RegisterTest - Browser đóng
+{INFO ] 2025-08-26 09:01:52.421 [main] RegisterTest - Playwright đóng
+{INFO ] 2025-08-26 09:01:52.422 [main] RegisterTest - === Test teardown hoàn tất ===
+{INFO ] 2025-08-26 09:04:31.563 [main] RegisterTest - === Test setup bắt đầu ===
+{INFO ] 2025-08-26 09:04:37.929 [main] RegisterTest - Khởi tạo Chromium thành công
+{INFO ] 2025-08-26 09:04:38.144 [main] RegisterTest - Context & Page đã khởi tạo, sẵn sàng chạy test
+{INFO ] 2025-08-26 09:04:43.462 [main] RegisterTest - === Test teardown bắt đầu ===
+{INFO ] 2025-08-26 09:04:43.501 [main] RegisterTest - Context đóng
+{INFO ] 2025-08-26 09:04:43.702 [main] RegisterTest - Browser đóng
+{INFO ] 2025-08-26 09:04:43.712 [main] RegisterTest - Playwright đóng
+{INFO ] 2025-08-26 09:04:43.712 [main] RegisterTest - === Test teardown hoàn tất ===
+{INFO ] 2025-08-26 09:13:51.556 [main] RegisterTest - === Test setup bắt đầu ===
+{INFO ] 2025-08-26 09:13:57.943 [main] RegisterTest - Khởi tạo Chromium thành công
+{INFO ] 2025-08-26 09:13:58.176 [main] RegisterTest - Context & Page đã khởi tạo, sẵn sàng chạy test
+{INFO ] 2025-08-26 09:14:01.609 [main] RegisterTest - === Test teardown bắt đầu ===
+{INFO ] 2025-08-26 09:14:01.655 [main] RegisterTest - Context đóng
+{INFO ] 2025-08-26 09:14:01.844 [main] RegisterTest - Browser đóng
+{INFO ] 2025-08-26 09:14:01.852 [main] RegisterTest - Playwright đóng
+{INFO ] 2025-08-26 09:14:01.861 [main] RegisterTest - === Test teardown hoàn tất ===
+{INFO ] 2025-08-26 09:26:06.478 [main] RegisterTest - === Test setup bắt đầu ===
+{INFO ] 2025-08-26 09:26:13.011 [main] RegisterTest - Khởi tạo Chromium thành công
+{INFO ] 2025-08-26 09:26:13.285 [main] RegisterTest - Context & Page đã khởi tạo, sẵn sàng chạy test
+{INFO ] 2025-08-26 09:26:17.506 [main] RegisterTest - === Test teardown bắt đầu ===
+{INFO ] 2025-08-26 09:26:17.541 [main] RegisterTest - Context đóng
+{INFO ] 2025-08-26 09:26:17.713 [main] RegisterTest - Browser đóng
+{INFO ] 2025-08-26 09:26:17.729 [main] RegisterTest - Playwright đóng
+{INFO ] 2025-08-26 09:26:17.729 [main] RegisterTest - === Test teardown hoàn tất ===
+{INFO ] 2025-08-26 09:29:10.086 [main] RegisterTest - === Test setup bắt đầu ===
+{INFO ] 2025-08-26 09:29:15.849 [main] RegisterTest - Khởi tạo Chromium thành công
+{INFO ] 2025-08-26 09:29:16.050 [main] RegisterTest - Context & Page đã khởi tạo, sẵn sàng chạy test
+{INFO ] 2025-08-26 09:29:19.217 [main] RegisterTest - === Test teardown bắt đầu ===
+{INFO ] 2025-08-26 09:29:19.263 [main] RegisterTest - Context đóng
+{INFO ] 2025-08-26 09:29:19.448 [main] RegisterTest - Browser đóng
+{INFO ] 2025-08-26 09:29:19.466 [main] RegisterTest - Playwright đóng
+{INFO ] 2025-08-26 09:29:19.466 [main] RegisterTest - === Test teardown hoàn tất ===
+{INFO ] 2025-08-26 09:38:35.633 [main] RegisterTest - === Test setup bắt đầu ===
+{INFO ] 2025-08-26 09:38:41.571 [main] RegisterTest - Khởi tạo Chromium thành công
+{INFO ] 2025-08-26 09:38:41.772 [main] RegisterTest - Context & Page đã khởi tạo, sẵn sàng chạy test
+{ERROR] 2025-08-26 09:38:44.540 [main] RegisterPage - [Bug] Không thể thao tác với birthday input. Locator=input[id=birthday] | Error=Error {
+  message='Error: Malformed value
+  name='Error
+  stack='Error: Error: Malformed value
+    at CRExecutionContext.evaluateWithArguments (C:\Users\minht\AppData\Local\Temp\playwright-java-435969125132197347\package\lib\server\chromium\crExecutionContext.js:80:13)
+    at async LongStandingScope._race (C:\Users\minht\AppData\Local\Temp\playwright-java-435969125132197347\package\lib\utils\isomorphic\manualPromise.js:94:14)
+    at async evaluateExpression (C:\Users\minht\AppData\Local\Temp\playwright-java-435969125132197347\package\lib\server\javascript.js:217:12)
+    at async ElementHandle.evaluateInUtility (C:\Users\minht\AppData\Local\Temp\playwright-java-435969125132197347\package\lib\server\dom.js:126:14)
+    at async C:\Users\minht\AppData\Local\Temp\playwright-java-435969125132197347\package\lib\server\dom.js:555:22
+    at async ElementHandle._retryAction (C:\Users\minht\AppData\Local\Temp\playwright-java-435969125132197347\package\lib\server\dom.js:308:22)
+    at async ElementHandle._fill (C:\Users\minht\AppData\Local\Temp\playwright-java-435969125132197347\package\lib\server\dom.js:551:12)
+    at async C:\Users\minht\AppData\Local\Temp\playwright-java-435969125132197347\package\lib\server\frames.js:940:25
+    at async Frame.retryWithProgressAndTimeouts (C:\Users\minht\AppData\Local\Temp\playwright-java-435969125132197347\package\lib\server\frames.js:884:24)
+    at async C:\Users\minht\AppData\Local\Temp\playwright-java-435969125132197347\package\lib\server\frames.js:1007:29
+}
+Call log:
+-   - waiting for locator("input[id=birthday]")
+-     - locator resolved to <input type="date" required="" id="birthday" name="birthday" class="form-control" placeholder="Your birthday"/>
+-     - fill("08082004")
+-   - attempting fill action
+-     - waiting for element to be visible, enabled and editable
+
+{INFO ] 2025-08-26 09:38:44.561 [main] RegisterTest - === Test teardown bắt đầu ===
+{INFO ] 2025-08-26 09:38:44.595 [main] RegisterTest - Context đóng
+{INFO ] 2025-08-26 09:38:44.771 [main] RegisterTest - Browser đóng
+{INFO ] 2025-08-26 09:38:44.780 [main] RegisterTest - Playwright đóng
+{INFO ] 2025-08-26 09:38:44.780 [main] RegisterTest - === Test teardown hoàn tất ===
+{INFO ] 2025-08-26 09:43:19.957 [main] RegisterTest - === Test setup bắt đầu ===
+{INFO ] 2025-08-26 09:43:25.782 [main] RegisterTest - Khởi tạo Chromium thành công
+{INFO ] 2025-08-26 09:43:25.967 [main] RegisterTest - Context & Page đã khởi tạo, sẵn sàng chạy test
+{INFO ] 2025-08-26 09:43:40.916 [main] RegisterTest - Current URL after register: https://demo5.cybersoft.edu.vn/register
+{INFO ] 2025-08-26 09:43:40.955 [main] RegisterTest - === Test teardown bắt đầu ===
+{INFO ] 2025-08-26 09:43:41.007 [main] RegisterTest - Context đóng
+{INFO ] 2025-08-26 09:43:41.292 [main] RegisterTest - Browser đóng
+{INFO ] 2025-08-26 09:43:41.307 [main] RegisterTest - Playwright đóng
+{INFO ] 2025-08-26 09:43:41.307 [main] RegisterTest - === Test teardown hoàn tất ===
+{INFO ] 2025-08-26 09:44:54.631 [main] RegisterTest - === Test setup bắt đầu ===
+{INFO ] 2025-08-26 09:45:00.484 [main] RegisterTest - Khởi tạo Chromium thành công
+{INFO ] 2025-08-26 09:45:00.691 [main] RegisterTest - Context & Page đã khởi tạo, sẵn sàng chạy test
+{INFO ] 2025-08-26 09:45:13.832 [main] RegisterTest - Current URL after register: https://demo5.cybersoft.edu.vn/register
+{INFO ] 2025-08-26 09:45:13.861 [main] RegisterTest - === Test teardown bắt đầu ===
+{INFO ] 2025-08-26 09:45:13.914 [main] RegisterTest - Context đóng
+{INFO ] 2025-08-26 09:45:14.123 [main] RegisterTest - Browser đóng
+{INFO ] 2025-08-26 09:45:14.123 [main] RegisterTest - Playwright đóng
+{INFO ] 2025-08-26 09:45:14.123 [main] RegisterTest - === Test teardown hoàn tất ===
+{INFO ] 2025-08-26 09:46:09.765 [main] RegisterTest - === Test setup bắt đầu ===
+{INFO ] 2025-08-26 09:46:15.460 [main] RegisterTest - Khởi tạo Chromium thành công
+{INFO ] 2025-08-26 09:46:15.647 [main] RegisterTest - Context & Page đã khởi tạo, sẵn sàng chạy test
+{INFO ] 2025-08-26 09:46:27.197 [main] RegisterTest - === Test teardown bắt đầu ===
+{INFO ] 2025-08-26 09:46:27.207 [main] RegisterTest - Context đóng
+{INFO ] 2025-08-26 09:46:27.418 [main] RegisterTest - Browser đóng
+{INFO ] 2025-08-26 09:46:27.432 [main] RegisterTest - Playwright đóng
+{INFO ] 2025-08-26 09:46:27.432 [main] RegisterTest - === Test teardown hoàn tất ===
+{INFO ] 2025-08-26 10:07:01.512 [main] RegisterTest - === Test setup bắt đầu ===
+{INFO ] 2025-08-26 10:07:07.412 [main] RegisterTest - Khởi tạo Chromium thành công
+{INFO ] 2025-08-26 10:07:07.607 [main] RegisterTest - Context & Page đã khởi tạo, sẵn sàng chạy test
+{ERROR] 2025-08-26 10:07:15.199 [main] RegisterPage - [Bug] Không thể thao tác với birthday input. Locator=input[id=birthday] | Error=Error {
+  message='Error: Malformed value
+  name='Error
+  stack='Error: Error: Malformed value
+    at CRExecutionContext.evaluateWithArguments (C:\Users\minht\AppData\Local\Temp\playwright-java-4616446647192140797\package\lib\server\chromium\crExecutionContext.js:80:13)
+    at async LongStandingScope._race (C:\Users\minht\AppData\Local\Temp\playwright-java-4616446647192140797\package\lib\utils\isomorphic\manualPromise.js:94:14)
+    at async evaluateExpression (C:\Users\minht\AppData\Local\Temp\playwright-java-4616446647192140797\package\lib\server\javascript.js:217:12)
+    at async ElementHandle.evaluateInUtility (C:\Users\minht\AppData\Local\Temp\playwright-java-4616446647192140797\package\lib\server\dom.js:126:14)
+    at async C:\Users\minht\AppData\Local\Temp\playwright-java-4616446647192140797\package\lib\server\dom.js:555:22
+    at async ElementHandle._retryAction (C:\Users\minht\AppData\Local\Temp\playwright-java-4616446647192140797\package\lib\server\dom.js:308:22)
+    at async ElementHandle._fill (C:\Users\minht\AppData\Local\Temp\playwright-java-4616446647192140797\package\lib\server\dom.js:551:12)
+    at async C:\Users\minht\AppData\Local\Temp\playwright-java-4616446647192140797\package\lib\server\frames.js:940:25
+    at async Frame.retryWithProgressAndTimeouts (C:\Users\minht\AppData\Local\Temp\playwright-java-4616446647192140797\package\lib\server\frames.js:884:24)
+    at async C:\Users\minht\AppData\Local\Temp\playwright-java-4616446647192140797\package\lib\server\frames.js:1007:29
+}
+Call log:
+-   - waiting for locator("input[id=birthday]")
+-     - locator resolved to <input type="date" required="" id="birthday" name="birthday" class="form-control" placeholder="Your birthday"/>
+-     - fill("08082004")
+-   - attempting fill action
+-     - waiting for element to be visible, enabled and editable
+
+{INFO ] 2025-08-26 10:07:15.217 [main] RegisterTest - === Test teardown bắt đầu ===
+{INFO ] 2025-08-26 10:07:15.254 [main] RegisterTest - Context đóng
+{INFO ] 2025-08-26 10:07:15.429 [main] RegisterTest - Browser đóng
+{INFO ] 2025-08-26 10:07:15.445 [main] RegisterTest - Playwright đóng
+{INFO ] 2025-08-26 10:07:15.445 [main] RegisterTest - === Test teardown hoàn tất ===
+{INFO ] 2025-08-26 10:13:01.998 [main] RegisterTest - === Test setup bắt đầu ===
+{INFO ] 2025-08-26 10:13:07.910 [main] RegisterTest - Khởi tạo Chromium thành công
+{INFO ] 2025-08-26 10:13:08.104 [main] RegisterTest - Context & Page đã khởi tạo, sẵn sàng chạy test
+{ERROR] 2025-08-26 10:13:14.501 [main] RegisterPage - [Bug] Không thể thao tác với birthday input. Locator=input[id=birthday] | Error=Error {
+  message='Error: Malformed value
+  name='Error
+  stack='Error: Error: Malformed value
+    at CRExecutionContext.evaluateWithArguments (C:\Users\minht\AppData\Local\Temp\playwright-java-10127028379970521604\package\lib\server\chromium\crExecutionContext.js:80:13)
+    at async LongStandingScope._race (C:\Users\minht\AppData\Local\Temp\playwright-java-10127028379970521604\package\lib\utils\isomorphic\manualPromise.js:94:14)
+    at async evaluateExpression (C:\Users\minht\AppData\Local\Temp\playwright-java-10127028379970521604\package\lib\server\javascript.js:217:12)
+    at async ElementHandle.evaluateInUtility (C:\Users\minht\AppData\Local\Temp\playwright-java-10127028379970521604\package\lib\server\dom.js:126:14)
+    at async C:\Users\minht\AppData\Local\Temp\playwright-java-10127028379970521604\package\lib\server\dom.js:555:22
+    at async ElementHandle._retryAction (C:\Users\minht\AppData\Local\Temp\playwright-java-10127028379970521604\package\lib\server\dom.js:308:22)
+    at async ElementHandle._fill (C:\Users\minht\AppData\Local\Temp\playwright-java-10127028379970521604\package\lib\server\dom.js:551:12)
+    at async C:\Users\minht\AppData\Local\Temp\playwright-java-10127028379970521604\package\lib\server\frames.js:940:25
+    at async Frame.retryWithProgressAndTimeouts (C:\Users\minht\AppData\Local\Temp\playwright-java-10127028379970521604\package\lib\server\frames.js:884:24)
+    at async C:\Users\minht\AppData\Local\Temp\playwright-java-10127028379970521604\package\lib\server\frames.js:1007:29
+}
+Call log:
+-   - waiting for locator("input[id=birthday]")
+-     - locator resolved to <input type="date" required="" id="birthday" name="birthday" class="form-control" placeholder="Your birthday"/>
+-     - fill("08")
+-   - attempting fill action
+-     - waiting for element to be visible, enabled and editable
+
+{INFO ] 2025-08-26 10:13:14.517 [main] RegisterTest - === Test teardown bắt đầu ===
+{INFO ] 2025-08-26 10:13:14.558 [main] RegisterTest - Context đóng
+{INFO ] 2025-08-26 10:13:14.723 [main] RegisterTest - Browser đóng
+{INFO ] 2025-08-26 10:13:14.739 [main] RegisterTest - Playwright đóng
+{INFO ] 2025-08-26 10:13:14.739 [main] RegisterTest - === Test teardown hoàn tất ===
+{INFO ] 2025-08-26 10:21:59.426 [main] ProfileTest - === Test setup bắt đầu ===
+{INFO ] 2025-08-26 10:22:05.211 [main] ProfileTest - Khởi tạo Chromium thành công
+{INFO ] 2025-08-26 10:22:05.415 [main] ProfileTest - Context & Page đã khởi tạo, sẵn sàng chạy test
+{INFO ] 2025-08-26 10:22:20.014 [main] ProfileTest - === Test teardown bắt đầu ===
+{INFO ] 2025-08-26 10:22:20.036 [main] ProfileTest - Context đóng
+{INFO ] 2025-08-26 10:22:20.235 [main] ProfileTest - Browser đóng
+{INFO ] 2025-08-26 10:22:20.251 [main] ProfileTest - Playwright đóng
+{INFO ] 2025-08-26 10:22:20.251 [main] ProfileTest - === Test teardown hoàn tất ===
+{INFO ] 2025-08-26 10:22:35.512 [main] ProfileTest - === Test setup bắt đầu ===
+{INFO ] 2025-08-26 10:22:41.308 [main] ProfileTest - Khởi tạo Chromium thành công
+{INFO ] 2025-08-26 10:22:41.529 [main] ProfileTest - Context & Page đã khởi tạo, sẵn sàng chạy test
+{INFO ] 2025-08-26 10:22:55.508 [main] ProfileTest - === Test teardown bắt đầu ===
+{INFO ] 2025-08-26 10:22:55.529 [main] ProfileTest - Context đóng
+{INFO ] 2025-08-26 10:22:55.729 [main] ProfileTest - Browser đóng
+{INFO ] 2025-08-26 10:22:55.744 [main] ProfileTest - Playwright đóng
+{INFO ] 2025-08-26 10:22:55.744 [main] ProfileTest - === Test teardown hoàn tất ===
+{INFO ] 2025-08-26 10:23:10.765 [main] ProfileTest - === Test setup bắt đầu ===
+{INFO ] 2025-08-26 10:23:16.469 [main] ProfileTest - Khởi tạo Chromium thành công
+{INFO ] 2025-08-26 10:23:16.664 [main] ProfileTest - Context & Page đã khởi tạo, sẵn sàng chạy test
+{INFO ] 2025-08-26 10:23:28.268 [main] ProfileTest - === Test teardown bắt đầu ===
+{INFO ] 2025-08-26 10:23:28.310 [main] ProfileTest - Context đóng
+{INFO ] 2025-08-26 10:23:28.500 [main] ProfileTest - Browser đóng
+{INFO ] 2025-08-26 10:23:28.516 [main] ProfileTest - Playwright đóng
+{INFO ] 2025-08-26 10:23:28.516 [main] ProfileTest - === Test teardown hoàn tất ===
+{INFO ] 2025-08-26 10:25:09.434 [main] RegisterTest - === Test setup bắt đầu ===
+{INFO ] 2025-08-26 10:25:16.400 [main] ProfileTest - === Test setup bắt đầu ===
+{INFO ] 2025-08-26 10:26:02.796 [main] ProfileTest - === Test setup bắt đầu ===
+{INFO ] 2025-08-26 10:26:08.618 [main] ProfileTest - Khởi tạo Chromium thành công
+{INFO ] 2025-08-26 10:26:08.808 [main] ProfileTest - Context & Page đã khởi tạo, sẵn sàng chạy test
+{INFO ] 2025-08-26 10:26:20.549 [main] ProfileTest - === Test teardown bắt đầu ===
+{INFO ] 2025-08-26 10:26:20.599 [main] ProfileTest - Context đóng
+{INFO ] 2025-08-26 10:26:20.804 [main] ProfileTest - Browser đóng
+{INFO ] 2025-08-26 10:26:20.804 [main] ProfileTest - Playwright đóng
+{INFO ] 2025-08-26 10:26:20.804 [main] ProfileTest - === Test teardown hoàn tất ===
+{INFO ] 2025-08-26 12:26:03.821 [main] RegisterTest - === Test setup bắt đầu ===
+{INFO ] 2025-08-26 12:26:12.574 [main] RegisterTest - Khởi tạo Chromium thành công
+{INFO ] 2025-08-26 12:26:13.014 [main] RegisterTest - Context & Page đã khởi tạo, sẵn sàng chạy test
+{INFO ] 2025-08-26 12:26:19.793 [main] RegisterTest - === Test teardown bắt đầu ===
+{INFO ] 2025-08-26 12:26:19.848 [main] RegisterTest - Context đóng
+{INFO ] 2025-08-26 12:26:20.149 [main] RegisterTest - Browser đóng
+{INFO ] 2025-08-26 12:26:20.163 [main] RegisterTest - Playwright đóng
+{INFO ] 2025-08-26 12:26:20.163 [main] RegisterTest - === Test teardown hoàn tất ===
+{INFO ] 2025-08-26 12:49:29.097 [main] LoginTest - === Test setup bắt đầu ===
+{INFO ] 2025-08-26 12:49:36.545 [main] LoginTest - Khởi tạo Chromium thành công
+{INFO ] 2025-08-26 12:49:36.768 [main] LoginTest - Context & Page đã khởi tạo, sẵn sàng chạy test
+{INFO ] 2025-08-26 12:51:06.796 [main] LoginTest - === Test setup bắt đầu ===
+{INFO ] 2025-08-26 12:51:13.475 [main] LoginTest - Khởi tạo Chromium thành công
+{INFO ] 2025-08-26 12:51:13.898 [main] LoginTest - Context & Page đã khởi tạo, sẵn sàng chạy test
+{INFO ] 2025-08-26 12:52:09.286 [main] LoginTest - === Test teardown bắt đầu ===
+{INFO ] 2025-08-26 12:52:09.381 [main] LoginTest - Context đóng
+{INFO ] 2025-08-26 12:52:09.897 [main] LoginTest - Browser đóng
+{INFO ] 2025-08-26 12:52:09.930 [main] LoginTest - Playwright đóng
+{INFO ] 2025-08-26 12:52:09.930 [main] LoginTest - === Test teardown hoàn tất ===
+{INFO ] 2025-08-26 13:10:24.879 [main] LoginTest - === Khởi tạo Browser (chung cho toàn bộ class) ===
+{INFO ] 2025-08-26 13:10:32.054 [main] LoginTest - Khởi tạo Chromium thành công
+{INFO ] 2025-08-26 13:10:32.102 [main] LoginTest - === Tạo context + page mới cho mỗi test ===
+{INFO ] 2025-08-26 13:10:42.922 [main] LoginTest - === Đóng context sau mỗi test ===
+{INFO ] 2025-08-26 13:10:43.018 [main] LoginTest - === Tạo context + page mới cho mỗi test ===
+{INFO ] 2025-08-26 13:11:11.950 [main] LoginTest - === Đóng context sau mỗi test ===
+{INFO ] 2025-08-26 13:11:12.003 [main] LoginTest - === Tạo context + page mới cho mỗi test ===
+{INFO ] 2025-08-26 13:11:22.522 [main] LoginTest - === Đóng context sau mỗi test ===
+{INFO ] 2025-08-26 13:11:22.567 [main] LoginTest - === Tạo context + page mới cho mỗi test ===
+{INFO ] 2025-08-26 13:11:34.708 [main] LoginTest - === Đóng context sau mỗi test ===
+{INFO ] 2025-08-26 13:11:34.751 [main] LoginTest - === Tạo context + page mới cho mỗi test ===
+{INFO ] 2025-08-26 13:11:48.955 [main] LoginTest - === Đóng context sau mỗi test ===
+{INFO ] 2025-08-26 13:11:48.999 [main] LoginTest - === Tạo context + page mới cho mỗi test ===
+{INFO ] 2025-08-26 13:12:00.061 [main] LoginTest - === Đóng context sau mỗi test ===
+{INFO ] 2025-08-26 13:12:00.102 [main] LoginTest - === Tạo context + page mới cho mỗi test ===
+{INFO ] 2025-08-26 13:12:03.011 [main] LoginTest - === Đóng context sau mỗi test ===
+{INFO ] 2025-08-26 13:12:03.065 [main] LoginTest - === Tạo context + page mới cho mỗi test ===
+{INFO ] 2025-08-26 13:12:06.328 [main] LoginTest - === Đóng context sau mỗi test ===
+{INFO ] 2025-08-26 13:12:06.383 [main] LoginTest - === Đóng Browser & Playwright khi kết thúc class ===
+{INFO ] 2025-08-26 13:13:58.270 [main] LoginTest - === Khởi tạo Browser (chung cho toàn bộ class) ===
+{INFO ] 2025-08-26 13:14:05.460 [main] LoginTest - Khởi tạo Chromium thành công
+{INFO ] 2025-08-26 13:14:05.488 [main] LoginTest - === Tạo context + page mới cho mỗi test ===
+{INFO ] 2025-08-26 13:14:14.132 [main] LoginTest - === Đóng context sau mỗi test ===
+{INFO ] 2025-08-26 13:14:14.207 [main] LoginTest - === Đóng Browser & Playwright khi kết thúc class ===
+{INFO ] 2025-08-26 13:30:35.170 [main] RegisterTest - === Khởi tạo Browser (chung cho toàn bộ class) ===
+{INFO ] 2025-08-26 13:30:42.721 [main] RegisterTest - Khởi tạo Chromium thành công
+{INFO ] 2025-08-26 13:30:42.749 [main] RegisterTest - === Tạo context + page mới cho mỗi test ===
+{INFO ] 2025-08-26 13:30:46.912 [main] RegisterPage - Birthday input set thành công: 
+{INFO ] 2025-08-26 13:30:47.091 [main] RegisterTest - === Đóng context sau mỗi test ===
+{INFO ] 2025-08-26 13:30:47.152 [main] RegisterTest - === Đóng Browser & Playwright khi kết thúc class ===
+{INFO ] 2025-08-26 13:31:32.134 [main] RegisterTest - === Khởi tạo Browser (chung cho toàn bộ class) ===
+{INFO ] 2025-08-26 13:31:38.691 [main] RegisterTest - Khởi tạo Chromium thành công
+{INFO ] 2025-08-26 13:31:38.700 [main] RegisterTest - === Tạo context + page mới cho mỗi test ===
+{INFO ] 2025-08-26 13:31:43.827 [main] RegisterPage - Birthday input set thành công: 
+{INFO ] 2025-08-26 13:31:44.092 [main] RegisterTest - === Đóng context sau mỗi test ===
+{INFO ] 2025-08-26 13:31:44.187 [main] RegisterTest - === Đóng Browser & Playwright khi kết thúc class ===
+{INFO ] 2025-08-26 13:32:41.891 [main] RegisterTest - === Khởi tạo Browser (chung cho toàn bộ class) ===
+{INFO ] 2025-08-26 13:32:48.612 [main] RegisterTest - Khởi tạo Chromium thành công
+{INFO ] 2025-08-26 13:32:48.635 [main] RegisterTest - === Tạo context + page mới cho mỗi test ===
+{INFO ] 2025-08-26 13:32:53.645 [main] RegisterPage - Birthday input set thành công: 
+{INFO ] 2025-08-26 13:32:53.828 [main] RegisterTest - === Đóng context sau mỗi test ===
+{INFO ] 2025-08-26 13:32:53.949 [main] RegisterTest - === Đóng Browser & Playwright khi kết thúc class ===
+{INFO ] 2025-08-26 13:33:15.214 [main] RegisterTest - === Khởi tạo Browser (chung cho toàn bộ class) ===
+{INFO ] 2025-08-26 13:33:21.248 [main] RegisterTest - Khởi tạo Chromium thành công
+{INFO ] 2025-08-26 13:33:21.280 [main] RegisterTest - === Tạo context + page mới cho mỗi test ===
+{INFO ] 2025-08-26 13:33:25.560 [main] RegisterPage - Birthday input set thành công: 
+{INFO ] 2025-08-26 13:33:25.862 [main] RegisterTest - === Đóng context sau mỗi test ===
+{INFO ] 2025-08-26 13:33:25.945 [main] RegisterTest - === Đóng Browser & Playwright khi kết thúc class ===
+{INFO ] 2025-08-26 13:33:51.722 [main] RegisterTest - === Khởi tạo Browser (chung cho toàn bộ class) ===
+{INFO ] 2025-08-26 13:33:57.991 [main] RegisterTest - Khởi tạo Chromium thành công
+{INFO ] 2025-08-26 13:33:58.034 [main] RegisterTest - === Tạo context + page mới cho mỗi test ===
+{INFO ] 2025-08-26 13:34:03.008 [main] RegisterPage - Birthday input set thành công: 
+{INFO ] 2025-08-26 13:34:03.155 [main] RegisterTest - === Đóng context sau mỗi test ===
+{INFO ] 2025-08-26 13:34:03.232 [main] RegisterTest - === Đóng Browser & Playwright khi kết thúc class ===
+{INFO ] 2025-08-26 13:35:38.045 [main] RegisterTest - === Khởi tạo Browser (chung cho toàn bộ class) ===
+{INFO ] 2025-08-26 13:35:44.318 [main] RegisterTest - Khởi tạo Chromium thành công
+{INFO ] 2025-08-26 13:35:44.353 [main] RegisterTest - === Tạo context + page mới cho mỗi test ===
+{ERROR] 2025-08-26 13:35:48.114 [main] RegisterPage - [Bug] Không thể thao tác với birthday input. Locator=input[id=birthday] | Error=Error {
+  message='Error: Malformed value
+  name='Error
+  stack='Error: Error: Malformed value
+    at CRExecutionContext.evaluateWithArguments (C:\Users\minht\AppData\Local\Temp\playwright-java-12629702004418644886\package\lib\server\chromium\crExecutionContext.js:80:13)
+    at async LongStandingScope._race (C:\Users\minht\AppData\Local\Temp\playwright-java-12629702004418644886\package\lib\utils\isomorphic\manualPromise.js:94:14)
+    at async evaluateExpression (C:\Users\minht\AppData\Local\Temp\playwright-java-12629702004418644886\package\lib\server\javascript.js:217:12)
+    at async ElementHandle.evaluateInUtility (C:\Users\minht\AppData\Local\Temp\playwright-java-12629702004418644886\package\lib\server\dom.js:126:14)
+    at async C:\Users\minht\AppData\Local\Temp\playwright-java-12629702004418644886\package\lib\server\dom.js:555:22
+    at async ElementHandle._retryAction (C:\Users\minht\AppData\Local\Temp\playwright-java-12629702004418644886\package\lib\server\dom.js:308:22)
+    at async ElementHandle._fill (C:\Users\minht\AppData\Local\Temp\playwright-java-12629702004418644886\package\lib\server\dom.js:551:12)
+    at async C:\Users\minht\AppData\Local\Temp\playwright-java-12629702004418644886\package\lib\server\frames.js:940:25
+    at async Frame.retryWithProgressAndTimeouts (C:\Users\minht\AppData\Local\Temp\playwright-java-12629702004418644886\package\lib\server\frames.js:884:24)
+    at async C:\Users\minht\AppData\Local\Temp\playwright-java-12629702004418644886\package\lib\server\frames.js:1007:29
+}
+Call log:
+-   - waiting for locator("input[id=birthday]")
+-     - locator resolved to <input type="date" required="" id="birthday" name="birthday" class="form-control" placeholder="Your birthday"/>
+-     - fill("08082004")
+-   - attempting fill action
+-     - waiting for element to be visible, enabled and editable
+
+{INFO ] 2025-08-26 13:35:50.217 [main] RegisterTest - === Đóng context sau mỗi test ===
+{INFO ] 2025-08-26 13:35:50.284 [main] RegisterTest - === Đóng Browser & Playwright khi kết thúc class ===
+{INFO ] 2025-08-26 14:23:52.807 [main] ProfileTest - === Khởi tạo Browser (chung cho toàn bộ class) ===
+{INFO ] 2025-08-26 14:24:00.893 [main] ProfileTest - Khởi tạo Chromium thành công
+{INFO ] 2025-08-26 14:24:00.927 [main] ProfileTest - === Tạo context + page mới cho mỗi test ===
+{INFO ] 2025-08-26 14:24:41.522 [main] ProfileTest - === Đóng context sau mỗi test ===
+{INFO ] 2025-08-26 14:24:41.555 [main] ProfileTest - === Đóng Browser & Playwright khi kết thúc class ===
+{INFO ] 2025-08-26 14:27:53.265 [main] ProfileTest - === Khởi tạo Browser (chung cho toàn bộ class) ===
+{INFO ] 2025-08-26 14:27:59.201 [main] ProfileTest - Khởi tạo Chromium thành công
+{INFO ] 2025-08-26 14:27:59.224 [main] ProfileTest - === Tạo context + page mới cho mỗi test ===
+{INFO ] 2025-08-26 14:28:37.886 [main] ProfileTest - === Đóng context sau mỗi test ===
+{INFO ] 2025-08-26 14:28:37.936 [main] ProfileTest - === Đóng Browser & Playwright khi kết thúc class ===
+{INFO ] 2025-08-26 14:35:51.261 [main] ProfileTest - === Khởi tạo Browser (chung cho toàn bộ class) ===
+{INFO ] 2025-08-26 14:35:57.116 [main] ProfileTest - Khởi tạo Chromium thành công
+{INFO ] 2025-08-26 14:35:57.152 [main] ProfileTest - === Tạo context + page mới cho mỗi test ===
+{INFO ] 2025-08-26 14:35:57.556 [main] ProfileTest - Tối đa hóa cửa sổ trình duyệt thành công
+{INFO ] 2025-08-26 14:36:28.776 [main] ProfileTest - === Đóng context sau mỗi test ===
+{INFO ] 2025-08-26 14:36:28.798 [main] ProfileTest - === Đóng Browser & Playwright khi kết thúc class ===
+{INFO ] 2025-08-26 14:37:18.420 [main] ProfileTest - === Khởi tạo Browser (chung cho toàn bộ class) ===
+{INFO ] 2025-08-26 14:37:24.202 [main] ProfileTest - Khởi tạo Chromium thành công
+{INFO ] 2025-08-26 14:37:24.237 [main] ProfileTest - === Tạo context + page mới cho mỗi test ===
+{INFO ] 2025-08-26 14:37:24.522 [main] ProfileTest - Tối đa hóa cửa sổ trình duyệt thành công
+{INFO ] 2025-08-26 14:38:07.491 [main] ProfileTest - === Đóng context sau mỗi test ===
+{INFO ] 2025-08-26 14:38:07.537 [main] ProfileTest - === Đóng Browser & Playwright khi kết thúc class ===
+{INFO ] 2025-08-26 14:41:51.030 [main] ProfileTest - === Khởi tạo Browser (chung cho toàn bộ class) ===
+{INFO ] 2025-08-26 14:41:56.891 [main] ProfileTest - Khởi tạo Chromium thành công
+{INFO ] 2025-08-26 14:41:56.923 [main] ProfileTest - === Tạo context + page mới cho mỗi test ===
+{INFO ] 2025-08-26 14:41:57.202 [main] ProfileTest - Tối đa hóa cửa sổ trình duyệt thành công
+{INFO ] 2025-08-26 14:42:12.693 [main] ProfileTest - === Đóng context sau mỗi test ===
+{INFO ] 2025-08-26 14:42:12.742 [main] ProfileTest - === Đóng Browser & Playwright khi kết thúc class ===
+{INFO ] 2025-08-26 14:42:51.975 [main] ProfileTest - === Khởi tạo Browser (chung cho toàn bộ class) ===
+{INFO ] 2025-08-26 14:42:57.699 [main] ProfileTest - Khởi tạo Chromium thành công
+{INFO ] 2025-08-26 14:42:57.729 [main] ProfileTest - === Tạo context + page mới cho mỗi test ===
+{INFO ] 2025-08-26 14:42:58.007 [main] ProfileTest - Tối đa hóa cửa sổ trình duyệt thành công
+{INFO ] 2025-08-26 14:43:20.723 [main] ProfileTest - === Đóng context sau mỗi test ===
+{INFO ] 2025-08-26 14:43:20.773 [main] ProfileTest - === Đóng Browser & Playwright khi kết thúc class ===
+{INFO ] 2025-08-26 14:56:28.436 [main] ProfileTest - === Khởi tạo Browser (chung cho toàn bộ class) ===
+{INFO ] 2025-08-26 14:56:34.393 [main] ProfileTest - Khởi tạo Chromium thành công
+{INFO ] 2025-08-26 14:56:34.429 [main] ProfileTest - === Tạo context + page mới cho mỗi test ===
+{INFO ] 2025-08-26 14:56:34.710 [main] ProfileTest - Tối đa hóa cửa sổ trình duyệt thành công
+{INFO ] 2025-08-26 14:56:46.013 [main] ProfileTest - === Đóng context sau mỗi test ===
+{INFO ] 2025-08-26 14:56:46.057 [main] ProfileTest - === Đóng Browser & Playwright khi kết thúc class ===
+{INFO ] 2025-08-26 15:00:00.899 [main] ProfileTest - === Khởi tạo Browser (chung cho toàn bộ class) ===
+{INFO ] 2025-08-26 15:00:06.797 [main] ProfileTest - Khởi tạo Chromium thành công
+{INFO ] 2025-08-26 15:00:06.836 [main] ProfileTest - === Tạo context + page mới cho mỗi test ===
+{INFO ] 2025-08-26 15:00:07.134 [main] ProfileTest - Tối đa hóa cửa sổ trình duyệt thành công
+{INFO ] 2025-08-26 15:00:16.598 [main] ProfileTest - === Đóng context sau mỗi test ===
+{INFO ] 2025-08-26 15:00:16.646 [main] ProfileTest - === Đóng Browser & Playwright khi kết thúc class ===
+{INFO ] 2025-08-26 15:02:51.326 [main] ProfileTest - === Khởi tạo Browser (chung cho toàn bộ class) ===
+{INFO ] 2025-08-26 15:02:57.300 [main] ProfileTest - Khởi tạo Chromium thành công
+{INFO ] 2025-08-26 15:02:57.339 [main] ProfileTest - === Tạo context + page mới cho mỗi test ===
+{INFO ] 2025-08-26 15:02:57.620 [main] ProfileTest - Tối đa hóa cửa sổ trình duyệt thành công
+{INFO ] 2025-08-26 15:03:06.554 [main] ProfileTest - === Đóng context sau mỗi test ===
+{INFO ] 2025-08-26 15:03:06.603 [main] ProfileTest - === Đóng Browser & Playwright khi kết thúc class ===
