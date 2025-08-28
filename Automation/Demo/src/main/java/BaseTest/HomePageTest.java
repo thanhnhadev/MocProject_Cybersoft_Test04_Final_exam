@@ -5,23 +5,16 @@ import BasePages.Components.Header;
 import BasePages.HomePage;
 import Locator.Locator_CMS;
 import org.openqa.selenium.By;
-import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
+import utils.ActionKeyword.ActionKeyword;
 import utils.Constants.ConfigData;
 import utils.Logs.LogUtils;
 import utils.listeners.TestListener;
 import org.openqa.selenium.WebElement;
-import utils.reports.CaptureReport;
-import utils.reports.ExtentTestManager;
-import org.openqa.selenium.chrome.ChromeDriver;
-
-import java.time.Duration;
-import java.time.Instant;
 
 @Listeners(TestListener.class)
 public class HomePageTest extends BaseSetup {
@@ -40,7 +33,7 @@ public class HomePageTest extends BaseSetup {
         HomePageTest = new HomePage(driver);
         driver.get(ConfigData.base_url);
         LogUtils.info("Go to Home Page");
-        sleep(5);
+        sleep(45);
     }
 
     public int checkSearchBox(String sendkey){
@@ -133,12 +126,13 @@ public class HomePageTest extends BaseSetup {
         LogUtils.info("Placeholder assertion passed!");
     }
     // Search Box
-    @Test(priority = 10, testName = "TC-13 Input Valid keywords Search Box " )
+    @Test(priority = 10, testName = "TC-13 Input Valid keywords Search Box" )
     public void inputValidKey() {
         this.gotoHomePage();
         sleep(5);
         int serviceCount = this.checkSearchBox("website");
         Assert.assertTrue(serviceCount > 0, "Expected > 0 services but found: " + serviceCount);
+        LogUtils.info("Input Valid keywords Search Box Passed");
     }
 
     @Test(priority = 11, testName = "TC-14 Input Invalid keywords Search Box " )
@@ -147,61 +141,126 @@ public class HomePageTest extends BaseSetup {
         sleep(5);
         int serviceCount = this.checkSearchBox("xyz123");
         Assert.assertEquals(serviceCount, 0, "Expected 0 services but found: " + serviceCount);
+        LogUtils.info("Input Invalid keywords Search Box Passed");
     }
 
-    @Test(priority = 12, testName = "TC-15 Input Special Character Search Box " )
+    @Test(priority = 12, testName = "TC-15 Input Special Character Search Box" )
     public void inputSpecialCharacter() {
         this.gotoHomePage();
         sleep(10);
         int serviceCount = this.checkSearchBox("@@@###");
         Assert.assertEquals(serviceCount, 0, "Expected 0 services but found: " + serviceCount);
+        LogUtils.info("Input Special Character Search Box Passed");
     }
 
-    @Test(priority = 13, testName = "TC-16 Input Empty Search Box " )
+    @Test(priority = 13, testName = "TC-16 Input Empty Search Box" )
     public void inputEmpty() {
         this.gotoHomePage();
         sleep(15);
         int serviceCount = this.checkSearchBox("");
         Assert.assertEquals(serviceCount, 0, "Expected 0 services but found: " + serviceCount);
+        LogUtils.info("Input Empty Search Box Passed");
     }
 
     // Popular
-    @Test(priority = 14, testName = "TC-17 CLick key Website Design of Popular Search" )
+    @Test(priority = 14, testName = "TC-17 Click key Website Design of Popular Search" )
     public void clickWebsiteDesignKey() {
         this.gotoHomePage();
         HomePageTest.clickPopularKeyWord("Website Design");
         System.out.println("CurrentUrl: " + driver.getCurrentUrl());
         Header.checkSuccessFull("Website Design");
+        LogUtils.info("Click key Website Design of Popular Search Passed");
     }
 
-    @Test(priority = 15, testName = "TC-17  CLick key WordPress of Popular Search" )
+    @Test(priority = 15, testName = "TC-17 Click key WordPress of Popular Search" )
     public void clickWordPressKey() {
         this.gotoHomePage();
         HomePageTest.clickPopularKeyWord("WordPress");
         System.out.println("CurrentUrl: " + driver.getCurrentUrl());
         Header.checkSuccessFull("WordPress");
+        LogUtils.info("Click key Website Design of Popular Search Passed");
     }
 
-    // Popular professional services
-    @Test(priority = 16, testName = "TC-18  CLick key WordPress of Popular Search" )
-    public void clickPreAndNextBtn() {
-        this.gotoHomePage();
-        System.out.println("btnPre: " + btnPre);
-        HomePageTest.clickElement(btnPre);
-    }
-
-    @Test(priority = 17, testName = "TC-18  CLick key WordPress of Popular Search" )
+//     Popular professional services
+    @Test(priority = 16, testName = "TC-18 Verify click button next of Popular professional services" )
     public void clickNextBtn() {
         this.gotoHomePage();
-        System.out.println("btnPre: " + btnNext);
-        HomePageTest.clickElement(btnNext);
+        sleep(5);
+        ActionKeyword actionKeyword= new ActionKeyword(driver);
+        WebElement element  = driver.findElement(By.xpath(Locator_CMS.tileSliderbar));
+        actionKeyword.scrollToElement(element);
+        sleep(10);
+        WebElement elementbtnNext  = driver.findElement(By.xpath(Locator_CMS.btnNext));
+        elementbtnNext.click();
+        sleep(10);
+        LogUtils.info("Click key WordPress of Popular Search Passed");
     }
 
-    @Test(priority = 18, testName = "TC-19  CLick key WordPress of Popular Search" )
-    public void clickSlide() {
+    @Test(priority = 17, testName = "TC-18 Verify click button previous of Popular professional services" )
+    public void clickPrevBtn() {
         this.gotoHomePage();
-        System.out.println("btnPre: " + currSliderPopular);
-        HomePageTest.clickElement(currSliderPopular);
+        sleep(5);
+        ActionKeyword actionKeyword= new ActionKeyword(driver);
+        WebElement element  = driver.findElement(By.xpath(Locator_CMS.tileSliderbar));
+        actionKeyword.scrollToElement(element);
+        sleep(10);
+        WebElement elementbtnPre  = driver.findElement(By.xpath(Locator_CMS.btnPre));
+        elementbtnPre.click();
+        LogUtils.info("Click key WordPress of Popular professional services Passed");
+    }
+
+    @Test(priority = 18, testName = "TC-19 CLick a slider of Popular professional services" )
+    public void clickSlider() {
+        this.gotoHomePage();
+        sleep(5);
+        ActionKeyword actionKeyword= new ActionKeyword(driver);
+        WebElement element  = driver.findElement(By.xpath(Locator_CMS.tileSliderbar));
+        actionKeyword.scrollToElement(element);
+        sleep(10);
+        WebElement elementbtnPre  = driver.findElement(By.xpath(Locator_CMS.sliderActive));
+        elementbtnPre.click();
+        sleep(5);
+        String resultText = HomePageTest.checkResultSearch();
+        sleep(10);
+        int serviceCount = HomePageTest.extractNumber(resultText);
+        System.out.println("serviceCount" + serviceCount);
+        sleep(10);
+        Assert.assertTrue(serviceCount > 0, "Expected > 0 services but found: " + serviceCount);
+        LogUtils.info("CLick a slide of Popular professional services Passed");
+
+    }
+
+    //Catogories Menu
+    @Test(priority = 20, testName = "TC-22 Hover Catogories Menu" )
+    public void clickHoverCatogories() {
+        this.gotoHomePage();
+        sleep(5);
+        ActionKeyword actionKeyword= new ActionKeyword(driver);
+        WebElement element  = driver.findElement(By.xpath(Locator_CMS.trustBy));
+        actionKeyword.scrollToElement(element);
+        sleep(10);
+        WebElement result = HomePageTest.catagoriesMenu("Graphics & Design");
+        actionKeyword.hover(result);
+        LogUtils.info("Click key WordPress of Popular Search Passed");
+    }
+
+    @Test(priority = 21, testName = "TC-19 Click SubCatogories Menu" )
+    public void clickSubCatogories() {
+        this.gotoHomePage();
+        sleep(15);
+        ActionKeyword actionKeyword= new ActionKeyword(driver);
+        WebElement element  = driver.findElement(By.xpath(Locator_CMS.trustBy));
+        actionKeyword.scrollToElement(element);
+        sleep(15);
+        WebElement result = HomePageTest.catagoriesMenu("Graphics & Design");
+        result.click();
+        sleep(10);
+        WebElement subResult = HomePageTest.subCatagoriesMenu("Website Design");
+        subResult.click();
+        sleep(10);
+        HomePageTest.testHasService();
+        sleep(10);
+        LogUtils.info("Click Click SubCatogories Menu Passed");
     }
 
     @AfterTest

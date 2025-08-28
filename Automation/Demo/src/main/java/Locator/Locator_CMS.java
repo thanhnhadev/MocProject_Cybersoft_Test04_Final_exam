@@ -20,11 +20,17 @@ public class Locator_CMS {
     public static final String Become_a_Seller="(//*[contains(text(),'Become a Seller')])[1]";
     public static final String btnSignin="(//*[contains(text(),'Sign in')])[2]";
     public static final String btnJoin="//*[contains(text(),'Join')]";
+    public static final String trustBy="//section[@class='trusted-by container']";
+    public static final String categoriesMenu="(//div[@class='categoriesmenu_li'])[1]";
     //Popular professional services
     public static final String currSliderPopular="//div[@class='slider-package']//div[@class='slick-slide slick-active slick-current']";
+    public static final String tileSliderbar="//*[@class='subcategory-carousel']";
     public static final String btnPre="//div[@class='slider-package']//div[@class='slick-arrow slick-prev']";
     public static final String btnNext="//div[@class='slider-package']//div[@class='slick-arrow slick-next']";
-
+    public static final String btn="//div[@class='selling-video col-12 col-md-12 col-lg-7 col-xl-7']//button[@type='button']";
+    public static final String viewVideo="//*[@class='selling-proposition-wrapper']";
+    public static final String footer="//h6[normalize-space()='Categories']";
+    public static final String sliderActive="(//div[@class='slick-slide slick-active'])[1]";
     //nav-header
     public static final String GraphicsDesign="(//*[contains(text(),'Graphics & Design')])[1]";
     public static final String DigitalMarketing="(//*[contains(text(),'Digital Marketing')])[1]";

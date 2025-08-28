@@ -110,7 +110,7 @@ public class HomePage {
         driver.findElement(btnSearch).click();
         LogUtils.info("click search");
     }
-    public String checkResultSearch(){
+   public String checkResultSearch(){
         wait.until(ExpectedConditions.visibilityOfElementLocated(resultSearch));
         new WebDriverWait(driver, Duration.ofSeconds(5));
         WebElement resultElement = driver.findElement(resultSearch);
@@ -118,10 +118,25 @@ public class HomePage {
         return resultElement.getText();
     }
 
-    public int extractNumber(String text) {
-        String number = text.split(" ")[0]; // lấy từ đầu tiên trước dấu cách
+    public Integer extractNumber(String text) {
+        String number = text.split(" ")[0]; // lấy từ đầu tiên trước dấu cách// lấy từ đầu tiên trước dấu cách
         return Integer.parseInt(number);
     }
+
+    public int  testHasService() {
+        wait.until(ExpectedConditions.visibilityOfElementLocated(resultSearch));
+        new WebDriverWait(driver, Duration.ofSeconds(5));
+        WebElement resultElement = driver.findElement(resultSearch);
+        System.out.println("resultElement.getText() " + resultElement.getText());
+        String text =resultElement.getText();
+        String number = text.split(" ")[0]; // lấy từ đầu tiên trước dấu cách// lấy từ đầu tiên trước dấu cách
+        Integer  serviceCount =  Integer.parseInt(number);
+        // Kiểm tra có ít nhất 1 service
+        Assert.assertTrue(serviceCount > 0,
+                "Expected > 0 services but found: " + serviceCount);
+        return  serviceCount;
+    }
+
 
     public void clickPopularKeyWord(String text) {
         String keyWord = "//div[normalize-space()='" + text + "']";
@@ -133,57 +148,23 @@ public class HomePage {
         LogUtils.info("Clicked Popular KeyWord");
     }
 
-//    public void clickElement(String xpath) {
-//        System.out.println("Clicking element with xpath: " + xpath);
-//
-//        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-//        WebElement resultElement = wait.until(
-//                ExpectedConditions.elementToBeClickable(By.xpath(xpath))
-//        );
-//
-//        // Scroll vào giữa màn hình
-//        JavascriptExecutor js = (JavascriptExecutor) driver;
-//        js.executeScript("arguments[0].scrollIntoView({block: 'center'});", resultElement);
-//
-//        resultElement.click();
-//        LogUtils.info("Clicked element with xpath: " + xpath);
-//    }
-
-    public void clickElement(String xpath) {
-        // Timeout tổng cho presence: 30s
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
-        WebElement element = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(xpath)));
-
-        JavascriptExecutor js = (JavascriptExecutor) driver;
-
-        try {
-            // Scroll element ra giữa màn hình
-            js.executeScript("arguments[0].scrollIntoView(false);", element);
-
-            // Chờ thêm 10 giây "mềm" bằng WebDriverWait
-            new WebDriverWait(driver, Duration.ofSeconds(20))
-                    .until(ExpectedConditions.visibilityOf(element));
-
-            // Click element khi có thể
-            wait.until(ExpectedConditions.elementToBeClickable(element)).click();
-            LogUtils.info("Clicked normally: " + xpath);
-
-        } catch (ElementClickInterceptedException e) {
-            // Fallback click bằng JS
-            js.executeScript("arguments[0].click();", element);
-            LogUtils.info("Clicked via JS (fallback): " + xpath);
-        }
+    public WebElement catagoriesMenu(String text) {
+        String keyWord = String.format("//p[normalize-space()='%s']", text);
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(keyWord)));
+        LogUtils.info("Tìm thấy element Popular KeyWord");
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        WebElement element = wait.until(ExpectedConditions.elementToBeClickable(By.xpath(keyWord)));
+//        ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView({block: 'center'});", element);
+        return element;
     }
 
-
-
-
-
-
-
-
-
-
-
-
+    public WebElement subCatagoriesMenu(String text) {
+        String keyWord = String.format("//div[@class='categoriesmenu_li_jobdetail categoriesmenu_li_jobdetail_1']//a[@class='categoriesmenu_li_jobdetail_detail_job container'][normalize-space()='%s']", text);
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(keyWord)));
+        LogUtils.info("Tìm thấy element Popular KeyWord");
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        WebElement element = wait.until(ExpectedConditions.elementToBeClickable(By.xpath(keyWord)));
+//        ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView({block: 'center'});", element);
+        return element;
+    }
 }
