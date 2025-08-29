@@ -5,14 +5,6 @@ import BasePages.Components.Header;
 import BasePages.HomePage;
 import Locator.Locator_CMS;
 import org.openqa.selenium.By;
-<<<<<<< HEAD
-import org.testng.annotations.Listeners;
-import org.testng.annotations.Test;
-import utils.Constants.ConfigData;
-import utils.Logs.LogUtils;
-import utils.listeners.TestListener;
-import utils.reports.CaptureReport;
-=======
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
@@ -23,25 +15,11 @@ import utils.Constants.ConfigData;
 import utils.Logs.LogUtils;
 import utils.listeners.TestListener;
 import org.openqa.selenium.WebElement;
->>>>>>> 46febdc6818c31cd2196633925e1751e359c9c45
 
 @Listeners(TestListener.class)
 public class HomePageTest extends BaseSetup {
     HomePage HomePageTest;
     Header Header;
-<<<<<<< HEAD
-//    @Test(testName = "tc_02_Navigatio Fiverr Bussines")
-//    public void verify_Navigation (){
-//        HomePageTest = new HomePage(driver);
-//        driver.get("https://demo5.cybersoft.edu.vn/");
-//        driver.findElement(By.xpath(Locator_CMS.Fiverr_Business)).click();
-//        CaptureReport.captureScreenshot(driver, "navigation success");
-//        CaptureReport.stopRecord();
-//    }
-
-    @Test(testName = "tc_02_Navigatio Fiverr")
-    public void verifyNavigationSignIn () {
-=======
     private WebDriverWait wait;
     private By inputSearch = By.xpath(Locator_CMS.inputSearch);
     private By btnPre1 = By.xpath(Locator_CMS.btnPre);
@@ -51,18 +29,11 @@ public class HomePageTest extends BaseSetup {
     private String currSliderPopular = Locator_CMS.currSliderPopular;
 
     public void gotoHomePage() {
->>>>>>> 46febdc6818c31cd2196633925e1751e359c9c45
         Header = new Header(driver);
         HomePageTest = new HomePage(driver);
         driver.get(ConfigData.base_url);
         LogUtils.info("Go to Home Page");
-<<<<<<< HEAD
-        sleep(5);
-        Header.Fiverr_Business();
-        Header.checkSuccessFull("Fiverr Business");
-=======
         sleep(45);
->>>>>>> 46febdc6818c31cd2196633925e1751e359c9c45
     }
 
     public int checkSearchBox(String sendkey){
