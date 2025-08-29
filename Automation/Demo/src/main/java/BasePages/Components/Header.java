@@ -2,6 +2,8 @@ package BasePages.Components;
 
 import Locator.Locator_CMS;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.openqa.selenium.NoSuchElementException;
@@ -103,4 +105,10 @@ public class Header {
         LogUtils.error("Login Fail");
         return false;
     }
+<<<<<<< HEAD
+=======
+
+
+
+>>>>>>> 46febdc6818c31cd2196633925e1751e359c9c45
 }
