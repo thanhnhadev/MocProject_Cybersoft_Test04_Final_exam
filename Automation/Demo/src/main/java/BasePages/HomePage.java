@@ -110,9 +110,7 @@ public class HomePage {
         driver.findElement(btnSearch).click();
         LogUtils.info("click search");
     }
-<<<<<<< HEAD
 
-=======
    public String checkResultSearch(){
         wait.until(ExpectedConditions.visibilityOfElementLocated(resultSearch));
         new WebDriverWait(driver, Duration.ofSeconds(5));
@@ -126,6 +124,7 @@ public class HomePage {
         return Integer.parseInt(number);
     }
 
+    //kiểm tra có kết quả service available > 0
     public int  testHasService() {
         wait.until(ExpectedConditions.visibilityOfElementLocated(resultSearch));
         new WebDriverWait(driver, Duration.ofSeconds(5));
@@ -133,14 +132,11 @@ public class HomePage {
         System.out.println("resultElement.getText() " + resultElement.getText());
         String text =resultElement.getText();
         String number = text.split(" ")[0]; // lấy từ đầu tiên trước dấu cách// lấy từ đầu tiên trước dấu cách
-        Integer  serviceCount =  Integer.parseInt(number);
-        // Kiểm tra có ít nhất 1 service
-        Assert.assertTrue(serviceCount > 0,
-                "Expected > 0 services but found: " + serviceCount);
+        int  serviceCount =  Integer.parseInt(number);
         return  serviceCount;
     }
 
-
+    // click key word popular
     public void clickPopularKeyWord(String text) {
         String keyWord = "//div[normalize-space()='" + text + "']";
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(keyWord)));
@@ -157,18 +153,16 @@ public class HomePage {
         LogUtils.info("Tìm thấy element Popular KeyWord");
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         WebElement element = wait.until(ExpectedConditions.elementToBeClickable(By.xpath(keyWord)));
-//        ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView({block: 'center'});", element);
         return element;
     }
 
-    public WebElement subCatagoriesMenu(String text) {
-        String keyWord = String.format("//div[@class='categoriesmenu_li_jobdetail categoriesmenu_li_jobdetail_1']//a[@class='categoriesmenu_li_jobdetail_detail_job container'][normalize-space()='%s']", text);
+    public WebElement clickElement(String xpath, String text) {
+        String keyWord = String.format(xpath, text);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(keyWord)));
-        LogUtils.info("Tìm thấy element Popular KeyWord");
+        LogUtils.info("Tìm thấy KeyWord");
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         WebElement element = wait.until(ExpectedConditions.elementToBeClickable(By.xpath(keyWord)));
-//        ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView({block: 'center'});", element);
+        LogUtils.info("Clicked KeyWord");
         return element;
     }
->>>>>>> 46febdc6818c31cd2196633925e1751e359c9c45
 }

@@ -21,16 +21,28 @@ public class Locator_CMS {
     public static final String btnSignin="(//*[contains(text(),'Sign in')])[2]";
     public static final String btnJoin="//*[contains(text(),'Join')]";
     public static final String trustBy="//section[@class='trusted-by container']";
-    public static final String categoriesMenu="(//div[@class='categoriesmenu_li'])[1]";
+    public static final String categoriesMenu="//p[normalize-space()='%s']";
+    public static final String subCategoriesMenu="//div[@class='categoriesmenu_li_jobdetail categoriesmenu_li_jobdetail_1']//a[@class='categoriesmenu_li_jobdetail_detail_job container'][normalize-space()='%s']";
     //Popular professional services
     public static final String currSliderPopular="//div[@class='slider-package']//div[@class='slick-slide slick-active slick-current']";
     public static final String tileSliderbar="//*[@class='subcategory-carousel']";
     public static final String btnPre="//div[@class='slider-package']//div[@class='slick-arrow slick-prev']";
     public static final String btnNext="//div[@class='slider-package']//div[@class='slick-arrow slick-next']";
     public static final String btn="//div[@class='selling-video col-12 col-md-12 col-lg-7 col-xl-7']//button[@type='button']";
-    public static final String viewVideo="//*[@class='selling-proposition-wrapper']";
-    public static final String footer="//h6[normalize-space()='Categories']";
     public static final String sliderActive="(//div[@class='slick-slide slick-active'])[1]";
+    //Explore the marketplace
+    public static final String iconMarketPlace="(//a[contains(text(),'Graphics & Design')])[1]";
+    public static final String sectionExploreMarket="//section[@class='main-categories container']";
+    public static final String descExploreMarket="(//a[contains(text(),'Graphics & Design')])[1]";
+    //View video
+    public static final String sectionFreelance ="//img[@class='modal-img']";
+    public static final String playVideo="//*[@class='selling-proposition-wrapper']";
+    public static final String pauseVideo="//div[@class='video-selling']//div//video";
+    //Footer
+    public static final String footer="//footer[@class='footer']";
+    public static final String footerBottom="///div[@class='footer_bottom']";
+    public static final String catagoryFooter="//a[@href='#'][normalize-space()='%s']";
+    public static final String socialFooter="//li[1]//a[1]//span[%s]";
     //nav-header
     public static final String GraphicsDesign="(//*[contains(text(),'Graphics & Design')])[1]";
     public static final String DigitalMarketing="(//*[contains(text(),'Digital Marketing')])[1]";
