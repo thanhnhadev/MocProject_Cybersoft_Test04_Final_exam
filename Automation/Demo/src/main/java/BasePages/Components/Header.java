@@ -6,12 +6,14 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.By;
+import org.testng.Assert;
 import utils.ActionKeyword.ActionKeyword;
 import utils.Logs.LogUtils;
 
 import java.time.Duration;
 
 import static Base.BaseSetup.driver;
+import static Base.BaseSetup.sleep;
 
 public class Header {
     private WebDriver _driver;
@@ -92,5 +94,11 @@ public class Header {
         String title= driver.findElement(btnJoin).getText();
         LogUtils.info("header:"+title);
         driver.findElement(btnJoin).click();
+    }
+    public boolean checkSuccessFull(String content){
+        sleep(5);
+        Assert.assertTrue(driver.getCurrentUrl().contains(content),"fail van login");
+        LogUtils.error("Login Fail");
+        return false;
     }
 }

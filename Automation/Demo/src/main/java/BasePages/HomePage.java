@@ -1,13 +1,12 @@
 package BasePages;
 
 import Locator.Locator_CMS;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
 import utils.ActionKeyword.ActionKeyword;
+import utils.Constants.ConfigData;
 import utils.Logs.LogUtils;
 
 import java.time.Duration;
@@ -25,6 +24,10 @@ public class HomePage {
     private By Testing= By.xpath(Locator_CMS.Testing);
     private By Search_Bar= By.xpath(Locator_CMS.Search_Body);
     private By btnSearching= By.xpath(Locator_CMS.getBtnSearching_Body);
+    private By inputSearch = By.xpath(Locator_CMS.inputSearch);
+    private By btnSearch = By.xpath(Locator_CMS.btnSearch);
+    private By resultSearch = By.xpath(Locator_CMS.resultSearch);
+
     public HomePage(WebDriver driver){
         this.driver= driver;
         wait = new WebDriverWait(driver, Duration.ofSeconds(5));
@@ -104,7 +107,62 @@ public class HomePage {
     }
     public void btnSearch(){
         wait.until(ExpectedConditions.visibilityOfElementLocated(btnSearching));
-        driver.findElement(Search_Bar).click();
+        driver.findElement(btnSearch).click();
         LogUtils.info("click search");
+    }
+
+    public String checkResultSearch(){
+        wait.until(ExpectedConditions.visibilityOfElementLocated(resultSearch));
+        new WebDriverWait(driver, Duration.ofSeconds(5));
+        WebElement resultElement = driver.findElement(resultSearch);
+        System.out.println("resultElement.getText() " + resultElement.getText());
+        return resultElement.getText();
+    }
+
+    public Integer extractNumber(String text) {
+        String number = text.split(" ")[0]; // lấy từ đầu tiên trước dấu cách// lấy từ đầu tiên trước dấu cách
+        return Integer.parseInt(number);
+    }
+
+    //kiểm tra có kết quả service available > 0
+    public int  testHasService() {
+        wait.until(ExpectedConditions.visibilityOfElementLocated(resultSearch));
+        new WebDriverWait(driver, Duration.ofSeconds(5));
+        WebElement resultElement = driver.findElement(resultSearch);
+        System.out.println("resultElement.getText() " + resultElement.getText());
+        String text =resultElement.getText();
+        String number = text.split(" ")[0]; // lấy từ đầu tiên trước dấu cách// lấy từ đầu tiên trước dấu cách
+        int  serviceCount =  Integer.parseInt(number);
+        return  serviceCount;
+    }
+
+    // click key word popular
+    public void clickPopularKeyWord(String text) {
+        String keyWord = "//div[normalize-space()='" + text + "']";
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(keyWord)));
+        LogUtils.info("Tìm thấy element Popular KeyWord");
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
+        WebElement resultElement = driver.findElement(By.xpath(keyWord));
+        resultElement.click();
+        LogUtils.info("Clicked Popular KeyWord");
+    }
+
+    public WebElement catagoriesMenu(String text) {
+        String keyWord = String.format("//p[normalize-space()='%s']", text);
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(keyWord)));
+        LogUtils.info("Tìm thấy element Popular KeyWord");
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        WebElement element = wait.until(ExpectedConditions.elementToBeClickable(By.xpath(keyWord)));
+        return element;
+    }
+
+    public WebElement clickElement(String xpath, String text) {
+        String keyWord = String.format(xpath, text);
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(keyWord)));
+        LogUtils.info("Tìm thấy KeyWord");
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        WebElement element = wait.until(ExpectedConditions.elementToBeClickable(By.xpath(keyWord)));
+        LogUtils.info("Clicked KeyWord");
+        return element;
     }
 }
