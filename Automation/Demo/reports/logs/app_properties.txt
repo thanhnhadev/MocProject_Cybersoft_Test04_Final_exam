@@ -1,0 +1,10 @@
+[INFO] 30-08-2025 18:07:02 [main] LogUtils - Starting navigation to category page from Homepage:
+[INFO] 30-08-2025 18:07:05 [main] LogUtils - Navigated to browse page: https://demo5.cybersoft.edu.vn/
+[INFO] 30-08-2025 18:07:05 [main] LogUtils - Scrolled to Popular professional services section.
+[INFO] 30-08-2025 18:07:05 [main] LogUtils - Navigated to category: (//*[contains(text(),'Testing')])[1]
+[INFO] 30-08-2025 18:07:05 [main] LogUtils - Successfully navigated to Graphics & Design category
+[INFO] 30-08-2025 18:08:01 [main] LogUtils - Starting navigation to category page from Homepage:
+[INFO] 30-08-2025 18:08:04 [main] LogUtils - Navigated to browse page: https://demo5.cybersoft.edu.vn/
+[INFO] 30-08-2025 18:08:04 [main] LogUtils - Scrolled to Popular professional services section.
+[INFO] 30-08-2025 18:08:04 [main] LogUtils - Navigated to category: (//*[contains(text(),'Testing')])[1]
+[INFO] 30-08-2025 18:08:04 [main] LogUtils - Successfully navigated to Graphics & Design category

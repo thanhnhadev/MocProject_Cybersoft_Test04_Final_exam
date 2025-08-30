@@ -101,13 +101,12 @@ public class BaseSetup {
     }
     @AfterMethod
     public static void closeBrowser(ITestResult iTestResult)  {
-        //chụp màng hình khi testcase fail, ngược lại không chụp
         if (ITestResult.FAILURE== iTestResult.getStatus()){
             CaptureReport.captureScreenshot(driver, iTestResult.getName());
             AllureManager.saveScreenshotPNG(driver);
         }
         try {
-            Thread.sleep(2000);
+            Thread.sleep(5000);
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
