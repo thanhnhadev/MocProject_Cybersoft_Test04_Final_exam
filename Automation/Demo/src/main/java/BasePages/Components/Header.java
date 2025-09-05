@@ -20,6 +20,8 @@ import static Base.BaseSetup.sleep;
 public class Header {
     private WebDriver _driver;
     private WebDriverWait wait;
+    private ActionKeyword actions;
+
     private By Fiverr_Business= By.xpath(Locator_CMS.Fiverr_Business);
     private By Search_Bar= By.xpath(Locator_CMS.Search_Bar);
     private By btnSearching= By.xpath(Locator_CMS.btnSearching);
@@ -33,6 +35,7 @@ public class Header {
     public Header(WebDriver driver) {
         this._driver = driver;
         wait= new WebDriverWait(driver, Duration.ofSeconds(5));
+        this.actions = new ActionKeyword(driver);
     }
     // page valation
     public boolean LogoDisplay(){
@@ -48,8 +51,14 @@ public class Header {
         String title= driver.findElement(Fiverr_Business).getText();
         LogUtils.info("header:"+title);
         driver.findElement(Fiverr_Business).click();
-
     }
+
+    public void hoverFiverrBusiness() {
+        WebElement el = wait.until(ExpectedConditions.visibilityOfElementLocated(Fiverr_Business));
+        actions.hover(el);
+        LogUtils.info("Hover Fiverr Business option");
+    }
+
     public void Search_Bar(String content){
         wait.until(ExpectedConditions.visibilityOfElementLocated(Search_Bar));
         String title= driver.findElement(Search_Bar).getText();
@@ -105,10 +114,6 @@ public class Header {
         LogUtils.error("Login Fail");
         return false;
     }
-<<<<<<< HEAD
-=======
 
 
-
->>>>>>> 46febdc6818c31cd2196633925e1751e359c9c45
 }

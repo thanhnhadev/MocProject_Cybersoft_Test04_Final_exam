@@ -1,103 +1,69 @@
 package BasePages;
 
+import BasePages.Components.CategoryNavBar;
 import Locator.Locator_CMS;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.Assert;
 import utils.ActionKeyword.ActionKeyword;
 import utils.Constants.ConfigData;
 import utils.Logs.LogUtils;
 
 import java.time.Duration;
 
-import static Base.BaseSetup.driver;
+import static Base.BaseSetup.sleep;
 
 public class HomePage {
     private WebDriver driver;
     private WebDriverWait wait;
-    private By GraphicsDesign= By.xpath(Locator_CMS.GraphicsDesign);
-    private By DigitalMarketing= By.xpath(Locator_CMS.DigitalMarketing);
-    private By WritingTranslation= By.xpath(Locator_CMS.WritingTranslation);
-    private By Video_Animation= By.xpath(Locator_CMS.Video_Animation);
-    private By Music_Audio= By.xpath(Locator_CMS.Music_Audio);
-    private By Testing= By.xpath(Locator_CMS.Testing);
+    private ActionKeyword actions;
+
+    private CategoryNavBar categoryNavBar;
+
     private By Search_Bar= By.xpath(Locator_CMS.Search_Body);
     private By btnSearching= By.xpath(Locator_CMS.getBtnSearching_Body);
     private By inputSearch = By.xpath(Locator_CMS.inputSearch);
     private By btnSearch = By.xpath(Locator_CMS.btnSearch);
     private By resultSearch = By.xpath(Locator_CMS.resultSearch);
 
+    // locator cho heading "Popular professional services" (phần cố định trên Homepage)
+    private final By popularProfessionalServicesTitle =
+            By.xpath(Locator_CMS.popularProfessionalServiceHeading);
+
     public HomePage(WebDriver driver){
-        this.driver= driver;
-        wait = new WebDriverWait(driver, Duration.ofSeconds(5));
+        this.driver = driver;
+        this.wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        this.categoryNavBar = new CategoryNavBar(driver);
+        this.actions = new ActionKeyword(driver);
     }
-    public void nav_GraphicsDesign(){
-        wait.until(ExpectedConditions.visibilityOfElementLocated(GraphicsDesign));
-        //Instantiate Action Class
-        ActionKeyword actions = new ActionKeyword(driver);
-        //Retrieve WebElement  to perform mouse hover
-        WebElement option = driver.findElement(GraphicsDesign);
-        option.getText();
-        //Mouse hover option
-        actions.hover(option);
-        LogUtils.info("nav:"+option);
+
+    public HomePage open() {
+        driver.get(ConfigData.base_url);
+        LogUtils.info("Opened Homepage: " + ConfigData.base_url);
+        sleep(2);
+        return this;
     }
-    public void nav_WritingTranslation(){
-        wait.until(ExpectedConditions.visibilityOfElementLocated(WritingTranslation));
-        //Instantiate Action Class
-        ActionKeyword actions = new ActionKeyword(driver);
-        //Retrieve WebElement  to perform mouse hover
-        WebElement option = driver.findElement(WritingTranslation);
-        option.getText();
-        //Mouse hover menuOption
-        actions.hover(option);
-        LogUtils.info("nav:"+option);
+
+//    Navigate to a category page from Homepage
+    public categoryPage navigateToCategoryPage(String categoryXpath) {
+        LogUtils.info("Starting navigation to category page from Homepage:");
+
+        // scroll down a little bit to see the category nav bar exists
+        WebElement heading = driver.findElement(popularProfessionalServicesTitle);
+        actions.scrollToElement(heading);
+        sleep(2);
+        LogUtils.info("Scrolled to Popular professional services heading. Category nav bar visible.");
+
+        categoryPage page = categoryNavBar.navigateToCategory(categoryXpath);
+
+        // scroll lên top sau khi load
+        actions.scrollToTop();
+        sleep(2);
+
+        LogUtils.info("Clicked on category. Waiting for page load...");
+        return page;
     }
-    public void nav_DigitalMarketing(){
-        wait.until(ExpectedConditions.visibilityOfElementLocated(DigitalMarketing));
-        //Instantiate Action Class
-        ActionKeyword actions = new ActionKeyword(driver);
-        //Retrieve WebElement  to perform mouse hover
-        WebElement option = driver.findElement(DigitalMarketing);
-        option.getText();
-        //Mouse hover menuOption
-        actions.hover(option);
-        LogUtils.info("nav:"+option);
-    }
-    public void nav_Video_Animation(){
-        wait.until(ExpectedConditions.visibilityOfElementLocated(Video_Animation));
-        //Instantiate Action Class
-        ActionKeyword actions = new ActionKeyword(driver);
-        //Retrieve WebElement  to perform mouse hover
-        WebElement option = driver.findElement(Video_Animation);
-        option.getText();
-        //Mouse hover option
-        actions.hover(option);
-        LogUtils.info("nav:"+option);
-    }
-    public void nav_Music_Audio(){
-        wait.until(ExpectedConditions.visibilityOfElementLocated(Music_Audio));
-        //Instantiate Action Class
-        ActionKeyword actions = new ActionKeyword(driver);
-        //Retrieve WebElement  to perform mouse hover
-        WebElement option = driver.findElement(Music_Audio);
-        option.getText();
-        //Mouse hover option
-        actions.hover(option);
-        LogUtils.info("nav:"+option);
-    }
-    public void nav_Testing(String content){
-        wait.until(ExpectedConditions.visibilityOfElementLocated(Testing));
-        //Instantiate Action Class
-        ActionKeyword actions = new ActionKeyword(driver);
-        //Retrieve WebElement  to perform mouse hover
-        WebElement option = driver.findElement(Testing);
-        option.getText();
-        //Mouse hover option
-        actions.hover(option);
-        LogUtils.info("nav:"+option);
-    }
+
     public void Search_Bar(String content){
         wait.until(ExpectedConditions.visibilityOfElementLocated(Search_Bar));
         String title= driver.findElement(Search_Bar).getText();
@@ -145,15 +111,6 @@ public class HomePage {
         WebElement resultElement = driver.findElement(By.xpath(keyWord));
         resultElement.click();
         LogUtils.info("Clicked Popular KeyWord");
-    }
-
-    public WebElement catagoriesMenu(String text) {
-        String keyWord = String.format("//p[normalize-space()='%s']", text);
-        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(keyWord)));
-        LogUtils.info("Tìm thấy element Popular KeyWord");
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-        WebElement element = wait.until(ExpectedConditions.elementToBeClickable(By.xpath(keyWord)));
-        return element;
     }
 
     public WebElement clickElement(String xpath, String text) {

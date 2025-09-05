@@ -26,7 +26,10 @@ public class ActionKeyword {
     }
     //Scroll đến 1 phần tử cụ thể
     public void scrollToElement(WebElement element) {
-        ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", element);
+        ((JavascriptExecutor) driver).executeScript(
+                "arguments[0].scrollIntoView({block: 'center', inline: 'nearest'});",
+                element
+        );
     }
     //Scroll theo pixel
     public void scrollByPixel(int x, int y) {

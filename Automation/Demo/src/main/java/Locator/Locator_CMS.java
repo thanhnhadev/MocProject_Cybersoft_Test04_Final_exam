@@ -24,6 +24,7 @@ public class Locator_CMS {
     public static final String categoriesMenu="//p[normalize-space()='%s']";
     public static final String subCategoriesMenu="//div[@class='categoriesmenu_li_jobdetail categoriesmenu_li_jobdetail_1']//a[@class='categoriesmenu_li_jobdetail_detail_job container'][normalize-space()='%s']";
     //Popular professional services
+    public static final String popularProfessionalServiceHeading = "//h2[normalize-space()='Popular professional services']";
     public static final String currSliderPopular="//div[@class='slider-package']//div[@class='slick-slide slick-active slick-current']";
     public static final String tileSliderbar="//*[@class='subcategory-carousel']";
     public static final String btnPre="//div[@class='slider-package']//div[@class='slick-arrow slick-prev']";
@@ -43,13 +44,6 @@ public class Locator_CMS {
     public static final String footerBottom="///div[@class='footer_bottom']";
     public static final String catagoryFooter="//a[@href='#'][normalize-space()='%s']";
     public static final String socialFooter="//li[1]//a[1]//span[%s]";
-    //nav-header
-    public static final String GraphicsDesign="(//*[contains(text(),'Graphics & Design')])[1]";
-    public static final String DigitalMarketing="(//*[contains(text(),'Digital Marketing')])[1]";
-    public static final String WritingTranslation="(//*[contains(text(),'Writing & Translation')])[1]";
-    public static final String Video_Animation="(//*[contains(text(),'Video & Animation')])[1]";
-    public static final String Music_Audio="(//*[contains(text(),'Music & Audio')])[1]";
-    public static final String Testing="(//*[contains(text(),'Testing')])[1]";
     //page Login
     public static final String lbsigninTitle="//h2[normalize-space()='Sign In to Fiverr']";
     public static final String email="//*[contains(@id,'email')]";
@@ -76,7 +70,7 @@ public class Locator_CMS {
     public static final String lstCartItemclass= "//div[@class='gigs_card']//h1";
     public static final String btnRemoveCartItemclass1="//button[contains(normalize-space(),'DEL')]";
     public static final String btnViewdetail="(//*[contains(text(),'View detail')])";
-    //    page podup edit profile
+    //page popup edit profile
     public static final String titlePodup="//h2[contains(normalize-space(),'Update User')]";
     public static final String editPhoneNumber="//*[contains(@name,'phone')]";
     public static final String editName="//*[contains(@name,'name')]";
@@ -88,8 +82,14 @@ public class Locator_CMS {
     public static final String editSkill="//input[@id='skill']";
     public static final String btnCancel="//button[contains(normalize-space(),'Cancel')]";
     public static final String btnSave="//button[contains(normalize-space(),'Save')]";
+    // page Category
+    public static final String mostPopularHeading = "//h1[normalize-space()='Most popular in %s']";
+    public static final String btnHowFiverrWorks="//span[normalize-space()='How Fiverr Works']";
+    public static final String subcategoryOption="//section[@class='explore-job-title' and .//h1[contains(normalize-space(),'%s')]]//a[normalize-space()='%s']";
 
     // detail page
+
+
 //    public static final String btnCountinue = "(//button[@class='submit' and contains(normalize-space(.),'Continue')])[1]";
 public static final String btnCountinue ="(//button[@class='submit'])[2]";
 //public static final String btnComparePackages = "(//a[normalize-space(text())='Compare Packages'])[1]";
