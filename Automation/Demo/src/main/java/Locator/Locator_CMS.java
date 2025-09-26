@@ -86,6 +86,12 @@ public class Locator_CMS {
     public static final String mostPopularHeading = "//h1[normalize-space()='Most popular in %s']";
     public static final String btnHowFiverrWorks="//span[normalize-space()='How Fiverr Works']";
     public static final String subcategoryOption="//section[@class='explore-job-title' and .//h1[contains(normalize-space(),'%s')]]//a[normalize-space()='%s']";
+    // subcategory page / service page
+    public static final String toggleButtonWithLabel="//span[@class='switch-title' and normalize-space()='%s']/preceding-sibling::label";
+    public static final String dropdownMenuWithLabel="//button[contains(@class,'dropdown-toggle') and normalize-space(text())='%s']";
+    public static final String sortDropdownMenu="//div[@class='sort-by']//select";
+//    public static final String sortOptionWithLabel="//span[normalize-space()='Sort by']/following-sibling::select/option[normalize-space(text())='%s']";
+//public static final String sortOptionWithLabel = "//span[normalize-space()='Sort by']/following-sibling::select";
 
     // detail page
 

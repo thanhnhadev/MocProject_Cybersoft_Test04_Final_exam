@@ -1,0 +1,74 @@
+[INFO] 26-09-2025 20:31:09 [main] LogUtils - Opened Homepage: https://demo5.cybersoft.edu.vn/
+[INFO] 26-09-2025 20:31:11 [main] LogUtils - Starting navigation to category page from Homepage:
+[INFO] 26-09-2025 20:31:13 [main] LogUtils - Scrolled to Popular professional services heading. Category nav bar visible.
+[INFO] 26-09-2025 20:31:14 [main] LogUtils - Hover Fiverr Business option
+[INFO] 26-09-2025 20:31:16 [main] LogUtils - Clicked on category. Waiting for page load...
+[INFO] 26-09-2025 20:31:18 [main] LogUtils - Clicked subcategory: Logo Design in Graphics & Design
+[INFO] 26-09-2025 20:31:23 [main] LogUtils - Opened Homepage: https://demo5.cybersoft.edu.vn/
+[INFO] 26-09-2025 20:31:25 [main] LogUtils - Starting navigation to category page from Homepage:
+[INFO] 26-09-2025 20:31:48 [main] LogUtils - Opened Homepage: https://demo5.cybersoft.edu.vn/
+[INFO] 26-09-2025 20:31:50 [main] LogUtils - Starting navigation to category page from Homepage:
+[INFO] 26-09-2025 20:31:52 [main] LogUtils - Scrolled to Popular professional services heading. Category nav bar visible.
+[INFO] 26-09-2025 20:31:52 [main] LogUtils - Hover Fiverr Business option
+[INFO] 26-09-2025 20:31:54 [main] LogUtils - Clicked on category. Waiting for page load...
+[INFO] 26-09-2025 20:31:56 [main] LogUtils - Clicked subcategory: Search Engine Optimization (SEO) in Digital Marketing
+[INFO] 26-09-2025 20:54:33 [main] LogUtils - Opened Homepage: https://demo5.cybersoft.edu.vn/
+[INFO] 26-09-2025 20:54:36 [main] LogUtils - Starting navigation to category page from Homepage:
+[INFO] 26-09-2025 20:54:38 [main] LogUtils - Scrolled to Popular professional services heading. Category nav bar visible.
+[INFO] 26-09-2025 20:54:38 [main] LogUtils - Hover Fiverr Business option
+[INFO] 26-09-2025 20:54:40 [main] LogUtils - Clicked on category. Waiting for page load...
+[INFO] 26-09-2025 20:54:42 [main] LogUtils - Clicked subcategory: Search Engine Optimization (SEO) in Digital Marketing
+[INFO] 26-09-2025 22:18:12 [main] LogUtils - Opened Homepage: https://demo5.cybersoft.edu.vn/
+[INFO] 26-09-2025 22:18:14 [main] LogUtils - Starting navigation to category page from Homepage:
+[INFO] 26-09-2025 22:18:16 [main] LogUtils - Scrolled to Popular professional services heading. Category nav bar visible.
+[INFO] 26-09-2025 22:18:17 [main] LogUtils - Hover Fiverr Business option
+[INFO] 26-09-2025 22:18:19 [main] LogUtils - Clicked on category. Waiting for page load...
+[INFO] 26-09-2025 22:18:21 [main] LogUtils - Clicked subcategory: Logo Design in Graphics & Design
+[INFO] 26-09-2025 22:21:52 [main] LogUtils - Opened Homepage: https://demo5.cybersoft.edu.vn/
+[INFO] 26-09-2025 22:21:54 [main] LogUtils - Starting navigation to category page from Homepage:
+[INFO] 26-09-2025 22:21:56 [main] LogUtils - Scrolled to Popular professional services heading. Category nav bar visible.
+[INFO] 26-09-2025 22:21:57 [main] LogUtils - Hover Fiverr Business option
+[INFO] 26-09-2025 22:21:59 [main] LogUtils - Clicked on category. Waiting for page load...
+[INFO] 26-09-2025 22:22:01 [main] LogUtils - Clicked subcategory: Logo Design in Graphics & Design
+[INFO] 26-09-2025 22:25:52 [main] LogUtils - Opened Homepage: https://demo5.cybersoft.edu.vn/
+[INFO] 26-09-2025 22:25:54 [main] LogUtils - Starting navigation to category page from Homepage:
+[INFO] 26-09-2025 22:25:56 [main] LogUtils - Scrolled to Popular professional services heading. Category nav bar visible.
+[INFO] 26-09-2025 22:25:57 [main] LogUtils - Hover Fiverr Business option
+[INFO] 26-09-2025 22:25:59 [main] LogUtils - Clicked on category. Waiting for page load...
+[INFO] 26-09-2025 22:26:01 [main] LogUtils - Clicked subcategory: Logo Design in Graphics & Design
+[INFO] 26-09-2025 22:28:45 [main] LogUtils - Opened Homepage: https://demo5.cybersoft.edu.vn/
+[INFO] 26-09-2025 22:28:48 [main] LogUtils - Starting navigation to category page from Homepage:
+[INFO] 26-09-2025 22:28:50 [main] LogUtils - Scrolled to Popular professional services heading. Category nav bar visible.
+[INFO] 26-09-2025 22:28:50 [main] LogUtils - Hover Fiverr Business option
+[INFO] 26-09-2025 22:28:52 [main] LogUtils - Clicked on category. Waiting for page load...
+[INFO] 26-09-2025 22:28:54 [main] LogUtils - Clicked subcategory: Logo Design in Graphics & Design
+[INFO] 26-09-2025 22:43:21 [main] LogUtils - Opened Homepage: https://demo5.cybersoft.edu.vn/
+[INFO] 26-09-2025 22:43:23 [main] LogUtils - Starting navigation to category page from Homepage:
+[INFO] 26-09-2025 22:43:25 [main] LogUtils - Scrolled to Popular professional services heading. Category nav bar visible.
+[INFO] 26-09-2025 22:43:26 [main] LogUtils - Hover Fiverr Business option
+[INFO] 26-09-2025 22:43:28 [main] LogUtils - Clicked on category. Waiting for page load...
+[INFO] 26-09-2025 22:43:30 [main] LogUtils - Clicked subcategory: Logo Design in Graphics & Design
+[INFO] 26-09-2025 22:58:36 [main] LogUtils - Opened Homepage: https://demo5.cybersoft.edu.vn/
+[INFO] 26-09-2025 22:58:38 [main] LogUtils - Starting navigation to category page from Homepage:
+[INFO] 26-09-2025 22:58:40 [main] LogUtils - Scrolled to Popular professional services heading. Category nav bar visible.
+[INFO] 26-09-2025 22:58:40 [main] LogUtils - Hover Fiverr Business option
+[INFO] 26-09-2025 22:58:42 [main] LogUtils - Clicked on category. Waiting for page load...
+[INFO] 26-09-2025 22:58:44 [main] LogUtils - Clicked subcategory: Logo Design in Graphics & Design
+[INFO] 26-09-2025 23:00:08 [main] LogUtils - Opened Homepage: https://demo5.cybersoft.edu.vn/
+[INFO] 26-09-2025 23:00:10 [main] LogUtils - Starting navigation to category page from Homepage:
+[INFO] 26-09-2025 23:00:12 [main] LogUtils - Scrolled to Popular professional services heading. Category nav bar visible.
+[INFO] 26-09-2025 23:00:12 [main] LogUtils - Hover Fiverr Business option
+[INFO] 26-09-2025 23:00:14 [main] LogUtils - Clicked on category. Waiting for page load...
+[INFO] 26-09-2025 23:00:16 [main] LogUtils - Clicked subcategory: Logo Design in Graphics & Design
+[INFO] 26-09-2025 23:02:24 [main] LogUtils - Opened Homepage: https://demo5.cybersoft.edu.vn/
+[INFO] 26-09-2025 23:02:26 [main] LogUtils - Starting navigation to category page from Homepage:
+[INFO] 26-09-2025 23:02:28 [main] LogUtils - Scrolled to Popular professional services heading. Category nav bar visible.
+[INFO] 26-09-2025 23:02:29 [main] LogUtils - Hover Fiverr Business option
+[INFO] 26-09-2025 23:02:31 [main] LogUtils - Clicked on category. Waiting for page load...
+[INFO] 26-09-2025 23:02:33 [main] LogUtils - Clicked subcategory: Logo Design in Graphics & Design
+[INFO] 26-09-2025 23:04:33 [main] LogUtils - Opened Homepage: https://demo5.cybersoft.edu.vn/
+[INFO] 26-09-2025 23:04:35 [main] LogUtils - Starting navigation to category page from Homepage:
+[INFO] 26-09-2025 23:04:37 [main] LogUtils - Scrolled to Popular professional services heading. Category nav bar visible.
+[INFO] 26-09-2025 23:04:38 [main] LogUtils - Hover Fiverr Business option
+[INFO] 26-09-2025 23:04:40 [main] LogUtils - Clicked on category. Waiting for page load...
+[INFO] 26-09-2025 23:04:42 [main] LogUtils - Clicked subcategory: Logo Design in Graphics & Design
