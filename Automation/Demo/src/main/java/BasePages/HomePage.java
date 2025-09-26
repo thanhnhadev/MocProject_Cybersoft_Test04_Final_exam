@@ -44,7 +44,6 @@ public class HomePage {
         return this;
     }
 
-//    Navigate to a category page from Homepage
     public categoryPage navigateToCategoryPage(String categoryXpath) {
         LogUtils.info("Starting navigation to category page from Homepage:");
 
@@ -64,30 +63,10 @@ public class HomePage {
         return page;
     }
 
-    public void Search_Bar(String content){
-        wait.until(ExpectedConditions.visibilityOfElementLocated(Search_Bar));
-        String title= driver.findElement(Search_Bar).getText();
-        driver.findElement(Search_Bar).sendKeys(content);
-        LogUtils.info("header:"+title);
-        this.btnSearch();
-    }
     public void btnSearch(){
         wait.until(ExpectedConditions.visibilityOfElementLocated(btnSearching));
         driver.findElement(btnSearch).click();
         LogUtils.info("click search");
-    }
-
-   public String checkResultSearch(){
-        wait.until(ExpectedConditions.visibilityOfElementLocated(resultSearch));
-        new WebDriverWait(driver, Duration.ofSeconds(5));
-        WebElement resultElement = driver.findElement(resultSearch);
-        System.out.println("resultElement.getText() " + resultElement.getText());
-        return resultElement.getText();
-    }
-
-    public Integer extractNumber(String text) {
-        String number = text.split(" ")[0]; // lấy từ đầu tiên trước dấu cách// lấy từ đầu tiên trước dấu cách
-        return Integer.parseInt(number);
     }
 
     //kiểm tra có kết quả service available > 0

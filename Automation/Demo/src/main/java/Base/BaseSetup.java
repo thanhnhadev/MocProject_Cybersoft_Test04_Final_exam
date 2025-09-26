@@ -24,11 +24,7 @@ import java.time.Duration;
 
 public class BaseSetup {
     public static WebDriver driver;
-    private Header header;
 
-    public Header header(){
-        return this.header;
-    }
     public static void createBrowser(){
         driver = new ChromeDriver();
         driver.manage().window().maximize();
@@ -101,7 +97,7 @@ public class BaseSetup {
     }
     @AfterMethod
     public static void closeBrowser(ITestResult iTestResult)  {
-        //chụp màng hình khi testcase fail, ngược lại không chụp
+        //chụp màn hình khi testcase fail, ngược lại không chụp
         if (ITestResult.FAILURE== iTestResult.getStatus()){
             CaptureReport.captureScreenshot(driver, iTestResult.getName());
             AllureManager.saveScreenshotPNG(driver);

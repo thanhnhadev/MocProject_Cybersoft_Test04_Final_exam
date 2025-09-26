@@ -15,7 +15,7 @@ public class categoryPageTest extends BaseSetup {
     private categoryPage categoryPage;
 
     @BeforeMethod
-    public void setUp() {
+    public void initPageObjects() {
         homepage = new HomePage(driver).open();
         categoryPage = new categoryPage(driver);
     }

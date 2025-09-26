@@ -378,11 +378,4 @@ public class HomePageTest extends BaseSetup {
         sleep(20);
         LogUtils.info("Navigation Social Footer Passed");
     }
-
-    @AfterTest
-    public void tearDown() {
-        if (driver != null) {
-            driver.quit(); // đóng hết tab
-        }
-    }
 }
